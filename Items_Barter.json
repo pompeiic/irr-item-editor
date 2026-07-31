@@ -23,7 +23,10 @@
 				"defaultMarketPrice": 5.82e+03,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "a98ad19bc83d5a931743a94380971b72"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "13b24e5138bd0b92fc3515a11cb999b4"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Antique Water Pitcher",
@@ -47,7 +50,10 @@
 				"defaultMarketPrice": 459,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "17af2de5651ab0a5c1921501d41a41de"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "6e465e65860e9f31d90da3239c2b19b3"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Basketball",
@@ -71,7 +77,10 @@
 				"defaultMarketPrice": 108,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "410e73b328d01bc82479efc2e7a14d36"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "01979ab77f60e59fc3c613d1aa2b69fd"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Boardgame",
@@ -95,7 +104,10 @@
 				"defaultMarketPrice": 2.5e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "b4b771b873dbb4b565103085af84e034"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "7a0162c1ac96fac8d9ebb91c1efb4157"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Book",
@@ -119,7 +131,10 @@
 				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "97c4b43f75299000e554f8f86839e4b6"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "9c841ea361ba35073ad196a425bb2f22"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Brandy",
@@ -143,7 +158,10 @@
 				"defaultMarketPrice": 4.3e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "5a8e2415eae710a79e54c6b04cde2931"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "df9063556950071e1f554a7ce1c49722"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Candle Holder",
@@ -167,7 +185,10 @@
 				"defaultMarketPrice": 91,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "b43ce2e6c7ed9d7da5c17ea01008d5ff"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "9bf9dcd2a03c3511893e779b4dbb4424"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Candlestick",
@@ -191,7 +212,10 @@
 				"defaultMarketPrice": 4e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "87a904c032605a985e1cf7093be313c5"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "5fd53e065b5d46fc99d815f8fc44c25a"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Cat Figure",
@@ -215,7 +239,10 @@
 				"defaultMarketPrice": 1.03e+04,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "9a06fe42f449d1caad0363f66635c18d"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "36f956a7dff226f0ff6dabd07aadd9d2"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Compass",
@@ -239,7 +266,10 @@
 				"defaultMarketPrice": 834,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "ae25c521d93831f3624554b1d6af7e8d"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "dd9a740c8dddad53ebfa344542c19550"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Cuban Cigar",
@@ -263,7 +293,10 @@
 				"defaultMarketPrice": 1.2e+03,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "2c89558ff08610fde75bee200a6b577f"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "587e2c32f661e378f28f7dfb60189a49"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Earth Globe",
@@ -287,7 +320,10 @@
 				"defaultMarketPrice": 93,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "6e796b271d47ef8fe2e3bc1dd7b63c13"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "a2ec6381183f9b371ca18d31aba6826b"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Film Case",
@@ -311,7 +347,10 @@
 				"defaultMarketPrice": 433,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "3e3bf63ac2c5e2aa7c5c8b5c3e236258"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "8ab85d4a50af8df05a5fdccb772c4ab1"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Bangle",
@@ -335,7 +374,10 @@
 				"defaultMarketPrice": 2e+04,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "0a5487b1f6bb76040bebf3d427cc2265"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "fd1e7f29a9f59891ea1ab103d9d02f42"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Mirror",
@@ -359,7 +401,10 @@
 				"defaultMarketPrice": 8.65e+03,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "a1b35b0243d9d363a5a4c36a9d10389f"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "d2af4a34ea6476df20f5e2a820264ef0"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Ring",
@@ -383,7 +428,10 @@
 				"defaultMarketPrice": 15111,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "aae069bbdbcc0cbfd38d7fc78691a350"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "0005f2a1b1eef3004670e7d7cef75dc9"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Watering Can",
@@ -407,7 +455,10 @@
 				"defaultMarketPrice": 1.34e+04,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "05304a52e4b641fba23af44d74c3c0f5"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "0f8b599e81ea22643fa742cc827b547b"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Inca Vase",
@@ -431,7 +482,10 @@
 				"defaultMarketPrice": 2.01e+03,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "8053af62621e4d26981063033b60d9dd"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "5f2b0dac69aa3be98e1fa56ee73ac947"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Luxury Tobacco Cigar",
@@ -455,7 +509,10 @@
 				"defaultMarketPrice": 198,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "36b82c532ead0d536b1db2da955d2481"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "b301dca609fb5203d161eff8becea0a7"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Marlboro Red Cigarettes",
@@ -479,7 +536,10 @@
 				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "9c318b196e06f3f38138d422119cbf6a"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "c79dc821aee37ead25083ad298972862"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Matryoshka",
@@ -503,7 +563,10 @@
 				"defaultMarketPrice": 12882,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "f32cf23657917e4d68f1c89d72972e87"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "37551b49ea845dea789a48295ed0e0a7"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Puzzle Cube",
@@ -527,7 +590,10 @@
 				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "fd3ea6010de12f7a8be7bfed08d41a88"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "a8fe18001267ff93a495d41e7993040d"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Silver Pearls",
@@ -551,7 +617,10 @@
 				"defaultMarketPrice": 13327,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "ab04aa1258b3532a0cdc0111d72325ee"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "0aa4a4497517e77c10d38c8479b7ddd6"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Soccer Trophy",
@@ -575,7 +644,10 @@
 				"defaultMarketPrice": 987,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "ab97b99e84f35f4e5cad911d2ab8e4aa"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "2b1fe0a295a6a8da0e1841843686c952"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Soviet Figure",
@@ -599,7 +671,10 @@
 				"defaultMarketPrice": 3.5e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "1119e8ff82051a9a52ec019161d29662"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "a6fb3447b19e07f64491f33e691720fa"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Thang Long Cigarettes",
@@ -623,7 +698,10 @@
 				"defaultMarketPrice": 1.8e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "45a6452345fdfb5963420c6ea57cbcc7"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "66b401a34bac1b09733503c8ca11162e"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Battery 18650",
@@ -647,7 +725,10 @@
 				"defaultMarketPrice": 9,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "4951e6d9187a0c029c6aec89819cfe91"
+			"bCanStack": true,
+			"maxStack": 5,
+			"supportedItemTags": [],
+			"sourceHash": "dba1c6da8ecdded928afb767bcc053c9"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Battery Car",
@@ -671,7 +752,10 @@
 				"defaultMarketPrice": 9e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "3b28f5e66aa6fcbcd6a6cec0c8596f35"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "d6766a4387a08a1f5399c579daf2c8aa"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Battery PP3",
@@ -695,7 +779,10 @@
 				"defaultMarketPrice": 5.2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "84e1331078833e47f9df1eed129bf0d0"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "4e6cecc37dfcd87a687e3ac84e362693"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.DLSR Camera",
@@ -719,7 +806,10 @@
 				"defaultMarketPrice": 925,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "dd36d23b1db9bee369ac51e6cf5506c7"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "da9bf6a2d9d2376196b0573ded11240f"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Field Radio",
@@ -743,7 +833,10 @@
 				"defaultMarketPrice": 95,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "028300133bee12a70742c22564e94950"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "7041d15e31c628874558645e7cef7876"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Generator",
@@ -767,7 +860,10 @@
 				"defaultMarketPrice": 6.2e+03,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "ee93086a436a4cf3933b26f2cf198161"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "967283fa8384525583a1e86e42ee69a3"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Graphics Card",
@@ -791,7 +887,10 @@
 				"defaultMarketPrice": 2532,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "6c306693eea198c44fb2f3696849d902"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "99cecfb4ba8012513029436cecae59ba"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Hard Drive",
@@ -815,7 +914,10 @@
 				"defaultMarketPrice": 3173,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "71e00b5ac5139038f6ece318d622cdec"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "94eaf19b57080aeb3f96974da2e0679b"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.HDMI Cable",
@@ -839,7 +941,10 @@
 				"defaultMarketPrice": 48,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "948c698d20b3955ea1856e6e176c152a"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "cfd6d0741878b007cfae87f2870d763d"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Kestrel 5700X",
@@ -863,7 +968,10 @@
 				"defaultMarketPrice": 4261,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "a36241dae549c9168340b4ce1e8ee8de"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "208a7da51a505033327f1d6ec025eadd"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Military Laptop",
@@ -887,7 +995,10 @@
 				"defaultMarketPrice": 1.2e+04,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "5901545946f9aa2699b825fdead8df0a"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "c78d85ed34643711e55a2a5d002ee40b"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Military Radio",
@@ -911,7 +1022,10 @@
 				"defaultMarketPrice": 2465,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "dd09424b5fd2972e7e512dd16325619e"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "6fb182dd737acee5157bce1bbe4fe5d6"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Mining Battery",
@@ -935,7 +1049,10 @@
 				"defaultMarketPrice": 5394,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "bc3465eca065093925b1b7a6117fc82d"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "ab412f1fc80168e955c87cb7b6c4c185"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Motherboard",
@@ -959,7 +1076,10 @@
 				"defaultMarketPrice": 628,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "18d8bae9b90ad61e1b4e4e2311818169"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "acb010d21145972c528ffee1860da6d0"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Old Communicator",
@@ -983,7 +1103,10 @@
 				"defaultMarketPrice": 354,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "7860ec84c0317714e1dcf8475c0865b4"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "921b81ae697b63b74434e7ccee7a0601"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Old Flashlight",
@@ -1007,7 +1130,10 @@
 				"defaultMarketPrice": 23,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "3f8b4eb77df3b0cce53420a87f3316b7"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "872b17b6d4eb01dedaa0014295a0e15f"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Old Radio",
@@ -1031,7 +1157,10 @@
 				"defaultMarketPrice": 94,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "7fef84347091e18516f66261f8de50c2"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "b510297f8fa8d3fd2284f9d25d3a518d"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Power Cable",
@@ -1055,7 +1184,10 @@
 				"defaultMarketPrice": 133,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "ce88367025e18ddec82f94e500610b9a"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "1ff92fe39ac5590484be80bcd91c6d65"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Rebar Cutter",
@@ -1079,7 +1211,10 @@
 				"defaultMarketPrice": 8.23e+03,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "e873da6a8c0cf8e4cb0723dc47cb3fe8"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "317babb691d28681904fad4bee960b44"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Spotlight",
@@ -1103,7 +1238,10 @@
 				"defaultMarketPrice": 378,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "c01c42297a32c611c61b6d43eaed5745"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "7a03de1a63ad6cec2df749650fd27d0c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Walkie Talkie",
@@ -1127,7 +1265,10 @@
 				"defaultMarketPrice": 235,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "77e895be5f2cdfe031f00ccad0c7f649"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "85f76edac97d53f5ee5e57cf3dd8fd41"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Bathroom Cleaner",
@@ -1151,7 +1292,10 @@
 				"defaultMarketPrice": 13,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "1980c4668d71afeb6b7694c233d40ae4"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "807632b10c0afacf3d3bccc29a06e1ff"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Bed Roll",
@@ -1175,7 +1319,10 @@
 				"defaultMarketPrice": 1.2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "db1b7c23fed384c54dc364ef1199d296"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "760c0dc6b9d37c7aa84de131641ea059"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Canteen",
@@ -1199,7 +1346,10 @@
 				"defaultMarketPrice": 112,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "c758ee7319cfe1e09f62c81632df00ca"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "646492613ed86da201e21a5c2822a406"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Collagen",
@@ -1223,7 +1373,10 @@
 				"defaultMarketPrice": 81,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "d2e3ea9b853f2ac1b909fbabc13b42f8"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "459dd95c5277da2ea71b7e707b6f5367"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Food Container",
@@ -1247,7 +1400,10 @@
 				"defaultMarketPrice": 51,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "c7c2300c81d7b8672a97f03e55507f40"
+			"bCanStack": true,
+			"maxStack": 5,
+			"supportedItemTags": [],
+			"sourceHash": "b1a239995191391d0e7c1762e016203e"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Marker",
@@ -1271,7 +1427,10 @@
 				"defaultMarketPrice": 3e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "7487a9338e3663c76666d4def04b4510"
+			"bCanStack": true,
+			"maxStack": 5,
+			"supportedItemTags": [],
+			"sourceHash": "77e9cb5310e2a686d466a8479517f7e7"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Misprinted Condensed Milk",
@@ -1295,7 +1454,10 @@
 				"defaultMarketPrice": 6e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "26917178a30a3e6ddb7860451d11645e"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "3b7ddfabb3a96426c8a62f81e22f30d8"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Old Chemical Bottle",
@@ -1319,7 +1481,10 @@
 				"defaultMarketPrice": 86,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "206d9109b0f263ac7568ebabe20583c4"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "d19a2dd5616788d15da8feea89edc425"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Paintbrush",
@@ -1343,7 +1508,10 @@
 				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "e210dcf45905cf61ad023cd6e4360065"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "2837075000ccdf599c4ec84c44807cde"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Polishing Oil",
@@ -1367,7 +1535,10 @@
 				"defaultMarketPrice": 173,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "f1f991cde5ea25b17342a277363dc58c"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "a04f4e76f341886d9f072cfac1a376df"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Prepped Meal",
@@ -1391,7 +1562,10 @@
 				"defaultMarketPrice": 6e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "4cdcab170939471144eef62c42992675"
+			"bCanStack": true,
+			"maxStack": 3,
+			"supportedItemTags": [],
+			"sourceHash": "3739ad736ea6f4017f34a71e7a88655f"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Rope",
@@ -1415,7 +1589,10 @@
 				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "bfd2deea9b77de9f72bd8e1adfaace0d"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "9ee8fcc64e05b67cd04a7f2a2fc68308"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Shampoo",
@@ -1439,7 +1616,10 @@
 				"defaultMarketPrice": 43,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "a5a100e8b9be7505b7ee46d1fe9bcfdf"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "a7a33ba252f8a7cf1bee37b50140777f"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Shaving Cream",
@@ -1463,7 +1643,10 @@
 				"defaultMarketPrice": 39,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "d85b8a6087ffca4201f721a1d930fd42"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "0c198a20daa4bbcd897fcef00844feed"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Soap",
@@ -1487,7 +1670,10 @@
 				"defaultMarketPrice": 7,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "4a9989551caa2e284ea24efe4b7dac64"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "b3d718c59467ab9d4385b127b8acb189"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Spraycan",
@@ -1511,7 +1697,10 @@
 				"defaultMarketPrice": 25,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "6ce8f0c36a86f30e89b43fee8dc83f0d"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "39e131b923820b7fc45b76471b2227cb"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Vodka",
@@ -1535,7 +1724,10 @@
 				"defaultMarketPrice": 185,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "2dc6f086d65cf5804b33f342afed3f63"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "4a02e84c98ecc0054c66de1d3ccaa303"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Bolt Cutter",
@@ -1559,7 +1751,10 @@
 				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "d8a2cd3a14d5d486bd45c1c437e9463c"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "ad4cb97f2197842abb5fa0af6a8f4f9a"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Clamp",
@@ -1583,7 +1778,10 @@
 				"defaultMarketPrice": 63,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "8255b55e5ed381b425f27339b2637077"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "ee6be0f6c14b36b549b6bbeee90f8283"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Duct Tape",
@@ -1607,7 +1805,10 @@
 				"defaultMarketPrice": 2e+01,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "e3d8d5a6850c2c98cf9f406e809a1707"
+			"bCanStack": true,
+			"maxStack": 5,
+			"supportedItemTags": [],
+			"sourceHash": "04b8bb65bd5cacd48781e08508c5457b"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Fan",
@@ -1631,7 +1832,10 @@
 				"defaultMarketPrice": 108,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "99a9c81c11ea7e3d0a0ac86083a1a217"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "e3340f012872d0c3aa499546aab56adc"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Fuel",
@@ -1655,7 +1859,10 @@
 				"defaultMarketPrice": 1.9e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "34f461318797ae54e45c87d5f495eb94"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "fa7cd4ddee676c6ffe60adccb3dcb7d7"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Gas Can",
@@ -1679,7 +1886,10 @@
 				"defaultMarketPrice": 178,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "b51016362c8a38d3b9319888a9fcdb03"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "b4f105f155f5a50a4ec29a0491ae4fa6"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Hammer",
@@ -1703,7 +1913,10 @@
 				"defaultMarketPrice": 23,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "7d5dc316f9f8304870a3bea7a9a321a1"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "725fec3d7a3eeb928e47341b18ca3dd0"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Hesco Armor Plate",
@@ -1727,7 +1940,10 @@
 				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "e3dafe64d00e9300951c658424da53a6"
+			"bCanStack": true,
+			"maxStack": 5,
+			"supportedItemTags": [],
+			"sourceHash": "8275382cafafa9dea03e9739c5ef8487"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Nails",
@@ -1751,7 +1967,10 @@
 				"defaultMarketPrice": 36,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "7a2a1bd517cd4e390affc8c95cb056a0"
+			"bCanStack": true,
+			"maxStack": 5,
+			"supportedItemTags": [],
+			"sourceHash": "b49b1e4526a7806148511e170e587e01"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Nylon Fabric",
@@ -1775,7 +1994,10 @@
 				"defaultMarketPrice": 2e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "7912425f0b3aee6500d12a354ccb9793"
+			"bCanStack": true,
+			"maxStack": 1e+01,
+			"supportedItemTags": [],
+			"sourceHash": "11737ce8cf66bed348cb638ba38bacbc"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Plastic Wire Spool",
@@ -1799,7 +2021,10 @@
 				"defaultMarketPrice": 972,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "d113c53c6b22948e4dae80e7d49abd37"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "3f61668dae2a769617b6472a298ecdab"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Polyester Fabric",
@@ -1823,7 +2048,10 @@
 				"defaultMarketPrice": 1.2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "c52ec8e38eda9c3472ef92b50df8953c"
+			"bCanStack": true,
+			"maxStack": 1e+01,
+			"supportedItemTags": [],
+			"sourceHash": "723de11565c6955a2198745f56259496"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Saw",
@@ -1847,7 +2075,10 @@
 				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "1a04d4bf5a6194ca9f54459611c09cbc"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "9cdf5836ecaf4c1c65cbb9b0ed36991f"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Sewing Kit",
@@ -1871,7 +2102,10 @@
 				"defaultMarketPrice": 1.5e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "22583ced2591ab85f7a03a37896ebe2a"
+			"bCanStack": true,
+			"maxStack": 5,
+			"supportedItemTags": [],
+			"sourceHash": "afa027ecbb68856d5863906a9e540c31"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Staple Gun",
@@ -1895,7 +2129,10 @@
 				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "af6b4f8de7eec595cc6a51504eebdb30"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "e57ae27f0daa0a3c0fc86254ab70c2cd"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Toolbox",
@@ -1919,7 +2156,10 @@
 				"defaultMarketPrice": 3.2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "5c79706958fa5cbe590501fb52aeaec5"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "3d98ab0ae35f92a0278fdbc20d6de0bf"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.WD40 Spray",
@@ -1943,9 +2183,12 @@
 				"defaultMarketPrice": 5e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "9b016ba5cb4b3467fa40c52122c644a3"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "de810fd4c55c9dac7dad4f281a580cd5"
 		}
 	],
-	"schemaSoftVersion": 1,
+	"schemaSoftVersion": 2,
 	"schemaHardVersion": 1
 }
