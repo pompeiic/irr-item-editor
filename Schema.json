@@ -7,24 +7,6 @@
 			"maxValue": 5
 		},
 		{
-			"tag": "Inventory.Stats.Caliber",
-			"displayName": "Caliber",
-			"unit": "mm",
-			"maxValue": 1.2e+03
-		},
-		{
-			"tag": "Inventory.Stats.Chance To Wound",
-			"displayName": "Chance To Wound",
-			"unit": "%",
-			"maxValue": 0
-		},
-		{
-			"tag": "Inventory.Stats.Compatible Items",
-			"displayName": "Compatible Items",
-			"unit": "",
-			"maxValue": 1e+02
-		},
-		{
 			"tag": "Inventory.Stats.Cooldown",
 			"displayName": "Cooldown",
 			"unit": "%",
@@ -37,16 +19,10 @@
 			"maxValue": 0
 		},
 		{
-			"tag": "Inventory.Stats.Default Size",
-			"displayName": "Default Size",
-			"unit": "",
-			"maxValue": 1e+02
-		},
-		{
 			"tag": "Inventory.Stats.Durability",
-			"displayName": "Durability",
-			"unit": "%",
-			"maxValue": 1e+02
+			"displayName": "Armor Points",
+			"unit": "",
+			"maxValue": 0
 		},
 		{
 			"tag": "Inventory.Stats.Durability Burn",
@@ -83,12 +59,6 @@
 			"displayName": "Explosion Radius",
 			"unit": "m",
 			"maxValue": 0
-		},
-		{
-			"tag": "Inventory.Stats.Firemodes",
-			"displayName": "Firemodes",
-			"unit": "",
-			"maxValue": 1e+02
 		},
 		{
 			"tag": "Inventory.Stats.Healing Boost",
@@ -204,7 +174,6 @@
 		"Attachments",
 		"Barter",
 		"Currency",
-		"Gadgets",
 		"Gear",
 		"Grenades",
 		"Keys",
