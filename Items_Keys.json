@@ -28,7 +28,10 @@
 				"defaultMarketPrice": 6e+03,
 				"blackMarketPrice": 3
 			},
-			"sourceHash": "e0867248ce1b625f8a558c3f1737bd1d"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "9ab5eadbb55c558156beee2f7aab7517"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.Elevator Room",
@@ -57,7 +60,10 @@
 				"defaultMarketPrice": 2e+03,
 				"blackMarketPrice": 2
 			},
-			"sourceHash": "e1696f63350e84fe0442793f2bd31617"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "4f4f28d0836d164dbe672e26a004ac73"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.Extraction Room Key",
@@ -86,7 +92,10 @@
 				"defaultMarketPrice": 725,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "391df8108b5cacdde2781fe7882e7a33"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "dd74b7bf9f71e62b9b291077b5570402"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.General Bunker Key",
@@ -115,7 +124,10 @@
 				"defaultMarketPrice": 2e+03,
 				"blackMarketPrice": 2
 			},
-			"sourceHash": "7b74baca0e5e4df958ae33c2fda33bac"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "843530ca7e779e4a09248eee58357fd1"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.Large Safe Key",
@@ -144,7 +156,10 @@
 				"defaultMarketPrice": 3e+04,
 				"blackMarketPrice": 4
 			},
-			"sourceHash": "50629f6d7ef0e273fa3da85b83ab65df"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "5c129dcb78153074cbd8dd14054b576a"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Delta.Compact Safe Key",
@@ -173,7 +188,10 @@
 				"defaultMarketPrice": 5e+03,
 				"blackMarketPrice": 2
 			},
-			"sourceHash": "ebce47d51f362fa729c2a08f92f4c868"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "8741ec64e726d1a327ea518768ce8fb7"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Delta.General Key",
@@ -202,7 +220,10 @@
 				"defaultMarketPrice": 2.8e+03,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "ba8bdd7b68c7541b93f68bf287358eb8"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "769bcf9cd8203e68a12d9203d2a4bb71"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Delta.Large Safe Key",
@@ -231,7 +252,10 @@
 				"defaultMarketPrice": 3e+04,
 				"blackMarketPrice": 4
 			},
-			"sourceHash": "f805f9b43fd9752d02b8b768782fe693"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "573ce08efd9334c5fc2ae8f87d69f9a1"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.HAS.HAS-0023-B",
@@ -260,7 +284,10 @@
 				"defaultMarketPrice": 2.5e+04,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "4d8273dc1113343d592d21fa83a5f393"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "54e13f564c2a0627d521318eae2826a3"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.HAS.HAS-0226-C",
@@ -289,7 +316,10 @@
 				"defaultMarketPrice": 1.5e+04,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "89d522816ec96ff19d2fdec89428fc0c"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "c6854012419b48f3352db93cd4f0b620"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.HAS.HAS-0410-A",
@@ -318,7 +348,10 @@
 				"defaultMarketPrice": 3.2e+04,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "18f77ab365b4985b6d98ad2e8139da57"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "67250c3ec033ca153ed418139f6a9fa0"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Quarry.Compact Safe Key",
@@ -347,7 +380,10 @@
 				"defaultMarketPrice": 5.6e+03,
 				"blackMarketPrice": 3
 			},
-			"sourceHash": "706d2847039b50f9fbac15d6adaf2a92"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "5d2e792b1afcdb3f5946e6d103577deb"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Quarry.General Key",
@@ -376,7 +412,10 @@
 				"defaultMarketPrice": 2.5e+03,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "e6148b2ab59ef2a962991eda25aef22c"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "f5130df1e4b424761c701d8ad2bc4084"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Quarry.Large Safe Key",
@@ -405,9 +444,12 @@
 				"defaultMarketPrice": 2.7e+04,
 				"blackMarketPrice": 4
 			},
-			"sourceHash": "e6a6dd05bb6f8834f513aeb79c668b90"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "b5da5d9ae1696fd163390ee5ac8dbff6"
 		}
 	],
-	"schemaSoftVersion": 1,
+	"schemaSoftVersion": 2,
 	"schemaHardVersion": 1
 }
