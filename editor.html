@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Incursion Red River — Item Editor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0c0c0c;
+    --panel: #101010;
+    --panel2: #161616;
+    --border: rgba(232, 228, 216, 0.28);
+    --border-strong: rgba(232, 228, 216, 0.55);
+    --text: #e8e4d8;
+    --dim: #9a9588;
+    --accent: #c9b87a;
+    --danger: #d47868;
+    --danger-bg: rgba(80, 28, 22, 0.55);
+    --changed: #8fb98a;
+    --font-ui: "Barlow Condensed", "Segoe UI", sans-serif;
+    --font-mono: "IBM Plex Mono", Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html { color-scheme: dark; }
+  body { margin: 0; font-family: var(--font-mono); background: var(--bg); color: var(--text); font-size: 13px; }
+  ::placeholder { color: #706b5e; opacity: 1; }
+  header {
+    display: flex; align-items: center; gap: 14px; padding: 10px 18px;
+    background: var(--panel); border-bottom: 1px solid var(--border);
+  }
+  header h1 { font-family: var(--font-ui); font-size: 18px; font-weight: 600; margin: 0; letter-spacing: 2px; text-transform: uppercase; }
+  header .spacer { flex: 1; }
+  header input { width: 300px; }
+  main { display: grid; grid-template-columns: 300px 1fr 400px; gap: 0; height: calc(100vh - 53px); }
+  .col { overflow-y: auto; padding: 14px; }
+  #listCol { background: var(--panel); border-right: 1px solid var(--border); padding-top: 10px; }
+  #formCol { border-right: 1px solid var(--border); background: #0e0e0e; }
+  #changesCol { background: var(--panel); }
+
+  .filters { position: sticky; top: -10px; background: var(--panel); padding: 10px 0 8px; z-index: 2; }
+  .filters input, .filters select { width: 100%; margin-bottom: 6px; }
+
+  .item-row {
+    padding: 8px 10px; margin-bottom: 6px; cursor: pointer;
+    background: var(--panel2); border: 1px dashed var(--border);
+  }
+  .item-row:hover { border-color: var(--border-strong); border-style: solid; }
+  .item-row.active { border-color: var(--accent); border-style: solid; }
+  .item-row .iname { font-family: var(--font-ui); font-weight: 600; font-size: 15px; letter-spacing: 1px; text-transform: uppercase; }
+  .item-row .itag { color: var(--dim); font-size: 11px; margin-top: 1px; word-break: break-all; }
+  .item-row .imeta { color: var(--dim); font-size: 11px; margin-top: 2px; }
+  .item-row .changed { color: var(--changed); }
+
+  label { display: block; font-size: 11px; color: var(--dim); margin: 12px 0 4px; text-transform: uppercase; letter-spacing: 1.5px; font-family: var(--font-ui); font-weight: 600; }
+  input[type=text], input[type=number], textarea, select {
+    width: 100%; background: #0a0a0a; color: var(--text);
+    border: 1px solid var(--border); border-radius: 0; padding: 7px 9px;
+    font-size: 13px; font-family: var(--font-mono);
+  }
+  input:focus, textarea:focus, select:focus { outline: none; border-color: var(--accent); }
+  input[readonly] { opacity: 0.55; cursor: default; }
+  input.invalid { border-color: var(--danger); }
+  textarea { min-height: 130px; resize: vertical; line-height: 1.45; }
+  .row { display: flex; gap: 10px; }
+  .row > div { flex: 1; }
+
+  .section-h {
+    font-family: var(--font-ui); font-weight: 600; font-size: 14px; letter-spacing: 2px;
+    text-transform: uppercase; border-bottom: 1px solid var(--border);
+    margin: 22px 0 4px; padding-bottom: 4px;
+  }
+  table.stats { width: 100%; border-collapse: collapse; margin-top: 6px; }
+  table.stats td { padding: 4px 6px 4px 0; vertical-align: middle; }
+  table.stats td.sname { width: 40%; color: var(--dim); font-size: 12px; }
+  table.stats td.sname .unit { color: #706b5e; font-size: 10px; }
+  table.stats td.sval { width: 32%; }
+  table.stats td.smod { width: 28%; }
+  table.stats tr.modified td.sname { color: var(--changed); }
+
+  button {
+    background: #0a0a0a; color: var(--text); border: 1px solid var(--border-strong); border-radius: 0;
+    padding: 7px 14px; font-size: 12px; cursor: pointer;
+    font-family: var(--font-ui); letter-spacing: 1.5px; text-transform: uppercase; font-weight: 600;
+  }
+  button:hover { border-color: var(--accent); color: var(--accent); }
+  button.primary { clip-path: polygon(7px 0, 100% 0, 100% calc(100% - 7px), calc(100% - 7px) 100%, 0 100%, 0 7px); }
+  button.danger { color: var(--danger); border-color: var(--danger); }
+  .actions { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+
+  .diff-item { margin-bottom: 12px; border: 1px dashed var(--border); padding: 8px 10px; background: var(--panel2); }
+  .diff-item .dname { font-family: var(--font-ui); font-weight: 600; letter-spacing: 1px; text-transform: uppercase; font-size: 14px; cursor: pointer; }
+  .diff-item .dline { font-size: 12px; margin-top: 3px; }
+  .diff-item .old { color: var(--danger); }
+  .diff-item .new { color: var(--changed); }
+  .bulk { border: 1px dashed var(--border); padding: 10px; margin-top: 14px; background: var(--panel2); }
+  .bulk .row { margin-top: 6px; }
+  small.hint { color: var(--dim); font-family: var(--font-mono); letter-spacing: 0; text-transform: none; font-weight: 400; }
+
+  #status {
+    position: fixed; bottom: 16px; right: 16px; padding: 10px 16px;
+    background: var(--panel2); border: 1px solid var(--border); display: none;
+    max-width: 460px; font-size: 12px; font-family: var(--font-mono); white-space: pre-wrap; z-index: 10;
+  }
+  #status.ok { border-color: var(--accent); }
+  #status.err { border-color: var(--danger); }
+  .empty { color: var(--dim); padding: 20px 6px; line-height: 1.6; }
+</style>
+</head>
+<body>
+<header>
+  <h1>INCURSION RED RIVER — ITEM EDITOR</h1>
+  <div class="spacer"></div>
+  <input type="text" id="token" placeholder="GitHub token (repo contents write)" title="Personal access token with read/write Contents on this repo. Stored only in this browser.">
+  <button id="saveToken">Remember</button>
+</header>
+<main>
+  <div class="col" id="listCol">
+    <div class="filters">
+      <input type="text" id="search" placeholder="Search name / tag…">
+      <select id="catFilter"><option value="All">All categories</option></select>
+    </div>
+    <div id="list"></div>
+  </div>
+
+  <div class="col" id="formCol"><div class="empty">Loading…</div></div>
+
+  <div class="col" id="changesCol">
+    <div class="section-h" style="margin-top:0">Pending changes</div>
+    <div id="diffs"><div class="empty">No changes yet.</div></div>
+    <div class="actions">
+      <button id="commitBtn" class="primary">Commit to GitHub</button>
+      <button id="draftBtn">Copy patch-note draft</button>
+      <button id="revertBtn" class="danger">Revert all</button>
+    </div>
+    <div class="bulk">
+      <div class="section-h" style="margin-top:0; border:none">Bulk edit (filtered items)</div>
+      <select id="bulkStat"></select>
+      <div class="row">
+        <div><select id="bulkOp">
+          <option value="mul">Multiply by</option>
+          <option value="add">Add</option>
+          <option value="set">Set to</option>
+        </select></div>
+        <div><input type="number" id="bulkVal" step="any" placeholder="value"></div>
+      </div>
+      <div class="actions" style="margin-top:10px"><button id="bulkBtn">Apply to filtered</button></div>
+      <small class="hint">Applies to every item currently matching the search + category filter that has the chosen stat.</small>
+    </div>
+  </div>
+</main>
+<div id="status"></div>
+
+<script>
+const OWNER = "pompeiic", REPO = "irr-item-editor", BRANCH = "main";
+
+let schema = null;
+let cats = [];        // {name, file, doc, baseline} — doc mutated in place (preserves version header keys)
+let sel = null;       // {c, i}
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const leaf = t => { const s = String(t ?? ""); const i = s.lastIndexOf("."); return i >= 0 ? s.slice(i + 1) : s; };
+const fmt = v => Number.isFinite(v) ? String(Math.round(v * 10000) / 10000) : String(v);
+const clone = o => JSON.parse(JSON.stringify(o));
+
+function status(msg, isErr) {
+  const el = $("status");
+  el.textContent = msg;
+  el.className = isErr ? "err" : "ok";
+  el.style.display = "block";
+  clearTimeout(el._t);
+  el._t = setTimeout(() => el.style.display = "none", 6000);
+  return !isErr;
+}
+
+function statDesc(tag) {
+  return (schema?.stats || []).find(s => s.tag === tag);
+}
+function statLabel(tag) {
+  const d = statDesc(tag);
+  return (d && d.displayName) ? d.displayName : leaf(tag);
+}
+
+// ---- diffing ---------------------------------------------------------------------------------
+
+// Editable surface only; identity/hash fields are never touched by this editor.
+function entryDiff(base, cur) {
+  const lines = [];
+  const txt = (label, a, b) => { if ((a ?? "") !== (b ?? "")) lines.push({ label, old: a, new: b, text: label === "Description" }); };
+  txt("Name", base.name, cur.name);
+  txt("Abbreviation", base.abbreviation, cur.abbreviation);
+  txt("Description", base.description, cur.description);
+  const bs = base.stats || [], cs = cur.stats || [];
+  for (let i = 0; i < Math.min(bs.length, cs.length); i++) {
+    if (bs[i].value !== cs[i].value) lines.push({ label: statLabel(cs[i].tag), old: fmt(bs[i].value), new: fmt(cs[i].value) });
+    if (bs[i].modifyType !== cs[i].modifyType) lines.push({ label: statLabel(cs[i].tag) + " modify", old: bs[i].modifyType, new: cs[i].modifyType });
+  }
+  if (base.vendor && cur.vendor && base.vendor.bHasVendorRow) {
+    const v = (label, a, b, isTag) => { if (a !== b) lines.push({ label, old: isTag ? leaf(a) : fmt(a), new: isTag ? leaf(b) : fmt(b) }); };
+    v("Rarity", base.vendor.rarityTag, cur.vendor.rarityTag, true);
+    v("Faction", base.vendor.factionTag, cur.vendor.factionTag, true);
+    v("Price", base.vendor.defaultMarketPrice, cur.vendor.defaultMarketPrice);
+    v("Black market", base.vendor.blackMarketPrice, cur.vendor.blackMarketPrice);
+  }
+  return lines;
+}
+function catChanges(c) {
+  const out = [];
+  (c.doc.items || []).forEach((it, i) => {
+    const lines = entryDiff(c.baseline[i], it);
+    if (lines.length) out.push({ c, i, item: it, lines });
+  });
+  return out;
+}
+function allChanges() { return cats.flatMap(catChanges); }
+
+// ---- rendering -------------------------------------------------------------------------------
+
+function visibleEntries() {
+  const q = $("search").value.trim().toLowerCase();
+  const catName = $("catFilter").value;
+  const out = [];
+  for (const c of cats) {
+    if (catName !== "All" && c.name !== catName) continue;
+    (c.doc.items || []).forEach((it, i) => {
+      if (q && !(String(it.name).toLowerCase().includes(q) || String(it.itemTag).toLowerCase().includes(q))) return;
+      out.push({ c, i, item: it });
+    });
+  }
+  return out;
+}
+
+function renderList() {
+  const el = $("list");
+  el.innerHTML = "";
+  const entries = visibleEntries();
+  if (!entries.length) { el.innerHTML = '<div class="empty">No items match.</div>'; return; }
+  for (const e of entries) {
+    const changed = entryDiff(e.c.baseline[e.i], e.item).length > 0;
+    const div = document.createElement("div");
+    div.className = "item-row" + (sel && sel.c === e.c && sel.i === e.i ? " active" : "");
+    div.innerHTML =
+      `<div class="iname">${esc(e.item.name || leaf(e.item.itemTag))}${changed ? ' <span class="changed">●</span>' : ""}</div>` +
+      `<div class="itag">${esc(e.item.itemTag)}</div>` +
+      `<div class="imeta">${esc(e.c.name)}${e.item.vendor?.bHasVendorRow ? " · " + esc(leaf(e.item.vendor.rarityTag)) : " · no vendor row"}</div>`;
+    div.onclick = () => { sel = { c: e.c, i: e.i }; renderForm(); renderList(); };
+    el.appendChild(div);
+  }
+}
+
+function tagSelect(id, options, current) {
+  const opts = [...new Set(["None", ...(options || []), current].filter(Boolean))];
+  return `<select id="${id}">` + opts.map(o => `<option value="${esc(o)}"${o === current ? " selected" : ""}>${esc(o === "None" ? "None" : leaf(o))}</option>`).join("") + `</select>`;
+}
+
+function renderForm() {
+  const el = $("formCol");
+  if (!sel) { el.innerHTML = '<div class="empty">Select an item.</div>'; return; }
+  const it = sel.c.doc.items[sel.i];
+  const modifyTypes = schema?.modifyTypes || ["None", "Base", "Add", "Multiply"];
+
+  let html = "";
+  html += `<label>Item tag — identity, read-only</label><input type="text" readonly value="${esc(it.itemTag)}">`;
+  html += `<div class="row"><div><label>Vendor row — read-only</label><input type="text" readonly value="${esc(it.vendor?.bHasVendorRow ? it.vendor.rowName : "(no vendor row)")}"></div>` +
+          `<div><label>Category</label><input type="text" readonly value="${esc(sel.c.name)}"></div></div>`;
+
+  html += `<div class="section-h">Text</div>`;
+  html += `<label>Name</label><input type="text" id="fName" value="${esc(it.name)}">`;
+  html += `<label>Abbreviation — <small class="hint">shown on the inventory tile, keep it short</small></label><input type="text" id="fAbbr" maxlength="24" value="${esc(it.abbreviation)}">`;
+  html += `<label>Description</label><textarea id="fDesc">${esc(it.description)}</textarea>`;
+
+  html += `<div class="section-h">Stats</div>`;
+  if (!(it.stats || []).length) html += `<div class="empty">This item has no stats.</div>`;
+  else {
+    html += `<table class="stats">`;
+    it.stats.forEach((s, si) => {
+      const d = statDesc(s.tag);
+      const changed = sel.c.baseline[sel.i].stats[si] && (sel.c.baseline[sel.i].stats[si].value !== s.value || sel.c.baseline[sel.i].stats[si].modifyType !== s.modifyType);
+      html += `<tr class="${changed ? "modified" : ""}" title="${esc(s.tag)}">` +
+        `<td class="sname">${esc(statLabel(s.tag))}${d?.unit ? ` <span class="unit">[${esc(d.unit)}]</span>` : ""}</td>` +
+        `<td class="sval"><input type="number" step="any" data-stat="${si}" data-field="value" value="${esc(s.value)}"></td>` +
+        `<td class="smod"><select data-stat="${si}" data-field="modifyType">` +
+          modifyTypes.map(m => `<option value="${esc(m)}"${m === s.modifyType ? " selected" : ""}>${esc(m)}</option>`).join("") +
+        `</select></td></tr>`;
+    });
+    html += `</table>`;
+  }
+
+  if (it.vendor?.bHasVendorRow) {
+    html += `<div class="section-h">Vendor</div>`;
+    html += `<div class="row"><div><label>Rarity</label>${tagSelect("fRarity", schema?.rarityTags, it.vendor.rarityTag)}</div>` +
+            `<div><label>Faction</label>${tagSelect("fFaction", schema?.factionTags, it.vendor.factionTag)}</div></div>`;
+    html += `<div class="row"><div><label>Price — <small class="hint">-1 = not sold</small></label><input type="number" step="any" id="fPrice" value="${esc(it.vendor.defaultMarketPrice)}"></div>` +
+            `<div><label>Black market price</label><input type="number" step="any" id="fBlackPrice" value="${esc(it.vendor.blackMarketPrice)}"></div></div>`;
+  }
+  html += `<div class="actions"><button id="revertItemBtn" class="danger">Revert this item</button></div>`;
+  el.innerHTML = html;
+
+  // wiring
+  const num = inp => { const v = parseFloat(inp.value); inp.classList.toggle("invalid", !Number.isFinite(v)); return v; };
+  $("fName").oninput = e => { it.name = e.target.value; onEdit(); };
+  $("fAbbr").oninput = e => { it.abbreviation = e.target.value; onEdit(); };
+  $("fDesc").oninput = e => { it.description = e.target.value; onEdit(); };
+  el.querySelectorAll("[data-stat]").forEach(inp => inp.oninput = e => {
+    const s = it.stats[+e.target.dataset.stat];
+    if (e.target.dataset.field === "value") { const v = num(e.target); if (Number.isFinite(v)) s.value = v; }
+    else s.modifyType = e.target.value;
+    onEdit();
+  });
+  if (it.vendor?.bHasVendorRow) {
+    $("fRarity").oninput = e => { it.vendor.rarityTag = e.target.value; onEdit(); };
+    $("fFaction").oninput = e => { it.vendor.factionTag = e.target.value; onEdit(); };
+    $("fPrice").oninput = e => { const v = num(e.target); if (Number.isFinite(v)) it.vendor.defaultMarketPrice = v; onEdit(); };
+    $("fBlackPrice").oninput = e => { const v = num(e.target); if (Number.isFinite(v)) it.vendor.blackMarketPrice = v; onEdit(); };
+  }
+  $("revertItemBtn").onclick = () => {
+    sel.c.doc.items[sel.i] = clone(sel.c.baseline[sel.i]);
+    renderForm(); renderList(); renderDiffs();
+  };
+}
+
+function renderDiffs() {
+  const el = $("diffs");
+  const changes = allChanges();
+  if (!changes.length) { el.innerHTML = '<div class="empty">No changes yet.</div>'; return; }
+  el.innerHTML = "";
+  for (const ch of changes) {
+    const div = document.createElement("div");
+    div.className = "diff-item";
+    div.innerHTML = `<div class="dname">${esc(ch.item.name || leaf(ch.item.itemTag))}</div>` +
+      ch.lines.map(l => l.text
+        ? `<div class="dline">${esc(l.label)} <span class="new">updated</span></div>`
+        : `<div class="dline">${esc(l.label)} <span class="old">${esc(l.old)}</span> → <span class="new">${esc(l.new)}</span></div>`).join("");
+    div.querySelector(".dname").onclick = () => { sel = { c: ch.c, i: ch.i }; renderForm(); renderList(); };
+    el.appendChild(div);
+  }
+}
+
+function onEdit() { renderList(); renderDiffs(); }
+
+// ---- bulk edit -------------------------------------------------------------------------------
+
+function renderBulk() {
+  $("bulkStat").innerHTML = (schema?.stats || []).map(s => `<option value="${esc(s.tag)}">${esc(s.displayName || leaf(s.tag))}</option>`).join("");
+}
+$("bulkBtn").onclick = () => {
+  const tag = $("bulkStat").value, op = $("bulkOp").value, val = parseFloat($("bulkVal").value);
+  if (!tag) return status("Pick a stat.", true);
+  if (!Number.isFinite(val)) return status("Bulk value is not a number.", true);
+  let touched = 0;
+  for (const e of visibleEntries()) {
+    const s = (e.item.stats || []).find(x => x.tag === tag);
+    if (!s) continue;
+    const nv = op === "set" ? val : op === "add" ? s.value + val : s.value * val;
+    s.value = Math.round(nv * 10000) / 10000;
+    touched++;
+  }
+  renderForm(); renderList(); renderDiffs();
+  status(`Bulk: ${statLabel(tag)} ${op} ${val} applied to ${touched} item(s). Review the pending changes before committing.`);
+};
+
+// ---- patch-note draft ------------------------------------------------------------------------
+
+$("draftBtn").onclick = () => {
+  const changes = allChanges();
+  if (!changes.length) return status("No changes to draft.", true);
+  const lines = changes.map(ch => `- **${ch.item.name || leaf(ch.item.itemTag)}**: ` +
+    ch.lines.map(l => l.text ? `${l.label} updated` : `${l.label} ${l.old} → ${l.new}`).join(", "));
+  navigator.clipboard.writeText(lines.join("\n"));
+  status("Patch-note draft copied (" + changes.length + " item lines).");
+};
+
+// ---- revert / commit -------------------------------------------------------------------------
+
+$("revertBtn").onclick = () => {
+  if (!allChanges().length) return;
+  if (!confirm("Discard ALL local changes?")) return;
+  for (const c of cats) c.doc.items = clone(c.baseline);
+  sel = null;
+  renderForm(); renderList(); renderDiffs();
+  status("All changes reverted.");
+};
+
+async function commit() {
+  const dirty = cats.filter(c => catChanges(c).length);
+  if (!dirty.length) return status("Nothing to commit.", true);
+  const token = $("token").value.trim();
+  if (!token) return status("Paste a GitHub token first (top right).", true);
+  const headers = { "Authorization": "Bearer " + token, "Accept": "application/vnd.github+json" };
+  let committed = 0;
+  try {
+    for (const c of dirty) {
+      const api = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${c.file}`;
+      const cur = await fetch(api + "?ref=" + BRANCH, { headers });
+      let sha = undefined;
+      if (cur.ok) sha = (await cur.json()).sha;
+      else if (cur.status === 401) throw new Error("GitHub rejected the token (401) — expired, regenerated, or pasted incompletely.");
+      else if (cur.status !== 404) throw new Error(c.file + ": fetching current file failed: " + cur.status);
+      const body = {
+        message: "Update " + c.file + " (item editor)",
+        content: btoa(unescape(encodeURIComponent(JSON.stringify(c.doc, null, "\t")))),
+        branch: BRANCH
+      };
+      if (sha) body.sha = sha;
+      const put = await fetch(api, { method: "PUT", headers, body: JSON.stringify(body) });
+      if (!put.ok) throw new Error(c.file + ": commit failed: " + put.status + " " + (await put.text()).slice(0, 200));
+      c.baseline = clone(c.doc.items);
+      committed++;
+    }
+    renderList(); renderDiffs(); renderForm();
+    status("Committed " + committed + " file(s). Import in Unreal via the Item Sync utility (Download + Import).");
+  } catch (e) {
+    renderList(); renderDiffs();
+    status(e.message + (committed ? ` (${committed} file(s) already committed)` : ""), true);
+  }
+}
+$("commitBtn").onclick = commit;
+
+// ---- load ------------------------------------------------------------------------------------
+
+async function load() {
+  try {
+    const res = await fetch("Schema.json?t=" + Date.now());
+    if (!res.ok) throw new Error("Schema.json missing");
+    schema = await res.json();
+  } catch (e) {
+    $("formCol").innerHTML = '<div class="empty">No item data in this repo yet.<br><br>In Unreal: run <b>Export Items</b> then <b>Upload to GitHub</b> from the Item Sync utility, then reload this page.</div>';
+    return;
+  }
+  const catSel = $("catFilter");
+  for (const name of schema.categories || []) {
+    try {
+      const res = await fetch(`Items_${name}.json?t=` + Date.now());
+      if (!res.ok) continue;
+      const doc = await res.json();
+      cats.push({ name, file: `Items_${name}.json`, doc, baseline: clone(doc.items || []) });
+      const opt = document.createElement("option");
+      opt.value = name; opt.textContent = name;
+      catSel.appendChild(opt);
+    } catch (e) { status("Could not load Items_" + name + ".json: " + e.message, true); }
+  }
+  renderBulk();
+  renderList();
+  $("formCol").innerHTML = '<div class="empty">Select an item on the left.</div>';
+}
+
+$("search").oninput = renderList;
+$("catFilter").oninput = renderList;
+$("saveToken").onclick = () => { localStorage.setItem("irr_item_pat", $("token").value.trim()); status("Token stored in this browser."); };
+$("token").value = localStorage.getItem("irr_item_pat") || "";
+load();
+</script>
+</body>
+</html>

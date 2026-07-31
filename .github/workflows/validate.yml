@@ -1,0 +1,37 @@
+name: Validate JSON
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate item JSON files
+        run: |
+          node - <<'EOF'
+          const fs = require("fs");
+          const files = fs.readdirSync(".").filter(f => f === "Schema.json" || (/^Items_.*\.json$/).test(f));
+          let failed = false;
+          for (const file of files) {
+            try {
+              const doc = JSON.parse(fs.readFileSync(file, "utf8"));
+              if (file.startsWith("Items_")) {
+                if (!Array.isArray(doc.items)) throw new Error("missing items array");
+                for (const it of doc.items) {
+                  if (!it.itemTag) throw new Error("entry without itemTag");
+                  for (const s of it.stats || [])
+                    if (!Number.isFinite(s.value)) throw new Error(`${it.itemTag}: non-numeric stat value (${s.tag})`);
+                }
+              }
+              console.log(`OK ${file}`);
+            } catch (e) {
+              console.error(`FAIL ${file}: ${e.message}`);
+              failed = true;
+            }
+          }
+          process.exit(failed ? 1 : 0);
+          EOF
