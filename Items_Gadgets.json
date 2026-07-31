@@ -1,0 +1,41 @@
+{
+	"category": "Gadgets",
+	"items": [
+		{
+			"itemTag": "Inventory.Items.Gadgets.GCPS.TactiNav Communicator X-7",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gadgets/GCPS/TactiNav_Communicator_X-7/ID_TactiNav_Communicator_X-7.ID_TactiNav_Communicator_X-7",
+			"name": "TactiNav Communicator X-7",
+			"abbreviation": "X-7",
+			"description": "Your best friend in the jungle.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 5e+01,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "a8b5460652bf3760842cf090b8eb6dfc"
+		}
+	],
+	"schemaSoftVersion": 1,
+	"schemaHardVersion": 1
+}
