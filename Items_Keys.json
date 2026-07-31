@@ -1,0 +1,442 @@
+{
+	"category": "Keys",
+	"items": [
+		{
+			"itemTag": "Inventory.Items.Keys",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Keys/Bunker/ID_KeyTemplate.ID_KeyTemplate",
+			"name": "Template",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 15,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "ebdc7d2ff5267fadec52aa39c5a14a44"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.Bunker.Compact Safe Key",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Bunker/Bunker_Compact_Safe_Key/ID_Bunker_Compact_Safe_Key.ID_Bunker_Compact_Safe_Key",
+			"name": "Bunker Compact Safe Key",
+			"abbreviation": "Bunker C-Safe",
+			"description": "Key for all compact sized safes inside the Bunker.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.05,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 8,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Bunker_Compact_Safe_Key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 6e+03,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "e0867248ce1b625f8a558c3f1737bd1d"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.Bunker.Elevator Room",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Bunker/Bunker_Elevator_Room_Key/ID_Bunker_Elevator_Room_Key.ID_Bunker_Elevator_Room_Key",
+			"name": "Bunker Elevator Room Key",
+			"abbreviation": "Bunker Elev.-Key",
+			"description": "Key for the room on the middle level of the vehicle lift.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.05,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+01,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Bunker_Elevator_Room_Key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 2e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "e1696f63350e84fe0442793f2bd31617"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.Bunker.Extraction Room Key",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Bunker/Bunker_Extraction_Room_Key/ID_Bunker_Extraction_Room_Key.ID_Bunker_Extraction_Room_Key",
+			"name": "Bunker Extraction Room Key",
+			"abbreviation": "Bunker E-Key",
+			"description": "Key for the extraction room inside the Bunker. Looks like it could be near the industrial zone..",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.05,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 5,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Bunker_Extraction_Room_Key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 725,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "391df8108b5cacdde2781fe7882e7a33"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.Bunker.General Bunker Key",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Bunker/Bunker_General_key/ID_Bunker_General_key.ID_Bunker_General_key",
+			"name": "Bunker General key",
+			"abbreviation": "Bunker G-Key",
+			"description": "General key for the Bunker. Might also work for Toilettes?",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 15,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Bunker_General_key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 2e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "7b74baca0e5e4df958ae33c2fda33bac"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.Bunker.Large Safe Key",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Bunker/Bunker_Large_Safe_key/ID_Bunker_Large_Safe_key.ID_Bunker_Large_Safe_key",
+			"name": "Bunker Large Safe Key",
+			"abbreviation": "Bunker L-Safe",
+			"description": "Key for all large safes.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.05,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Bunker_Large_Safe_key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 3e+04,
+				"blackMarketPrice": 4
+			},
+			"sourceHash": "50629f6d7ef0e273fa3da85b83ab65df"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.Delta.Compact Safe Key",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Delta/Delta_Compact_Safe_Key/ID_Delta_Compact_Safe_Key.ID_Delta_Compact_Safe_Key",
+			"name": "Delta Compact Safe Key",
+			"abbreviation": "Delta C-Key",
+			"description": "Key for compact safes on delta.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 8,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Delta_Compact_Safe_Key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 5e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "ebce47d51f362fa729c2a08f92f4c868"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.Delta.General Key",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Delta/Delta_General_Key/ID_Delta_General_Key.ID_Delta_General_Key",
+			"name": "Delta General Key",
+			"abbreviation": "Delta G-Key",
+			"description": "Key for most doors on delta.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 15,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Delta_General_Key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 2.8e+03,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "ba8bdd7b68c7541b93f68bf287358eb8"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.Delta.Large Safe Key",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Delta/Delta_Compact_Large_Key/ID_Delta_Compact_Large_Key.ID_Delta_Compact_Large_Key",
+			"name": "Delta Compact Large Key",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 15,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Delta_Large_Safe_Key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 3e+04,
+				"blackMarketPrice": 4
+			},
+			"sourceHash": "f805f9b43fd9752d02b8b768782fe693"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.HAS.HAS-0023-B",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/HAS/HAS_Medium_Key/ID_HAS_Medium_Key.ID_HAS_Medium_Key",
+			"name": "HAS-0023-B",
+			"abbreviation": "HAS-0023-B",
+			"description": "Key for the HAS-0023-B building.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 15,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "HAS_Medium_Key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 2.5e+04,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "4d8273dc1113343d592d21fa83a5f393"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.HAS.HAS-0226-C",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/HAS/HAS_Small_Key/ID_HAS_Small_Key.ID_HAS_Small_Key",
+			"name": "HAS-0226-C",
+			"abbreviation": "HAS-0226-C",
+			"description": "Key for the HAS-0226-C building.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 15,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "HAS_Small_Key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 1.5e+04,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "89d522816ec96ff19d2fdec89428fc0c"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.HAS.HAS-0410-A",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/HAS/HAS_Large_Key/ID_HAS_Large_Key.ID_HAS_Large_Key",
+			"name": "HAS-0410-A",
+			"abbreviation": "HAS-0410-A",
+			"description": "Key for the HAS-0410-A building.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 15,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "HAS_Large_Key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 3.2e+04,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "18f77ab365b4985b6d98ad2e8139da57"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.Quarry.Compact Safe Key",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Quarry/Quarry_Compact_Safe_key/ID_Quarry_Compact_Safe_key.ID_Quarry_Compact_Safe_key",
+			"name": "Quarry Compact Safe Key",
+			"abbreviation": "Quarry C-Safe",
+			"description": "Key for all compact safes around the Quarry area. Very convenient...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.05,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 8,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Quarry_Compact_Safe_key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 5.6e+03,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "706d2847039b50f9fbac15d6adaf2a92"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.Quarry.General Key",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Quarry/Quarry_General_Key/ID_Quarry_General_Key.ID_Quarry_General_Key",
+			"name": "Quarry General Key",
+			"abbreviation": "Quarry G-Key",
+			"description": "General key for the Quarry that opens all doors. You know what they say... ",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 15,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Quarry_General_Key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 2.5e+03,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "e6148b2ab59ef2a962991eda25aef22c"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.Quarry.Large Safe Key",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Quarry/Quarry_Large_Safe_key/ID_Quarry_Large_Safe_key.ID_Quarry_Large_Safe_key",
+			"name": "Quarry Large Safe Key",
+			"abbreviation": "Quarry L-Safe",
+			"description": "Key for all large safes around the Quarry area. They don't pay attention to security do they?",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.05,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Quarry_Large_Safe_key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 2.7e+04,
+				"blackMarketPrice": 4
+			},
+			"sourceHash": "e6a6dd05bb6f8834f513aeb79c668b90"
+		}
+	],
+	"schemaSoftVersion": 1,
+	"schemaHardVersion": 1
+}
