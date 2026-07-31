@@ -1,0 +1,55 @@
+{
+	"category": "Currency",
+	"items": [
+		{
+			"itemTag": "Inventory.Items.Currency.Cash",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Money/Cash/ID_Cash.ID_Cash",
+			"name": "Cash",
+			"abbreviation": "Cash",
+			"description": "Some change.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Cash",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 1,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "dcf3beb522bec40803167626152330b4"
+		},
+		{
+			"itemTag": "Inventory.Items.Currency.Marked Coin",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Money/MarkedCoin/ID_MarkedCoin.ID_MarkedCoin",
+			"name": "Marked Coin",
+			"abbreviation": "MC",
+			"description": "Rumor has it that the Black Market operates from within a Chinese organization that takes a special interest in old Chinese currency",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.01,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "MarkedCoin",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "99acf8696daa9c1a53916224be044f5b"
+		}
+	],
+	"schemaSoftVersion": 1,
+	"schemaHardVersion": 1
+}
