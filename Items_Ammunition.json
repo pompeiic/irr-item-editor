@@ -38,7 +38,10 @@
 				"defaultMarketPrice": 2,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "8553d6cc102247d8838860949a378e87"
+			"bCanStack": true,
+			"maxStack": 3e+01,
+			"supportedItemTags": [],
+			"sourceHash": "4bbdb362afbf7ff710c7d253dcd4569f"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.12x70.Slug",
@@ -77,7 +80,10 @@
 				"defaultMarketPrice": 6,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "93f5921f7690fe50dddd17d44d8310eb"
+			"bCanStack": true,
+			"maxStack": 3e+01,
+			"supportedItemTags": [],
+			"sourceHash": "0fd7d230a1ec216590457ffbf8ac53c1"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.45ACP.HS",
@@ -116,7 +122,10 @@
 				"defaultMarketPrice": 4,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "a759dea2fb5164017ac8e4453fcced0d"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "5930520e4f69c16e9327a4336a33dc55"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.545x39.BP",
@@ -155,7 +164,10 @@
 				"defaultMarketPrice": 12,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "b24903f940a7cfc70edd9a63798de333"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "bd1148e9059254319facacd97f8b58af"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.545x39.PS",
@@ -194,7 +206,10 @@
 				"defaultMarketPrice": 3,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "9b45fac4f8b1656e8b52769541627ef9"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "5c7606eefd0232ab58997ea03ba99f12"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.556x45.FMJ",
@@ -233,7 +248,10 @@
 				"defaultMarketPrice": 2,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "92f69b52bc2eeb80c45bafb0d9e2dada"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "cf6885fd0058abdb0a580a0632d1396c"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.556x45.M855",
@@ -272,7 +290,10 @@
 				"defaultMarketPrice": 13,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "be6aa8c4cdbb2239dbb862decc9bbd49"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "9b8d1d1392eb5421985398e793f8f97b"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.57x28.SS198LF",
@@ -311,7 +332,10 @@
 				"defaultMarketPrice": 1e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "23352ca35d54f971aeec1dc5537da147"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "d2cc4ef7107a3f66ff5762d9a77c37c6"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.BP",
@@ -350,7 +374,10 @@
 				"defaultMarketPrice": 17,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "ff907cd8b2db305e372e255ba2783c14"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "9d21d2a30edcf9fcfa2e74af93fa01b6"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.HP",
@@ -389,7 +416,10 @@
 				"defaultMarketPrice": 3,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "11c18a3aba73be275bc600b5f2af7a0d"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "9cbe78d117f6d02b604a902ab8306d25"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.PS",
@@ -428,7 +458,10 @@
 				"defaultMarketPrice": 8,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "b1b474a851f0dbe75954bb19915ff40a"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "94e79e559e8c8f1307669c2763d10e4e"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x51.M62",
@@ -467,7 +500,10 @@
 				"defaultMarketPrice": 4e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "31a9fe9a8382e59d5e138ecef90194a3"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "7652aea81bf6b5be41a72e6e8b771d0a"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x51.M80",
@@ -506,7 +542,10 @@
 				"defaultMarketPrice": 2e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "c36a9b7d35f28a93c94c815f760d3e9c"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "46275de92e83a7c0c4217bd677d99d38"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x54.R PS",
@@ -545,7 +584,10 @@
 				"defaultMarketPrice": 9,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "b10ad49566ec37ccf6361a9d5cf3bd23"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "c1558cd3334acdfda1808c8a6d938f9f"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.9x19.AP6x3",
@@ -584,7 +626,10 @@
 				"defaultMarketPrice": 11,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "06f88d5eaf6c5b33ef9354ee8b1c9612"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "8bf72d78b01c3957e16ee606bd3f1c31"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.9x19.PSO",
@@ -623,7 +668,10 @@
 				"defaultMarketPrice": 1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "d414420faa424ccd48d631fa9aa4cf13"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "c0735b5f885c5ed762b2638b271d486b"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x300 Blackout.M62",
@@ -662,7 +710,10 @@
 				"defaultMarketPrice": 2e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "732742ede4a79a6bd4262061718d0fcd"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "2eec47798e2c02481ead7d0a48755d33"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x300 Blackout.ME3",
@@ -701,7 +752,10 @@
 				"defaultMarketPrice": 33,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "12ea2f8a8c98d2b0692be7b1fcd13a41"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "dd6e972a58614c0297ed6f052abd8d44"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x338.AP",
@@ -740,9 +794,12 @@
 				"defaultMarketPrice": 32,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "7715a7ce337fe90e1aea97fb928cea7b"
+			"bCanStack": true,
+			"maxStack": 6e+01,
+			"supportedItemTags": [],
+			"sourceHash": "7d3420380be4364dac961516d51c7a16"
 		}
 	],
-	"schemaSoftVersion": 1,
+	"schemaSoftVersion": 2,
 	"schemaHardVersion": 1
 }
