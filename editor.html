@@ -34,7 +34,7 @@
   header h1 { font-family: var(--font-ui); font-size: 18px; font-weight: 600; margin: 0; letter-spacing: 2px; text-transform: uppercase; }
   header .spacer { flex: 1; }
   header input { width: 300px; }
-  main { display: grid; grid-template-columns: 300px 1fr 400px; gap: 0; height: calc(100vh - 53px); }
+  main { display: grid; grid-template-columns: 340px 1fr 400px; gap: 0; height: calc(100vh - 53px); }
   .col { overflow-y: auto; padding: 14px; }
   #listCol { background: var(--panel); border-right: 1px solid var(--border); padding-top: 10px; }
   #formCol { border-right: 1px solid var(--border); background: #0e0e0e; }
@@ -42,16 +42,21 @@
 
   .filters { position: sticky; top: -10px; background: var(--panel); padding: 10px 0 8px; z-index: 2; }
   .filters input, .filters select { width: 100%; margin-bottom: 6px; }
+  .filters .frow { display: flex; gap: 6px; }
+  .filters .frow select { flex: 1; }
+  .filters .count { color: var(--dim); font-size: 11px; padding: 0 1px; }
 
   .item-row {
-    padding: 8px 10px; margin-bottom: 6px; cursor: pointer;
+    padding: 5px 9px; margin-bottom: 4px; cursor: pointer;
     background: var(--panel2); border: 1px dashed var(--border);
   }
   .item-row:hover { border-color: var(--border-strong); border-style: solid; }
   .item-row.active { border-color: var(--accent); border-style: solid; }
-  .item-row .iname { font-family: var(--font-ui); font-weight: 600; font-size: 15px; letter-spacing: 1px; text-transform: uppercase; }
-  .item-row .itag { color: var(--dim); font-size: 11px; margin-top: 1px; word-break: break-all; }
-  .item-row .imeta { color: var(--dim); font-size: 11px; margin-top: 2px; }
+  .item-row .itop { display: flex; align-items: baseline; gap: 8px; }
+  .item-row .iname { font-family: var(--font-ui); font-weight: 600; font-size: 15px; letter-spacing: 1px; text-transform: uppercase; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .item-row .iprice { color: var(--accent); font-size: 11px; white-space: nowrap; }
+  .item-row .imeta { color: var(--dim); font-size: 11px; margin-top: 1px; display: flex; gap: 8px; }
+  .item-row .imeta .itag { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; direction: rtl; text-align: left; }
   .item-row .changed { color: var(--changed); }
 
   label { display: block; font-size: 11px; color: var(--dim); margin: 12px 0 4px; text-transform: uppercase; letter-spacing: 1.5px; font-family: var(--font-ui); font-weight: 600; }
@@ -120,7 +125,17 @@
   <div class="col" id="listCol">
     <div class="filters">
       <input type="text" id="search" placeholder="Search name / tag…">
-      <select id="catFilter"><option value="All">All categories</option></select>
+      <div class="frow">
+        <select id="catFilter"><option value="All">All categories</option></select>
+        <select id="sortBy">
+          <option value="name">Sort: Name</option>
+          <option value="category">Sort: Category</option>
+          <option value="rarity">Sort: Rarity</option>
+          <option value="priceAsc">Sort: Price ↑</option>
+          <option value="priceDesc">Sort: Price ↓</option>
+        </select>
+      </div>
+      <div class="count" id="count"></div>
     </div>
     <div id="list"></div>
   </div>
@@ -230,6 +245,17 @@ function visibleEntries() {
       out.push({ c, i, item: it });
     });
   }
+  const sort = $("sortBy").value;
+  const nameOf = e => String(e.item.name || leaf(e.item.itemTag)).toLowerCase();
+  const rarityOf = e => e.item.vendor?.bHasVendorRow && e.item.vendor.rarityTag !== "None" ? leaf(e.item.vendor.rarityTag) : "\uffff"; // no rarity sorts last
+  const priceOf = e => e.item.vendor?.bHasVendorRow ? e.item.vendor.defaultMarketPrice : -1;
+  out.sort((a, b) => {
+    if (sort === "category") return a.c.name.localeCompare(b.c.name) || nameOf(a).localeCompare(nameOf(b));
+    if (sort === "rarity") return rarityOf(a).localeCompare(rarityOf(b)) || nameOf(a).localeCompare(nameOf(b));
+    if (sort === "priceAsc") return priceOf(a) - priceOf(b) || nameOf(a).localeCompare(nameOf(b));
+    if (sort === "priceDesc") return priceOf(b) - priceOf(a) || nameOf(a).localeCompare(nameOf(b));
+    return nameOf(a).localeCompare(nameOf(b));
+  });
   return out;
 }
 
@@ -237,15 +263,20 @@ function renderList() {
   const el = $("list");
   el.innerHTML = "";
   const entries = visibleEntries();
+  const changedTotal = allChanges().length;
+  $("count").textContent = entries.length + " item" + (entries.length === 1 ? "" : "s") + (changedTotal ? ` · ${changedTotal} changed` : "");
   if (!entries.length) { el.innerHTML = '<div class="empty">No items match.</div>'; return; }
   for (const e of entries) {
     const changed = entryDiff(e.c.baseline[e.i], e.item).length > 0;
+    const v = e.item.vendor;
+    const price = v?.bHasVendorRow && v.defaultMarketPrice >= 0 ? fmt(v.defaultMarketPrice) : "—";
+    const rarity = v?.bHasVendorRow && v.rarityTag !== "None" ? leaf(v.rarityTag) : "no rarity";
     const div = document.createElement("div");
     div.className = "item-row" + (sel && sel.c === e.c && sel.i === e.i ? " active" : "");
     div.innerHTML =
-      `<div class="iname">${esc(e.item.name || leaf(e.item.itemTag))}${changed ? ' <span class="changed">●</span>' : ""}</div>` +
-      `<div class="itag">${esc(e.item.itemTag)}</div>` +
-      `<div class="imeta">${esc(e.c.name)}${e.item.vendor?.bHasVendorRow ? " · " + esc(leaf(e.item.vendor.rarityTag)) : " · no vendor row"}</div>`;
+      `<div class="itop"><div class="iname">${esc(e.item.name || leaf(e.item.itemTag))}${changed ? ' <span class="changed">●</span>' : ""}</div>` +
+      `<div class="iprice">${esc(price)}</div></div>` +
+      `<div class="imeta"><span>${esc(e.c.name)} · ${esc(rarity)}</span><span class="itag" title="${esc(e.item.itemTag)}">${esc(e.item.itemTag)}</span></div>`;
     div.onclick = () => { sel = { c: e.c, i: e.i }; renderForm(); renderList(); };
     el.appendChild(div);
   }
@@ -273,19 +304,24 @@ function renderForm() {
   html += `<label>Description</label><textarea id="fDesc">${esc(it.description)}</textarea>`;
 
   html += `<div class="section-h">Stats</div>`;
-  if (!(it.stats || []).length) html += `<div class="empty">This item has no stats.</div>`;
+  // None-modify stats are display-only in-engine (Firemodes, Caliber, …) — never rendered here. Newer
+  // exports don't contain them at all; this guards older files. "None" is also no dropdown option:
+  // disabling a stat from the web would silently drop it from the next export.
+  const editableStats = (it.stats || []).map((s, si) => ({ s, si })).filter(x => x.s.modifyType !== "None");
+  const modifyOptions = modifyTypes.filter(m => m !== "None");
+  if (!editableStats.length) html += `<div class="empty">This item has no editable stats.</div>`;
   else {
     html += `<table class="stats">`;
-    it.stats.forEach((s, si) => {
+    for (const { s, si } of editableStats) {
       const d = statDesc(s.tag);
       const changed = sel.c.baseline[sel.i].stats[si] && (sel.c.baseline[sel.i].stats[si].value !== s.value || sel.c.baseline[sel.i].stats[si].modifyType !== s.modifyType);
       html += `<tr class="${changed ? "modified" : ""}" title="${esc(s.tag)}">` +
         `<td class="sname">${esc(statLabel(s.tag))}${d?.unit ? ` <span class="unit">[${esc(d.unit)}]</span>` : ""}</td>` +
         `<td class="sval"><input type="number" step="any" data-stat="${si}" data-field="value" value="${esc(s.value)}"></td>` +
         `<td class="smod"><select data-stat="${si}" data-field="modifyType">` +
-          modifyTypes.map(m => `<option value="${esc(m)}"${m === s.modifyType ? " selected" : ""}>${esc(m)}</option>`).join("") +
+          modifyOptions.map(m => `<option value="${esc(m)}"${m === s.modifyType ? " selected" : ""}>${esc(m)}</option>`).join("") +
         `</select></td></tr>`;
-    });
+    }
     html += `</table>`;
   }
 
@@ -294,7 +330,7 @@ function renderForm() {
     html += `<div class="row"><div><label>Rarity</label>${tagSelect("fRarity", schema?.rarityTags, it.vendor.rarityTag)}</div>` +
             `<div><label>Faction</label>${tagSelect("fFaction", schema?.factionTags, it.vendor.factionTag)}</div></div>`;
     html += `<div class="row"><div><label>Price — <small class="hint">-1 = not sold</small></label><input type="number" step="any" id="fPrice" value="${esc(it.vendor.defaultMarketPrice)}"></div>` +
-            `<div><label>Black market price</label><input type="number" step="any" id="fBlackPrice" value="${esc(it.vendor.blackMarketPrice)}"></div></div>`;
+            `<div><label>Black market price — <small class="hint">-1 = not sold</small></label><input type="number" step="any" id="fBlackPrice" value="${esc(it.vendor.blackMarketPrice)}"></div></div>`;
   }
   html += `<div class="actions"><button id="revertItemBtn" class="danger">Revert this item</button></div>`;
   el.innerHTML = html;
@@ -352,7 +388,7 @@ $("bulkBtn").onclick = () => {
   if (!Number.isFinite(val)) return status("Bulk value is not a number.", true);
   let touched = 0;
   for (const e of visibleEntries()) {
-    const s = (e.item.stats || []).find(x => x.tag === tag);
+    const s = (e.item.stats || []).find(x => x.tag === tag && x.modifyType !== "None");
     if (!s) continue;
     const nv = op === "set" ? val : op === "add" ? s.value + val : s.value * val;
     s.value = Math.round(nv * 10000) / 10000;
@@ -449,6 +485,7 @@ async function load() {
 
 $("search").oninput = renderList;
 $("catFilter").oninput = renderList;
+$("sortBy").oninput = renderList;
 $("saveToken").onclick = () => { localStorage.setItem("irr_item_pat", $("token").value.trim()); status("Token stored in this browser."); };
 $("token").value = localStorage.getItem("irr_item_pat") || "";
 load();
