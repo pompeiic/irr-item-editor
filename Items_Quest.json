@@ -2,30 +2,6 @@
 	"category": "Quest",
 	"items": [
 		{
-			"itemTag": "Inventory.Items.Quest",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Quest/ID_QuestTemplate.ID_QuestTemplate",
-			"name": "Template",
-			"abbreviation": "Template",
-			"description": "Template",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.2,
-					"modifyType": "Add"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "f84dd994caf4f3a44d815e4618460c4d"
-		},
-		{
 			"itemTag": "Inventory.Items.Quest.Antenna Piece 1",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Antenna_Piece_1/ID_Antenna_Piece_1.ID_Antenna_Piece_1",
 			"name": "Antenna Piece 1",
@@ -288,102 +264,6 @@
 				"blackMarketPrice": -1
 			},
 			"sourceHash": "e0564d25da151ec76e9166c5bd0c785d"
-		},
-		{
-			"itemTag": "Inventory.Items.Quest.Defense.Intel A",
-			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Defense/Intel/IntelA/ID_DefenseIntelA.ID_DefenseIntelA",
-			"name": "Cassette A",
-			"abbreviation": "Cassette A",
-			"description": "A Cassette that may contain important intel..",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.2,
-					"modifyType": "Add"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "d16d38ed0451ec0b8ec0a9fad208eb4d"
-		},
-		{
-			"itemTag": "Inventory.Items.Quest.Defense.Intel B",
-			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Defense/Intel/IntelB/ID_DefenseIntelB.ID_DefenseIntelB",
-			"name": "Cassette B",
-			"abbreviation": "Cassette B",
-			"description": "A Cassette that may contain important intel..",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.2,
-					"modifyType": "Add"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "41d19d43b5c19dc0506a9b1a277f0ff0"
-		},
-		{
-			"itemTag": "Inventory.Items.Quest.Defense.Intel C",
-			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Defense/Intel/IntelC/ID_DefenseIntelC.ID_DefenseIntelC",
-			"name": "Intel C",
-			"abbreviation": "Intel C",
-			"description": "A disc that may contain important intel..",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.2,
-					"modifyType": "Add"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "cea9a1ccb6f01a0613dd5d278016c48a"
-		},
-		{
-			"itemTag": "Inventory.Items.Quest.Defense.Intel D",
-			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Defense/Intel/IntelD/ID_DefenseIntelD.ID_DefenseIntelD",
-			"name": "Intel D",
-			"abbreviation": "Intel D",
-			"description": "A disc that may contain important intel..",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.2,
-					"modifyType": "Add"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "1544ef125867c0aee9ca240bd12f41e9"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Jammer",
