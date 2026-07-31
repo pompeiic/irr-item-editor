@@ -48,7 +48,10 @@
 				"defaultMarketPrice": 2.5e+02,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "bb0455398b745b45e8cccf4134f7eb41"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "f02950844a41b87a543dce6a5f0eb278"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.M18 Smoke Grenade",
@@ -82,7 +85,10 @@
 				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "cf9349a7b3ba713c3656fce79ac356f8"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "59d76d147e7de36d59f9177b4e04f97f"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.M67 Hand Grenade",
@@ -131,7 +137,10 @@
 				"defaultMarketPrice": 1.6e+02,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "9f58dff437c376e17ece888e93890eb4"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "ca16df7ad49fa2e37e3d3bd09c8129f2"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.Model 7290 Flash Bang Grenade",
@@ -170,7 +179,10 @@
 				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "51bd0dc3d079daa62c4bcfeef4b2600b"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "cdaa788314309393764a7c04d6aa4462"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.RG-VO Gas Grenade",
@@ -204,9 +216,12 @@
 				"defaultMarketPrice": 3e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "e1267fd9082ccc3d2a9691ed926d89a0"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "e1030765ee9258822f5481414e82f912"
 		}
 	],
-	"schemaSoftVersion": 1,
+	"schemaSoftVersion": 2,
 	"schemaHardVersion": 1
 }
