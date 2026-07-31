@@ -1,0 +1,97 @@
+{
+	"category": "Melee",
+	"items": [
+		{
+			"itemTag": "Inventory.Items.Melee",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Melee/Temporary/ID_Melee_Temporary.ID_Melee_Temporary",
+			"name": "Melee",
+			"abbreviation": "Melee",
+			"description": "Melee",
+			"stats": [],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "d1a7641be6bb72ca5f951697a744bae6"
+		},
+		{
+			"itemTag": "Inventory.Items.Melee.M-9 Bayonet Knife",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Melee/M-9_Bayonet_Knife/ID_M-9_Bayonet_Knife.ID_M-9_Bayonet_Knife",
+			"name": "M-9 Bayonet Knife",
+			"abbreviation": "M-9 Bayonet",
+			"description": "M-9 Bayonet is a standard knife.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "M-9_Bayonet_Knife",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 622,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "e518a6a8f26fae185806fc3c66a55edf"
+		},
+		{
+			"itemTag": "Inventory.Items.Melee.Machete",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Melee/Machete/ID_Machete.ID_Machete",
+			"name": "Machete",
+			"abbreviation": "Machete",
+			"description": "Long and wide blade, especially handy in the jungle.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.9,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Machete",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 204,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "55db8591d3359e25483fd3ccf1bbfc80"
+		},
+		{
+			"itemTag": "Inventory.Items.Melee.Tomahawk",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Melee/Tomahawk/ID_Tomahawk.ID_Tomahawk",
+			"name": "Tomahawk",
+			"abbreviation": "Tomahawk",
+			"description": "Small but strong combat hatchet.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Tomahawk",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 7.1e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "373c1c5e222221a854c912e75b2a5e6f"
+		}
+	],
+	"schemaSoftVersion": 1,
+	"schemaHardVersion": 1
+}
