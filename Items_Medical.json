@@ -1,0 +1,187 @@
+{
+	"category": "Medical",
+	"items": [
+		{
+			"itemTag": "Inventory.Items.Medical",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Medical/ID_MedicalTemplate.ID_MedicalTemplate",
+			"name": "Template",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "d09bf0e65d32b066c8cae498349a5177"
+		},
+		{
+			"itemTag": "Inventory.Items.Medical.Bandage",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/Bandage/ID_Bandage.ID_Bandage",
+			"name": "Bandage",
+			"abbreviation": "Bandage",
+			"description": "Stops bleeding!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 5,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Bandage",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 15,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "51055b773299e1e9de5a294e1866020c"
+		},
+		{
+			"itemTag": "Inventory.Items.Medical.Health Injector",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/Health_Injector/ID_Health_Injector.ID_Health_Injector",
+			"name": "Health Injector",
+			"abbreviation": "Health",
+			"description": "Health Injector that quickly restores 40HP.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 4e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 3,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Health_Injector",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 4.3e+02,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "5180680239fd8e16b3e14d31938741e9"
+		},
+		{
+			"itemTag": "Inventory.Items.Medical.Painkiller",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/Painkiller/ID_Painkiller.ID_Painkiller",
+			"name": "Painkiller",
+			"abbreviation": "PK",
+			"description": "Temporary pain relief.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.05,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 4,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 7,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Health Buff",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effect Duration",
+					"value": 1.6e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Painkiller",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "b1e13e747d54d7cd47b33aa08f44e89f"
+		},
+		{
+			"itemTag": "Inventory.Items.Medical.Revive Syringe",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/Revive_Syringe/ID_Revive_Syringe.ID_Revive_Syringe",
+			"name": "Revive Syringe",
+			"abbreviation": "Rev.",
+			"description": "Bring back your fellow operatives!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 8,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Revive_Syringe",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 3e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "d99630ab3515b27ffd83ddf8a2b05afd"
+		}
+	],
+	"schemaSoftVersion": 1,
+	"schemaHardVersion": 1
+}
