@@ -1,0 +1,713 @@
+{
+	"category": "Provisions",
+	"items": [
+		{
+			"itemTag": "Inventory.Items.Provisions.Drinks",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Provisions/Drinks/ID_DrinksTemplate.ID_DrinksTemplate",
+			"name": "Drinks Template",
+			"abbreviation": "Drinks Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effect Duration",
+					"value": 6e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Recovery",
+					"value": 1e+01,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Drain",
+					"value": -2e+01,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "763dbcdbbdc628b2d02975c2a6eaf468"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Drinks.Beer BiaSaigon Bottle",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Drinks/Beer_BiaSaigon_Bottle/ID_Beer_BiaSaigon_Bottle.ID_Beer_BiaSaigon_Bottle",
+			"name": "Beer BiaSaigon Bottle",
+			"abbreviation": "Beer",
+			"description": "Better served cold.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effect Duration",
+					"value": 6e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Recovery",
+					"value": 1e+01,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Drain",
+					"value": -2e+01,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Beer_BiaSaigon_Bottle",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 1.2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "aa570c782aafa843a0674dd36bb6eba5"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Drinks.Beer Biere Larue Can",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Drinks/Beer_Biere_Larue_Can/ID_Beer_Biere_Larue_Can.ID_Beer_Biere_Larue_Can",
+			"name": "Beer Biere Larue Can",
+			"abbreviation": "Beer",
+			"description": "This and a cigar...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effect Duration",
+					"value": 6e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Recovery",
+					"value": 1e+01,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Drain",
+					"value": -2e+01,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Beer_Biere_Larue_Can",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 8e+01,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "9ab8b7bca9f71f1ef682b009c0125fbe"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Drinks.Condensed Milk",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Drinks/Condensed_Milk/ID_Condensed_Milk.ID_Condensed_Milk",
+			"name": "Condensed Milk",
+			"abbreviation": "Condensed Milk",
+			"description": "Can of delicious condensed milk.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effect Duration",
+					"value": 6e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Recovery",
+					"value": 1e+01,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Drain",
+					"value": -2e+01,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Condensed_Milk",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "bbd2ad4eb2f010de0f054f998cc6ced6"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Drinks.Milk",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Drinks/Milk/ID_Milk.ID_Milk",
+			"name": "Milk",
+			"abbreviation": "Milk",
+			"description": "Carton of milk. How is it not spoiled?..",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effect Duration",
+					"value": 6e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Recovery",
+					"value": 1e+01,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Drain",
+					"value": -2e+01,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Milk",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "e1cc617cf9d625080b4b70b1ca860e0b"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Drinks.Water Bottle",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Drinks/Water_Bottle/ID_Water_Bottle.ID_Water_Bottle",
+			"name": "Water Bottle",
+			"abbreviation": "Water",
+			"description": "Bottle of water. Must have in this heat!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effect Duration",
+					"value": 6e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Recovery",
+					"value": 1e+01,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Drain",
+					"value": -2e+01,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Water_Bottle",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "a3b5577e367d470c98324ebb90069811"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Food",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Provisions/Food/ID_FoodTemplate.ID_FoodTemplate",
+			"name": "Food Template",
+			"abbreviation": "Food Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "180dbd664b2c44b2697aefa62ae92c93"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Food.Canned Beef Stew",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Food/Canned_BeefStew/ID_Canned_BeefStew.ID_Canned_BeefStew",
+			"name": "Beef Stew",
+			"abbreviation": "Beef Stew",
+			"description": "Can of some beef stew.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Canned_BeefStew",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "b7ef2a453ddc045ca2c399a4589b3d1c"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Food.Canned Corn",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Food/Canned_Corn/ID_Canned_Corn.ID_Canned_Corn",
+			"name": "Corn",
+			"abbreviation": "Corn",
+			"description": "Can of corn.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Canned_Corn",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "55c176d398d04ea8cf01b2691e878ee3"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Food.Canned Pork Patey",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Food/Canned_PorkPatey/ID_Canned_PorkPatey.ID_Canned_PorkPatey",
+			"name": "Pork Patey",
+			"abbreviation": "Patey",
+			"description": "Can of pork spread, actually it's quite good on toast.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Canned_PorkPatey",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "99116c91ad26a82caae5bb8d02eec439"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Food.Canned Sardines",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Food/Canned_Sardines/ID_Canned_Sardines.ID_Canned_Sardines",
+			"name": "Sardines",
+			"abbreviation": "Sardines",
+			"description": "Can of sardines. Very oily...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Canned_Sardines",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "3ea5d3245bf5b68188e2a400d00d2403"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Food.Canned Soup",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Food/Canned_Soup/ID_Canned_Soup.ID_Canned_Soup",
+			"name": "Canned Soup",
+			"abbreviation": "Soup",
+			"description": "Soup time!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Canned_Soup",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "f4f9dccbc94f8116f703273bb03569ca"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Food.Canned Squid",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Food/Canned_Squid/ID_Canned_Squid.ID_Canned_Squid",
+			"name": "Canned Squid",
+			"abbreviation": "Squid",
+			"description": "Very chewy...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Canned_Squid",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "7f91edaa5a9ffcbc9d6dd1145825a6f8"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Food.Canned Tuna",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Food/Canned_TunaMix/ID_Canned_TunaMix.ID_Canned_TunaMix",
+			"name": "Tuna Mix",
+			"abbreviation": "Tuna",
+			"description": "Can of tuna.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Canned_TunaMix",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "183993b8c132c3b7a3507e54dd87a547"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Food.Chips",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Food/Chips/ID_Chips.ID_Chips",
+			"name": "Chips",
+			"abbreviation": "Chips",
+			"description": "Local brand. ",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Chips",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "af524a82fda821dae96c131c071b53a0"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Food.Cornflakes",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Food/Cornflakes/ID_Cornflakes.ID_Cornflakes",
+			"name": "Cornflakes",
+			"abbreviation": "Cornflakes",
+			"description": "Milk would go first... If I had any...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Cornflakes",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "e753358794eba7d71794d1c3f9cb27ca"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Food.Crackers",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Food/Crackers/ID_Crackers.ID_Crackers",
+			"name": "Crackers",
+			"abbreviation": "C",
+			"description": "Very cracky.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Crackers",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 2e+01,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "d1021756d4e47a8c4d4c2b310fe3f631"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Food.Peanut Butter",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Food/Peanut_Butter/ID_Peanut_Butter.ID_Peanut_Butter",
+			"name": "Peanut Butter",
+			"abbreviation": "Peanut Butter",
+			"description": "I hope I'm not allergic.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Peanut_Butter",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "4130024d631b9b007bee84e3fdff4701"
+		},
+		{
+			"itemTag": "Inventory.Items.Provisions.Food.Squid Chips",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Food/Squid_Chips/ID_Squid_Chips.ID_Squid_Chips",
+			"name": "Squid Chips",
+			"abbreviation": "Squid Chips",
+			"description": "Exotic taste!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Healing Boost",
+					"value": 6,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Squid_Chips",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "97e1f8f43f170f497ecaaf52d460a0fb"
+		}
+	],
+	"schemaSoftVersion": 1,
+	"schemaHardVersion": 1
+}
