@@ -43,7 +43,10 @@
 				"defaultMarketPrice": 1.2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "aa570c782aafa843a0674dd36bb6eba5"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "2c64d57671b753d1164f44f36e45b5c0"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Beer Biere Larue Can",
@@ -87,7 +90,10 @@
 				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "9ab8b7bca9f71f1ef682b009c0125fbe"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "fb71cd6845a0576d1283a9dfbc99bc3a"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Condensed Milk",
@@ -131,7 +137,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "bbd2ad4eb2f010de0f054f998cc6ced6"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "53b4ca3bddc7c6b5cfd2c8f5f30072c0"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Milk",
@@ -175,7 +184,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "e1cc617cf9d625080b4b70b1ca860e0b"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "ef206b9926e4e901842adee07d67a264"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Water Bottle",
@@ -219,7 +231,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "a3b5577e367d470c98324ebb90069811"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "e6de7925ccdcc0c55ed527152d787bf5"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Beef Stew",
@@ -253,7 +268,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "b7ef2a453ddc045ca2c399a4589b3d1c"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "78ac59e80797dd2185786e229a2d5cec"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Corn",
@@ -287,7 +305,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "55c176d398d04ea8cf01b2691e878ee3"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "6cdfcb01f17b8cbd25d6cdf1dcbbae93"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Pork Patey",
@@ -321,7 +342,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "99116c91ad26a82caae5bb8d02eec439"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "259eed0f74efc7848948baee6441e9ae"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Sardines",
@@ -355,7 +379,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "3ea5d3245bf5b68188e2a400d00d2403"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "75cd99131485acf7baf5c70c85ec8b05"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Soup",
@@ -389,7 +416,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "f4f9dccbc94f8116f703273bb03569ca"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "5bedadccc95b7675b9c69939d3b5f70d"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Squid",
@@ -423,7 +453,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "7f91edaa5a9ffcbc9d6dd1145825a6f8"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "8fa38b96bffff472218b44ec447382b1"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Tuna",
@@ -457,7 +490,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "183993b8c132c3b7a3507e54dd87a547"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "42b6b38579aeb171fc7625870b8e0835"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Chips",
@@ -491,7 +527,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "af524a82fda821dae96c131c071b53a0"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "3f49dd11700624b51b3cdf006a4fdf29"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Cornflakes",
@@ -525,7 +564,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "e753358794eba7d71794d1c3f9cb27ca"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "58567819a9b2f0f725bb84e7b9e9b3a6"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Crackers",
@@ -559,7 +601,10 @@
 				"defaultMarketPrice": 2e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "d1021756d4e47a8c4d4c2b310fe3f631"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "ebfe760b32937d030d7877ef698efd1f"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Peanut Butter",
@@ -593,7 +638,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "4130024d631b9b007bee84e3fdff4701"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "40d25132fda32c3ba77e7f6ccef5d4dc"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Squid Chips",
@@ -627,9 +675,12 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "97e1f8f43f170f497ecaaf52d460a0fb"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "082ed93a5f24a054dfc3e273ce992029"
 		}
 	],
-	"schemaSoftVersion": 1,
+	"schemaSoftVersion": 2,
 	"schemaHardVersion": 1
 }
