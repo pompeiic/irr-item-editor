@@ -1,0 +1,219 @@
+{
+	"stats": [
+		{
+			"tag": "Inventory.Stats.Accuracy",
+			"displayName": "Accuracy",
+			"unit": "MRAD",
+			"maxValue": 5
+		},
+		{
+			"tag": "Inventory.Stats.Caliber",
+			"displayName": "Caliber",
+			"unit": "mm",
+			"maxValue": 1.2e+03
+		},
+		{
+			"tag": "Inventory.Stats.Chance To Wound",
+			"displayName": "Chance To Wound",
+			"unit": "%",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Compatible Items",
+			"displayName": "Compatible Items",
+			"unit": "",
+			"maxValue": 1e+02
+		},
+		{
+			"tag": "Inventory.Stats.Cooldown",
+			"displayName": "Cooldown",
+			"unit": "%",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Damage",
+			"displayName": "Damage",
+			"unit": "",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Default Size",
+			"displayName": "Default Size",
+			"unit": "",
+			"maxValue": 1e+02
+		},
+		{
+			"tag": "Inventory.Stats.Durability",
+			"displayName": "Durability",
+			"unit": "%",
+			"maxValue": 1e+02
+		},
+		{
+			"tag": "Inventory.Stats.Durability Burn",
+			"displayName": "Durability Burn",
+			"unit": "%",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Effect Duration",
+			"displayName": "Duration",
+			"unit": "s",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Effective Distance",
+			"displayName": "Eff. Distance",
+			"unit": "m",
+			"maxValue": 1e+02
+		},
+		{
+			"tag": "Inventory.Stats.Ergonomics",
+			"displayName": "Ergonomics",
+			"unit": "",
+			"maxValue": 1e+02
+		},
+		{
+			"tag": "Inventory.Stats.Explosion Delay",
+			"displayName": "Explosion Delay",
+			"unit": "s",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Explosion Radius",
+			"displayName": "Explosion Radius",
+			"unit": "m",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Firemodes",
+			"displayName": "Firemodes",
+			"unit": "",
+			"maxValue": 1e+02
+		},
+		{
+			"tag": "Inventory.Stats.Healing Boost",
+			"displayName": "Healing Amount",
+			"unit": "",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Health Buff",
+			"displayName": "Pain Debuff",
+			"unit": "HP",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Heat",
+			"displayName": "Heat",
+			"unit": "%",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Muzzle Velocity",
+			"displayName": "Velocity",
+			"unit": "m/s",
+			"maxValue": 1.2e+03
+		},
+		{
+			"tag": "Inventory.Stats.Penetration",
+			"displayName": "Penetration",
+			"unit": "",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Piercing Level",
+			"displayName": "Piercing Level",
+			"unit": "",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Protection Level",
+			"displayName": "Protection Level",
+			"unit": "",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Recoil",
+			"displayName": "Recoil",
+			"unit": "",
+			"maxValue": 1e+02
+		},
+		{
+			"tag": "Inventory.Stats.Rounds Per Minute",
+			"displayName": "Fire Rate",
+			"unit": "rpm",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Shrapnel Chance",
+			"displayName": "Shrapnel Chance",
+			"unit": "%",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Sighting Range",
+			"displayName": "Range",
+			"unit": "m",
+			"maxValue": 1.2e+03
+		},
+		{
+			"tag": "Inventory.Stats.Stamina Drain",
+			"displayName": "Body Stamina Drain",
+			"unit": "%",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Stamina Recovery",
+			"displayName": "Body Stamina Recovery",
+			"unit": "%",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Usage Time",
+			"displayName": "Usage Time",
+			"unit": "",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Weight",
+			"displayName": "",
+			"unit": "",
+			"maxValue": 0
+		}
+	],
+	"rarityTags": [
+		"Inventory.Rarity Types.Tier 1",
+		"Inventory.Rarity Types.Tier 2",
+		"Inventory.Rarity Types.Tier 3",
+		"Inventory.Rarity Types.Tier 4"
+	],
+	"factionTags": [
+		"Mission.Faction.BLUEFOR",
+		"Mission.Faction.FANG",
+		"Mission.Faction.GREYFOR",
+		"Mission.Faction.OPFOR"
+	],
+	"modifyTypes": [
+		"None",
+		"Base",
+		"Add",
+		"Multiply"
+	],
+	"categories": [
+		"Ammunition",
+		"Attachments",
+		"Barter",
+		"Currency",
+		"Gadgets",
+		"Gear",
+		"Grenades",
+		"Keys",
+		"Medical",
+		"Melee",
+		"Provisions",
+		"Quest",
+		"Weapons"
+	],
+	"schemaSoftVersion": 1,
+	"schemaHardVersion": 1
+}
