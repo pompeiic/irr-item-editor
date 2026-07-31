@@ -8,16 +8,21 @@ them back onto the assets. The game never reads this repo — changes ship with 
 - **Editor:** https://pompeiic.github.io/irr-item-editor/editor.html
 - **Files:** `Schema.json` (stat labels/units, rarity/faction lists, categories) + one `Items_<Category>.json`
   per item category (Weapons, Attachments, Gear, …). All are produced by the Unreal export — never create
-  them by hand.
+  them by hand. Only vendor-table items are exported. `Workflow.json` is editor-owned (edit history +
+  attention flags) and never round-trips into Unreal.
 
 ## Workflow
 
 1. **Unreal → repo:** run `Export Items` then `Upload Items To GitHub` (Item Sync utility / any Editor
    Utility Blueprint calling `UIRRItemSyncLibrary`). Repo + token are configured in
    Project Settings → IRR → Item Sync and Editor Preferences → IRR → Item Sync (User).
-2. **Edit here:** search/filter items, edit stats, prices, rarity, names; bulk operations
-   ("+10% Damage on everything filtered"); the right column shows every pending change as `old → new`.
-   **Commit to GitHub** writes the changed category files (token top-right, see below).
+2. **Edit here:** sidebar views (All items / Recently edited / Needs attention / categories), table list with
+   search/filters/sort, and a per-item panel with **Overview** (texts, stats, prices, rarity, max stack),
+   **Relations** (read-only: what the item's containers accept, and what it fits into) and **History**
+   (per-item edit log, starts with the first commit made here). **Validate all** flags items with placeholder
+   or missing text, bad abbreviations, or price problems as "needs attention" (flags can also be set
+   manually per item). Bulk stat operations work on the filtered list. **Save changes / Commit** writes the
+   changed category files + the workflow file; **Discard** reverts the selected item.
 3. **Repo → Unreal:** run `Download Items From GitHub` then `Import Items`. The import report lists every
    applied change (paste-ready for patch notes — the editor's **Copy patch-note draft** button produces the
    same format). Save the dirtied assets.
@@ -34,6 +39,8 @@ them back onto the assets. The game never reads this repo — changes ship with 
   silently reverting their change. Don't touch `sourceHash` when hand-editing JSON.
 - **Rarity changes** re-apply the vendor tier defaults (stock/restock/loyalty) on import, exactly like
   changing rarity in-editor.
+- **Max stack** imports; the stackable flag and the container-support tags (Relations) are read-only —
+  structural setup stays in Unreal.
 - Price `-1` means "not sold on that market".
 
 ## One-time setup: your editor token

@@ -14,7 +14,7 @@ jobs:
         run: |
           node - <<'EOF'
           const fs = require("fs");
-          const files = fs.readdirSync(".").filter(f => f === "Schema.json" || (/^Items_.*\.json$/).test(f));
+          const files = fs.readdirSync(".").filter(f => f === "Schema.json" || f === "Workflow.json" || (/^Items_.*\.json$/).test(f));
           let failed = false;
           for (const file of files) {
             try {
