@@ -2,50 +2,6 @@
 	"category": "Provisions",
 	"items": [
 		{
-			"itemTag": "Inventory.Items.Provisions.Drinks",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Provisions/Drinks/ID_DrinksTemplate.ID_DrinksTemplate",
-			"name": "Drinks Template",
-			"abbreviation": "Drinks Template",
-			"description": "Template",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.2,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Durability",
-					"value": 1,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Effect Duration",
-					"value": 6e+01,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Stamina Recovery",
-					"value": 1e+01,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Stamina Drain",
-					"value": -2e+01,
-					"modifyType": "Add"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "763dbcdbbdc628b2d02975c2a6eaf468"
-		},
-		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Beer BiaSaigon Bottle",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Drinks/Beer_BiaSaigon_Bottle/ID_Beer_BiaSaigon_Bottle.ID_Beer_BiaSaigon_Bottle",
 			"name": "Beer BiaSaigon Bottle",
@@ -264,40 +220,6 @@
 				"blackMarketPrice": -1
 			},
 			"sourceHash": "a3b5577e367d470c98324ebb90069811"
-		},
-		{
-			"itemTag": "Inventory.Items.Provisions.Food",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Provisions/Food/ID_FoodTemplate.ID_FoodTemplate",
-			"name": "Food Template",
-			"abbreviation": "Food Template",
-			"description": "Template",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.2,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Durability",
-					"value": 3,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Healing Boost",
-					"value": 6,
-					"modifyType": "Base"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "180dbd664b2c44b2697aefa62ae92c93"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Beef Stew",
