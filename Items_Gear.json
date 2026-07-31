@@ -33,7 +33,12 @@
 				"defaultMarketPrice": 7e+03,
 				"blackMarketPrice": 4
 			},
-			"sourceHash": "df52ad189563d9ee58aaa8bc2adb4e34"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "76834ce40cadfe3330dbc7eca0e549ca"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.AVS Rifleman V4 Vest",
@@ -67,7 +72,12 @@
 				"defaultMarketPrice": 6241,
 				"blackMarketPrice": 3
 			},
-			"sourceHash": "bce72acd0a4d73d52aab04144343acd5"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "2e674f86cbb3cf2da8fa0098c6055913"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.AVS SL Vest",
@@ -101,7 +111,12 @@
 				"defaultMarketPrice": 2.43e+03,
 				"blackMarketPrice": 2
 			},
-			"sourceHash": "688e7e7ec383e606c68d8e4debb57d8a"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "daa13ec5c5dd8023a8eab7e4a0bf006f"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.JTAC V1 Nguyin Edition Armored Rig",
@@ -135,7 +150,12 @@
 				"defaultMarketPrice": 1.8e+04,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "05445f1e9dcf5477ca30af7d87627e5b"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "da97804f87e520eccc7776d1219cb7dd"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.JTAC V1 Vest",
@@ -169,7 +189,12 @@
 				"defaultMarketPrice": 1.3e+03,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "9d201623b02fc4fe9976d15c39df63ed"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "ac9797884d49fb8cec3588dec928d7c5"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.LBT Breacher V1",
@@ -203,7 +228,12 @@
 				"defaultMarketPrice": 2.18e+03,
 				"blackMarketPrice": 2
 			},
-			"sourceHash": "866164efeb5c5ad80590eebd87de5dfc"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "b3e250b2e9b0b9948079e46624c9e5b8"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.LBT MED V1 Armored Rig",
@@ -237,7 +267,12 @@
 				"defaultMarketPrice": 6.53e+03,
 				"blackMarketPrice": 3
 			},
-			"sourceHash": "816ddd3ae626845305cbfe8380a8e2cd"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "61482149700f6361cc90a67be2a63312"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.Spiritus LV119 Armored Rig",
@@ -271,7 +306,12 @@
 				"defaultMarketPrice": 2.28e+03,
 				"blackMarketPrice": 2
 			},
-			"sourceHash": "c384d3e8c1c787e629192b078eaea8cc"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "8ccf7a5868143892b1fe9e6eb332c826"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.Wartech-TV-110 Armored Rig",
@@ -305,7 +345,12 @@
 				"defaultMarketPrice": 2.5e+04,
 				"blackMarketPrice": 4
 			},
-			"sourceHash": "da43c5931b36373a9bbd2c17a68f5492"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "78b9793678fa8b71490dddadce1f3818"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.ADA Assault Backpack",
@@ -329,7 +374,12 @@
 				"defaultMarketPrice": 2.73e+03,
 				"blackMarketPrice": 2
 			},
-			"sourceHash": "26cc3ec9d75a012fe498b0ed6de886cd"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "90adc95e5b56ac5e76ba0c88faacc33e"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.AVS CRYE Precision Backpack",
@@ -353,7 +403,12 @@
 				"defaultMarketPrice": 1.9e+03,
 				"blackMarketPrice": 2
 			},
-			"sourceHash": "aea512e3f23894e99d9da83e0373f633"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "f170c0525fdbd5b98055e63228eac1a9"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.AVS Delta Backpack",
@@ -377,7 +432,12 @@
 				"defaultMarketPrice": 1.1e+03,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "1c9642e1ab01a7715836925b22d2d8e0"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "dc837a82a97959aadec8a83659949f71"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.AVS Mini Backpack",
@@ -401,7 +461,12 @@
 				"defaultMarketPrice": 3e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "6ab07c96eb1114330384af01cce7317d"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "70ca55e7fd7194b913fb69e78b7d5f46"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.CamelBak Backpack",
@@ -425,7 +490,12 @@
 				"defaultMarketPrice": 1.8e+03,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "ec84c438ffc021790a847d054af6f535"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "405009681a4883670ae3d7629a0b519f"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.F2 Bergen Backpack",
@@ -449,7 +519,12 @@
 				"defaultMarketPrice": 2.99e+03,
 				"blackMarketPrice": 3
 			},
-			"sourceHash": "de091e420416048bf55cdd4a21bfb20b"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "6d848713e978ace48ebb2c35c3ca799e"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.Mystery Ranch SALT Backpack",
@@ -473,7 +548,12 @@
 				"defaultMarketPrice": 3.48e+03,
 				"blackMarketPrice": 3
 			},
-			"sourceHash": "af77347bfacb822f155ca7982793a8a2"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "8b0afb0d02173f82e1a5091950fcbd8b"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.HHV Helmet",
@@ -507,7 +587,12 @@
 				"defaultMarketPrice": 2.15e+03,
 				"blackMarketPrice": 2
 			},
-			"sourceHash": "80738746d3ce3fa008ab16b972df0f13"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
+			],
+			"sourceHash": "31a5ec1f39e23e71f794bba54a547bf2"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.High Cut LSHZ Helmet",
@@ -541,7 +626,12 @@
 				"defaultMarketPrice": 3.23e+03,
 				"blackMarketPrice": 3
 			},
-			"sourceHash": "f5f0ae52468aa2a3cefb56560fac3a0f"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
+			],
+			"sourceHash": "c3fc7c85efefd75b553565660ed51f5b"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Kiver RSP Helmet",
@@ -575,7 +665,12 @@
 				"defaultMarketPrice": 8e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "315669a89056261a069a455f9dd4b6cc"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
+			],
+			"sourceHash": "570dceda28ca722f9b9922971b93121e"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Kiver RSP Nguyin Edition Helmet",
@@ -609,7 +704,12 @@
 				"defaultMarketPrice": 7.3e+03,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "8d2b9dd1c6507e71a02e7095105455a8"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
+			],
+			"sourceHash": "7d7b6b3b569171ca84431f6efadc69fa"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.MICH 2000",
@@ -643,7 +743,12 @@
 				"defaultMarketPrice": 9e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "9fcf6053badfb45b20b6591195123db5"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
+			],
+			"sourceHash": "fb0d970906ce5cc019978f22afd4fa82"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Ops-Core FAST Bump Helmet",
@@ -677,7 +782,12 @@
 				"defaultMarketPrice": 2.3e+03,
 				"blackMarketPrice": 2
 			},
-			"sourceHash": "b72149c44e7c31af6290f4d1086a29d3"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
+			],
+			"sourceHash": "12204315d872206a0994a37b01b8a1c4"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.SESTAN-BUSCH BK-3 Helmet",
@@ -711,7 +821,10 @@
 				"defaultMarketPrice": 6.1e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "02b84448fb68f831541a8c4d10833da5"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "0818d5c397922541e2ded3e1834a21b8"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Super High Cut Ops Core Fast MT V1 Helmet",
@@ -745,7 +858,12 @@
 				"defaultMarketPrice": 2.35e+03,
 				"blackMarketPrice": 2
 			},
-			"sourceHash": "ef6cc4152232b2c9cc40d5110174a2d0"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
+			],
+			"sourceHash": "9500185439023e67d1083a0f289f11c6"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Team Wendy EXFIL Helmet",
@@ -779,7 +897,12 @@
 				"defaultMarketPrice": 8633,
 				"blackMarketPrice": 3
 			},
-			"sourceHash": "0b970e2342dff5f5c17c676453a5c9a1"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
+			],
+			"sourceHash": "c6dc8c70993aa7cbc6d9c7461ec44e57"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles",
@@ -803,7 +926,10 @@
 				"defaultMarketPrice": 3e+03,
 				"blackMarketPrice": 2
 			},
-			"sourceHash": "5afe762410886fcfbaf8f2e4b17ee903"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "7dfe50f167336788ee4496df2c2c63e2"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.AVS Plate Carrier",
@@ -837,7 +963,10 @@
 				"defaultMarketPrice": 7e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "d6623da40f275564eb03c1bbb6e50d71"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "213f69ba731c64bd8cc086dc00d443d7"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.JPC Plate Carrier",
@@ -871,7 +1000,10 @@
 				"defaultMarketPrice": 1.9e+03,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "5d1897aef74679180269e19f37728746"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "0082f150cc849a6490b70a8e91ddad6c"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.MSV Plate Carrier",
@@ -905,7 +1037,10 @@
 				"defaultMarketPrice": 3e+03,
 				"blackMarketPrice": 2
 			},
-			"sourceHash": "59725518a6d7b35449006a9408a32060"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "eb1db3a842c0f2ec81993753dc28b42c"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.Paraclete Origin Plate Carrier",
@@ -939,7 +1074,10 @@
 				"defaultMarketPrice": 1.63e+03,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "6f177a6399fb8cf4595c2baf36ac5ff3"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "42a5215f81ed1aa456712f7ecca7ed12"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.The Slickster Plate Carrier",
@@ -973,7 +1111,10 @@
 				"defaultMarketPrice": 3.5e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "c156ee622fda6017f0bbb4e9e1ba611f"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "79666555a83e9a1955fcb957810e2c53"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Unarmored Rig.D3CRM Unarmored Rig",
@@ -997,7 +1138,12 @@
 				"defaultMarketPrice": 625,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "9c3f9266dbf4704064cbb67fae26da58"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "b733733b4cf3962fadfe317e0a1c1b05"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Unarmored Rig.D3CRX Unarmored Rig",
@@ -1021,7 +1167,12 @@
 				"defaultMarketPrice": 775,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "6a1249f1d98ef5d556aa01b3ff4d3e8d"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "2c84084aed1cde6c5851dc44049121e5"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Unarmored Rig.Vest Virtus Unarmored Rig",
@@ -1045,9 +1196,14 @@
 				"defaultMarketPrice": 305,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "ee1fdb0e23cc3bc82b957d2f3f3cb0e0"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "a8cbe4570150212a8fcdc811174e220e"
 		}
 	],
-	"schemaSoftVersion": 1,
+	"schemaSoftVersion": 2,
 	"schemaHardVersion": 1
 }
