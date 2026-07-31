@@ -1,0 +1,660 @@
+{
+	"category": "Quest",
+	"items": [
+		{
+			"itemTag": "Inventory.Items.Quest",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Quest/ID_QuestTemplate.ID_QuestTemplate",
+			"name": "Template",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "f84dd994caf4f3a44d815e4618460c4d"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Antenna Piece 1",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Antenna_Piece_1/ID_Antenna_Piece_1.ID_Antenna_Piece_1",
+			"name": "Antenna Piece 1",
+			"abbreviation": "Antenna I",
+			"description": "Antenna Piece to upgrade your intel station.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Antenna_Piece_1",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 0,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "a99f2d1ebfb2c1c7af3565e684bc8bf4"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Antenna Piece 2",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Antenna_Piece_2/ID_Antenna_Piece_2.ID_Antenna_Piece_2",
+			"name": "Antenna Piece 2",
+			"abbreviation": "Antenna II",
+			"description": "Antenna Piece to upgrade your intel station.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Antenna_Piece_2",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 0,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "dabcf1c59dc8c8c6a17fc21286703d52"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Antenna Piece 3",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Antenna_Piece_3/ID_Antenna_Piece_3.ID_Antenna_Piece_3",
+			"name": "Antenna Piece 3",
+			"abbreviation": "Antenna III",
+			"description": "Antenna Piece to upgrade your intel station.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Antenna_Piece_3",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 0,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "eb32e501e0963b4208f3b7f40666e288"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Basic Machine Parts",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Missing_Supplies/ID_Missing_Supplies.ID_Missing_Supplies",
+			"name": "Basic Machine Parts",
+			"abbreviation": "Basic Machine Parts",
+			"description": "These supplies, that are missing!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Missing_Supplies",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 6e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "614826490170da7a0f86ff8f9963b2e5"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Bomb",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Bomb/ID_Bomb.ID_Bomb",
+			"name": "Bomb",
+			"abbreviation": "Bomb",
+			"description": "Remote detonated bomb.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Bomb",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "10d59f0dad4dbd251781ec61b28477c9"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Bug",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Bug/ID_Bug.ID_Bug",
+			"name": "Bug",
+			"abbreviation": "Bug",
+			"description": "Bug for spying.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Bug",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.FANG",
+				"defaultMarketPrice": 1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "42d37b2c0d571593f1cf3e21ca45cb37"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Classified Document-IGC",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Classified_Document-IGC/ID_Classified_Document-IGC.ID_Classified_Document-IGC",
+			"name": "Classified Document - IGC",
+			"abbreviation": "IGC Doc.",
+			"description": "Document with potential confidential information about the IGC.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Classified_Document-IGC",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "195544f63ccd7eebb34514276a701b0c"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Classified Document-UICS",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Classified_Document-UICS/ID_Classified_Document-UICS.ID_Classified_Document-UICS",
+			"name": "Classified Document - UICS",
+			"abbreviation": "UICS Doc.",
+			"description": "Document with potential confidential information about the UICS.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Classified_Document-UICS",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "7d351bb089cb034dd9ce6b22b899270e"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Classified Document-VLF",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Classified_Document-VLF/ID_Classified_Document-VLF.ID_Classified_Document-VLF",
+			"name": "Classified Document - VLF",
+			"abbreviation": "VLF Doc.",
+			"description": "Document with potential confidential information about the VLF.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Classified_Document-VLF",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "e6c392d15f3ecfa6b2de0322b3c7733e"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Construction HxAxS Blueprint Layout Guide",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Construction_HxAxS_Blueprint_Layout_Guide/ID_Construction_HxAxS_Blueprint_Layout_Guide.ID_Construction_HxAxS_Blueprint_Layout_Guide",
+			"name": "Construction H.A.S Blueprint Layout Guide",
+			"abbreviation": "H.A.S Blueprint",
+			"description": "Layout guide for a H.A.S.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Construction_HxAxS_Blueprint_Layout_Guide",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "ac01c747b62299eafe860292e3f173fd"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Construction HxAxS Blueprint Materials List",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Construction_HxAxS_Blueprint_Materials_List/ID_Construction_HxAxS_Blueprint_Materials_List.ID_Construction_HxAxS_Blueprint_Materials_List",
+			"name": "Construction H.A.S Blueprint Materials List",
+			"abbreviation": "H.A.S Blueprint",
+			"description": "Material list for a H.A.S.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Construction_HxAxS_Blueprint_Materials_List",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "e0564d25da151ec76e9166c5bd0c785d"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Defense.Intel A",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Defense/Intel/IntelA/ID_DefenseIntelA.ID_DefenseIntelA",
+			"name": "Cassette A",
+			"abbreviation": "Cassette A",
+			"description": "A Cassette that may contain important intel..",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "d16d38ed0451ec0b8ec0a9fad208eb4d"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Defense.Intel B",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Defense/Intel/IntelB/ID_DefenseIntelB.ID_DefenseIntelB",
+			"name": "Cassette B",
+			"abbreviation": "Cassette B",
+			"description": "A Cassette that may contain important intel..",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "41d19d43b5c19dc0506a9b1a277f0ff0"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Defense.Intel C",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Defense/Intel/IntelC/ID_DefenseIntelC.ID_DefenseIntelC",
+			"name": "Intel C",
+			"abbreviation": "Intel C",
+			"description": "A disc that may contain important intel..",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "cea9a1ccb6f01a0613dd5d278016c48a"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Defense.Intel D",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Defense/Intel/IntelD/ID_DefenseIntelD.ID_DefenseIntelD",
+			"name": "Intel D",
+			"abbreviation": "Intel D",
+			"description": "A disc that may contain important intel..",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "1544ef125867c0aee9ca240bd12f41e9"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Jammer",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Jammer/ID_Jammer.ID_Jammer",
+			"name": "Jammer",
+			"abbreviation": "Jammer",
+			"description": "Jammer to interfere with enemy communication.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Jammer",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "5ebd3439c2ad79475666beb138f038a2"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Key Cards.Key Card A",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/KeyCardA/ID_KeyCardA.ID_KeyCardA",
+			"name": "Key Card A",
+			"abbreviation": "KC A",
+			"description": "It needs a scanner.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.05,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "KeyCard1",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 6.5e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "d1adb0f9de9058ca3dd2eeec9812e364"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Misc",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Backpack/Recording_Backpack/ID_Recording_Backpack.ID_Recording_Backpack",
+			"name": "Recording Backpack",
+			"abbreviation": "Recording",
+			"description": "Hi team :D",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Recording_Backpack",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "None",
+				"defaultMarketPrice": 4e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "a4cb92cada8a6d7e8c87505cd07e3840"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan A",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/OperationPlans/OperationPlanA/ID_OperationPlanA.ID_OperationPlanA",
+			"name": "Operation Plan A",
+			"abbreviation": "OP A",
+			"description": "It details troops movement...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Operation_Plan_A",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "dbd5f4f930e5c80a42f85b4b52cb45d4"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan B",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/OperationPlans/OperationPlanB/ID_OperationPlanB.ID_OperationPlanB",
+			"name": "Operation Plan",
+			"abbreviation": "OP B",
+			"description": "Contains several points of interest.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Operation_Plan_B",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "e7d0144d3ae74ee57fa56b392056c3af"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan C",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/OperationPlans/OperationPlanC/ID_OperationPlanC.ID_OperationPlanC",
+			"name": "Operation Plan C",
+			"abbreviation": "OP C",
+			"description": "What are they planning?...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Operation_Plan_C",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "1c45942f7cdbe3fa692f081a2411e48a"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Poison",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Poison/ID_Poison.ID_Poison",
+			"name": "Poison",
+			"abbreviation": "Poison",
+			"description": "Better save it for myself...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Poison",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "9df7930ce70d2a1e28f2350ecc8fb52e"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Shipping Manifest",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Shipping_Manifest/ID_Shipping_Manifest.ID_Shipping_Manifest",
+			"name": "Shipping Manifest",
+			"abbreviation": "Manifest",
+			"description": "Contains listing of some cargo.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Shipping_Manifest",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "d9c89dab14c843d9b56c07388f043fde"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Surveillance Camera",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/520TVL_CCTV_Mini_Camera/ID_520TVL_CCTV_Mini_Camera.ID_520TVL_CCTV_Mini_Camera",
+			"name": "520TVL CCTV Mini Camera",
+			"abbreviation": "CCTV",
+			"description": "Remote camera. Great for spying or protection!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "520TVL_CCTV_Mini_Camera",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "5fecd1fb2b90d2eb337f572e11d593ca"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.Troop Movement Paper",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/Troop_Movement_Paper/ID_Troop_Movement_Paper.ID_Troop_Movement_Paper",
+			"name": "Troop Movement Paper",
+			"abbreviation": "Paper",
+			"description": "It details movement of enemy troops.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Troop_Movement_Paper",
+				"bHasVendorRow": true,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "a9e9ce715b5d503b47f2fe9673af1fbf"
+		},
+		{
+			"itemTag": "Inventory.Items.Quest.USB Drive",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Quest/USB_Drive/ID_USB_Drive.ID_USB_Drive",
+			"name": "USB Drive",
+			"abbreviation": "USB",
+			"description": "It wouldn't be safe to plug it in...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "USB_Drive",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "dcf1e6e9d1bf6897716773fbae506e82"
+		}
+	],
+	"schemaSoftVersion": 1,
+	"schemaHardVersion": 1
+}
