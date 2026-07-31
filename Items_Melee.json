@@ -23,7 +23,10 @@
 				"defaultMarketPrice": 622,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "e518a6a8f26fae185806fc3c66a55edf"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "0349b4fae455ec4259d9ec6439715cb8"
 		},
 		{
 			"itemTag": "Inventory.Items.Melee.Machete",
@@ -47,7 +50,10 @@
 				"defaultMarketPrice": 204,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "55db8591d3359e25483fd3ccf1bbfc80"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "13cc4b97ea7423773ff3d91844a94b94"
 		},
 		{
 			"itemTag": "Inventory.Items.Melee.Tomahawk",
@@ -71,9 +77,12 @@
 				"defaultMarketPrice": 7.1e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "373c1c5e222221a854c912e75b2a5e6f"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "af08e76b15a982823cdee3abcbcc9942"
 		}
 	],
-	"schemaSoftVersion": 1,
+	"schemaSoftVersion": 2,
 	"schemaHardVersion": 1
 }
