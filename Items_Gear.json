@@ -2,40 +2,6 @@
 	"category": "Gear",
 	"items": [
 		{
-			"itemTag": "Inventory.Items.Gear.Armored Rig",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Gear/ArmoredRig/ID_ArmoredRigTemplate.ID_ArmoredRigTemplate",
-			"name": "Template",
-			"abbreviation": "Template",
-			"description": "Template",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 1,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Durability",
-					"value": 1e+02,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Protection Level",
-					"value": 2,
-					"modifyType": "Base"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "0c2295f0268e9db47ab529918646ca33"
-		},
-		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.AVS PL SGT Vest",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/ArmoredRig/AVS_PL_SGT_Armored_Rig/ID_AVS_PL_SGT_Armored_Rig.ID_AVS_PL_SGT_Armored_Rig",
 			"name": "AVS PL SGT Armored Rig",
@@ -342,30 +308,6 @@
 			"sourceHash": "da43c5931b36373a9bbd2c17a68f5492"
 		},
 		{
-			"itemTag": "Inventory.Items.Gear.Backpack",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Gear/Backpack/ID_BackpackTemplate.ID_BackpackTemplate",
-			"name": "ANA Tactical Beta 2 Battle backpack",
-			"abbreviation": "ANA",
-			"description": "A lightweight and capacious backpack from ANA Tactical. Specially designed for use in dynamic conditions and on rough terrain.",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 2,
-					"modifyType": "Add"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "ad159312dad6030c9bb61bab83f3bc89"
-		},
-		{
 			"itemTag": "Inventory.Items.Gear.Backpack.ADA Assault Backpack",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Backpack/ADA_Assault_Backpack/ID_ADA_Assault_Backpack.ID_ADA_Assault_Backpack",
 			"name": "ADA Assault Backpack",
@@ -532,64 +474,6 @@
 				"blackMarketPrice": 3
 			},
 			"sourceHash": "af77347bfacb822f155ca7982793a8a2"
-		},
-		{
-			"itemTag": "Inventory.Items.Gear.Belt.Tactical Belt",
-			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Belt/Tactical_Belt/ID_Tactical_Belt.ID_Tactical_Belt",
-			"name": "Tactical Belt",
-			"abbreviation": "TB",
-			"description": "Tactical belt to fit in ammunition or medical equipment.",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 1,
-					"modifyType": "Add"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "9e21cdf9922fc9960aca45852d382b9e"
-		},
-		{
-			"itemTag": "Inventory.Items.Gear.Helmet",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Gear/Helmet/ID_HelmetTemplate.ID_HelmetTemplate",
-			"name": "Kolpak-1S riot helmet",
-			"abbreviation": "1S",
-			"description": "Kolpak-1S protects the head from the cold piercing-cutting weapons in a special class of protection GOST R50744-95, from fragmentation with an energy of impact up to 50 J, and also serves to reduce the dynamic loads arising from the above-mentioned means of destruction. Protective helmets Kolpak-1 are recommended by the Interdepartmental Commission for equipping units of the patrol service, traffic police, OMON and other special units of the Ministry of Internal Affairs of Russia.",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 1,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Durability",
-					"value": 9e+01,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Protection Level",
-					"value": 3,
-					"modifyType": "Base"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "1a736f4c08b7f25b1b107a976f8b3e04"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.HHV Helmet",
@@ -898,30 +782,6 @@
 			"sourceHash": "0b970e2342dff5f5c17c676453a5c9a1"
 		},
 		{
-			"itemTag": "Inventory.Items.Gear.Night Vision",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Gear/NightVision/ID_NightVisionTemplate.ID_NightVisionTemplate",
-			"name": "Template",
-			"abbreviation": "Template",
-			"description": "Template",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 1,
-					"modifyType": "Add"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "88a45eee74102db52be2fc7c892eab56"
-		},
-		{
 			"itemTag": "Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/NightVision/PVS_31s_Night_Vision_Goggles/ID_PVS_31s_Night_Vision_Goggles.ID_PVS_31s_Night_Vision_Goggles",
 			"name": "PVS 31s Night Vision Goggles",
@@ -944,40 +804,6 @@
 				"blackMarketPrice": 2
 			},
 			"sourceHash": "5afe762410886fcfbaf8f2e4b17ee903"
-		},
-		{
-			"itemTag": "Inventory.Items.Gear.Plate Carrier",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Gear/PlateCarrier/ID_PlateCarrierTemplate.ID_PlateCarrierTemplate",
-			"name": "Template",
-			"abbreviation": "Template",
-			"description": "Template",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 1,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Durability",
-					"value": 1e+02,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Protection Level",
-					"value": 2,
-					"modifyType": "Base"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "a33ad21218ee5801b31661fa4e6cea12"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.AVS Plate Carrier",
@@ -1148,30 +974,6 @@
 				"blackMarketPrice": -1
 			},
 			"sourceHash": "c156ee622fda6017f0bbb4e9e1ba611f"
-		},
-		{
-			"itemTag": "Inventory.Items.Gear.Unarmored Rig",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Gear/UnarmoredRig/ID_UnarmoredRigTemplate.ID_UnarmoredRigTemplate",
-			"name": "Template",
-			"abbreviation": "Template",
-			"description": "Template",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 1,
-					"modifyType": "Add"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "04b65518e8493dcb6c1303986acec691"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Unarmored Rig.D3CRM Unarmored Rig",
