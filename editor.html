@@ -309,7 +309,8 @@ let workflow = { flags: {}, log: [], notes: {} };
 let workflowDirty = false;
 let sel = null;             // {c, i}
 let activeTab = "overview";
-let view = "all";           // all | recent | attention | cat:<Name>
+let view = "all";           // all | recent | attention | cat:<Name> | sub:<Name>/<Sub>
+let expandedCats = new Set(); // split categories whose children are shown
 let statColTag = WEIGHT_TAG;
 let ghUser = null;
 
@@ -566,8 +567,11 @@ function renderSidebar() {
     `<div class="side-item${view === v.id ? " active" : ""}" data-view="${v.id}"><span class="nm">${v.nm}</span><span class="ct">${v.ct}</span></div>`).join("");
   let catHtml = "";
   for (const c of cats) {
-    catHtml += `<div class="side-item${view === "cat:" + c.name ? " active" : ""}" data-view="cat:${esc(c.name)}"><span class="nm">${esc(c.name)}</span><span class="ct">${(c.doc.items || []).length}</span></div>`;
-    if (SPLIT_CATS.has(c.name)) {
+    const split = SPLIT_CATS.has(c.name);
+    const open = expandedCats.has(c.name);
+    const arrow = split ? `<span style="color:var(--faint);margin-right:2px">${open ? "▾" : "▸"}</span>` : "";
+    catHtml += `<div class="side-item${view === "cat:" + c.name ? " active" : ""}" data-view="cat:${esc(c.name)}"${split ? ' data-split="1"' : ""}><span class="nm">${arrow}${esc(c.name)}</span><span class="ct">${(c.doc.items || []).length}</span></div>`;
+    if (split && open) {
       const subs = new Map();
       for (const it of c.doc.items || []) {
         const s = subCatOf(it, c.name);
@@ -580,7 +584,17 @@ function renderSidebar() {
     }
   }
   $("catList").innerHTML = catHtml;
-  document.querySelectorAll(".side-item").forEach(el => el.onclick = () => { view = el.dataset.view; renderAll(); });
+  document.querySelectorAll(".side-item").forEach(el => el.onclick = () => {
+    const v = el.dataset.view;
+    if (el.dataset.split) {
+      // First click selects + expands; clicking the already-active parent again collapses.
+      const name = v.slice(4);
+      if (view === v && expandedCats.has(name)) expandedCats.delete(name);
+      else expandedCats.add(name);
+    }
+    view = v;
+    renderAll();
+  });
 }
 
 // ---- table --------------------------------------------------------------------------------------
@@ -637,7 +651,6 @@ function renderPanel() {
   const it = sel.c.doc.items[sel.i];
 
   const rel = relationsOf(it);
-  const relBadge = rel.generic ? rel.fitsSpecific.length : rel.accepts.length + rel.fitsSpecific.length;
   $("panelHead").innerHTML =
     `<div class="top"><div class="avatar">${avatarText(it)}</div><div style="min-width:0;flex:1">` +
       `<div class="nm">${esc(it.name || leaf(it.itemTag))}</div>` +
@@ -646,7 +659,7 @@ function renderPanel() {
     `</div><span class="close" id="panelClose">✕</span></div>` +
     `<div id="tabs">` +
       `<div class="tab${activeTab === "overview" ? " active" : ""}" data-tab="overview">Overview</div>` +
-      `<div class="tab${activeTab === "relations" ? " active" : ""}" data-tab="relations">Relations${relBadge ? ` <span class="badge chg">${relBadge}</span>` : ""}</div>` +
+      `<div class="tab${activeTab === "relations" ? " active" : ""}" data-tab="relations">Relations</div>` +
       `<div class="tab${activeTab === "history" ? " active" : ""}" data-tab="history">History</div>` +
     `</div>`;
   $("panelClose").onclick = () => { sel = null; renderPanel(); renderTable(); };
@@ -762,16 +775,14 @@ function relList(entries, cap) {
 }
 
 function renderRelations(it, rel) {
-  let html = "";
+  let html = `<div style="margin-top:12px"><button id="relSearchBtn" class="small ghost">Search related in list</button></div>`;
   if (rel.generic) {
     html += `<div class="sec">Accepts</div>`;
-    html += `<div class="relnote">Generic storage — accepts ${rel.accepts.length} of ${rel.total} items, so they aren't listed. Supported tags:</div>`;
+    html += `<div class="relnote">Generic storage — accepts ${rel.accepts.length} of ${rel.total} items, so they aren't listed. Supported tag groups:</div>`;
     html += `<div class="tagchips">${(it.supportedItemTags || []).map(t => `<span class="tagchip">${esc(t)}</span>`).join("")}</div>`;
   } else {
     html += `<div class="sec">Accepts (${rel.accepts.length}) — <small class="hint">items this item's containers support</small></div>`;
     html += relList(rel.accepts, 60);
-    if ((it.supportedItemTags || []).length)
-      html += `<div class="tagchips">${it.supportedItemTags.map(t => `<span class="tagchip">${esc(t)}</span>`).join("")}</div>`;
   }
   html += `<div class="sec">Fits into (${rel.fitsSpecific.length}) — <small class="hint">items whose containers support this item</small></div>`;
   html += relList(rel.fitsSpecific, 60);
@@ -779,6 +790,11 @@ function renderRelations(it, rel) {
     html += `<div class="relnote">+ fits into ${rel.fitsGeneric.length} generic storage item(s) (backpacks, rigs, cases) — not listed.</div>`;
   html += `<div class="relnote">Relations are read-only — container setup is edited in Unreal.</div>`;
   $("panelBody").innerHTML = html;
+  $("relSearchBtn").onclick = () => {
+    $("search").value = "rel:" + it.itemTag;
+    view = "all";
+    renderAll();
+  };
   document.querySelectorAll(".rel-item").forEach(el => el.onclick = () => {
     const t = el.dataset.tag;
     for (const e of allEntries()) if (e.item.itemTag === t) { sel = { c: e.c, i: e.i }; activeTab = "overview"; renderPanel(); renderTable(); return; }
