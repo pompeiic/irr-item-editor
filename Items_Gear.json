@@ -1,0 +1,1251 @@
+{
+	"category": "Gear",
+	"items": [
+		{
+			"itemTag": "Inventory.Items.Gear.Armored Rig",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Gear/ArmoredRig/ID_ArmoredRigTemplate.ID_ArmoredRigTemplate",
+			"name": "Template",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 2,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "0c2295f0268e9db47ab529918646ca33"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Armored Rig.AVS PL SGT Vest",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/ArmoredRig/AVS_PL_SGT_Armored_Rig/ID_AVS_PL_SGT_Armored_Rig.ID_AVS_PL_SGT_Armored_Rig",
+			"name": "AVS PL SGT Armored Rig",
+			"abbreviation": "PL SGT",
+			"description": "The AVS PL SGT Vest is a specialized tactical vest designed for military and law enforcement personnel. Built with precision and durability in mind, it offers a modular platform with attachment points and storage options for gear and equipment. This vest is tailored for personnel serving in leadership or specialized roles, providing them with the adaptability and functionality required for their specific duties during missions and operations.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 8.5,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 4,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AVS_PL_SGT_Armored_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 7e+03,
+				"blackMarketPrice": 4
+			},
+			"sourceHash": "df52ad189563d9ee58aaa8bc2adb4e34"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Armored Rig.AVS Rifleman V4 Vest",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/ArmoredRig/AVS_Rifleman_V4_Armored_Rig/ID_AVS_Rifleman_V4_Armored_Rig.ID_AVS_Rifleman_V4_Armored_Rig",
+			"name": "AVS Rifleman V4 Armored Rig",
+			"abbreviation": "V4",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 8,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1.2e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 3,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AVS_Rifleman_V4_Armored_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 6241,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "bce72acd0a4d73d52aab04144343acd5"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Armored Rig.AVS SL Vest",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/ArmoredRig/AVS_SL_Armored_Rig/ID_AVS_SL_Armored_Rig.ID_AVS_SL_Armored_Rig",
+			"name": "AVS SL Armored Rig",
+			"abbreviation": "SL",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 9,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 8e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 2,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AVS_SL_Armored_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 2.43e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "688e7e7ec383e606c68d8e4debb57d8a"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Armored Rig.JTAC V1 Nguyin Edition Armored Rig",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/ArmoredRig/JTAC_V1_Nguyin_Edition_Armored_Rig/ID_JTAC_V1_Nguyin_Edition_Armored_Rig.ID_JTAC_V1_Nguyin_Edition_Armored_Rig",
+			"name": "JTAC V1 Nguyin Edition Armored Rig",
+			"abbreviation": "JTAC",
+			"description": "The JTAC V1 Vest is a tactical vest designed for Joint Terminal Attack Controllers (JTACs) and other military and law enforcement personnel. It offers versatile storage options, modular attachment points for gear, and ballistic protection capabilities. This vest enhances the readiness and functionality of personnel during missions, ensuring they have the necessary equipment and protection for effective performance in challenging environments. - Special Edition by Nguyin.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 9.5,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1.1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 4,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "JTAC_V1_Nguyin_Edition_Armored_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 1.8e+04,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "05445f1e9dcf5477ca30af7d87627e5b"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Armored Rig.JTAC V1 Vest",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/ArmoredRig/JTAC_V1_Armored_Rig/ID_JTAC_V1_Armored_Rig.ID_JTAC_V1_Armored_Rig",
+			"name": "JTAC V1 Armored Rig",
+			"abbreviation": "JTAC",
+			"description": "The JTAC V1 Vest is a tactical vest designed for Joint Terminal Attack Controllers (JTACs) and other military and law enforcement personnel. It offers versatile storage options, modular attachment points for gear, and ballistic protection capabilities. This vest enhances the readiness and functionality of personnel during missions, ensuring they have the necessary equipment and protection for effective performance in challenging environments.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 7.5,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 8e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 1,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "JTAC_V1_Armored_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 1.3e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "9d201623b02fc4fe9976d15c39df63ed"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Armored Rig.LBT Breacher V1",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/ArmoredRig/LBT_Breacher_V1_Armored_Rig/ID_LBT_Breacher_V1_Armored_Rig.ID_LBT_Breacher_V1_Armored_Rig",
+			"name": "LBT Breacher V1 Armored Rig",
+			"abbreviation": "LBT Breacher V1",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 8,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1.1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 2,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "LBT_Breacher_V1_Armored_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 2.18e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "866164efeb5c5ad80590eebd87de5dfc"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Armored Rig.LBT MED V1 Armored Rig",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/ArmoredRig/LBT_MED_V1_Armored_Rig/ID_LBT_MED_V1_Armored_Rig.ID_LBT_MED_V1_Armored_Rig",
+			"name": "LBT MED V1 Armored Rig",
+			"abbreviation": "LBT MED V1",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 8,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 3,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "LBT_MED_V1_Armored_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 6.53e+03,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "816ddd3ae626845305cbfe8380a8e2cd"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Armored Rig.Spiritus LV119 Armored Rig",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/ArmoredRig/Spiritus_LV119_Armored_Rig/ID_Spiritus_LV119_Armored_Rig.ID_Spiritus_LV119_Armored_Rig",
+			"name": "Spiritus LV119 Armored Rig",
+			"abbreviation": "Spiritus LV119 ",
+			"description": "Used by US Navy and SEAL Teams.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1e+01,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 2,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Spiritus_LV119_Armored_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 2.28e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "c384d3e8c1c787e629192b078eaea8cc"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Armored Rig.Wartech-TV-110 Armored Rig",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/ArmoredRig/Wartech-TV-110_Armored_Rig/ID_Wartech-TV-110_Armored_Rig.ID_Wartech-TV-110_Armored_Rig",
+			"name": "Wartech-TV-110 Armored Rig",
+			"abbreviation": "Wartech-TV-110",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 8.5,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1.3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 4,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Wartech-TV-110_Armored_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 2.5e+04,
+				"blackMarketPrice": 4
+			},
+			"sourceHash": "da43c5931b36373a9bbd2c17a68f5492"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Backpack",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Gear/Backpack/ID_BackpackTemplate.ID_BackpackTemplate",
+			"name": "ANA Tactical Beta 2 Battle backpack",
+			"abbreviation": "ANA",
+			"description": "A lightweight and capacious backpack from ANA Tactical. Specially designed for use in dynamic conditions and on rough terrain.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "ad159312dad6030c9bb61bab83f3bc89"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Backpack.ADA Assault Backpack",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Backpack/ADA_Assault_Backpack/ID_ADA_Assault_Backpack.ID_ADA_Assault_Backpack",
+			"name": "ADA Assault Backpack",
+			"abbreviation": "ADA Assault Backpack",
+			"description": "Backpack that is used by the australian army.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "ADA_Assault_Backpack",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 2.73e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "26cc3ec9d75a012fe498b0ed6de886cd"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Backpack.AVS CRYE Precision Backpack",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Backpack/AVS_CRYE_Precision_Backpack/ID_AVS_CRYE_Precision_Backpack.ID_AVS_CRYE_Precision_Backpack",
+			"name": "AVS CRYE Precision Backpack",
+			"abbreviation": "AVS CRYE",
+			"description": "A lightweight and capacious backpack from ANA Tactical. Specially designed for use in dynamic conditions and on rough terrain.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AVS_CRYE_Precision_Backpack",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 1.9e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "aea512e3f23894e99d9da83e0373f633"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Backpack.AVS Delta Backpack",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Backpack/AVS_Delta_Backpack/ID_AVS_Delta_Back.ID_AVS_Delta_Back",
+			"name": "AVS Delta Backpack",
+			"abbreviation": "Delta",
+			"description": "The AVS Delta Backpack is a robust and adaptable backpack designed for military and tactical applications. Crafted for durability, it offers ample storage space and modular attachment points for gear and equipment. This backpack is favored by military and law enforcement personnel for its versatility and capacity to carry essential items during missions and operations. It provides the adaptability and functionality required for personnel in the field.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AVS_Delta_Backpack",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 1.1e+03,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "1c9642e1ab01a7715836925b22d2d8e0"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Backpack.AVS Mini Backpack",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Backpack/AVS_Mini_Backpack/ID_AVS_Mini_Backpack.ID_AVS_Mini_Backpack",
+			"name": "AVS Mini Backpack",
+			"abbreviation": "Mini",
+			"description": "Small but durable.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AVS_Mini_Backpack",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 3e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "6ab07c96eb1114330384af01cce7317d"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Backpack.CamelBak Backpack",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Backpack/CamelBak_Backpack/ID_CamelBak_Backpack.ID_CamelBak_Backpack",
+			"name": "CamelBak Backpack",
+			"abbreviation": "CamelBak Backpack",
+			"description": "Middle sized backpack from CamelBak.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "CamelBak_Backpack",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 1.8e+03,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "ec84c438ffc021790a847d054af6f535"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Backpack.F2 Bergen Backpack",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Backpack/F2_Bergen_Backpack/ID_F2_Bergen_Backpack.ID_F2_Bergen_Backpack",
+			"name": "F2 Bergen Backpack",
+			"abbreviation": "F2 Bergen",
+			"description": "A lightweight and capacious backpack from ANA Tactical. Specially designed for use in dynamic conditions and on rough terrain.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "F2_Bergen_Backpack",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 2.99e+03,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "de091e420416048bf55cdd4a21bfb20b"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Backpack.Mystery Ranch SALT Backpack",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Backpack/Mystery_Ranch_SALT_Backpack/ID_Mystery_Ranch_SALT_Backpack.ID_Mystery_Ranch_SALT_Backpack",
+			"name": "Mystery Ranch SALT Backpack",
+			"abbreviation": "SALT",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Mystery_Ranch_SALT_Backpack",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 3.48e+03,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "af77347bfacb822f155ca7982793a8a2"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Belt.Tactical Belt",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Belt/Tactical_Belt/ID_Tactical_Belt.ID_Tactical_Belt",
+			"name": "Tactical Belt",
+			"abbreviation": "TB",
+			"description": "Tactical belt to fit in ammunition or medical equipment.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "9e21cdf9922fc9960aca45852d382b9e"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Helmet",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Gear/Helmet/ID_HelmetTemplate.ID_HelmetTemplate",
+			"name": "Kolpak-1S riot helmet",
+			"abbreviation": "1S",
+			"description": "Kolpak-1S protects the head from the cold piercing-cutting weapons in a special class of protection GOST R50744-95, from fragmentation with an energy of impact up to 50 J, and also serves to reduce the dynamic loads arising from the above-mentioned means of destruction. Protective helmets Kolpak-1 are recommended by the Interdepartmental Commission for equipping units of the patrol service, traffic police, OMON and other special units of the Ministry of Internal Affairs of Russia.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 9e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 3,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "1a736f4c08b7f25b1b107a976f8b3e04"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Helmet.HHV Helmet",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Helmet/HHV_Helmet/ID_HHV_Helmet.ID_HHV_Helmet",
+			"name": "HHV Helmet",
+			"abbreviation": "HHV Helmet",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.3,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 95,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 3,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "HHV_Helmet",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 2.15e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "80738746d3ce3fa008ab16b972df0f13"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Helmet.High Cut LSHZ Helmet",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Helmet/High_Cut_LSHZ_Helmet/ID_High_Cut_LSHZ_Helmet.ID_High_Cut_LSHZ_Helmet",
+			"name": "High Cut LSHZ Helmet",
+			"abbreviation": "LSHZ",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.3,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1.1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 3,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "High_Cut_LSHZ_Helmet",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 3.23e+03,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "f5f0ae52468aa2a3cefb56560fac3a0f"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Helmet.Kiver RSP Helmet",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Helmet/Kiver_RSP_Helmet/ID_Kiver_RSP_Helmet.ID_Kiver_RSP_Helmet",
+			"name": "Kiver RSP Helmet",
+			"abbreviation": "RSP",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.4,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 6e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 2,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Kiver_RSP_Helmet",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 8e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "315669a89056261a069a455f9dd4b6cc"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Helmet.Kiver RSP Nguyin Edition Helmet",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Helmet/Kiver_RSP_Nguyin_Edition_Helmet/ID_Kiver_RSP_Nguyin_Edition_Helmet.ID_Kiver_RSP_Nguyin_Edition_Helmet",
+			"name": "Kiver RSP Nguyin Edition Helmet",
+			"abbreviation": "1S",
+			"description": "A special edition of the Kiver RPS Helmet made for Nguyin. It is more durable than the default one!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.4,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 3,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Kiver_RSP_Nguyin_Edition_Helmet",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 7.3e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "8d2b9dd1c6507e71a02e7095105455a8"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Helmet.MICH 2000",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Helmet/MICH_2000_Helmet/ID_MICH_2000_Helmet.ID_MICH_2000_Helmet",
+			"name": "MICH 2000 Helmet",
+			"abbreviation": "MICH 2000",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.3,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 8e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 2,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "MICH_2000_Helmet",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 9e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "9fcf6053badfb45b20b6591195123db5"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Helmet.Ops-Core FAST Bump Helmet",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Helmet/Ops-Core_FAST_Bump_Helmet/ID_Ops-Core_FAST_Bump_Helmet.ID_Ops-Core_FAST_Bump_Helmet",
+			"name": "Ops-Core FAST Bump Helmet",
+			"abbreviation": "Ops-Core Bump",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1.1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 2,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Ops-Core_FAST_Bump_Helmet",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 2.3e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "b72149c44e7c31af6290f4d1086a29d3"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Helmet.SESTAN-BUSCH BK-3 Helmet",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Helmet/SESTAN-BUSCH_BK-3/ID_SESTAN-BUSCH_BK-3.ID_SESTAN-BUSCH_BK-3",
+			"name": "SESTAN-BUSCH BK-3 Helmet",
+			"abbreviation": "BK-3",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 9e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 1,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "SESTAN-BUSCH_BK-3_Helmet",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 6.1e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "02b84448fb68f831541a8c4d10833da5"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Helmet.Super High Cut Ops Core Fast MT V1 Helmet",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Helmet/Super_High_Cut_Ops-Core_Fast_MT_V1_Helmet/ID_Super_High_Cut_Ops-Core_Fast_MT_V1_Helmet.ID_Super_High_Cut_Ops-Core_Fast_MT_V1_Helmet",
+			"name": "Super High Cut Ops Core Fast MT V1 Helmet",
+			"abbreviation": "MT V1",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.83,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1.3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 2,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Super_High_Cut_Ops_Core_Fast_MT_V1_Helmet",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 2.35e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "ef6cc4152232b2c9cc40d5110174a2d0"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Helmet.Team Wendy EXFIL Helmet",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Helmet/Team_Wendy_EXFIL_Helmet/ID_Team_Wendy_EXFIL_Helmet.ID_Team_Wendy_EXFIL_Helmet",
+			"name": "Team Wendy EXFIL Helmet",
+			"abbreviation": "TW",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.72,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 105,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 4,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Team_Wendy_EXFIL_Helmet",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 8633,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "0b970e2342dff5f5c17c676453a5c9a1"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Night Vision",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Gear/NightVision/ID_NightVisionTemplate.ID_NightVisionTemplate",
+			"name": "Template",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "88a45eee74102db52be2fc7c892eab56"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/NightVision/PVS_31s_Night_Vision_Goggles/ID_PVS_31s_Night_Vision_Goggles.ID_PVS_31s_Night_Vision_Goggles",
+			"name": "PVS 31s Night Vision Goggles",
+			"abbreviation": "PVS 31s",
+			"description": "Going dark.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.49,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "PVS_31s_Night_Vision_Goggles",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 3e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "5afe762410886fcfbaf8f2e4b17ee903"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Plate Carrier",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Gear/PlateCarrier/ID_PlateCarrierTemplate.ID_PlateCarrierTemplate",
+			"name": "Template",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 2,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "a33ad21218ee5801b31661fa4e6cea12"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Plate Carrier.AVS Plate Carrier",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/PlateCarrier/AVS_Plate_Carrier/ID_AVS_Plate_Carrier.ID_AVS_Plate_Carrier",
+			"name": "AVS Plate Carrier",
+			"abbreviation": "AVS Plate Carrier",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 7.5,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 8e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 2,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AVS_Plate_Carrier",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 7e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "d6623da40f275564eb03c1bbb6e50d71"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Plate Carrier.JPC Plate Carrier",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/PlateCarrier/JPC_Plate_Carrier/ID_JPC_Plate_Carrier.ID_JPC_Plate_Carrier",
+			"name": "JPC Plate Carrier",
+			"abbreviation": "JPC Plate Carrier",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 9,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 2,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "JPC_Plate_Carrier",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 1.9e+03,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "5d1897aef74679180269e19f37728746"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Plate Carrier.MSV Plate Carrier",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/PlateCarrier/MSV_Plate_Carrier/ID_MSV_Plate_Carrier.ID_MSV_Plate_Carrier",
+			"name": "MSV Plate Carrier",
+			"abbreviation": "MSV",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 9.5,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 9e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 3,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "MSV_Plate_Carrier",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 3e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "59725518a6d7b35449006a9408a32060"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Plate Carrier.Paraclete Origin Plate Carrier",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/PlateCarrier/Paraclete_Origin_Plate_Carrier/ID_Paraclete_Origin_Plate_Carrier.ID_Paraclete_Origin_Plate_Carrier",
+			"name": "Paraclete Origin Plate Carrier",
+			"abbreviation": "Paraclete Origin",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 10.5,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 9e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 2,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Paraclete_Origin_Plate_Carrier",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 1.63e+03,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "6f177a6399fb8cf4595c2baf36ac5ff3"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Plate Carrier.The Slickster Plate Carrier",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/PlateCarrier/The_Slickster_Plate_Carrier/ID_The_Slickster_Plate_Carrier.ID_The_Slickster_Plate_Carrier",
+			"name": "The Slickster Plate Carrier",
+			"abbreviation": "The Slickster",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1e+01,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 1,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "The_Slickster_Plate_Carrier",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 3.5e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "c156ee622fda6017f0bbb4e9e1ba611f"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Unarmored Rig",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Gear/UnarmoredRig/ID_UnarmoredRigTemplate.ID_UnarmoredRigTemplate",
+			"name": "Template",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "04b65518e8493dcb6c1303986acec691"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Unarmored Rig.D3CRM Unarmored Rig",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/UnarmoredRig/D3CRM_Unarmored_Rig/ID_D3CRM_Unarmored_Rig.ID_D3CRM_Unarmored_Rig",
+			"name": "D3CRM Unarmored Rig",
+			"abbreviation": "D3CRM Unarmored Rig",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.35,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "D3CRM_Unarmored_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 625,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "9c3f9266dbf4704064cbb67fae26da58"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Unarmored Rig.D3CRX Unarmored Rig",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/UnarmoredRig/D3CRX_Unarmored_Rig/ID_D3CRX_Unarmored_Rig.ID_D3CRX_Unarmored_Rig",
+			"name": "D3CRX Unarmored Rig",
+			"abbreviation": "D3CRX",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.25,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "D3CRX_Unarmored_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 775,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "6a1249f1d98ef5d556aa01b3ff4d3e8d"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Unarmored Rig.Vest Virtus Unarmored Rig",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/UnarmoredRig/Vest_Virtus_Unarmored_Rig/ID_Vest_Virtus_Unarmored_Rig.ID_Vest_Virtus_Unarmored_Rig",
+			"name": "Vest Virtus Unarmored Rig",
+			"abbreviation": "Vest Virtus Unarmored Rig",
+			"description": "",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Vest_Virtus_Unarmored_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 305,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "ee1fdb0e23cc3bc82b957d2f3f3cb0e0"
+		}
+	],
+	"schemaSoftVersion": 1,
+	"schemaHardVersion": 1
+}
