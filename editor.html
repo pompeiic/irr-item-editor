@@ -88,6 +88,7 @@
   .side-item.active { color: var(--accent); background: var(--panel2); border: 1px solid var(--border); }
   .side-item .nm { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .side-item .ct { color: var(--faint); font-size: 11px; font-family: var(--font-mono); letter-spacing: 0; }
+  .side-item.child { padding-left: 24px; font-size: 13px; }
 
   /* ---- content toolbar ---- */
   #toolbar { padding: 12px 16px 8px; border-bottom: 1px solid var(--border); background: var(--bg); }
@@ -230,7 +231,7 @@
   <div id="content">
     <div id="toolbar">
       <div class="trow">
-        <input type="text" id="search" placeholder="Search name, tag or description…">
+        <input type="text" id="search" placeholder="Search name, tag or description… (rel:m4 = items related to matches)">
         <select id="rarityFilter"><option value="All">All rarities</option></select>
         <select id="statCol" title="Which stat the value column shows"></select>
         <select id="sortBy">
@@ -254,7 +255,7 @@
         </select>
         <input type="number" id="bulkVal" step="any" placeholder="value" style="width:110px">
         <button id="bulkBtn" class="small">Apply to filtered</button>
-        <div class="note">Applies to every listed item that has the chosen stat. Review in Changes before saving.</div>
+        <div class="note">Applies to every listed item that has the chosen stat/price (unsold items with price -1 are only touched by Set). Review in Changes before saving.</div>
       </div>
       <div id="countline"></div>
     </div>
@@ -357,6 +358,14 @@ function allEntries() {
   return out;
 }
 function tagMatches(itemTag, supportTag) { return itemTag === supportTag || String(itemTag).startsWith(supportTag + "."); }
+
+/* Broad categories broken down by the next tag segment in the sidebar/table. */
+const SPLIT_CATS = new Set(["Attachments", "Weapons", "Provisions"]);
+function subCatOf(it, catName) {
+  if (!SPLIT_CATS.has(catName)) return null;
+  const seg = String(it.itemTag).split(".");
+  return seg.length >= 5 ? seg[3] : "Other";
+}
 
 // ---- workflow (flags + edit log + notes) --------------------------------------------------------
 
@@ -499,11 +508,27 @@ function visibleEntries() {
     out.sort((a, b) => String(seen.get(b.item.itemTag)).localeCompare(String(seen.get(a.item.itemTag))));
   }
   else if (view.startsWith("cat:")) { const c = view.slice(4); out = out.filter(e => e.c.name === c); }
+  else if (view.startsWith("sub:")) { const k = view.slice(4); out = out.filter(e => e.c.name + "/" + (subCatOf(e.item, e.c.name) || "") === k); }
 
-  if (q) out = out.filter(e =>
-    String(e.item.name).toLowerCase().includes(q) ||
-    String(e.item.itemTag).toLowerCase().includes(q) ||
-    String(e.item.description || "").toLowerCase().includes(q));
+  if (q) {
+    const rel = q.match(/^rel:\s*(.+)$/);
+    if (rel) {
+      // rel:<text> — items related (either direction) to any item matching <text> by name or tag.
+      const rq = rel[1];
+      const targets = allEntries().filter(t =>
+        String(t.item.name).toLowerCase().includes(rq) || String(t.item.itemTag).toLowerCase().includes(rq));
+      const targetItems = new Set(targets.map(t => t.item));
+      out = out.filter(e => !targetItems.has(e.item) && targets.some(t =>
+        (e.item.supportedItemTags || []).some(tag => tagMatches(t.item.itemTag, tag)) ||
+        (t.item.supportedItemTags || []).some(tag => tagMatches(e.item.itemTag, tag))));
+    } else {
+      out = out.filter(e =>
+        String(e.item.name).toLowerCase().includes(q) ||
+        String(e.item.itemTag).toLowerCase().includes(q) ||
+        String(e.item.description || "").toLowerCase().includes(q) ||
+        (e.item.supportedItemTags || []).some(t => t.toLowerCase().includes(q)));
+    }
+  }
   if (rarity !== "All") out = out.filter(e => e.item.vendor?.rarityTag === rarity);
 
   if (view !== "recent") {
@@ -539,8 +564,22 @@ function renderSidebar() {
   ];
   $("views").innerHTML = views.map(v =>
     `<div class="side-item${view === v.id ? " active" : ""}" data-view="${v.id}"><span class="nm">${v.nm}</span><span class="ct">${v.ct}</span></div>`).join("");
-  $("catList").innerHTML = cats.map(c =>
-    `<div class="side-item${view === "cat:" + c.name ? " active" : ""}" data-view="cat:${esc(c.name)}"><span class="nm">${esc(c.name)}</span><span class="ct">${(c.doc.items || []).length}</span></div>`).join("");
+  let catHtml = "";
+  for (const c of cats) {
+    catHtml += `<div class="side-item${view === "cat:" + c.name ? " active" : ""}" data-view="cat:${esc(c.name)}"><span class="nm">${esc(c.name)}</span><span class="ct">${(c.doc.items || []).length}</span></div>`;
+    if (SPLIT_CATS.has(c.name)) {
+      const subs = new Map();
+      for (const it of c.doc.items || []) {
+        const s = subCatOf(it, c.name);
+        subs.set(s, (subs.get(s) || 0) + 1);
+      }
+      for (const s of [...subs.keys()].sort()) {
+        const key = c.name + "/" + s;
+        catHtml += `<div class="side-item child${view === "sub:" + key ? " active" : ""}" data-view="sub:${esc(key)}"><span class="nm">${esc(s)}</span><span class="ct">${subs.get(s)}</span></div>`;
+      }
+    }
+  }
+  $("catList").innerHTML = catHtml;
   document.querySelectorAll(".side-item").forEach(el => el.onclick = () => { view = el.dataset.view; renderAll(); });
 }
 
@@ -573,7 +612,7 @@ function renderTable() {
       `<td><div class="cell-item"><div class="avatar">${avatarText(it)}</div><div>` +
         `<div class="nm">${esc(it.name || leaf(it.itemTag))}</div>` +
         `<div class="tg" title="${esc(it.itemTag)}">${esc(it.itemTag)}</div></div></div></td>` +
-      `<td class="c-cat">${esc(e.c.name)}</td>` +
+      `<td class="c-cat">${esc(e.c.name)}${(sub => sub ? ` <span style="color:var(--faint)">/ ${esc(sub)}</span>` : "")(subCatOf(it, e.c.name))}</td>` +
       `<td>${rarityChip(it.vendor?.bHasVendorRow ? it.vendor.rarityTag : null)}</td>` +
       `<td class="c-num">${esc(price)}</td>` +
       `<td class="c-num">${s ? esc(fmt(s.value)) + esc(unit) : "—"}</td>` +
@@ -645,7 +684,7 @@ function renderOverview(it) {
     html += `<div class="row2"><div><label>Price — <small class="hint">-1 = not sold</small></label><input type="number" step="any" id="fPrice" value="${esc(it.vendor.defaultMarketPrice)}"></div>` +
             `<div><label>Black market — <small class="hint">-1 = not sold</small></label><input type="number" step="any" id="fBlackPrice" value="${esc(it.vendor.blackMarketPrice)}"></div></div>`;
     html += `<div class="row2"><div><label>Rarity</label>${tagSelect("fRarity", schema?.rarityTags, it.vendor.rarityTag)}</div>` +
-            `<div><label>Faction</label>${tagSelect("fFaction", schema?.factionTags, it.vendor.factionTag)}</div></div>`;
+            `<div><label>Faction — <small class="hint">None = can't be bought</small></label>${tagSelect("fFaction", schema?.factionTags, it.vendor.factionTag)}</div></div>`;
   }
   const stackHint = it.bCanStack === false ? ` — <small class="hint">item is not stackable</small>` : "";
   html += `<div class="row2"><div><label>Max stack${stackHint}</label><input type="number" step="1" id="fMaxStack" value="${esc(it.maxStack ?? "")}"${it.maxStack === undefined ? " readonly" : ""}></div><div></div></div>`;
@@ -772,22 +811,37 @@ function onEdit() { renderTable(); renderSidebar(); }
 
 $("bulkToggle").onclick = () => $("bulkPanel").classList.toggle("open");
 function renderBulk() {
-  $("bulkStat").innerHTML = (schema?.stats || []).map(s => `<option value="${esc(s.tag)}">${esc(s.displayName || leaf(s.tag))}</option>`).join("");
+  $("bulkStat").innerHTML =
+    `<option value="__price">Price (market)</option><option value="__blackmarket">Price (black market)</option>` +
+    (schema?.stats || []).map(s => `<option value="${esc(s.tag)}">${esc(s.displayName || leaf(s.tag))}</option>`).join("");
 }
 $("bulkBtn").onclick = () => {
   const tag = $("bulkStat").value, op = $("bulkOp").value, val = parseFloat($("bulkVal").value);
   if (!tag) return status("Pick a stat.", true);
   if (!Number.isFinite(val)) return status("Bulk value is not a number.", true);
   let touched = 0;
+  const isPrice = tag === "__price" || tag === "__blackmarket";
   for (const e of visibleEntries()) {
-    const s = findStat(e.item, tag);
-    if (!s) continue;
-    const nv = op === "set" ? val : op === "add" ? s.value + val : s.value * val;
-    s.value = Math.round(nv * 10000) / 10000;
+    if (isPrice) {
+      const v = e.item.vendor;
+      if (!v?.bHasVendorRow) continue;
+      const cur = tag === "__price" ? v.defaultMarketPrice : v.blackMarketPrice;
+      // -1 = not sold: scale/offset never turns an unsold item into a sold one; only Set does.
+      if (op !== "set" && !(cur >= 0)) continue;
+      const nv = op === "set" ? val : op === "add" ? cur + val : cur * val;
+      const r = Math.round(nv * 100) / 100;
+      if (tag === "__price") v.defaultMarketPrice = r; else v.blackMarketPrice = r;
+    } else {
+      const s = findStat(e.item, tag);
+      if (!s) continue;
+      const nv = op === "set" ? val : op === "add" ? s.value + val : s.value * val;
+      s.value = Math.round(nv * 10000) / 10000;
+    }
     touched++;
   }
   renderAll();
-  status(`Bulk: ${statLabel(tag)} ${op} ${val} applied to ${touched} item(s). Review in Changes before committing.`);
+  const label = tag === "__price" ? "Price" : tag === "__blackmarket" ? "Black market price" : statLabel(tag);
+  status(`Bulk: ${label} ${op} ${val} applied to ${touched} item(s). Review in Changes before committing.`);
 };
 
 // ---- patch-note draft ---------------------------------------------------------------------------
