@@ -33,7 +33,10 @@
 				"defaultMarketPrice": 15,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "f024d2c9e18bd99b1999b002804c148e"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "eefb28ab03382c9a0f7f7bf761979f84"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Health Injector",
@@ -72,7 +75,10 @@
 				"defaultMarketPrice": 4.3e+02,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "5180680239fd8e16b3e14d31938741e9"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "08535e70510de6894ccdc900ceb1f982"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Painkiller",
@@ -116,7 +122,10 @@
 				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "b1e13e747d54d7cd47b33aa08f44e89f"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "32e70e9bcce826589b86ee0aa5c3b194"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Revive Syringe",
@@ -150,9 +159,12 @@
 				"defaultMarketPrice": 3e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "d99630ab3515b27ffd83ddf8a2b05afd"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "beaf48aad1d469d3f9cef6b72c29038c"
 		}
 	],
-	"schemaSoftVersion": 1,
+	"schemaSoftVersion": 2,
 	"schemaHardVersion": 1
 }
