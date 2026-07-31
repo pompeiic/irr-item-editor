@@ -19,11 +19,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
 					"modifyType": "Base"
@@ -53,7 +48,7 @@
 				"defaultMarketPrice": 2.5e+02,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "df624533d0b0504e2fde4318ef2416b0"
+			"sourceHash": "bb0455398b745b45e8cccf4134f7eb41"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.M18 Smoke Grenade",
@@ -107,11 +102,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
 					"modifyType": "Base"
@@ -141,7 +131,7 @@
 				"defaultMarketPrice": 1.6e+02,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "4c365cce3a1ad309e2ccd5c2697d062f"
+			"sourceHash": "9f58dff437c376e17ece888e93890eb4"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.Model 7290 Flash Bang Grenade",
