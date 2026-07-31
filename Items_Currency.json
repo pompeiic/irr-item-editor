@@ -23,7 +23,10 @@
 				"defaultMarketPrice": 1,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "dcf3beb522bec40803167626152330b4"
+			"bCanStack": true,
+			"maxStack": 1e+05,
+			"supportedItemTags": [],
+			"sourceHash": "dd92a66fab15009899fde128309ac63c"
 		},
 		{
 			"itemTag": "Inventory.Items.Currency.Marked Coin",
@@ -47,9 +50,12 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "99acf8696daa9c1a53916224be044f5b"
+			"bCanStack": true,
+			"maxStack": 5e+02,
+			"supportedItemTags": [],
+			"sourceHash": "5826b481ae0b699da8693a77d21546d7"
 		}
 	],
-	"schemaSoftVersion": 1,
+	"schemaSoftVersion": 2,
 	"schemaHardVersion": 1
 }
