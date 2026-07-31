@@ -1,0 +1,4466 @@
+{
+	"category": "Weapons",
+	"items": [
+		{
+			"itemTag": "Inventory.Items.Weapons.Dmr",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Weapons/DMR/ID_DMRTemplate.ID_DMRTemplate",
+			"name": "Template",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 4e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 65,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.8,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.6,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 715,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "3f0030dbe0e4b41df0626b06bbe73a46"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Dmr.FN SCAR-H",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/DMR/FN_SCAR-H/ID_FN_SCAR-H.ID_FN_SCAR-H",
+			"name": "FN SCAR-H",
+			"abbreviation": "SCAR-H",
+			"description": "7.62x51mm high caliber designated marksman rifle.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 55,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 42,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 786,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 6e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "FN_SCAR-H",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 7284,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "163d4229d2245adae5449a8b8c10d25f"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Dmr.Galil Ace",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/DMR/Galil_Ace/ID_Galil_Ace.ID_Galil_Ace",
+			"name": "Galil ACE Gen. 2",
+			"abbreviation": "Galil",
+			"description": "7.62x51mm designated marksman rifle. Manufactured by IWI.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.6,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 6e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 4e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 786,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 6e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Galil_Ace",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 3138,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "7be5fe0f524b6c4babb02e96849b2a9e"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Dmr.SKS",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/SniperRifle/Simonov_SKS/ID_Simonov_SKS.ID_Simonov_SKS",
+			"name": "Simonov SKS",
+			"abbreviation": "SKS",
+			"description": "7.62x39mm soviet semi-auto marksman rifle. Old reliable.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.7,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 43,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 55,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 869,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.75,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 3e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 1.5e+03,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Simonov_SKS",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 1.61e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "792bc2ad40d038a3487aaef1edea5a38"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Dmr.SR-25",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/DMR/SR-25/ID_SR-25.ID_SR-25",
+			"name": "SR-25",
+			"abbreviation": "SR-25",
+			"description": "Knight's Armament SR-25 marksman rifle.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 6e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 42,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 862,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.46,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 9e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 3e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "SR-25",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 6.8e+03,
+				"blackMarketPrice": 4
+			},
+			"sourceHash": "3c7caa07c2379aa87e3f636c93dac8b2"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Lmg",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Weapons/LMG/ID_LMG_Template.ID_LMG_Template",
+			"name": "Template",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.8,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 41,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 56,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 575,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "13cd33cd8819284e5c0f371cf7fb900c"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Lmg.KAC LAMG",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Lmg/KAC_LAMG/ID_KAC_LAMG.ID_KAC_LAMG",
+			"name": "KAC LAMG",
+			"abbreviation": "KAC LAMG",
+			"description": "Knight's Armament Company Light Assault Machine Gun, developed by Eugene Stoner. Chambered in 5.56x45mm NATO",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.8,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 32,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 56,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 575,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "KAC_LAMG",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 5,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "e8b741a746ec46ed9583a52bf4d3c934"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Lmg.RPK-74",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Lmg/RPK-74/ID_RPK-74.ID_RPK-74",
+			"name": "RPK-74",
+			"abbreviation": "RPK-74",
+			"description": "Light machinegun version of the 5.45x39mm AK-74.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 41,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 56,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 6e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "RPK-74",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 4.3e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "f9516a2b093f480edf189b0cf6524b57"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Pistol",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Weapons/Pistol/ID_PistolTemplate.ID_PistolTemplate",
+			"name": "Template",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "da11cf73c8feed3bd3d02c8b2618304d"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Pistol.FN Five Seven",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Pistol/FN_Five_Seven/ID_FN_Five_Seven.ID_FN_Five_Seven",
+			"name": "FN Five Seven",
+			"abbreviation": "FSN",
+			"description": "5.7x28mm pistol by FN Herstal.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.6,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 78,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 52,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 4e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.3,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 3e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "FN_Five_Seven",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 1792,
+				"blackMarketPrice": 4
+			},
+			"sourceHash": "632a04be46236e06f4df3d3421a879ee"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Pistol.Glock 19",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Pistol/Glock_19/ID_Glock_19.ID_Glock_19",
+			"name": "Glock 19",
+			"abbreviation": "Glock 19",
+			"description": "9x19mm polymer pistol made by Glock.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.4,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 7e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 56,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 376,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 3e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Glock_19",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 1.1e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "f26e4e02bc86c126acee3e19129d2a00"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Pistol.M9A3",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Pistol/M9A3/ID_M9A3.ID_M9A3",
+			"name": "M9A3",
+			"abbreviation": "M9A3",
+			"description": "Beretta M9 9x19mm pistol.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.8,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 8e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 55,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 4e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 3e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "M9A3",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 9e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "1f0843f8c954cf13e2f68f408d69947c"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Pistol.P320",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Pistol/P320/ID_P320.ID_P320",
+			"name": "Sig Sauer P320",
+			"abbreviation": "P320",
+			"description": "9x19mm pistol made by SIG Sauer.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.725,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 72,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 3.9e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.4,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 3e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "P320",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 8.3e+02,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "072101762fbf1400690d514b9f4f9486"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Pistol.QSZ-92",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Pistol/QSZ-92/ID_QSZ-92.ID_QSZ-92",
+			"name": "Norinco QSZ-92",
+			"abbreviation": "QSZ-92",
+			"description": "9x19 pistol manufactured by Norinco.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.4,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 68,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 58,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 376,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 3e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "QSZ-92",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 6e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "6d6807c24122b0678a59d37de22a0323"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Weapons/Rifle/ID_RifleTemplate.ID_RifleTemplate",
+			"name": "Template",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 4e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 65,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.8,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.6,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 715,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "18c56627f47988b2e0ad96388a7d3b9a"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.AK-101",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/AK-101/ID_AK-101.ID_AK-101",
+			"name": "AK-101",
+			"abbreviation": "Ak-101",
+			"description": "Export version of AK-74M rifle chambered in 5.56x45mm.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 52,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 47,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AK-101",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 2.82e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "f9b35fe0a7c2494b43dbd9cefbf80819"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.AK-102",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/AK-102/ID_AK-102.ID_AK-102",
+			"name": "AK-102",
+			"abbreviation": "AK-102",
+			"description": "Export version of AK-74M rifle chambered in 5.56x45mm featuring a shortened barrel.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 54,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 51,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 8.6e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 4e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AK-102",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 2.05e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "c7410d5ca658d15605e1cf2587745420"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.AK-103",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/AK-103/ID_AK-103.ID_AK-103",
+			"name": "AK-103",
+			"abbreviation": "AK-103",
+			"description": "7.62x39mm variant of AK-74M rifle.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 52,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 48,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 8.6e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 4e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AK-103",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 2.38e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "09712b505507b51fa106fd12e74787a0"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.AK-104",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/AK-104/ID_AK-104.ID_AK-104",
+			"name": "AK-104",
+			"abbreviation": "AK-104",
+			"description": "7.62x39mm variant of AK-74M rifle with a shortened barrel.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.85,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 54,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 6.7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 2.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AK-104",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 3.15e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "201d95ec218f3aa3773d88d019150f31"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.AK-105",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/AK-105/ID_AK-105.ID_AK-105",
+			"name": "AK-105",
+			"abbreviation": "AK-105",
+			"description": "Short barrel variant of AK-74 rifle.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 54,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 46,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 8.8e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.8,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 4e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AK-105",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 2885,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "1b8365d2a1ce50057bf727d5dc2337db"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.AK-12",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/AK-12/ID_AK-12.ID_AK-12",
+			"name": "AK-12 Gen.1",
+			"abbreviation": "AK-12",
+			"description": "First generation of the new AK-12 standard issue rifle.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 55,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 42,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AK-12",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 4.11e+03,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "23b9f4d526167b8243e2a2e233b43e49"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.AK-74M",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/AK-74M/ID_AK-74M.ID_AK-74M",
+			"name": "AK-74M",
+			"abbreviation": "AK-74M",
+			"description": "Modernized, polymer version of AKM rifle chambered in 5.45x39mm. Features a foldable stock and side scope mount.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AK-74M",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 2.1e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "4d09e920c4b2587884a446ee54a14f7b"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.AKS-74",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/AKS-74/ID_AKS-74.ID_AKS-74",
+			"name": "AKS-74",
+			"abbreviation": "AKS-74",
+			"description": "Variant of AK-74 rifle featuring a foldable stock.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.5,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 48,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 52,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AKS-74",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 1.99e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "dc49782e86e7f0f2a10919321dcc64f0"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.AKS-74U",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/AKS-74U/ID_AKS-74U.ID_AKS-74U",
+			"name": "AKS-74U",
+			"abbreviation": "AKS-74U",
+			"description": "Short barrel variant of AK-74. Designed for close encounters and tight spaces.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.25,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 58,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 56,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 731,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AKS-74U",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 1725,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "6c84624439358815e4617eb9c414e213"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.AUG A1",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/AUG/A1/ID_AUG_A1.ID_AUG_A1",
+			"name": "Steyr AUG A1",
+			"abbreviation": "AUG A1",
+			"description": "Austrian bullpup rifle chambered in 5.56x45mm. Designed and manufactured by Steyr.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 35,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 7e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.8,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.8,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 715,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "abbc9d5eaf365e4c21f221bac25d9aec"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.AUG A3",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/AUG/A3/ID_AUG_A3.ID_AUG_A3",
+			"name": "Steyr AUG A3",
+			"abbreviation": "AUG A3",
+			"description": "Austrian bullpup rifle chambered in 5.56x45mm. Designed and manufactured by Steyr. Features a picatinny rail.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 65,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 4e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.8,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 715,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 2e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "AUG_A3",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 2.29e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "2907271c016e91bc3cb04641c7564016"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.Colt M4A1",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/Colt_M4A1/ID_Colt_M4A1.ID_Colt_M4A1",
+			"name": "Colt M4A1",
+			"abbreviation": "M4A1",
+			"description": "American assault rifle chambered in 5.56x45mm.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 52,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 62,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 862,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 8e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Colt_M4A1",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 2.45e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "5194500dd400ae61a10545cbb1a5c4ad"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.FN FAL",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/FN_FAL/ID_FN_FAL.ID_FN_FAL",
+			"name": "FN FAL",
+			"abbreviation": "FAL",
+			"description": "Belgian battle rifle chambered in 7.62x51mm. Designed by FN Herstal.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 45,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 7e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 8.8e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.9,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "FN_FAL",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 6.4e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "0cd4db661ec142ed53d4363020548bbb"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.FN SCAR-L",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/FN_SCAR-L/ID_FN_SCAR-L.ID_FN_SCAR-L",
+			"name": "FN SCAR-L",
+			"abbreviation": "SCAR-L",
+			"description": "Smaller brother of SCAR-H DMR, chambered in 5.56x45mm.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 56,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 36,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 8.8e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 6.5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "FN_SCAR-L",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 3.97e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "3228fb263e08692d7cd9b67e65f2b6aa"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.Honey Badger",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/Honey_Badger/ID_Honey_Badger.ID_Honey_Badger",
+			"name": "Honey Badger",
+			"abbreviation": "Honey Badger",
+			"description": ".300 BLK rifle designed by Advanced Armament Corporation.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.65,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 55,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 52,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.7,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 8e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Honey_Badger",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 6976,
+				"blackMarketPrice": 4
+			},
+			"sourceHash": "35f28d3dfabb30113c778462b20c0af1"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco CQ",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/Norinco_CQ/ID_Norinco_CQ.ID_Norinco_CQ",
+			"name": "Norinco CQ",
+			"abbreviation": "CQ",
+			"description": "AR style assault rifle by Norinco.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 48,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 68,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 862,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 8e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Norinco_CQ",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 1264,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "08d86a92d17a49d1abacc84227c23ad1"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco QBZ-97",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/QBZ-97/ID_QBZ-97.ID_QBZ-97",
+			"name": "Norinco QBZ-97",
+			"abbreviation": "QBZ-97",
+			"description": "Chinese bullpup assault rifle designed and manufactured by Norinco. Export version chambered in 5.56x45mm.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.6,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 41,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 54,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 6e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "QBZ-97",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 1.65e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "50784cea648686b8dc9b3734c30e5a2f"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.Sig Sauer MCX Rattler",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/Sig_Sauer_MCX_Rattler/ID_Sig_Sauer_MCX_Rattler.ID_Sig_Sauer_MCX_Rattler",
+			"name": "Sig Sauer MCX Rattler",
+			"abbreviation": "MCX Rattler",
+			"description": ".300 BLK assault rifle designed by SIG Sauer. Smaller variant of MCX Virtus.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.5,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 45,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 56,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 8.6e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.9,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 8e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Sig_Sauer_MCX_Rattler",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 3.3e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "3a7d18d877f42681d9576690689f6d41"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.Sig Sauer MCX Virtus",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/Sig_Sauer_MCX_Virtus/ID_Sig_Sauer_MCX_Virtus.ID_Sig_Sauer_MCX_Virtus",
+			"name": "Sig Sauer MCX Virtus",
+			"abbreviation": "MCX Virtus",
+			"description": ".300 BLK assault rifle designed by SIG Sauer.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.8,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 47,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 58,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.8,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 8e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Sig_Sauer_MCX_Virtus",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 5.93e+03,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "c013bc9d992f937ca4fcfb4f7ce10118"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.STV-380",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/STV-380/ID_STV-380.ID_STV-380",
+			"name": "STV-380",
+			"abbreviation": "STV-380",
+			"description": "Next generation standard issue rifle for Vietnam People's Army. Chambered in 7.62x39mm. Compatibile with AK magazines.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.7,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 53,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 44,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 8.8e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "STV-380",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 3.11e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "b99fae2553ab9f174df7fffcc5843635"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Shotgun",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Weapons/Shotgun/ID_ShotgunTemplate.ID_ShotgunTemplate",
+			"name": "Template",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 48,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 6e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 869,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 3e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 1.7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "0969b2709b8ba9572862d27eb450bb58"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Shotgun.Benelli M2",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Shotgun/Benelli_M2/ID_Benelli_M2.ID_Benelli_M2",
+			"name": "Benelli M2",
+			"abbreviation": "M2",
+			"description": "12 gauge semi-auto shotgun manufactured by Benelli.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 62,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 55,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 869,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 3e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 1.7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Benelli_M2",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 3.2e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "6f3582543f2905013ec0938171889200"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Shotgun.RIA VR80",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Shotgun/RIA_VR80/ID_RIA_VR80.ID_RIA_VR80",
+			"name": "RIA VR80",
+			"abbreviation": "VR80",
+			"description": "Semi-automatic 12 gauge shotgun with a design that closely resembles that of an AR-15.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.5,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 55,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 42,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 869,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 3e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 1.7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "RIA_VR80",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 5192,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "a69b605b3e2b05ffbc3aaa7b9308e445"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Shotgun.Saiga-12K",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Shotgun/Saiga-12K/ID_Saiga-12K.ID_Saiga-12K",
+			"name": "Saiga-12K",
+			"abbreviation": "Saiga-12K",
+			"description": "Kalashnikov style shotgun.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.6,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 34,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 54,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 869,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 6,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 4.5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 7e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Saiga-12K",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 4.87e+03,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "081345013c12b1b7cc3957983276a461"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Smg",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Weapons/SMG/ID_SMGTemplate.ID_SMGTemplate",
+			"name": "HK MP5 9x19 submachine gun",
+			"abbreviation": "MP5",
+			"description": "HK MP5 9x19 submachinegun with Navy 3 Round Burst firing mechanism version, which features three-round cutoff. Widely acclaimed model of a submachinegun, primarily known as weapon of GSG9 and similar forces of the world, and famous through frequent appearance in movies and video games.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "849b3cda70bde3f74b05c41ffbd944e3"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Smg.FN P90",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/SMG/FN_P90/ID_FN_P90.ID_FN_P90",
+			"name": "FN P90",
+			"abbreviation": "P90",
+			"description": "Submachine gun with a very unique design that chambers 5.7x28mm.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.25,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 7e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 42,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 6.1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.25,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 9e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 2e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "FN_P90",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 5226,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "5fe99a7134e9d0b381b33f89ae9d48d0"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Smg.KRISS Vector 45ACP",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/SMG/KRISS_Vector_45ACP/ID_KRISS_Vector_45ACP.ID_KRISS_Vector_45ACP",
+			"name": "KRISS Vector .45ACP",
+			"abbreviation": "Vector .45ACP",
+			"description": ".45 ACP variant of KRISS Vector submachine gun.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.15,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 7e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 48,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 4e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 2.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 9.5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 2e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "KRISS_Vector_45ACP",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 6.01e+03,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "550eb9172f105c14f2df527d767a8dab"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Smg.MP5",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/SMG/MP5/ID_MP5.ID_MP5",
+			"name": "MP5",
+			"abbreviation": "MP5",
+			"description": "9x19mm reliable submachine gun designed by Heckler & Koch.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 68,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 55,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 4e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 9.5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 2e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "MP5",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 1.7e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "21961cd2867e4a1a5e2b0dfcaacd1d7b"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Smg.MP5k",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/SMG/MP5K/ID_MP5K.ID_MP5K",
+			"name": "MP5K",
+			"abbreviation": "MP5K",
+			"description": "9x19mm compact submachine gun designed by Heckler & Koch.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 7e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 58,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 4e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 9.5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 2e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "MP5K",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 7.7e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "7d44b90b7cda06c23938fd169ae65ce1"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Smg.MP5SD",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/SMG/MP5SD/ID_MP5SD.ID_MP5SD",
+			"name": "MP5SD",
+			"abbreviation": "MP5SD",
+			"description": "9x19mm variant of MP5 featuring an integrated suppressor.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.86,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 62.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 4e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 4e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.15,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 9.5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 2e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "MP5SD",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 5892,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "1ac74d73a56ab34ed2bc53cb18013e0b"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Smg.MPX",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/SMG/MPX/ID_MPX.ID_MPX",
+			"name": "MPX",
+			"abbreviation": "MPX",
+			"description": "Sig Sauer MPX 9x19mm submachine gun.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.1,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 62,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 52,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 4e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.45,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 8.5e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "MPX",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 4.11e+03,
+				"blackMarketPrice": 3
+			},
+			"sourceHash": "13de3ad98848c35a5188ca3ab03e63ca"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Smg.PP-19 Vitayz",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/SMG/PP-19_Vitayz/ID_PP-19_Vitayz.ID_PP-19_Vitayz",
+			"name": "PP-19 Vitayz",
+			"abbreviation": "PP-19",
+			"description": "9×19mm submachine gun developed by Izhmash. Offers a high degree of parts commonality with the AK-74.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 58,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 62,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 375,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 1.25,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 7e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 2e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "PP-19_Vitayz",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 1.15e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "155bedb951758aeb263cf8877970c1f9"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.SniperRifle",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Weapons/SniperRifle/ID_SniperTemplate.ID_SniperTemplate",
+			"name": "Template",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 4,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 48,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 7e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 869,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 3e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 1.7e+03,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "35d16db84c6d5a4fb9464de2a3244e32"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.SniperRifle.Remington M700",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/SniperRifle/Remington_M700/ID_Remington_M700.ID_Remington_M700",
+			"name": "Remington M700",
+			"abbreviation": "M700",
+			"description": ".338 Lapua Magnum bolt action sniper rifle.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.05,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 38,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 68,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 869,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 3e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 1e+03,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Remington_M700",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 3.65e+03,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "1612db095a2de35e64e7b2155e7513ee"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.SniperRifle.SRS A2",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/SniperRifle/SRS-A2/ID_SRS-A2.ID_SRS-A2",
+			"name": "Desert Tech SRS A2",
+			"abbreviation": "SRS A2",
+			"description": ".338 Lapua Magnum, bullpup bolt action sniper rifle. Manufactured by Desert Tech.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.5,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 55,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 52,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 869,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.5,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 3e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 1.7e+03,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "SRS-A2",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 9.73e+03,
+				"blackMarketPrice": 4
+			},
+			"sourceHash": "a9962d729fdae34fa732131b1fe4d601"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.SniperRifle.SVDS",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/DMR/SVDS/ID_SVDS.ID_SVDS",
+			"name": "SVDS",
+			"abbreviation": "SVDS",
+			"description": "Variant of 7.62x54mm SVD designated marksman rifle featuring a foldable stock.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 45,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 36,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 8.3e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.7,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Firemodes",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Caliber",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 6e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 8e+02,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "SVDS",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 4285,
+				"blackMarketPrice": 2
+			},
+			"sourceHash": "03e41b900f5fcb7bde636e867c49b879"
+		}
+	],
+	"schemaSoftVersion": 1,
+	"schemaHardVersion": 1
+}
