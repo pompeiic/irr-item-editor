@@ -1,0 +1,13 @@
+{
+	"flags": {},
+	"log": [
+		{
+			"tag": "Inventory.Items.Ammunition.Rounds.45ACP.HS",
+			"time": "2026-07-31T23:17:34.544Z",
+			"author": "pompeiic",
+			"lines": [
+				"Description updated"
+			]
+		}
+	]
+}
