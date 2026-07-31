@@ -2,79 +2,6 @@
 	"category": "Ammunition",
 	"items": [
 		{
-			"itemTag": "Inventory.Items.Ammunition.Rounds",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Ammunition/Rounds/ID_RoundsTemplate.ID_RoundsTemplate",
-			"name": "Template",
-			"abbreviation": "Template",
-			"description": "A 7.62x39mm PS gzh (GAU Index - 57-N-231) cartridge with a 7.9 gram bullet with a heat-strengthened steel core with lead cladding on the tip and a bimetallic jacket, in a bimetallic case. The PS cartridge (Púlya so Stal'ným serdéchnikom - \"Bullet with a Steel core\") was introduced into service in 1949 for Soviet 7.62x39mm caliber weaponry, and over the years has undergone numerous changes in the materials used for its construction. Thanks to the tempered steel core that this model has, it is able to pierce through basic ballistic body protections as well as some intermediate models in addition to provide a significant stopping power effect, however, it has a high bounce probability off various surfaces.",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
-					"modifyType": "Add"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "9ff42f0930b0b5dd9035ce59044f8b00"
-		},
-		{
-			"itemTag": "Inventory.Items.Ammunition.Rounds.12x70",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Ammunition/Rounds/12x70/ID_12x70.ID_12x70",
-			"name": "12/70mm Buckshot",
-			"abbreviation": "12/70",
-			"description": "The 12/70mm Buckshot is a shotgun shell designed for close-quarters combat and hunting applications. It features a 12-gauge shell with a length of 70 millimeters. Inside the shell, multiple spherical lead pellets, commonly referred to as 'buckshot,' are loaded. Upon firing, the shell discharges these pellets in a spread pattern, making it highly effective for short-range engagements and hunting larger game. The 12/70mm Buckshot is favored by hunters and law enforcement for its ability to deliver a wide and powerful impact on the target, making it a reliable choice in various scenarios.",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Damage",
-					"value": 4e+01,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
-					"tag": "Inventory.Stats.Piercing Level",
-					"value": 4,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Penetration",
-					"value": 2,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "968fad197f65053a6a00d3a27f9cf22f"
-		},
-		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.12x70.Buckshot",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Ammunition/Rounds/12x70/12x70_Buckshot/ID_12x70_Buckshot.ID_12x70_Buckshot",
 			"name": "12ga Buckshot",
@@ -92,11 +19,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
 					"modifyType": "Base"
@@ -105,11 +27,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 8,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -121,7 +38,7 @@
 				"defaultMarketPrice": 2,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "d71bd6067ce974f0f1d1dea06e774ff5"
+			"sourceHash": "8553d6cc102247d8838860949a378e87"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.12x70.Slug",
@@ -141,11 +58,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 3,
 					"modifyType": "Base"
@@ -154,11 +66,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 38,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -170,56 +77,7 @@
 				"defaultMarketPrice": 6,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "f982c2d6f388bf01f73ddc175f794b04"
-		},
-		{
-			"itemTag": "Inventory.Items.Ammunition.Rounds.45ACP",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Ammunition/Rounds/45ACP/ID_45ACP.ID_45ACP",
-			"name": ".45ACP Lasermatch Hydra-Shok",
-			"abbreviation": "ACP",
-			"description": "The standard ammunition for the KRISS Vector.",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
-					"tag": "Inventory.Stats.Damage",
-					"value": 78,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Piercing Level",
-					"value": 1,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Penetration",
-					"value": 12,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "2413fcaf4239994de5e9a152f57b8b14"
+			"sourceHash": "93f5921f7690fe50dddd17d44d8310eb"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.45ACP.HS",
@@ -239,11 +97,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 1,
 					"modifyType": "Base"
@@ -252,11 +105,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 12,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -268,56 +116,7 @@
 				"defaultMarketPrice": 4,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "15d9b0ac7084462835ddd08a213d7292"
-		},
-		{
-			"itemTag": "Inventory.Items.Ammunition.Rounds.545x39",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Ammunition/Rounds/545x39/ID_545x39.ID_545x39",
-			"name": "5.45x39mm SP",
-			"abbreviation": "SP",
-			"description": "PLACERHOLDER",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Damage",
-					"value": 56,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
-					"tag": "Inventory.Stats.Piercing Level",
-					"value": 2,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Penetration",
-					"value": 28,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "66ca52954cba5d98c6258f0ab4296190"
+			"sourceHash": "a759dea2fb5164017ac8e4453fcced0d"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.545x39.BP",
@@ -337,11 +136,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 3,
 					"modifyType": "Base"
@@ -350,11 +144,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 28,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -366,7 +155,7 @@
 				"defaultMarketPrice": 12,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "b135e6ff09c711cc0bbdb717f3e1110a"
+			"sourceHash": "b24903f940a7cfc70edd9a63798de333"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.545x39.PS",
@@ -386,11 +175,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
 					"modifyType": "Base"
@@ -399,11 +183,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 15,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -415,56 +194,7 @@
 				"defaultMarketPrice": 3,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "966fd267c40a7928e4b405a9ac45cc7d"
-		},
-		{
-			"itemTag": "Inventory.Items.Ammunition.Rounds.556x45",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Ammunition/Rounds/556x45/ID_556x45.ID_556x45",
-			"name": "5.56x45mm FMJ",
-			"abbreviation": "FMJ",
-			"description": "The 5.56x45mm FMJ (Full Metal Jacket) cartridge is a widely used ammunition known for its accuracy and reliability. It features a 5.56mm caliber bullet with a full metal jacket, enhancing penetration and flight stability. This ammunition is favored in both military and civilian firearms, such as the M16 and AR-15 platforms, for its versatility in training and combat scenarios, even though it does not expand upon impact.",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
-					"tag": "Inventory.Stats.Damage",
-					"value": 64,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Piercing Level",
-					"value": 3,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Penetration",
-					"value": 22,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "69858ab134538537af97348c0e5dfb92"
+			"sourceHash": "9b45fac4f8b1656e8b52769541627ef9"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.556x45.FMJ",
@@ -484,11 +214,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
 					"modifyType": "Base"
@@ -497,11 +222,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 22,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -513,7 +233,7 @@
 				"defaultMarketPrice": 2,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "ec2846ffaf160ec0a3a0956c984ea32a"
+			"sourceHash": "92f69b52bc2eeb80c45bafb0d9e2dada"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.556x45.M855",
@@ -533,11 +253,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 4,
 					"modifyType": "Base"
@@ -546,11 +261,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 32,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -562,56 +272,7 @@
 				"defaultMarketPrice": 13,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "e34258abb0088c122ec8dbe2c5bcde75"
-		},
-		{
-			"itemTag": "Inventory.Items.Ammunition.Rounds.57x28",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Ammunition/Rounds/57x28/ID_57x28.ID_57x28",
-			"name": "57x28 SS198LF",
-			"abbreviation": "SS198LF",
-			"description": "This small caliber is used by weapons as the P90 and as the name would suggest the Five Seven.",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Damage",
-					"value": 72,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
-					"tag": "Inventory.Stats.Piercing Level",
-					"value": 2,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Penetration",
-					"value": 17,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "639f6bc4f2ee0297fee89a9bef29b107"
+			"sourceHash": "be6aa8c4cdbb2239dbb862decc9bbd49"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.57x28.SS198LF",
@@ -631,11 +292,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
 					"modifyType": "Base"
@@ -644,11 +300,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 17,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -660,7 +311,7 @@
 				"defaultMarketPrice": 1e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "d5e9f394cb20c216da3241d246879c48"
+			"sourceHash": "23352ca35d54f971aeec1dc5537da147"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.BP",
@@ -680,11 +331,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 3,
 					"modifyType": "Base"
@@ -693,11 +339,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 35,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -709,7 +350,7 @@
 				"defaultMarketPrice": 17,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "209ea2624d2598848121544ba63f7945"
+			"sourceHash": "ff907cd8b2db305e372e255ba2783c14"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.HP",
@@ -729,11 +370,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
 					"modifyType": "Base"
@@ -742,11 +378,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 16,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -758,7 +389,7 @@
 				"defaultMarketPrice": 3,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "96cc73979cb465d1639e68189fc6092c"
+			"sourceHash": "11c18a3aba73be275bc600b5f2af7a0d"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.PS",
@@ -778,11 +409,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
 					"modifyType": "Base"
@@ -791,11 +417,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 19,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -807,56 +428,7 @@
 				"defaultMarketPrice": 8,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "dcdaf993002382b073229cfe6b0c17ca"
-		},
-		{
-			"itemTag": "Inventory.Items.Ammunition.Rounds.762x51",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Ammunition/Rounds/762x51/ID_762x51.ID_762x51",
-			"name": "7.62x51mm TCW SP",
-			"abbreviation": "TCW SP",
-			"description": "PLACEHOLDER",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Damage",
-					"value": 9e+01,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Penetration",
-					"value": 31,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
-					"tag": "Inventory.Stats.Piercing Level",
-					"value": 3,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "c649c67ce64743b53583fdeaefacd7d9"
+			"sourceHash": "b1b474a851f0dbe75954bb19915ff40a"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x51.M62",
@@ -876,11 +448,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 4,
 					"modifyType": "Base"
@@ -889,11 +456,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 36,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -905,7 +467,7 @@
 				"defaultMarketPrice": 4e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "9c7a412e1c339505560cb7166521d7eb"
+			"sourceHash": "31a9fe9a8382e59d5e138ecef90194a3"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x51.M80",
@@ -925,11 +487,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 3,
 					"modifyType": "Base"
@@ -938,11 +495,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 25,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -954,56 +506,7 @@
 				"defaultMarketPrice": 2e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "32fc7a3fb547ea487003cf0055cf367c"
-		},
-		{
-			"itemTag": "Inventory.Items.Ammunition.Rounds.762x54",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Ammunition/Rounds/762x54/ID_762x54.ID_762x54",
-			"name": "",
-			"abbreviation": "",
-			"description": "",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Damage",
-					"value": 9e+01,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Penetration",
-					"value": 31,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
-					"tag": "Inventory.Stats.Piercing Level",
-					"value": 3,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "d8fb069a38f26db35e6cfe31151f3f6f"
+			"sourceHash": "c36a9b7d35f28a93c94c815f760d3e9c"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x54.R PS",
@@ -1023,11 +526,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 3,
 					"modifyType": "Base"
@@ -1036,11 +534,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 31,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -1052,7 +545,7 @@
 				"defaultMarketPrice": 9,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "8ea4e01e18cc388bba8dddb56ec4f090"
+			"sourceHash": "b10ad49566ec37ccf6361a9d5cf3bd23"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.9x19.AP6x3",
@@ -1072,11 +565,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 2e+01,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
 					"modifyType": "Base"
@@ -1085,11 +573,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 23,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -1101,7 +584,7 @@
 				"defaultMarketPrice": 11,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "151e7234dfb660d2b6129a2586eb8395"
+			"sourceHash": "06f88d5eaf6c5b33ef9354ee8b1c9612"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.9x19.PSO",
@@ -1121,11 +604,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 2e+01,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 1,
 					"modifyType": "Base"
@@ -1134,11 +612,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 1e+01,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -1150,56 +623,7 @@
 				"defaultMarketPrice": 1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "8875c589a288c02898754bb1201e6587"
-		},
-		{
-			"itemTag": "Inventory.Items.Ammunition.Rounds.x300 Blackout",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Ammunition/Rounds/x300Blackout/ID_x300_Blackout.ID_x300_Blackout",
-			"name": ".300 Blackout",
-			"abbreviation": ".300",
-			"description": "",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Damage",
-					"value": 138,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
-					"tag": "Inventory.Stats.Piercing Level",
-					"value": 4,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Penetration",
-					"value": 35,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "0fe8fa5ff0f5a04028a344dd2a6aa5c7"
+			"sourceHash": "d414420faa424ccd48d631fa9aa4cf13"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x300 Blackout.M62",
@@ -1219,11 +643,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 3,
 					"modifyType": "Base"
@@ -1232,11 +651,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 25,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -1248,7 +662,7 @@
 				"defaultMarketPrice": 2e+01,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "4f83b64901e5948e7ef1fb245b451015"
+			"sourceHash": "732742ede4a79a6bd4262061718d0fcd"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x300 Blackout.ME3",
@@ -1268,11 +682,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 4,
 					"modifyType": "Base"
@@ -1281,11 +690,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 34,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -1297,56 +701,7 @@
 				"defaultMarketPrice": 33,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "f79a7406dbec449d51e3a87e677317d4"
-		},
-		{
-			"itemTag": "Inventory.Items.Ammunition.Rounds.x338",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Ammunition/Rounds/x338/ID_x338.ID_x338",
-			"name": ".338 300gr UCW",
-			"abbreviation": ".338",
-			"description": "The .338 300gr AP (Armor-Piercing) cartridge is a formidable ammunition choice. It features a .338 caliber bullet weighing 300 grains, designed for penetrating armored targets. This cartridge is known for its exceptional armor-piercing capabilities, making it ideal for military and law enforcement applications where defeating armored or heavily protected targets is essential. Its design ensures deep penetration and reliable performance, making it a reliable choice for specialized missions requiring enhanced stopping power.",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Damage",
-					"value": 138,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
-					"tag": "Inventory.Stats.Piercing Level",
-					"value": 4,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Penetration",
-					"value": 35,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "e25bf687cecf77fa01e837699b568332"
+			"sourceHash": "12ea2f8a8c98d2b0692be7b1fcd13a41"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x338.AP",
@@ -1366,11 +721,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 4,
 					"modifyType": "Base"
@@ -1379,11 +729,6 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 4e+01,
 					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Compatible Items",
-					"value": 0,
-					"modifyType": "None"
 				}
 			],
 			"vendor":
@@ -1395,7 +740,7 @@
 				"defaultMarketPrice": 32,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "e189f3b17bc7f3a0d6d63487632fc5c7"
+			"sourceHash": "7715a7ce337fe90e1aea97fb928cea7b"
 		}
 	],
 	"schemaSoftVersion": 1,
