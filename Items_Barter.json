@@ -1,0 +1,1975 @@
+{
+	"category": "Barter",
+	"items": [
+		{
+			"itemTag": "Inventory.Items.Barter",
+			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Barter/ID_BarterTemplate.ID_BarterTemplate",
+			"name": "",
+			"abbreviation": "",
+			"description": "Placeholder",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "None",
+				"bHasVendorRow": false,
+				"rarityTag": "None",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "55cefe8ccabcf83cbf9b27c04b2e257e"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Antique Plate",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/AntiquePlate/ID_AntiquePlate.ID_AntiquePlate",
+			"name": "Antique Plate",
+			"abbreviation": "AP",
+			"description": "Antique plate. Probably too worthy to eat from...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Antique_Plate",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 5.82e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "a98ad19bc83d5a931743a94380971b72"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Antique Water Pitcher",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Antique_Water_Pitcher/ID_Antique_Water_Pitcher.ID_Antique_Water_Pitcher",
+			"name": "Antique Water Pitcher",
+			"abbreviation": "Water Pitcher",
+			"description": "An Antique Water Pitcher.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Antique_Water_Pitcher",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 459,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "17af2de5651ab0a5c1921501d41a41de"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Basketball",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Basketball/ID_Basketball.ID_Basketball",
+			"name": "Basketball",
+			"abbreviation": "Basketball",
+			"description": "Guess someone wants to play basketball..?",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Basketball",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 108,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "410e73b328d01bc82479efc2e7a14d36"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Boardgame",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Boardgame/ID_Boardgame.ID_Boardgame",
+			"name": "Boardgame",
+			"abbreviation": "BG",
+			"description": "Fun boardgame for family and friends.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Boardgame",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 2.5e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "b4b771b873dbb4b565103085af84e034"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Book",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Book/ID_Book.ID_Book",
+			"name": "Book",
+			"abbreviation": "B",
+			"description": "Interesting book about warfare strategies.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Book",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 8e+01,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "97c4b43f75299000e554f8f86839e4b6"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Brandy",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Brandy/ID_Brandy.ID_Brandy",
+			"name": "Brandy",
+			"abbreviation": "BR",
+			"description": "Distilled wisdom in a bottle, or at least that's what you'll tell yourself after a glass.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Brandy",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 4.3e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "5a8e2415eae710a79e54c6b04cde2931"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Candle Holder",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/CandleHolder/ID_CandleHolder.ID_CandleHolder",
+			"name": "Candle Holder",
+			"abbreviation": "CH",
+			"description": "Golden candle holder with love to detail.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Candle_Holder",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 91,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "b43ce2e6c7ed9d7da5c17ea01008d5ff"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Candlestick",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Candlestick/ID_Candlestick.ID_Candlestick",
+			"name": "Candlestick",
+			"abbreviation": "CS",
+			"description": "Golden stick to hold a candle.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Candlestick",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 4e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "87a904c032605a985e1cf7093be313c5"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Cat Figure",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/CatFigure/ID_CatFigure.ID_CatFigure",
+			"name": "Cat Figure",
+			"abbreviation": "CF",
+			"description": "Figure of a cat. Who doesn't love cats?",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Cat_Figure",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "None",
+				"defaultMarketPrice": 1.03e+04,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "9a06fe42f449d1caad0363f66635c18d"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Compass",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Compass/ID_Compass.ID_Compass",
+			"name": "Compass",
+			"abbreviation": "Compass",
+			"description": "An antique compass. Very detailed...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Compass",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 834,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "ae25c521d93831f3624554b1d6af7e8d"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Cuban Cigar",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Cuban_Cigar/ID_Cuban_Cigar.ID_Cuban_Cigar",
+			"name": "Cuban Cigar",
+			"abbreviation": "Cigar",
+			"description": "This and a beer...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Cuban_Cigar",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 1.2e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "2c89558ff08610fde75bee200a6b577f"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Earth Globe",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Earth_Globe/ID_Earth_Globe.ID_Earth_Globe",
+			"name": "Earth Globe",
+			"abbreviation": "Earth Globe",
+			"description": "Old Earth Globe. Guess the world is indeed a sphere not a plane..?",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Earth_Globe",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 93,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "6e796b271d47ef8fe2e3bc1dd7b63c13"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Film Case",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/FilmCase/ID_FilmCase.ID_FilmCase",
+			"name": "Film Case",
+			"abbreviation": "Film Case",
+			"description": "To store cherished memories, or other stuff...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "FilmCase",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.FANG",
+				"defaultMarketPrice": 433,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "3e3bf63ac2c5e2aa7c5c8b5c3e236258"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Bangle",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/GoldenBangle/ID_GoldenBangle.ID_GoldenBangle",
+			"name": "Golden Bangle",
+			"abbreviation": "Golden Bangle",
+			"description": "I hope it's real gold.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "GoldenBangle",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "None",
+				"defaultMarketPrice": 2e+04,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "0a5487b1f6bb76040bebf3d427cc2265"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Mirror",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/GoldenMirror/ID_GoldenMirror.ID_GoldenMirror",
+			"name": "Golden Mirror",
+			"abbreviation": "MG",
+			"description": "Golden mirror. Everyone looks good when using this mirror!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.75,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Golden_Mirror",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 8.65e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "a1b35b0243d9d363a5a4c36a9d10389f"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Ring",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/GoldenRing/ID_GoldenRing.ID_GoldenRing",
+			"name": "Golden Ring",
+			"abbreviation": "Golden Ring",
+			"description": "One to rule them all.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "GoldenRing",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "None",
+				"defaultMarketPrice": 15111,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "aae069bbdbcc0cbfd38d7fc78691a350"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Watering Can",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/GoldenWateringCan/ID_GoldenWateringCan.ID_GoldenWateringCan",
+			"name": "Golden Watering Can",
+			"abbreviation": "GWC",
+			"description": "Golden watering can. Very graceful looking.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Golden_Watering_Can",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "None",
+				"defaultMarketPrice": 1.34e+04,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "05304a52e4b641fba23af44d74c3c0f5"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Inca Vase",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/IncaVase/ID_IncaVase.ID_IncaVase",
+			"name": "Inca Vase",
+			"abbreviation": "IV",
+			"description": "Great-looking vase made according to the Inca style.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.75,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Inca_Vase",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 2.01e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "8053af62621e4d26981063033b60d9dd"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Luxury Tobacco Cigar",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Luxury_Tobacco_Cigar/ID_Luxury_Tobacco_Cigar.ID_Luxury_Tobacco_Cigar",
+			"name": "Luxury Tobacco Cigar",
+			"abbreviation": "Cigar",
+			"description": "A very classy cigar. For sure tastes great, but quite expensive right?",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Luxury_Tobacco_Cigar",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 198,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "36b82c532ead0d536b1db2da955d2481"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Marlboro Red Cigarettes",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Marlboro_Red_Cigarettes/ID_Marlboro_Red_Cigarettes.ID_Marlboro_Red_Cigarettes",
+			"name": "Marlboro Red Cigarettes",
+			"abbreviation": "Cigarettes",
+			"description": "Great for relieving stress...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Marlboro_Red_Cigarettes",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "9c318b196e06f3f38138d422119cbf6a"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Matryoshka",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Matryoshka/ID_Matryoshka.ID_Matryoshka",
+			"name": "Matryoshka",
+			"abbreviation": "M",
+			"description": "Matryoshka doll.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Matryoshka",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "None",
+				"defaultMarketPrice": 12882,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "f32cf23657917e4d68f1c89d72972e87"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Puzzle Cube",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/PuzzleCube/ID_PuzzleCube.ID_PuzzleCube",
+			"name": "Puzzle Cube",
+			"abbreviation": "Puzzle Cube",
+			"description": "Placeholder",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "PuzzleCube",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 8e+01,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "fd3ea6010de12f7a8be7bfed08d41a88"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Silver Pearls",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/SilverPearls/ID_SilverPearls.ID_SilverPearls",
+			"name": "Silver Pearls",
+			"abbreviation": "Silver Pearls",
+			"description": "Valuable.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.1,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "SilverPearls",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "None",
+				"defaultMarketPrice": 13327,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "ab04aa1258b3532a0cdc0111d72325ee"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Soccer Trophy",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/SoccerTrophy/ID_SoccerTrophy.ID_SoccerTrophy",
+			"name": "Soccer Trophy",
+			"abbreviation": "ST",
+			"description": "How did it even get here?..",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Soccer_Trophy",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 987,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "ab97b99e84f35f4e5cad911d2ab8e4aa"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Soviet Figure",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/SovietFigure/ID_SovietFigure.ID_SovietFigure",
+			"name": "Soviet Figure",
+			"abbreviation": "SF",
+			"description": "Traditional russian figure. Handmade.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Soviet_Figure",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 3.5e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "1119e8ff82051a9a52ec019161d29662"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Collectibles.Thang Long Cigarettes",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Thang_Long_Cigarettes/ID_Thang_Long_Cigarettes.ID_Thang_Long_Cigarettes",
+			"name": "Thang Long Cigarettes",
+			"abbreviation": "Cigarettes",
+			"description": "...bad for your lungs.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Thang_Long_Cigarettes",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 1.8e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "45a6452345fdfb5963420c6ea57cbcc7"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Battery 18650",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Battery_18650/ID_Battery_18650.ID_Battery_18650",
+			"name": "Battery 18650",
+			"abbreviation": "B",
+			"description": "Standard battery.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.05,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Battery_18650",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 9,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "4951e6d9187a0c029c6aec89819cfe91"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Battery Car",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Battery_Car/ID_Battery_Car.ID_Battery_Car",
+			"name": "Battery Car",
+			"abbreviation": "B",
+			"description": "Car battery. Don't throw it in the ocean.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 15,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Battery_Car",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 9e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "3b28f5e66aa6fcbcd6a6cec0c8596f35"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Battery PP3",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Battery_PP3/ID_Battery_PP3.ID_Battery_PP3",
+			"name": "Battery PP3",
+			"abbreviation": "B",
+			"description": "Quite sized battery.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.1,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Battery_PP3",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 5.2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "84e1331078833e47f9df1eed129bf0d0"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.DLSR Camera",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/DLSR_Camera/ID_DLSR_Camera.ID_DLSR_Camera",
+			"name": "DLSR Camera",
+			"abbreviation": "DLSR",
+			"description": "A very expensive DLSR Camera. Photos will look very sharp.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "DLSR_Camera",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 925,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "dd36d23b1db9bee369ac51e6cf5506c7"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Field Radio",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/FieldRadio/ID_FieldRadio.ID_FieldRadio",
+			"name": "Field Radio",
+			"abbreviation": "FR",
+			"description": "Standard field radio.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Field_Radio",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 95,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "028300133bee12a70742c22564e94950"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Generator",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Generator/ID_Generator.ID_Generator",
+			"name": "Generator",
+			"abbreviation": "Generator",
+			"description": "A generator. Useful if there is a blackout.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 12,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Generator",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.FANG",
+				"defaultMarketPrice": 6.2e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "ee93086a436a4cf3933b26f2cf198161"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Graphics Card",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Graphics_Card/ID_Graphics_Card.ID_Graphics_Card",
+			"name": "Graphics Card",
+			"abbreviation": "GPU",
+			"description": "Graphics card with \"ray tracing\" capability.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.306,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Graphics_Card",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 2532,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "6c306693eea198c44fb2f3696849d902"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Hard Drive",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Hard_Drive/ID_Hard_Drive.ID_Hard_Drive",
+			"name": "Hard Drive",
+			"abbreviation": "HDD",
+			"description": "Old but, still could have some interesting data stored...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Hard_Drive",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 3173,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "71e00b5ac5139038f6ece318d622cdec"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.HDMI Cable",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/HDMICable/ID_HDMICable.ID_HDMICable",
+			"name": "HDMI Cable",
+			"abbreviation": "HDMI Cable",
+			"description": "Placeholder",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.25,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "HDMICable",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 48,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "948c698d20b3955ea1856e6e176c152a"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Kestrel 5700X",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Weather_Device/ID_Weather_Device.ID_Weather_Device",
+			"name": "Kestrel 5700X",
+			"abbreviation": "5700X",
+			"description": "The Kestrel 5700X is a comprehensive weather meter for measurement and logging of primary environmental conditions, including wind speed and direction",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Weather_Device",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 4261,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "a36241dae549c9168340b4ce1e8ee8de"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Military Laptop",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Military_Laptop/ID_Military_Laptop.ID_Military_Laptop",
+			"name": "Military Laptop",
+			"abbreviation": "Military Laptop",
+			"description": "A modern laptop in a military graded case.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Military_Laptop",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "Mission.Faction.FANG",
+				"defaultMarketPrice": 1.2e+04,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "5901545946f9aa2699b825fdead8df0a"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Military Radio",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Military_Radio/ID_Military_Radio.ID_Military_Radio",
+			"name": "Military Radio",
+			"abbreviation": "Military Radio",
+			"description": "A Military Radio. Does send on a different frequence.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Military_Radio",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 2465,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "dd09424b5fd2972e7e512dd16325619e"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Mining Battery",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Mining_Battery/ID_Mining_Battery.ID_Mining_Battery",
+			"name": "Mining Battery",
+			"abbreviation": "Mining Battery",
+			"description": "A big battery that can power mining machines and anything else literally.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1e+01,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Mining_Battery",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.FANG",
+				"defaultMarketPrice": 5394,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "bc3465eca065093925b1b7a6117fc82d"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Motherboard",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Motherboard/ID_Motherboard.ID_Motherboard",
+			"name": "Motherboard",
+			"abbreviation": "MoBo",
+			"description": "Standard motherboard.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.3,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Motherboard",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 628,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "18d8bae9b90ad61e1b4e4e2311818169"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Old Communicator",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/OldCommunicator/ID_OldCommunicator.ID_OldCommunicator",
+			"name": "Old Communicator",
+			"abbreviation": "OC",
+			"description": "Vintage communication device from a bygone era. Though outdated, it serves as a historical relic or a collector's item, offering a glimpse into past technology.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.3,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Old_Communicator",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 354,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "7860ec84c0317714e1dcf8475c0865b4"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Old Flashlight",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/OldFlashlight/ID_OldFlashlight.ID_OldFlashlight",
+			"name": "Old Flashlight",
+			"abbreviation": "OF",
+			"description": "Vintage flashlight from a previous era. While no longer as efficient as modern counterparts, it holds historical value and may appeal to collectors or nostalgia enthusiasts.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Old_Flashlight",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 23,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "3f8b4eb77df3b0cce53420a87f3316b7"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Old Radio",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/OldRadio/ID_OldRadio.ID_OldRadio",
+			"name": "Old Radio",
+			"abbreviation": "OR",
+			"description": "Classic radio device from the past, representing a piece of nostalgic technology. While it's functionality may be limited compared to modern radios, it serves as a collectible item or a glimpse into the history of broadcasting.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.25,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Old_Radio",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 94,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "7fef84347091e18516f66261f8de50c2"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Power Cable",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/PowerCable/ID_PowerCable.ID_PowerCable",
+			"name": "Power Cable",
+			"abbreviation": "PC",
+			"description": "Universal power cable.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Power_Cable",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 133,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "ce88367025e18ddec82f94e500610b9a"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Rebar Cutter",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/RebarCutter/ID_RebarCutter.ID_RebarCutter",
+			"name": "Rebar Cutter",
+			"abbreviation": "Rebar Cutter",
+			"description": "With this machine you can cut anything. Particularly useful for reinforced concrete.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "RebarCutter",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "None",
+				"defaultMarketPrice": 8.23e+03,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "e873da6a8c0cf8e4cb0723dc47cb3fe8"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Spotlight",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Spotlight/ID_Spotlight.ID_Spotlight",
+			"name": "Spotlight",
+			"abbreviation": "Spotlight",
+			"description": "A Spotlight. To light up your working space.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Spotlight",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 378,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "c01c42297a32c611c61b6d43eaed5745"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Electronics.Walkie Talkie",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/WalkieTalkie/ID_WalkieTalkie.ID_WalkieTalkie",
+			"name": "Walkie Talkie",
+			"abbreviation": "WT",
+			"description": "Hello?..",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Walkie_Talkie",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 235,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "77e895be5f2cdfe031f00ccad0c7f649"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Bathroom Cleaner",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/BathroomCleaner/ID_BathroomCleaner.ID_BathroomCleaner",
+			"name": "Bathroom Cleaner",
+			"abbreviation": "BC",
+			"description": "Cleaner particularly useful for bathrooms. Best to not drink it...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Bathroom_Cleaner",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 13,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "1980c4668d71afeb6b7694c233d40ae4"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Bed Roll",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/BedRoll/ID_BedRoll.ID_BedRoll",
+			"name": "Bed Roll",
+			"abbreviation": "BR",
+			"description": "Compact sleeping pad and cover for outdoor use. Provides comfort and insulation during camping or other activities.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.22,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Bed_Roll",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 1.2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "db1b7c23fed384c54dc364ef1199d296"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Canteen",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Canteen/ID_Canteen.ID_Canteen",
+			"name": "Canteen",
+			"abbreviation": "CT",
+			"description": "Some spare water...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Canteen",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 112,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "c758ee7319cfe1e09f62c81632df00ca"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Collagen",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Collagen/ID_Collagen.ID_Collagen",
+			"name": "Collagen",
+			"abbreviation": "CG",
+			"description": "If you wanna strengthen your muscles this might be an option..",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Collagen",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 81,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "d2e3ea9b853f2ac1b909fbabc13b42f8"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Food Container",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/FoodContainer/ID_FoodContainer.ID_FoodContainer",
+			"name": "Food Container",
+			"abbreviation": "FC",
+			"description": "Portable and convenient container for storing and transporting food. Keeps meals fresh and secure.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Food_Container",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 51,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "c7c2300c81d7b8672a97f03e55507f40"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Marker",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Marker/ID_Marker.ID_Marker",
+			"name": "Marker",
+			"abbreviation": "M",
+			"description": "Basic marker.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Marker",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 3e+01,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "7487a9338e3663c76666d4def04b4510"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Misprinted Condensed Milk",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Drinks/Misprinted_Condensed_Milk/ID_Misprinted_Condensed_Milk.ID_Misprinted_Condensed_Milk",
+			"name": "Misprinted Condensed Milk",
+			"abbreviation": "Milk",
+			"description": "It has a misprinted label. Could be worth something to a collector.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Misprinted_Condensed_Milk",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 6e+01,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "26917178a30a3e6ddb7860451d11645e"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Old Chemical Bottle",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/OldChemicalBottle/ID_OldChemicalBottle.ID_OldChemicalBottle",
+			"name": "Old Chemical Bottle",
+			"abbreviation": "Chemical Bottle",
+			"description": "Best not to inhale it.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "OldChemicalBottle",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 86,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "206d9109b0f263ac7568ebabe20583c4"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Paintbrush",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Paintbrush/ID_Paintbrush.ID_Paintbrush",
+			"name": "Paintbrush",
+			"abbreviation": "PB",
+			"description": "Let's paint a happy little tree.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Paintbrush",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 8e+01,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "e210dcf45905cf61ad023cd6e4360065"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Polishing Oil",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/PolishingOil/ID_PolishingOil.ID_PolishingOil",
+			"name": "Polishing Oil",
+			"abbreviation": "PO",
+			"description": "Tool to make your car shine again!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Polishing_Oil",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 173,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "f1f991cde5ea25b17342a277363dc58c"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Prepped Meal",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/PreppedMeal/ID_PreppedMeal.ID_PreppedMeal",
+			"name": "Prepped Meal",
+			"abbreviation": "PM",
+			"description": "Meal ready-to-eat. Offers convenience and nutrition. Ideal for on-the-go individuals, outdoor adventures, or emergencies.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.3,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Prepped_Meal",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 6e+01,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "4cdcab170939471144eef62c42992675"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Rope",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Rope/ID_Rope.ID_Rope",
+			"name": "Rope",
+			"abbreviation": "RP",
+			"description": "Some rope.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Rope",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 8e+01,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "bfd2deea9b77de9f72bd8e1adfaace0d"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Shampoo",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Shampoo/ID_Shampoo.ID_Shampoo",
+			"name": "Shampoo",
+			"abbreviation": "SH",
+			"description": "Basic shampoo.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Shampoo",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 43,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "a5a100e8b9be7505b7ee46d1fe9bcfdf"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Shaving Cream",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/ShavingCream/ID_ShavingCream.ID_ShavingCream",
+			"name": "Shaving Cream",
+			"abbreviation": "SC",
+			"description": "Cream that you apply before you shave your skin.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Shaving_Cream",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 39,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "d85b8a6087ffca4201f721a1d930fd42"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Soap",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Soap/ID_Soap.ID_Soap",
+			"name": "Soap",
+			"abbreviation": "S",
+			"description": "Best to not drop it...",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.15,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Soap",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 7,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "4a9989551caa2e284ea24efe4b7dac64"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Spraycan",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/SprayCan/ID_SprayCan.ID_SprayCan",
+			"name": "Spraycan",
+			"abbreviation": "SC",
+			"description": "Pressurized container filled with liquid or gas, equipped with a nozzle for spraying. Used for various applications, including painting, cleaning, or lubricating.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Spraycan",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 25,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "6ce8f0c36a86f30e89b43fee8dc83f0d"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Household Items.Vodka",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Vodka/ID_Vodka.ID_Vodka",
+			"name": "Vodka",
+			"abbreviation": "VDK",
+			"description": "I heard it helps with radiation..",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Vodka",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 185,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "2dc6f086d65cf5804b33f342afed3f63"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Bolt Cutter",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/BoltCutter/ID_BoltCutter.ID_BoltCutter",
+			"name": "Bolt Cutter",
+			"abbreviation": "BC",
+			"description": "Standard bolt cutter.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Bolt_Cutter",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "d8a2cd3a14d5d486bd45c1c437e9463c"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Clamp",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Clamp/ID_Clamp.ID_Clamp",
+			"name": "Clamp",
+			"abbreviation": "C",
+			"description": "Standard clamp.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Clamp",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 63,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "8255b55e5ed381b425f27339b2637077"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Duct Tape",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Duct_Tape/ID_Duct_Tape.ID_Duct_Tape",
+			"name": "Duct Tape",
+			"abbreviation": "DT",
+			"description": "You can never have enough! Used also for repairing guns at the repair station!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Duct_Tape",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 2e+01,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "e3d8d5a6850c2c98cf9f406e809a1707"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Fan",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Fan/ID_Fan.ID_Fan",
+			"name": "Fan",
+			"abbreviation": "Fan",
+			"description": "A Fan. Good for cooling down during a hot day.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Fan",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 108,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "99a9c81c11ea7e3d0a0ac86083a1a217"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Fuel",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Fuel/ID_Fuel.ID_Fuel",
+			"name": "Fuel",
+			"abbreviation": "FL",
+			"description": "Essential energy source for various applications, including cooking, heating, and powering equipment. Crucial for survival and mobility.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 5.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Fuel",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 1.9e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "34f461318797ae54e45c87d5f495eb94"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Gas Can",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/GasCan/ID_GasCan.ID_GasCan",
+			"name": "Gas Can",
+			"abbreviation": "Gas Can",
+			"description": "A gas can, hopefully it has some left!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 6.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "GasCan",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 178,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "b51016362c8a38d3b9319888a9fcdb03"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Hammer",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Hammer/ID_Hammer.ID_Hammer",
+			"name": "Hammer",
+			"abbreviation": "H",
+			"description": "Hammer time.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Hammer",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 23,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "7d5dc316f9f8304870a3bea7a9a321a1"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Hesco Armor Plate",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Hesco_Armor_Plate/ID_Hesco_Armor_Plate.ID_Hesco_Armor_Plate",
+			"name": "Hesco Armor Plate",
+			"abbreviation": "Armor Plate",
+			"description": "Used for repairing gear at the repair station.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Hesco_Armor_Plate",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 8e+01,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "e3dafe64d00e9300951c658424da53a6"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Nails",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Nails/ID_Nails.ID_Nails",
+			"name": "Nails",
+			"abbreviation": "N",
+			"description": "Versatile fasteners used for construction, repairs, and various DIY projects. Essential for joining materials and providing structural stability.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.1,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Nails",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 36,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "7a2a1bd517cd4e390affc8c95cb056a0"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Nylon Fabric",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Nylon_Fabric/ID_Nylon_Fabric.ID_Nylon_Fabric",
+			"name": "Nylon Fabric",
+			"abbreviation": "Nylon",
+			"description": "Very stretchy. Used for repairing gear at the repair station.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Nylon_Fabric",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 2e+01,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "7912425f0b3aee6500d12a354ccb9793"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Plastic Wire Spool",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/PlasticWireSpool/ID_PlasticWireSpool.ID_PlasticWireSpool",
+			"name": "Plastic Wire Spool",
+			"abbreviation": "Plastic Wire",
+			"description": "Spool of plastic wire.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "PlasticWireSpool",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 972,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "d113c53c6b22948e4dae80e7d49abd37"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Polyester Fabric",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Polyester_Fabric/ID_Polyester_Fabric.ID_Polyester_Fabric",
+			"name": "Polyester Fabric",
+			"abbreviation": "Polyester",
+			"description": "Not environmently friendly. Used for repairing gear at the repair station.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Polyester_Fabric",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 1.2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "c52ec8e38eda9c3472ef92b50df8953c"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Saw",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Saw/ID_Saw.ID_Saw",
+			"name": "Saw",
+			"abbreviation": "Saw",
+			"description": "Useful to cut wood.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Saw",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "1a04d4bf5a6194ca9f54459611c09cbc"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Sewing Kit",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Sewing_Kit/ID_Sewing_Kit.ID_Sewing_Kit",
+			"name": "Sewing Kit",
+			"abbreviation": "Sewing kit",
+			"description": "Used for repairing gear at the repair station.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Sewing_Kit",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 1.5e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "22583ced2591ab85f7a03a37896ebe2a"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Staple Gun",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/StapleGun/ID_StapleGun.ID_StapleGun",
+			"name": "Staple Gun",
+			"abbreviation": "SG",
+			"description": "Standard staple gun.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.6,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Staple_Gun",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 8e+01,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "af6b4f8de7eec595cc6a51504eebdb30"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.Toolbox",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/Toolbox/ID_Toolbox.ID_Toolbox",
+			"name": "Toolbox",
+			"abbreviation": "T",
+			"description": "Portable container designed for organizing and storing tools. Essential for DIY projects, maintenance or repairs.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.5,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Toolbox",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "None",
+				"defaultMarketPrice": 3.2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "5c79706958fa5cbe590501fb52aeaec5"
+		},
+		{
+			"itemTag": "Inventory.Items.Barter.Tools.WD40 Spray",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/WD40_Spray/ID_WD40_Spray.ID_WD40_Spray",
+			"name": "WD40 Spray",
+			"abbreviation": "WD40",
+			"description": "Essential for every workshop!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "WD40_Spray",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": 5e+01,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "9b016ba5cb4b3467fa40c52122c644a3"
+		}
+	],
+	"schemaSoftVersion": 1,
+	"schemaHardVersion": 1
+}
