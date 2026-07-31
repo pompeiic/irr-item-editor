@@ -2,30 +2,6 @@
 	"category": "Medical",
 	"items": [
 		{
-			"itemTag": "Inventory.Items.Medical",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Medical/ID_MedicalTemplate.ID_MedicalTemplate",
-			"name": "Template",
-			"abbreviation": "Template",
-			"description": "Template",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.2,
-					"modifyType": "Add"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "d09bf0e65d32b066c8cae498349a5177"
-		},
-		{
 			"itemTag": "Inventory.Items.Medical.Bandage",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/Bandage/ID_Bandage.ID_Bandage",
 			"name": "Bandage",
@@ -43,11 +19,6 @@
 					"modifyType": "Base"
 				},
 				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 5,
-					"modifyType": "None"
-				},
-				{
 					"tag": "Inventory.Stats.Usage Time",
 					"value": 5,
 					"modifyType": "Base"
@@ -62,7 +33,7 @@
 				"defaultMarketPrice": 15,
 				"blackMarketPrice": 1
 			},
-			"sourceHash": "51055b773299e1e9de5a294e1866020c"
+			"sourceHash": "f024d2c9e18bd99b1999b002804c148e"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Health Injector",
