@@ -2,30 +2,6 @@
 	"category": "Barter",
 	"items": [
 		{
-			"itemTag": "Inventory.Items.Barter",
-			"assetPath": "/Game/Blueprints/InventorySystem/Templates/Barter/ID_BarterTemplate.ID_BarterTemplate",
-			"name": "",
-			"abbreviation": "",
-			"description": "Placeholder",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.2,
-					"modifyType": "Add"
-				}
-			],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "55cefe8ccabcf83cbf9b27c04b2e257e"
-		},
-		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Antique Plate",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Barter/AntiquePlate/ID_AntiquePlate.ID_AntiquePlate",
 			"name": "Antique Plate",
