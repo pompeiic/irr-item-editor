@@ -23,7 +23,10 @@
 				"defaultMarketPrice": 0,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "a99f2d1ebfb2c1c7af3565e684bc8bf4"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "f2fe814bdcb8927872c08dd376a20af9"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Antenna Piece 2",
@@ -47,7 +50,10 @@
 				"defaultMarketPrice": 0,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "dabcf1c59dc8c8c6a17fc21286703d52"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "4475fe81ba541625ac291dc8932323ed"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Antenna Piece 3",
@@ -71,7 +77,10 @@
 				"defaultMarketPrice": 0,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "eb32e501e0963b4208f3b7f40666e288"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "302afa8e541f73d688de745fee514162"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Basic Machine Parts",
@@ -95,7 +104,10 @@
 				"defaultMarketPrice": 6e+03,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "614826490170da7a0f86ff8f9963b2e5"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "cf8089f1871ee834fafb325300abf404"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Bomb",
@@ -119,7 +131,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "10d59f0dad4dbd251781ec61b28477c9"
+			"bCanStack": true,
+			"maxStack": 5,
+			"supportedItemTags": [],
+			"sourceHash": "ba70188d2e71f2cf0082a03a2d6a9892"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Bug",
@@ -143,7 +158,10 @@
 				"defaultMarketPrice": 1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "42d37b2c0d571593f1cf3e21ca45cb37"
+			"bCanStack": true,
+			"maxStack": 5,
+			"supportedItemTags": [],
+			"sourceHash": "5f0b981ce0fdf671f12d4fc130a7f927"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Classified Document-IGC",
@@ -167,7 +185,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "195544f63ccd7eebb34514276a701b0c"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "65cef07b8a6c985cc1aa1fc1ca3282e6"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Classified Document-UICS",
@@ -191,7 +212,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "7d351bb089cb034dd9ce6b22b899270e"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "dfbc5bf77f1e64e35205d354df01855e"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Classified Document-VLF",
@@ -215,7 +239,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "e6c392d15f3ecfa6b2de0322b3c7733e"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "a671e8f69fcc301dbebacf575f48e485"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Construction HxAxS Blueprint Layout Guide",
@@ -239,7 +266,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "ac01c747b62299eafe860292e3f173fd"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "795ea36cdc5e3fe35a9a15b0a60736d9"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Construction HxAxS Blueprint Materials List",
@@ -263,7 +293,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "e0564d25da151ec76e9166c5bd0c785d"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "a9ab0d67dfcc50e2b81e5b5ea3b35565"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Jammer",
@@ -287,7 +320,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "5ebd3439c2ad79475666beb138f038a2"
+			"bCanStack": true,
+			"maxStack": 5,
+			"supportedItemTags": [],
+			"sourceHash": "5e0e569fdef601e22f37633410c3f38e"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Key Cards.Key Card A",
@@ -311,7 +347,10 @@
 				"defaultMarketPrice": 6.5e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "d1adb0f9de9058ca3dd2eeec9812e364"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "895258b901608fe051a0cc7a0617d605"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Misc",
@@ -335,7 +374,12 @@
 				"defaultMarketPrice": 4e+03,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "a4cb92cada8a6d7e8c87505cd07e3840"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "72323da6600c67cfd3757bd6946635ca"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan A",
@@ -359,7 +403,10 @@
 				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "dbd5f4f930e5c80a42f85b4b52cb45d4"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "da36411d57315219af9583bfbb81e3fc"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan B",
@@ -383,7 +430,10 @@
 				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "e7d0144d3ae74ee57fa56b392056c3af"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "0d40e0532f7b5ab3c560185d4b371dd8"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan C",
@@ -407,7 +457,10 @@
 				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "1c45942f7cdbe3fa692f081a2411e48a"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "a106d80a6ecbbdbecfb1734c37274976"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Poison",
@@ -436,7 +489,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "9df7930ce70d2a1e28f2350ecc8fb52e"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "38b61db68e3a0a2434bd6074b58f5f62"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Shipping Manifest",
@@ -460,7 +516,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "d9c89dab14c843d9b56c07388f043fde"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "c2c5b129054c9341296362865faf7931"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Surveillance Camera",
@@ -484,7 +543,10 @@
 				"defaultMarketPrice": 1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "5fecd1fb2b90d2eb337f572e11d593ca"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "79d4be831999618869424d7e29bf0fae"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Troop Movement Paper",
@@ -508,7 +570,10 @@
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "a9e9ce715b5d503b47f2fe9673af1fbf"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "271affa46457add7aaaf18bc44b8a40a"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.USB Drive",
@@ -532,9 +597,12 @@
 				"defaultMarketPrice": 1,
 				"blackMarketPrice": -1
 			},
-			"sourceHash": "dcf1e6e9d1bf6897716773fbae506e82"
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "fb9734a4303f91c2873e04b42ca33b05"
 		}
 	],
-	"schemaSoftVersion": 1,
+	"schemaSoftVersion": 2,
 	"schemaHardVersion": 1
 }
