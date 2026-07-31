@@ -2,24 +2,6 @@
 	"category": "Melee",
 	"items": [
 		{
-			"itemTag": "Inventory.Items.Melee",
-			"assetPath": "/Game/Blueprints/InventorySystem/Items/Melee/Temporary/ID_Melee_Temporary.ID_Melee_Temporary",
-			"name": "Melee",
-			"abbreviation": "Melee",
-			"description": "Melee",
-			"stats": [],
-			"vendor":
-			{
-				"rowName": "None",
-				"bHasVendorRow": false,
-				"rarityTag": "None",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
-			},
-			"sourceHash": "d1a7641be6bb72ca5f951697a744bae6"
-		},
-		{
 			"itemTag": "Inventory.Items.Melee.M-9 Bayonet Knife",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Melee/M-9_Bayonet_Knife/ID_M-9_Bayonet_Knife.ID_M-9_Bayonet_Knife",
 			"name": "M-9 Bayonet Knife",
