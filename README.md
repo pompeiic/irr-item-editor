@@ -17,12 +17,15 @@ them back onto the assets. The game never reads this repo — changes ship with 
    Utility Blueprint calling `UIRRItemSyncLibrary`). Repo + token are configured in
    Project Settings → IRR → Item Sync and Editor Preferences → IRR → Item Sync (User).
 2. **Edit here:** sidebar views (All items / Recently edited / Needs attention / categories), table list with
-   search/filters/sort, and a per-item panel with **Overview** (texts, stats, prices, rarity, max stack),
-   **Relations** (read-only: what the item's containers accept, and what it fits into) and **History**
-   (per-item edit log, starts with the first commit made here). **Validate all** flags items with placeholder
-   or missing text, bad abbreviations, or price problems as "needs attention" (flags can also be set
-   manually per item). Bulk stat operations work on the filtered list. **Save changes / Commit** writes the
-   changed category files + the workflow file; **Discard** reverts the selected item.
+   search/filters/sort and a **selectable stat column** (show + sort by any stat), and a per-item panel with
+   **Overview** (texts, stats, prices, rarity, max stack, shared editor **notes**), **Relations** (read-only:
+   what the item's containers accept, and what it fits into — generic storage like backpacks/rigs is
+   summarized, not listed) and **History** (per-item edit log, starts with the first commit made here).
+   **Validate all** flags items with placeholder text (template/tooltip), missing text, bad abbreviations,
+   price problems, or **non-canonical caliber spellings** (e.g. `556x45` → `5.56x45mm`; table in
+   `editor.html` `CALIBERS`) as "needs attention" (flags can also be set manually per item). Bulk stat
+   operations work on the filtered list. **Save changes / Commit** writes the changed category files + the
+   workflow file; **Discard** reverts the selected item.
 3. **Repo → Unreal:** run `Download Items From GitHub` then `Import Items`. The import report lists every
    applied change (paste-ready for patch notes — the editor's **Copy patch-note draft** button produces the
    same format). Save the dirtied assets.
