@@ -1,5 +1,1184 @@
 {
-	"flags": {},
+	"flags": {
+		"Inventory.Items.Ammunition.Rounds.12x70.Buckshot": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.12x70.Slug": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.45ACP.HS": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.545x39.BP": {
+			"validation": [
+				"Caliber in abbreviation: \"5.45x39\" should be \"5.45x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.545x39.PS": {
+			"validation": [
+				"Caliber in abbreviation: \"5.45x39\" should be \"5.45x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.556x45.FMJ": {
+			"validation": [
+				"Caliber in abbreviation: \"5.56x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.556x45.M855": {
+			"validation": [
+				"Caliber in abbreviation: \"5.56x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.57x28.SS198LF": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"57x28mm\" should be \"5.7x28mm\"; Caliber in abbreviation: \"57x28\" should be \"5.7x28mm\"; Caliber in description: \"57x28mm\" should be \"5.7x28mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.762x39.BP": {
+			"validation": [
+				"Caliber in abbreviation: \"7.62x39\" should be \"7.62x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.762x39.HP": {
+			"validation": [
+				"Caliber in description: \"7.62x39\" should be \"7.62x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.762x39.PS": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in abbreviation: \"7.62x39\" should be \"7.62x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.762x51.M62": {
+			"validation": [
+				"Caliber in abbreviation: \"7.62x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.762x51.M80": {
+			"validation": [
+				"Caliber in abbreviation: \"7.62x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.762x54.R PS": {
+			"validation": [
+				"Caliber in name: \"7.62x54 R\" should be \"7.62x54mmR\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.9x19.AP6x3": {
+			"validation": [
+				"Caliber in abbreviation: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.9x19.PSO": {
+			"validation": [
+				"Caliber in abbreviation: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Ammunition.Rounds.x300 Blackout.M62": {
+			"validation": [
+				"Caliber in description: \"762x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Attachments.Barrel.AR-15 16 Inch Barrel": {
+			"validation": [
+				"Caliber in description: \"5.56x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Attachments.Barrel.AR-15 18 Inch Barrel": {
+			"validation": [
+				"Caliber in description: \"5.56x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Attachments.Barrel.AR-15 20 Inch Barrel": {
+			"validation": [
+				"Caliber in description: \"5.56x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Attachments.Barrel.MPX 10x5 Inch 9x19 Barrel": {
+			"validation": [
+				"Caliber in name: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Attachments.Barrel.MPX 14 Inch 9x19 Barrel": {
+			"validation": [
+				"Caliber in name: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Attachments.Barrel.MPX 6x5 Inch 9x19 Barrel": {
+			"validation": [
+				"Caliber in name: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Attachments.Barrel.MPX 8 Inch 9x19 Barrel": {
+			"validation": [
+				"Caliber in name: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Attachments.Barrel.MPX Ronin 6 Inch 9x19 Barrel": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.302Z"
+		},
+		"Inventory.Items.Attachments.Dust Cover.AK-12 Dust Cover": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Dust Cover.FAL Advanced Dust Cover": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Dust Cover.FAL Standard Dust Cover": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Foregrip.STV-380 Handguard Panel": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Gas Tube.AK-74 Gas Tube": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Gas Tube.AKS-74U Gas Tube": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Gas Tube.PP-19 Gas Tube": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Gas Tube.RPK-74 Gas Tube": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Gas Tube.SVDS Gas Tube": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Handguard.AK-12 Polymer Handguard": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Handguard.AKS-74U Alfa Arms Goliaf Handguard": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Handguard.AR-10 CMMG MK3 RML15 15 Inch Ghillie Handguard": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Handguard.AR-10 Noveske Quadrail 10x5 Inch Handguard": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Handguard.LAMG Picatinny Handguard": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Handguard.MPX Lancer M-LOK 14 Inch Handguard": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Handguard.MPX Lancer M-LOK 16 Inch Handguard": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Handguard.MPX M-LOK 4 Inch Handguard": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Handguard.MPX Midwest M-LOK 10x5 Inch Handguard": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Handguard.MPX Midwest M-LOK 14 Inch Handguard": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Handguard.MPX Midwest M-LOK 6x5 Inch Handguard": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Handguard.RPK-74 Polymer Handguard": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Handguard.SVDS Polymer Handguard": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AK 545x39 30rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"5.45x39\" should be \"5.45x39mm\"; Caliber in abbreviation: \"5.45x39\" should be \"5.45x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AK 545x39 45rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"545x39\" should be \"5.45x39mm\"; Caliber in abbreviation: \"5.45x39\" should be \"5.45x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AK 545x39 60rnd": {
+			"validation": [
+				"Caliber in name: \"5.45x39\" should be \"5.45x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AK 545x39 Bakelite 30rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"5.45x39\" should be \"5.45x39mm\"; Caliber in abbreviation: \"5.45x39\" should be \"5.45x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AK 545x39 Drum 95rnd": {
+			"validation": [
+				"Caliber in name: \"545x39\" should be \"5.45x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AK 556x45 45rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"5.56x45\" should be \"5.56x45mm\"; Caliber in abbreviation: \"5.56x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AK 556x45 Black 30rnd": {
+			"validation": [
+				"Caliber in name: \"556x45\" should be \"5.56x45mm\"; Caliber in abbreviation: \"556x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AK 762x39 20rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in abbreviation: \"7.62x39\" should be \"7.62x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AK 762x39 Bakelite 30rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"762x39\" should be \"7.62x39mm\"; Caliber in abbreviation: \"7.62x39\" should be \"7.62x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AK12 545x39 30rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"5.45x39\" should be \"5.45x39mm\"; Caliber in abbreviation: \"5.45x39\" should be \"5.45x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AR-10 Stanag 762x51 20rnd": {
+			"validation": [
+				"Caliber in name: \"7.62x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AR-10 X-Products X-25 762x51 50Rnd": {
+			"validation": [
+				"Caliber in name: \"762x51\" should be \"7.62x51mm\"; Caliber in abbreviation: \"762x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AR-15 Colt A2 Stanag 556x45 20Rnd": {
+			"validation": [
+				"Caliber in name: \"556x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AR-15 Colt A2 Stanag 556x45 30Rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"556x45\" should be \"5.56x45mm\"; Caliber in abbreviation: \"5.56x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AR-15 MagPul PMAG 556x45 60rnd": {
+			"validation": [
+				"Caliber in name: \"556x45\" should be \"5.56x45mm\"; Caliber in description: \"5.56x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AR-15 SureFire MAG5 Stanag 556x45 60Rnd": {
+			"validation": [
+				"Caliber in name: \"556x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AUG 556x45 30rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"556x45\" should be \"5.56x45mm\"; Caliber in abbreviation: \"5.56x45\" should be \"5.56x45mm\"; Caliber in description: \"5.56x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.AUG 556x45 42rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"556x45\" should be \"5.56x45mm\"; Caliber in abbreviation: \"5.56x45\" should be \"5.56x45mm\"; Caliber in description: \"5.56x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.FAL 762x51 20rnd": {
+			"validation": [
+				"Caliber in name: \"762x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.FAL 762x51 30rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"762x51\" should be \"7.62x51mm\"; Caliber in abbreviation: \"7.62x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.FAL 762x51 50rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"762x51\" should be \"7.62x51mm\"; Caliber in abbreviation: \"7.62x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.Five Seven 57x28 20rnd": {
+			"validation": [
+				"Caliber in name: \"57x28\" should be \"5.7x28mm\"; Caliber in abbreviation: \"57x28\" should be \"5.7x28mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.Five Seven 57x28 30rnd": {
+			"validation": [
+				"Caliber in name: \"57x28\" should be \"5.7x28mm\"; Caliber in abbreviation: \"57x28\" should be \"5.7x28mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.Glock 19 9x19 15rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"9x19\" should be \"9x19mm\"; Caliber in abbreviation: \"9x19\" should be \"9x19mm\"; Caliber in description: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.Glock 19 9x19 20rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"9x19\" should be \"9x19mm\"; Caliber in abbreviation: \"9x19\" should be \"9x19mm\"; Caliber in description: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.HK MP5 9x19 20rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"9x19\" should be \"9x19mm\"; Caliber in abbreviation: \"9x19\" should be \"9x19mm\"; Caliber in description: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.HK MP5 9x19 30rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"9x19\" should be \"9x19mm\"; Caliber in abbreviation: \"9x19\" should be \"9x19mm\"; Caliber in description: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.HK MP5 9x19 50rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"9x19\" should be \"9x19mm\"; Caliber in abbreviation: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.LAMG Box 556x45 150Rnd": {
+			"validation": [
+				"Abbreviation is empty"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.M700 x338 5rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.M700 x338 8rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.M9A3 9x19 17rnd": {
+			"validation": [
+				"Caliber in name: \"9x19\" should be \"9x19mm\"; Caliber in abbreviation: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.M9A3 9x19 20rnd": {
+			"validation": [
+				"Caliber in name: \"9x19\" should be \"9x19mm\"; Caliber in abbreviation: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.Magpul PMAG 20 LR SR 762x51 20Rnd": {
+			"validation": [
+				"Caliber in name: \"762x51\" should be \"7.62x51mm\"; Caliber in abbreviation: \"7.62x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.MPX 9x19 25rnd": {
+			"validation": [
+				"Caliber in name: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.MPX 9x19 35rnd": {
+			"validation": [
+				"Caliber in name: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.MPX 9x19 50rnd": {
+			"validation": [
+				"Caliber in name: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.P320 9x19 17rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"9x19\" should be \"9x19mm\"; Caliber in abbreviation: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.P320 9x19 21rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"9x19\" should be \"9x19mm\"; Caliber in abbreviation: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.P90 57x28 50rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"57x28\" should be \"5.7x28mm\"; Caliber in abbreviation: \"57x28\" should be \"5.7x28mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.PP-19 9x19 30rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"9x19\" should be \"9x19mm\"; Caliber in abbreviation: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.PP-19 9x19 50rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"9x19\" should be \"9x19mm\"; Caliber in abbreviation: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.QSZ-92 9x19 15rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"9x19\" should be \"9x19mm\"; Caliber in abbreviation: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.SCAR-H 762x51 20rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"762x51\" should be \"7.62x51mm\"; Caliber in abbreviation: \"7.62x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.SCAR-L 556x45 30rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"556x45\" should be \"5.56x45mm\"; Caliber in abbreviation: \"5.56x45\" should be \"5.56x45mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.SKS Standard 762x39 10rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"762x39\" should be \"7.62x39mm\"; Caliber in abbreviation: \"7.62x39\" should be \"7.62x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.SKS Star 762x39 20rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"762x39\" should be \"7.62x39mm\"; Caliber in abbreviation: \"7.62x39\" should be \"7.62x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.SKS Tapco 762x39 20rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"762x39\" should be \"7.62x39mm\"; Caliber in abbreviation: \"7.62x39\" should be \"7.62x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.SRS A2 x338 5rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.SRS A2 x338 8rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.SVD 762x54 10rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"762x54\" should be \"7.62x54mmR\"; Caliber in abbreviation: \"7.62x54\" should be \"7.62x54mmR\"; Caliber in description: \"7.62x54mm\" should be \"7.62x54mmR\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.VR80 12ga 10rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Mag.VR80 12ga 5rnd": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Muzzle.AAC 762-SDN-6 Suppressor": {
+			"validation": [
+				"Caliber in description: \"7.62x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Muzzle.AR-10 M110 762x51 Muzzle Brake": {
+			"validation": [
+				"Caliber in name: \"7.62x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Muzzle.Galil ACE II 762x51 Muzzle": {
+			"validation": [
+				"Caliber in name: \"7.62x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Muzzle.MPX 9x19 Flash Hider": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Muzzle.MPX Ronin 12 Inch 9x19 Suppressor": {
+			"validation": [
+				"Abbreviation longer than 12 characters",
+				"Caliber in name: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Muzzle.MPX Ronin 8 Inch 9x19 Suppressor": {
+			"validation": [
+				"Caliber in name: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Muzzle.QBZ-97 556x45 Suppressor": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Muzzle.SCAR-H AAC SD 51T Flash Hider": {
+			"validation": [
+				"Caliber in description: \"7.62x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Muzzle.Sig Sauer SRD762 Suppressor": {
+			"validation": [
+				"Caliber in description: \"7.62x51\" should be \"7.62x51mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Muzzle.SVD Rotor43 762x54 Suppressor": {
+			"validation": [
+				"Caliber in name: \"762x54\" should be \"7.62x54mmR\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Muzzle.Zenitco DTK-1 545x39": {
+			"validation": [
+				"Caliber in name: \"545x39mm\" should be \"5.45x39mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Pistol Grip.AK-12 Pistol Grip": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Pistol Grip.SVDS Polymer Pistol Grip": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Rail.SKS EST Tula Dovetail": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Sight.QBZ-97 Y-MA-95-1-600 3x Scope": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Attachments.Stock.SVDS Folding Stock": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Collectibles.Antique Water Pitcher": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Collectibles.Golden Bangle": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Collectibles.Puzzle Cube": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Collectibles.Silver Pearls": {
+			"validation": [
+				"Description is very short",
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Electronics.HDMI Cable": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Electronics.Military Laptop": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Electronics.Military Radio": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Electronics.Mining Battery": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Electronics.Walkie Talkie": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Household Items.Marker": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Household Items.Old Chemical Bottle": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Household Items.Rope": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Household Items.Shampoo": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Barter.Tools.Hammer": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Currency.Cash": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Armored Rig.AVS Rifleman V4 Vest": {
+			"validation": [
+				"Description is empty"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Armored Rig.AVS SL Vest": {
+			"validation": [
+				"Description is empty"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Armored Rig.LBT Breacher V1": {
+			"validation": [
+				"Description is empty",
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Armored Rig.LBT MED V1 Armored Rig": {
+			"validation": [
+				"Description is empty"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Armored Rig.Spiritus LV119 Armored Rig": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Armored Rig.Wartech-TV-110 Armored Rig": {
+			"validation": [
+				"Description is empty",
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Backpack.ADA Assault Backpack": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Backpack.CamelBak Backpack": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Backpack.Mystery Ranch SALT Backpack": {
+			"validation": [
+				"Description is empty"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Helmet.HHV Helmet": {
+			"validation": [
+				"Description is empty"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Helmet.High Cut LSHZ Helmet": {
+			"validation": [
+				"Description is empty"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Helmet.Kiver RSP Helmet": {
+			"validation": [
+				"Description is empty"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Helmet.MICH 2000": {
+			"validation": [
+				"Description is empty"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Helmet.Ops-Core FAST Bump Helmet": {
+			"validation": [
+				"Description is empty",
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Helmet.SESTAN-BUSCH BK-3 Helmet": {
+			"validation": [
+				"Description is empty"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Helmet.Super High Cut Ops Core Fast MT V1 Helmet": {
+			"validation": [
+				"Description is empty"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Helmet.Team Wendy EXFIL Helmet": {
+			"validation": [
+				"Description is empty"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Plate Carrier.AVS Plate Carrier": {
+			"validation": [
+				"Description is empty",
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Plate Carrier.JPC Plate Carrier": {
+			"validation": [
+				"Description is empty",
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Plate Carrier.MSV Plate Carrier": {
+			"validation": [
+				"Description contains placeholder text (template/tooltip)"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Plate Carrier.Paraclete Origin Plate Carrier": {
+			"validation": [
+				"Description is empty",
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Plate Carrier.The Slickster Plate Carrier": {
+			"validation": [
+				"Description is empty",
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Unarmored Rig.D3CRM Unarmored Rig": {
+			"validation": [
+				"Description is empty",
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Unarmored Rig.D3CRX Unarmored Rig": {
+			"validation": [
+				"Description is empty"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Gear.Unarmored Rig.Vest Virtus Unarmored Rig": {
+			"validation": [
+				"Description is empty",
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Grenades.M18 Smoke Grenade": {
+			"validation": [
+				"Description contains placeholder text (template/tooltip)"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Grenades.Model 7290 Flash Bang Grenade": {
+			"validation": [
+				"Description contains placeholder text (template/tooltip)"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Grenades.RG-VO Gas Grenade": {
+			"validation": [
+				"Description contains placeholder text (template/tooltip)"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Keys.Bunker.Compact Safe Key": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Keys.Bunker.Elevator Room": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Keys.Bunker.Large Safe Key": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Keys.Delta.Large Safe Key": {
+			"validation": [
+				"Description contains placeholder text (template/tooltip)"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Keys.Quarry.Compact Safe Key": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Keys.Quarry.Large Safe Key": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Provisions.Drinks.Condensed Milk": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Provisions.Food.Canned Corn": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Provisions.Food.Canned Soup": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Provisions.Food.Canned Squid": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Provisions.Food.Canned Tuna": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Provisions.Food.Chips": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Provisions.Food.Crackers": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Provisions.Food.Peanut Butter": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Provisions.Food.Squid Chips": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Quest.Antenna Piece 1": {
+			"validation": [
+				"Sold item with price 0"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Quest.Antenna Piece 2": {
+			"validation": [
+				"Sold item with price 0"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Quest.Antenna Piece 3": {
+			"validation": [
+				"Sold item with price 0"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Quest.Basic Machine Parts": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Quest.Construction HxAxS Blueprint Layout Guide": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Quest.Construction HxAxS Blueprint Materials List": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Quest.Misc": {
+			"validation": [
+				"Description is very short"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Quest.Troop Movement Paper": {
+			"validation": [
+				"No rarity set"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Weapons.Pistol.QSZ-92": {
+			"validation": [
+				"Caliber in description: \"9x19\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Weapons.Smg.KRISS Vector 45ACP": {
+			"validation": [
+				"Abbreviation longer than 12 characters"
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Weapons.Smg.PP-19 Vitayz": {
+			"validation": [
+				"Caliber in description: \"9×19mm\" should be \"9x19mm\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		},
+		"Inventory.Items.Weapons.SniperRifle.SVDS": {
+			"validation": [
+				"Caliber in description: \"7.62x54mm\" should be \"7.62x54mmR\""
+			],
+			"time": "2026-07-31T23:47:33.303Z"
+		}
+	},
 	"log": [
 		{
 			"tag": "Inventory.Items.Ammunition.Rounds.45ACP.HS",
@@ -9,5 +1188,6 @@
 				"Description updated"
 			]
 		}
-	]
+	],
+	"notes": {}
 }
