@@ -1,0 +1,222 @@
+{
+	"category": "Grenades",
+	"items": [
+		{
+			"itemTag": "Inventory.Items.Grenades.F-1 Hand Grenade",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/F-1_Hand_Grenade/ID_F-1_Hand_Grenade.ID_F-1_Hand_Grenade",
+			"name": "F-1 Hand Grenade",
+			"abbreviation": "F-1",
+			"description": "A popular frag grenade that has a good chance to pierce through armor as well.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.6,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Shrapnel Chance",
+					"value": 6e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Piercing Level",
+					"value": 2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Penetration",
+					"value": 2e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Radius",
+					"value": 8,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Delay",
+					"value": 5,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "F-1_Hand_Grenade",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 2.5e+02,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "df624533d0b0504e2fde4318ef2416b0"
+		},
+		{
+			"itemTag": "Inventory.Items.Grenades.M18 Smoke Grenade",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/M18_Smoke_Grenade/ID_M18_Smoke_Grenade.ID_M18_Smoke_Grenade",
+			"name": "M18 Smoke Grenade",
+			"abbreviation": "M18",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.4,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Radius",
+					"value": 4,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Delay",
+					"value": 3,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "M18_Smoke_Grenade",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "cf9349a7b3ba713c3656fce79ac356f8"
+		},
+		{
+			"itemTag": "Inventory.Items.Grenades.M67 Hand Grenade",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/M67/ID_M67.ID_M67",
+			"name": "M67",
+			"abbreviation": "M67",
+			"description": "Modernized version of a classic M33.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.4,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Shrapnel Chance",
+					"value": 4e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 0,
+					"modifyType": "None"
+				},
+				{
+					"tag": "Inventory.Stats.Piercing Level",
+					"value": 2,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Penetration",
+					"value": 2e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Radius",
+					"value": 1e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Delay",
+					"value": 5,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "M67",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 1.6e+02,
+				"blackMarketPrice": 1
+			},
+			"sourceHash": "4c365cce3a1ad309e2ccd5c2697d062f"
+		},
+		{
+			"itemTag": "Inventory.Items.Grenades.Model 7290 Flash Bang Grenade",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/Model_7290_Flash_Bang_Grenade/ID_Model_7290_Flash_Bang_Grenade.ID_Model_7290_Flash_Bang_Grenade",
+			"name": "Model 7290 Flash Bang Grenade",
+			"abbreviation": "Model 7290",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.0075,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Shrapnel Chance",
+					"value": 5e+01,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Radius",
+					"value": 4,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Delay",
+					"value": 5,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Model_7290_Flash_Bang_Grenade",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 2e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "51bd0dc3d079daa62c4bcfeef4b2600b"
+		},
+		{
+			"itemTag": "Inventory.Items.Grenades.RG-VO Gas Grenade",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/RG-VO_Gas_Grenade/ID_RG-VO_Gas_Grenade.ID_RG-VO_Gas_Grenade",
+			"name": "RG-VO Gas Grenade",
+			"abbreviation": "RG-VO",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.0075,
+					"modifyType": "Add"
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Radius",
+					"value": 4,
+					"modifyType": "Base"
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Delay",
+					"value": 1.5,
+					"modifyType": "Base"
+				}
+			],
+			"vendor":
+			{
+				"rowName": "RG-VO_Gas_Grenade",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 3e+02,
+				"blackMarketPrice": -1
+			},
+			"sourceHash": "e1267fd9082ccc3d2a9691ed926d89a0"
+		}
+	],
+	"schemaSoftVersion": 1,
+	"schemaHardVersion": 1
+}
