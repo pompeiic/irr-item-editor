@@ -29,7 +29,8 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "12x70_Buckshot",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -53,7 +54,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
-					"value": 170,
+					"value": 1.7e+02,
 					"modifyType": "Base"
 				},
 				{
@@ -67,7 +68,8 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "12x70_Slug",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -82,7 +84,7 @@
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Ammunition/Rounds/45ACP/45ACP_HS/ID_45ACP_HS.ID_45ACP_HS",
 			"name": ".45ACP HS",
 			"abbreviation": ".45ACP",
-			"description": ".45ACP bullet. Fits into all Blackout mags.",
+			"description": ".45ACP bullet.",
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
@@ -105,7 +107,8 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "45ACP_HS",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -143,7 +146,8 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "545x39_7N22",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -181,7 +185,8 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "545x39_7N6",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -219,7 +224,8 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "556x45_FMJ",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -257,7 +263,8 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "556x45_M855",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -295,12 +302,13 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "57x28_SS197LF",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 10,
+				"defaultMarketPrice": 1e+01,
 				"blackMarketPrice": -1
 			},
 			"sourceHash": "23352ca35d54f971aeec1dc5537da147"
@@ -333,7 +341,8 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "762x39_7N23",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -371,7 +380,8 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "762x39_HP",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -409,7 +419,8 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "762x39_57-N-231",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -447,12 +458,13 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "762x51_M62",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 40,
+				"defaultMarketPrice": 4e+01,
 				"blackMarketPrice": -1
 			},
 			"sourceHash": "31a9fe9a8382e59d5e138ecef90194a3"
@@ -471,7 +483,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
-					"value": 90,
+					"value": 9e+01,
 					"modifyType": "Base"
 				},
 				{
@@ -485,12 +497,13 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "762x51_M80",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 20,
+				"defaultMarketPrice": 2e+01,
 				"blackMarketPrice": -1
 			},
 			"sourceHash": "c36a9b7d35f28a93c94c815f760d3e9c"
@@ -509,7 +522,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
-					"value": 90,
+					"value": 9e+01,
 					"modifyType": "Base"
 				},
 				{
@@ -523,7 +536,8 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "762x54_R_PS",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -561,7 +575,8 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "9x19_AP6x3",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -585,7 +600,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
-					"value": 60,
+					"value": 6e+01,
 					"modifyType": "Base"
 				},
 				{
@@ -595,11 +610,12 @@
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
-					"value": 10,
+					"value": 1e+01,
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "9x19_PSO",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -637,12 +653,13 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "x300_Blackout_M62",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 20,
+				"defaultMarketPrice": 2e+01,
 				"blackMarketPrice": -1
 			},
 			"sourceHash": "732742ede4a79a6bd4262061718d0fcd"
@@ -675,7 +692,8 @@
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "x300_Blackout_ME3",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -709,11 +727,12 @@
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
-					"value": 40,
+					"value": 4e+01,
 					"modifyType": "Base"
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "x338_AP",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
