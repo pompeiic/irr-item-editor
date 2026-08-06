@@ -12,6 +12,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.6,
 					"modifyType": "Base",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -29,7 +30,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "680d89468b50b64bdc011154ae4b9cf5"
+			"sourceHash": "56a425438aac00316a6ffc130d8aac07"
 		},
 		{
 			"itemTag": "Inventory.Items.Melee.Machete",
@@ -42,6 +43,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.9,
 					"modifyType": "Base",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -59,7 +61,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "07e6069bb5c8b82e00f04603b2a1c966"
+			"sourceHash": "d9e1b3ff9a0ef6b67a02fb6a33db4264"
 		},
 		{
 			"itemTag": "Inventory.Items.Melee.Tomahawk",
@@ -72,6 +74,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1,
 					"modifyType": "Base",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -89,9 +92,9 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "d009066a7307376e435589897adbd44d"
+			"sourceHash": "5b29622944ab2236608bfbcb803caaf8"
 		}
 	],
-	"schemaSoftVersion": 3,
+	"schemaSoftVersion": 4,
 	"schemaHardVersion": 1
 }
