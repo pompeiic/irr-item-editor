@@ -15,11 +15,11 @@ permissions:
   id-token: write
 
 # The item export uploads one commit per category file, so a single "Upload Items To GitHub" fires a
-# burst of ~14 pushes. Queue them behind one deploy and drop everything but the newest — cancelling an
-# in-flight deploy is what wedged the legacy builder.
+# burst of ~14 pushes. Cancel the superseded run so obsolete deployments never queue behind each other;
+# deploy-pages cancels its backend Pages deployment on the way out.
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -34,4 +34,8 @@ jobs:
         with:
           path: .
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
+        with:
+          # Wait ~55 min instead of 10: with the hourly retry above, one deployment is queued almost
+          # continuously, so the site republishes the moment GitHub's wedged queue drains.
+          timeout: 3300000
