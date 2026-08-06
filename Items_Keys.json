@@ -11,12 +11,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.05,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 8,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -31,7 +37,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "9ab5eadbb55c558156beee2f7aab7517"
+			"sourceHash": "5ad60e7970cee7d12cc6a89b3c64fa52"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.Elevator Room",
@@ -43,12 +49,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.05,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -63,7 +75,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "4f4f28d0836d164dbe672e26a004ac73"
+			"sourceHash": "48f82e012c074a0df400b3f2aa3454f0"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.Extraction Room Key",
@@ -75,12 +87,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.05,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -95,7 +113,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "dd74b7bf9f71e62b9b291077b5570402"
+			"sourceHash": "66bdd5839140c3d764d075fb530815f1"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.General Bunker Key",
@@ -107,12 +125,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 15,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -127,7 +151,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "843530ca7e779e4a09248eee58357fd1"
+			"sourceHash": "40eab8825b5c9a05e75f17a5d7ebc7d7"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.Large Safe Key",
@@ -139,12 +163,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.05,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -159,7 +189,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "5c129dcb78153074cbd8dd14054b576a"
+			"sourceHash": "d3ef401745412f1d2c96ccc5fa627236"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Delta.Compact Safe Key",
@@ -171,12 +201,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 8,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -191,7 +227,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "8741ec64e726d1a327ea518768ce8fb7"
+			"sourceHash": "5f940e9f4497025eeadbcbe75f8db28f"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Delta.General Key",
@@ -203,12 +239,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 15,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -223,7 +265,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "769bcf9cd8203e68a12d9203d2a4bb71"
+			"sourceHash": "ea4b50d7c6042711ab8af4e9dbb5d9e9"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Delta.Large Safe Key",
@@ -235,12 +277,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 15,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -255,7 +303,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "573ce08efd9334c5fc2ae8f87d69f9a1"
+			"sourceHash": "e4707222c46aeccbf3268f02ef86bed4"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.HAS.HAS-0023-B",
@@ -267,12 +315,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 15,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -287,7 +341,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "54e13f564c2a0627d521318eae2826a3"
+			"sourceHash": "320178b3dd27377449801599bf861d8f"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.HAS.HAS-0226-C",
@@ -299,12 +353,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 15,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -319,7 +379,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c6854012419b48f3352db93cd4f0b620"
+			"sourceHash": "d5be812f0c32d0efa7b9d978261edf7c"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.HAS.HAS-0410-A",
@@ -331,12 +391,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 15,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -351,7 +417,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "67250c3ec033ca153ed418139f6a9fa0"
+			"sourceHash": "dd57faa6c5c937224697ec480f0380cf"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Quarry.Compact Safe Key",
@@ -363,12 +429,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.05,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 8,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -383,7 +455,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "5d2e792b1afcdb3f5946e6d103577deb"
+			"sourceHash": "bd26700edbbd55ccba7ac26e5eec30a9"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Quarry.General Key",
@@ -395,12 +467,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 15,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -415,7 +493,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "f5130df1e4b424761c701d8ad2bc4084"
+			"sourceHash": "53ee1f973db48ee143e14d46115bd0e8"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Quarry.Large Safe Key",
@@ -427,12 +505,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.05,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -447,9 +531,9 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b5da5d9ae1696fd163390ee5ac8dbff6"
+			"sourceHash": "68df032414e3647b5072f76ede1d3801"
 		}
 	],
-	"schemaSoftVersion": 2,
+	"schemaSoftVersion": 3,
 	"schemaHardVersion": 1
 }
