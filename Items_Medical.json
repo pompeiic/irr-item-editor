@@ -11,17 +11,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": -1,
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Usage Time",
 					"value": 5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -36,7 +53,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "eefb28ab03382c9a0f7f7bf761979f84"
+			"sourceHash": "f932081b26c310209323d5a3830cd563"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Health Injector",
@@ -48,22 +65,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Healing Boost",
+					"tag": "Inventory.Stats.Heal Instant",
 					"value": 4e+01,
-					"modifyType": "Base"
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Usage Time",
 					"value": 3,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -78,7 +107,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "08535e70510de6894ccdc900ceb1f982"
+			"sourceHash": "b6719202b4752242055a4143163815b1"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Painkiller",
@@ -90,27 +119,26 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.05,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 4,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Usage Time",
 					"value": 7,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Health Buff",
-					"value": 5e+01,
-					"modifyType": "Base"
-				},
-				{
-					"tag": "Inventory.Stats.Effect Duration",
-					"value": 1.6e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -125,7 +153,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "32e70e9bcce826589b86ee0aa5c3b194"
+			"sourceHash": "45027222568b96b2c43beae50de3623e"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Revive Syringe",
@@ -137,17 +165,26 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Usage Time",
 					"value": 8,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -162,9 +199,9 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "beaf48aad1d469d3f9cef6b72c29038c"
+			"sourceHash": "ce5110537fb69806f373cfb9bf744d00"
 		}
 	],
-	"schemaSoftVersion": 2,
+	"schemaSoftVersion": 3,
 	"schemaHardVersion": 1
 }
