@@ -12,6 +12,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -20,6 +21,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1,
 					"modifyType": "Base",
+					"displayName": "Content",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -28,6 +30,7 @@
 					"tag": "Inventory.Stats.Chance To Wound",
 					"value": -1,
 					"modifyType": "None",
+					"displayName": "Stop Wound",
 					"effectField": "Amount",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -36,6 +39,7 @@
 					"tag": "Inventory.Stats.Usage Time",
 					"value": 5,
 					"modifyType": "Base",
+					"displayName": "Usage Time",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -53,7 +57,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "f932081b26c310209323d5a3830cd563"
+			"sourceHash": "2c567ed41557b37ef0d337b67a3c0921"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Health Injector",
@@ -66,6 +70,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -74,6 +79,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1,
 					"modifyType": "Base",
+					"displayName": "Content",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -82,6 +88,7 @@
 					"tag": "Inventory.Stats.Heal Instant",
 					"value": 4e+01,
 					"modifyType": "None",
+					"displayName": "Heal Instant",
 					"effectField": "Amount",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -90,6 +97,7 @@
 					"tag": "Inventory.Stats.Usage Time",
 					"value": 3,
 					"modifyType": "Base",
+					"displayName": "Usage Time",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -107,7 +115,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b6719202b4752242055a4143163815b1"
+			"sourceHash": "e92eefd7cdc718ee009c3f68b7325d32"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Painkiller",
@@ -120,6 +128,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.05,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -128,6 +137,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 4,
 					"modifyType": "Base",
+					"displayName": "Content",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -136,6 +146,7 @@
 					"tag": "Inventory.Stats.Usage Time",
 					"value": 7,
 					"modifyType": "Base",
+					"displayName": "Usage Time",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -153,7 +164,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "45027222568b96b2c43beae50de3623e"
+			"sourceHash": "6f8f8e5cc48a4c27e6d4c819bece517b"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Revive Syringe",
@@ -166,6 +177,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -174,6 +186,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1,
 					"modifyType": "Base",
+					"displayName": "Content",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -182,6 +195,7 @@
 					"tag": "Inventory.Stats.Usage Time",
 					"value": 8,
 					"modifyType": "Base",
+					"displayName": "Usage Time",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -199,9 +213,9 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "ce5110537fb69806f373cfb9bf744d00"
+			"sourceHash": "9ca02f2d7865d754aadb7f3eef979c6b"
 		}
 	],
-	"schemaSoftVersion": 3,
+	"schemaSoftVersion": 4,
 	"schemaHardVersion": 1
 }
