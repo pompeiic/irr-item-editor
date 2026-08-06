@@ -62,7 +62,7 @@
 		},
 		{
 			"tag": "Inventory.Stats.Heal Instant",
-			"displayName": "Healing Amount",
+			"displayName": "Heal Instant",
 			"unit": "HP",
 			"maxValue": 0
 		},
