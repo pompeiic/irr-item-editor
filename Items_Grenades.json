@@ -11,32 +11,50 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.6,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Shrapnel Chance",
 					"value": 6e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 2e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Radius",
 					"value": 8,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Delay",
 					"value": 5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -51,7 +69,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "f02950844a41b87a543dce6a5f0eb278"
+			"sourceHash": "3090760bbe43aea6647adbefa70deab6"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.M18 Smoke Grenade",
@@ -63,17 +81,26 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.4,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Radius",
 					"value": 4,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Delay",
 					"value": 3,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -88,7 +115,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "59d76d147e7de36d59f9177b4e04f97f"
+			"sourceHash": "f7ee0697f6068280ceb545b38b38d7d0"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.M67 Hand Grenade",
@@ -100,32 +127,50 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.4,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Shrapnel Chance",
 					"value": 4e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 2e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Radius",
 					"value": 1e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Delay",
 					"value": 5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -140,7 +185,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "ca16df7ad49fa2e37e3d3bd09c8129f2"
+			"sourceHash": "0443d97aa00e423648be95f25122f876"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.Model 7290 Flash Bang Grenade",
@@ -152,22 +197,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Shrapnel Chance",
 					"value": 5e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Radius",
 					"value": 4,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Delay",
 					"value": 5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -182,7 +239,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "cdaa788314309393764a7c04d6aa4462"
+			"sourceHash": "8eda304589ee37d58a4535b9aa86cf3d"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.RG-VO Gas Grenade",
@@ -194,17 +251,26 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Radius",
 					"value": 4,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Delay",
 					"value": 1.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -219,9 +285,9 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "e1030765ee9258822f5481414e82f912"
+			"sourceHash": "b57669cfbd5d630e6bf400d63385fc10"
 		}
 	],
-	"schemaSoftVersion": 2,
+	"schemaSoftVersion": 3,
 	"schemaHardVersion": 1
 }
