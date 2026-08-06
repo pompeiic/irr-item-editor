@@ -11,7 +11,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -26,7 +29,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "13b24e5138bd0b92fc3515a11cb999b4"
+			"sourceHash": "9c10e94f3510fa8df89a3cd373ba590b"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Antique Water Pitcher",
@@ -38,7 +41,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -53,7 +59,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "6e465e65860e9f31d90da3239c2b19b3"
+			"sourceHash": "31b6ccd29b0394729b41aba68ebcf20b"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Basketball",
@@ -65,7 +71,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -80,7 +89,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "01979ab77f60e59fc3c613d1aa2b69fd"
+			"sourceHash": "41109aed12f67726436961319c83270d"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Boardgame",
@@ -92,7 +101,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -107,7 +119,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "7a0162c1ac96fac8d9ebb91c1efb4157"
+			"sourceHash": "97ac48a166df022145cceddb9fb13c6c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Book",
@@ -119,7 +131,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -134,7 +149,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "9c841ea361ba35073ad196a425bb2f22"
+			"sourceHash": "29fc4dcc58959e498abe1a1fbbe6e7aa"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Brandy",
@@ -146,7 +161,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -161,7 +179,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "df9063556950071e1f554a7ce1c49722"
+			"sourceHash": "71783f0b92862b3ffca361c96ed23b6c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Candle Holder",
@@ -173,7 +191,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -188,7 +209,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "9bf9dcd2a03c3511893e779b4dbb4424"
+			"sourceHash": "0d18c2e2b5f8a1c539fd71610660224f"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Candlestick",
@@ -200,7 +221,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -215,7 +239,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "5fd53e065b5d46fc99d815f8fc44c25a"
+			"sourceHash": "e9f2e2e3eadf6156ca8258e5fc8f75f8"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Cat Figure",
@@ -227,7 +251,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -242,7 +269,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "36f956a7dff226f0ff6dabd07aadd9d2"
+			"sourceHash": "7142d0c0530a6c73cd2dceb0b401921e"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Compass",
@@ -254,7 +281,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -269,7 +299,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "dd9a740c8dddad53ebfa344542c19550"
+			"sourceHash": "d075c1c398a78eae204f0af971922b6c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Cuban Cigar",
@@ -281,7 +311,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -296,7 +329,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "587e2c32f661e378f28f7dfb60189a49"
+			"sourceHash": "2d9ce24e8dfede86ea6a08fcbb1e7b06"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Earth Globe",
@@ -308,7 +341,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -323,7 +359,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a2ec6381183f9b371ca18d31aba6826b"
+			"sourceHash": "4f0aed0c5464fe6549f73e79b0516ac6"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Film Case",
@@ -335,7 +371,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -350,7 +389,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "8ab85d4a50af8df05a5fdccb772c4ab1"
+			"sourceHash": "600ab970cf26463c255b18de0cf7bfc3"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Bangle",
@@ -362,7 +401,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -377,7 +419,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "fd1e7f29a9f59891ea1ab103d9d02f42"
+			"sourceHash": "8a1ab7e5765513d9ca984f6d0650db2b"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Mirror",
@@ -389,7 +431,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3.75,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -404,7 +449,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "d2af4a34ea6476df20f5e2a820264ef0"
+			"sourceHash": "0035c83db6a13513a16c57b54cf77c56"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Ring",
@@ -416,7 +461,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -431,7 +479,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0005f2a1b1eef3004670e7d7cef75dc9"
+			"sourceHash": "336244ddb95806e3cf27504fa92a74eb"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Watering Can",
@@ -443,7 +491,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -458,7 +509,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0f8b599e81ea22643fa742cc827b547b"
+			"sourceHash": "3d9c04e3b503444048bd408a7103b18d"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Inca Vase",
@@ -470,7 +521,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.75,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -485,7 +539,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "5f2b0dac69aa3be98e1fa56ee73ac947"
+			"sourceHash": "38fbfec3a644c2f01c421ff945d7a88c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Luxury Tobacco Cigar",
@@ -497,7 +551,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -512,7 +569,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b301dca609fb5203d161eff8becea0a7"
+			"sourceHash": "344d4ec59de04d0c72ade0fbb197adaa"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Marlboro Red Cigarettes",
@@ -524,7 +581,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -539,7 +599,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c79dc821aee37ead25083ad298972862"
+			"sourceHash": "60a8123f2daefc4b8f973ea6c4bd8339"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Matryoshka",
@@ -551,7 +611,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -566,7 +629,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "37551b49ea845dea789a48295ed0e0a7"
+			"sourceHash": "152cc3f22ffa4c220eae6611a072c354"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Puzzle Cube",
@@ -578,7 +641,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -593,7 +659,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a8fe18001267ff93a495d41e7993040d"
+			"sourceHash": "1734de1c60bb06f12275d76acfc7d00a"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Silver Pearls",
@@ -605,7 +671,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.1,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -620,7 +689,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0aa4a4497517e77c10d38c8479b7ddd6"
+			"sourceHash": "797417c7898d6eb59f99e15e7e076b8c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Soccer Trophy",
@@ -632,7 +701,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -647,7 +719,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "2b1fe0a295a6a8da0e1841843686c952"
+			"sourceHash": "ca45044f87ffd0cf7c182669bab971b7"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Soviet Figure",
@@ -659,7 +731,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -674,7 +749,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a6fb3447b19e07f64491f33e691720fa"
+			"sourceHash": "0ff6576cd68f491f2fc92cebbdbfae3c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Thang Long Cigarettes",
@@ -686,7 +761,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -701,7 +779,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "66b401a34bac1b09733503c8ca11162e"
+			"sourceHash": "e37f6af574d7757abf7c839066203096"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Battery 18650",
@@ -713,7 +791,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.05,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -728,7 +809,7 @@
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "dba1c6da8ecdded928afb767bcc053c9"
+			"sourceHash": "25fb1047f5128cffabd9edc463928d8e"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Battery Car",
@@ -740,7 +821,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 15,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -755,7 +839,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "d6766a4387a08a1f5399c579daf2c8aa"
+			"sourceHash": "5dc5c9a00a608e445b157150d0323470"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Battery PP3",
@@ -767,7 +851,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.1,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -782,7 +869,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "4e6cecc37dfcd87a687e3ac84e362693"
+			"sourceHash": "7f6fe4f894ca00da7b6b71ffd585c08b"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.DLSR Camera",
@@ -794,7 +881,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -809,7 +899,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "da9bf6a2d9d2376196b0573ded11240f"
+			"sourceHash": "d96fd5f4e34c6e727430bea4a8e3f547"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Field Radio",
@@ -821,7 +911,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -836,7 +929,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "7041d15e31c628874558645e7cef7876"
+			"sourceHash": "23d5db326cba41040f8798ec7646c3ba"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Generator",
@@ -848,7 +941,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 12,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -863,7 +959,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "967283fa8384525583a1e86e42ee69a3"
+			"sourceHash": "a3f2d3c79cc1b75a49cd661e74ff447a"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Graphics Card",
@@ -875,7 +971,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.306,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -890,7 +989,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "99cecfb4ba8012513029436cecae59ba"
+			"sourceHash": "a4f42a21439984abd1480206a58d5466"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Hard Drive",
@@ -902,7 +1001,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -917,7 +1019,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "94eaf19b57080aeb3f96974da2e0679b"
+			"sourceHash": "ab136fcdf4c2f0dc4bb36e398a423912"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.HDMI Cable",
@@ -929,7 +1031,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.25,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -944,7 +1049,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "cfd6d0741878b007cfae87f2870d763d"
+			"sourceHash": "3ea7d9dbbe34da284971ed49896d9a49"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Kestrel 5700X",
@@ -956,7 +1061,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -971,7 +1079,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "208a7da51a505033327f1d6ec025eadd"
+			"sourceHash": "69d072537664b8d8de7eab10d3708072"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Military Laptop",
@@ -983,7 +1091,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -998,7 +1109,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c78d85ed34643711e55a2a5d002ee40b"
+			"sourceHash": "342317c04feea09adb6a2c284d9e7218"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Military Radio",
@@ -1010,7 +1121,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1025,7 +1139,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "6fb182dd737acee5157bce1bbe4fe5d6"
+			"sourceHash": "6711542eeff01658972d869d418094d8"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Mining Battery",
@@ -1037,7 +1151,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 1e+01,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1052,7 +1169,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "ab412f1fc80168e955c87cb7b6c4c185"
+			"sourceHash": "78fed24a197788fdb1f66730f64f734d"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Motherboard",
@@ -1064,7 +1181,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.3,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1079,7 +1199,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "acb010d21145972c528ffee1860da6d0"
+			"sourceHash": "a022db6f823a2a0fc6d937133e2a6c33"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Old Communicator",
@@ -1091,7 +1211,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.3,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1106,7 +1229,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "921b81ae697b63b74434e7ccee7a0601"
+			"sourceHash": "49a38a2e7a57a31ffaed92ef7d280a1f"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Old Flashlight",
@@ -1118,7 +1241,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1133,7 +1259,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "872b17b6d4eb01dedaa0014295a0e15f"
+			"sourceHash": "05ef61f9684d03097193781647339fd6"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Old Radio",
@@ -1145,7 +1271,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.25,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1160,7 +1289,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b510297f8fa8d3fd2284f9d25d3a518d"
+			"sourceHash": "807d4e9049bd7f0fd87660462a53bbd5"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Power Cable",
@@ -1172,7 +1301,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1187,7 +1319,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "1ff92fe39ac5590484be80bcd91c6d65"
+			"sourceHash": "21cc6a7d3d3d86d9b9db48b1a515c850"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Rebar Cutter",
@@ -1199,7 +1331,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1214,7 +1349,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "317babb691d28681904fad4bee960b44"
+			"sourceHash": "abfa267adfa23198fac54775138cb05a"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Spotlight",
@@ -1226,7 +1361,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1241,7 +1379,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "7a03de1a63ad6cec2df749650fd27d0c"
+			"sourceHash": "7310f5ecb12f7e7de05df8588e7e3cc2"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Walkie Talkie",
@@ -1253,7 +1391,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1268,7 +1409,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "85f76edac97d53f5ee5e57cf3dd8fd41"
+			"sourceHash": "0fd3348f28f2df99952088b84e5a547c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Bathroom Cleaner",
@@ -1280,7 +1421,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1295,7 +1439,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "807632b10c0afacf3d3bccc29a06e1ff"
+			"sourceHash": "f7308381829116ea8c0cca48c754e6e9"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Bed Roll",
@@ -1307,7 +1451,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.22,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1322,7 +1469,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "760c0dc6b9d37c7aa84de131641ea059"
+			"sourceHash": "ba9b7a42fbf0e7e19725b1435137e1aa"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Canteen",
@@ -1334,7 +1481,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1349,7 +1499,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "646492613ed86da201e21a5c2822a406"
+			"sourceHash": "acdea23ae065b03f841da02caf6adba7"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Collagen",
@@ -1361,7 +1511,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1376,7 +1529,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "459dd95c5277da2ea71b7e707b6f5367"
+			"sourceHash": "0259a9c9c9d83d9af55ebd74518b9ecd"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Food Container",
@@ -1388,7 +1541,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1403,7 +1559,7 @@
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "b1a239995191391d0e7c1762e016203e"
+			"sourceHash": "1ec90357ddeb5abe402c02e161941dca"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Marker",
@@ -1415,7 +1571,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1430,7 +1589,7 @@
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "77e9cb5310e2a686d466a8479517f7e7"
+			"sourceHash": "161d9841ed9cec3c36427d3afa526957"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Misprinted Condensed Milk",
@@ -1442,7 +1601,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Over Time",
+					"value": 6,
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -1457,7 +1651,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "3b7ddfabb3a96426c8a62f81e22f30d8"
+			"sourceHash": "d9f098dda8fb56cf01294a5fb1ed49a1"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Old Chemical Bottle",
@@ -1469,7 +1663,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1484,7 +1681,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "d19a2dd5616788d15da8feea89edc425"
+			"sourceHash": "655a2084fce26b14921bd0c3fb92ebc3"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Paintbrush",
@@ -1496,7 +1693,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1511,7 +1711,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "2837075000ccdf599c4ec84c44807cde"
+			"sourceHash": "2cc147be05ca4adbf645909729b8e192"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Polishing Oil",
@@ -1523,7 +1723,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1538,7 +1741,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a04f4e76f341886d9f072cfac1a376df"
+			"sourceHash": "7257f729d61c9a314c3dc43a6443103c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Prepped Meal",
@@ -1550,7 +1753,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.3,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1565,7 +1771,7 @@
 			"bCanStack": true,
 			"maxStack": 3,
 			"supportedItemTags": [],
-			"sourceHash": "3739ad736ea6f4017f34a71e7a88655f"
+			"sourceHash": "8af590a74c825ab5225e630977889220"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Rope",
@@ -1577,7 +1783,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1592,7 +1801,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "9ee8fcc64e05b67cd04a7f2a2fc68308"
+			"sourceHash": "3bab4b957c049af630c9e3fcd6ac1647"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Shampoo",
@@ -1604,7 +1813,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1619,7 +1831,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a7a33ba252f8a7cf1bee37b50140777f"
+			"sourceHash": "ed7e8eff0b232332526607e14d762c0d"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Shaving Cream",
@@ -1631,7 +1843,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1646,7 +1861,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0c198a20daa4bbcd897fcef00844feed"
+			"sourceHash": "56f7fcf7fd0ab65315174c72210b50db"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Soap",
@@ -1658,7 +1873,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.15,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1673,7 +1891,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b3d718c59467ab9d4385b127b8acb189"
+			"sourceHash": "82f0c0dd0ecedb50923cd4eca08f38c4"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Spraycan",
@@ -1685,7 +1903,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1700,7 +1921,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "39e131b923820b7fc45b76471b2227cb"
+			"sourceHash": "658d2c7f9441002761ae9455f1d5187d"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Vodka",
@@ -1712,7 +1933,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1727,7 +1951,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "4a02e84c98ecc0054c66de1d3ccaa303"
+			"sourceHash": "4d54aed2633ca11cb94018083367ae98"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Bolt Cutter",
@@ -1739,7 +1963,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1754,7 +1981,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "ad4cb97f2197842abb5fa0af6a8f4f9a"
+			"sourceHash": "57ea476555370591e54dfe44c0ed6e95"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Clamp",
@@ -1766,7 +1993,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1781,7 +2011,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "ee6be0f6c14b36b549b6bbeee90f8283"
+			"sourceHash": "9534b6fad280d8fbc6a0bc9ffba29ef4"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Duct Tape",
@@ -1793,7 +2023,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1808,7 +2041,7 @@
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "04b8bb65bd5cacd48781e08508c5457b"
+			"sourceHash": "94a3dcbee977d975a4970d32595c1f70"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Fan",
@@ -1820,7 +2053,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1835,7 +2071,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "e3340f012872d0c3aa499546aab56adc"
+			"sourceHash": "19cd56da07d1c2e0ff53dab21cf7f664"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Fuel",
@@ -1847,7 +2083,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 5.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1862,7 +2101,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "fa7cd4ddee676c6ffe60adccb3dcb7d7"
+			"sourceHash": "8a83478bf60f22bd5984438a019e3144"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Gas Can",
@@ -1874,7 +2113,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 6.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1889,7 +2131,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b4f105f155f5a50a4ec29a0491ae4fa6"
+			"sourceHash": "bf730dbce6146b784859b546ce4f22cc"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Hammer",
@@ -1901,7 +2143,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1916,7 +2161,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "725fec3d7a3eeb928e47341b18ca3dd0"
+			"sourceHash": "af070c558b9d7b74a1ee66ac27c7345d"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Hesco Armor Plate",
@@ -1928,7 +2173,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1943,7 +2191,7 @@
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "8275382cafafa9dea03e9739c5ef8487"
+			"sourceHash": "dbb135aac4761e0ed83746a238ac8403"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Nails",
@@ -1955,7 +2203,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.1,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1970,7 +2221,7 @@
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "b49b1e4526a7806148511e170e587e01"
+			"sourceHash": "4879be73bfab1ab053611f0c4fa5d55f"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Nylon Fabric",
@@ -1982,7 +2233,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1997,7 +2251,7 @@
 			"bCanStack": true,
 			"maxStack": 1e+01,
 			"supportedItemTags": [],
-			"sourceHash": "11737ce8cf66bed348cb638ba38bacbc"
+			"sourceHash": "a2f688d7b8414e91eb50558d6b84a5cb"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Plastic Wire Spool",
@@ -2009,7 +2263,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2024,7 +2281,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "3f61668dae2a769617b6472a298ecdab"
+			"sourceHash": "1fbf282dae6919e4368f5e6bb6b7ee50"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Polyester Fabric",
@@ -2036,7 +2293,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2051,7 +2311,7 @@
 			"bCanStack": true,
 			"maxStack": 1e+01,
 			"supportedItemTags": [],
-			"sourceHash": "723de11565c6955a2198745f56259496"
+			"sourceHash": "15fd636d4575d574ebb6a4fcf0d9dca3"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Saw",
@@ -2063,7 +2323,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2078,7 +2341,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "9cdf5836ecaf4c1c65cbb9b0ed36991f"
+			"sourceHash": "3e8e3262e804bb09145c1af6ba015d00"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Sewing Kit",
@@ -2090,7 +2353,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2105,7 +2371,7 @@
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "afa027ecbb68856d5863906a9e540c31"
+			"sourceHash": "f5c843c616ca8fe4820d701157f26fd5"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Staple Gun",
@@ -2117,7 +2383,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.6,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2132,7 +2401,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "e57ae27f0daa0a3c0fc86254ab70c2cd"
+			"sourceHash": "43300f25c3431f703a066855ab797fba"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Toolbox",
@@ -2144,7 +2413,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2159,7 +2431,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "3d98ab0ae35f92a0278fdbc20d6de0bf"
+			"sourceHash": "fbbdd9f4cf759d83f53e55f3cbcd5a7a"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.WD40 Spray",
@@ -2171,7 +2443,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2186,9 +2461,9 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "de810fd4c55c9dac7dad4f281a580cd5"
+			"sourceHash": "269a27ad6eca5891ebea578b5872a296"
 		}
 	],
-	"schemaSoftVersion": 2,
+	"schemaSoftVersion": 3,
 	"schemaHardVersion": 1
 }
