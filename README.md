@@ -18,7 +18,7 @@ them back onto the assets. The game never reads this repo — changes ship with 
    Project Settings → IRR → Item Sync and Editor Preferences → IRR → Item Sync (User).
 2. **Edit here:** sidebar views (All items / Recently edited / Needs attention / categories), table list with
    search/filters/sort and a **selectable stat column** (show + sort by any stat), and a per-item panel with
-   **Overview** (texts, stats, prices, rarity, max stack, shared editor **notes**), **Relations** (read-only:
+   **Overview** (texts, stats incl. effect stats, prices, rarity, max stack, shared editor **notes**), **Relations** (read-only:
    what the item's containers accept, and what it fits into — generic storage like backpacks/rigs is
    summarized, not listed) and **History** (per-item edit log, starts with the first commit made here).
    **Validate all** flags items with placeholder text (template/tooltip), missing text, bad abbreviations,
@@ -44,6 +44,11 @@ them back onto the assets. The game never reads this repo — changes ship with 
   changing rarity in-editor.
 - **Max stack** imports; the stackable flag and the container-support tags (Relations) are read-only —
   structural setup stays in Unreal.
+- **Effect stats** (Heal Over Time, Stamina Boost) are the stats whose number lives on the stat's gameplay
+  effect rather than on the item. They edit and sort like any other stat, with the effect's **duration** in
+  place of the modify-type column, and a per-tick stat also shows what it adds up to over that duration.
+  Stamina boost is a **percent**: `+10` means `RecoverMultiplier 1.1`, and the drain multiplier is kept
+  symmetric (`0.9`). Which effect fields exist is structural — the web editor never adds or removes effects.
 - Price `-1` means "not sold on that market".
 
 ## One-time setup: your editor token

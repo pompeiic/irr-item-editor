@@ -352,7 +352,10 @@ function avatarText(it) {
 }
 function statDesc(tag) { return (schema?.stats || []).find(s => s.tag === tag); }
 function statLabel(tag) { const d = statDesc(tag); return (d && d.displayName) ? d.displayName : leaf(tag); }
-function findStat(it, tag) { return (it.stats || []).find(x => x.tag === tag && x.modifyType !== "None"); }
+/* Effect-backed stats (heal over time, stamina boost) are None-modify in-engine — their number lives on
+ * the stat's gameplay effect — but they are editable and sortable like any other stat. */
+const isEditableStat = s => s.modifyType !== "None" || !!s.effectField;
+function findStat(it, tag) { return (it.stats || []).find(x => x.tag === tag && isEditableStat(x)); }
 function allEntries() {
   const out = [];
   for (const c of cats) (c.doc.items || []).forEach((it, i) => out.push({ c, i, item: it }));
@@ -472,6 +475,7 @@ function entryDiff(base, cur) {
   for (let i = 0; i < Math.min(bs.length, cs.length); i++) {
     if (bs[i].value !== cs[i].value) lines.push({ label: statLabel(cs[i].tag), old: fmt(bs[i].value), new: fmt(cs[i].value) });
     if (bs[i].modifyType !== cs[i].modifyType) lines.push({ label: statLabel(cs[i].tag) + " modify", old: bs[i].modifyType, new: cs[i].modifyType });
+    if (bs[i].effectDuration !== cs[i].effectDuration) lines.push({ label: statLabel(cs[i].tag) + " duration", old: fmt(bs[i].effectDuration) + "s", new: fmt(cs[i].effectDuration) + "s" });
   }
   if ((base.maxStack ?? null) !== (cur.maxStack ?? null)) lines.push({ label: "Max stack", old: String(base.maxStack), new: String(cur.maxStack) });
   if (base.vendor && cur.vendor && base.vendor.bHasVendorRow) {
@@ -703,20 +707,31 @@ function renderOverview(it) {
   html += `<div class="row2"><div><label>Max stack${stackHint}</label><input type="number" step="1" id="fMaxStack" value="${esc(it.maxStack ?? "")}"${it.maxStack === undefined ? " readonly" : ""}></div><div></div></div>`;
 
   html += `<div class="sec">Stats</div>`;
-  const editableStats = (it.stats || []).map((s, si) => ({ s, si })).filter(x => x.s.modifyType !== "None");
+  const editableStats = (it.stats || []).map((s, si) => ({ s, si })).filter(x => isEditableStat(x.s));
   if (!editableStats.length) html += `<div class="empty" style="padding:16px">No editable stats.</div>`;
   else {
     html += `<table class="stats">`;
     for (const { s, si } of editableStats) {
       const d = statDesc(s.tag);
       const b = sel.c.baseline[sel.i].stats[si];
-      const changed = b && (b.value !== s.value || b.modifyType !== s.modifyType);
-      html += `<tr class="${changed ? "modified" : ""}" title="${esc(s.tag)}">` +
-        `<td class="sname">${esc(statLabel(s.tag))}${d?.unit ? ` <span class="unit">[${esc(d.unit)}]</span>` : ""}</td>` +
+      const eff = !!s.effectField;
+      const changed = b && (b.value !== s.value || b.modifyType !== s.modifyType || b.effectDuration !== s.effectDuration);
+      // A ticking effect's value is per tick, so spell out what it adds up to over the full duration.
+      const total = eff && s.effectTickInterval > 0 && s.effectDuration > 0
+        ? `<br><small class="hint">≈ ${esc(fmt(s.value * (s.effectDuration / s.effectTickInterval)))}${d?.unit ? " " + esc(d.unit) : ""} over ${esc(fmt(s.effectDuration))}s</small>`
+        : "";
+      // Third column carries the effect's duration where a plain stat carries its modify type.
+      const trailing = eff
+        ? (s.effectDuration >= 0
+            ? `<input type="number" step="any" min="0" data-stat="${si}" data-field="effectDuration" value="${esc(s.effectDuration)}" title="Effect duration in seconds">`
+            : `<small class="hint">no duration</small>`)
+        : `<select data-stat="${si}" data-field="modifyType">` +
+            modifyTypes.map(m => `<option value="${esc(m)}"${m === s.modifyType ? " selected" : ""}>${esc(m)}</option>`).join("") +
+          `</select>`;
+      html += `<tr class="${changed ? "modified" : ""}" title="${esc(s.tag)}${eff ? " — gameplay effect" : ""}">` +
+        `<td class="sname">${esc(statLabel(s.tag))}${d?.unit ? ` <span class="unit">[${esc(d.unit)}]</span>` : ""}${total}</td>` +
         `<td class="sval"><input type="number" step="any" data-stat="${si}" data-field="value" value="${esc(s.value)}"></td>` +
-        `<td class="smod"><select data-stat="${si}" data-field="modifyType">` +
-          modifyTypes.map(m => `<option value="${esc(m)}"${m === s.modifyType ? " selected" : ""}>${esc(m)}</option>`).join("") +
-        `</select></td></tr>`;
+        `<td class="smod">${trailing}</td></tr>`;
     }
     html += `</table>`;
   }
@@ -739,7 +754,9 @@ function renderOverview(it) {
   if (it.maxStack !== undefined) $("fMaxStack").oninput = e => { const v = parseInt(e.target.value, 10); if (Number.isFinite(v) && v >= 1) it.maxStack = v; onEdit(); };
   document.querySelectorAll("#panelBody [data-stat]").forEach(inp => inp.oninput = e => {
     const s = it.stats[+e.target.dataset.stat];
-    if (e.target.dataset.field === "value") { const v = num(e.target); if (Number.isFinite(v)) s.value = v; }
+    const field = e.target.dataset.field;
+    if (field === "value") { const v = num(e.target); if (Number.isFinite(v)) s.value = v; }
+    else if (field === "effectDuration") { const v = num(e.target); if (Number.isFinite(v) && v >= 0) s.effectDuration = v; }
     else s.modifyType = e.target.value;
     onEdit();
   });

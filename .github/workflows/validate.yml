@@ -23,8 +23,10 @@ jobs:
                 if (!Array.isArray(doc.items)) throw new Error("missing items array");
                 for (const it of doc.items) {
                   if (!it.itemTag) throw new Error("entry without itemTag");
-                  for (const s of it.stats || [])
+                  for (const s of it.stats || []) {
                     if (!Number.isFinite(s.value)) throw new Error(`${it.itemTag}: non-numeric stat value (${s.tag})`);
+                    if (s.effectField && !Number.isFinite(s.effectDuration)) throw new Error(`${it.itemTag}: non-numeric effect duration (${s.tag})`);
+                  }
                 }
               }
               console.log(`OK ${file}`);
