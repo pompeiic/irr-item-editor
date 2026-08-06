@@ -11,27 +11,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Effect Duration",
-					"value": 6e+01,
-					"modifyType": "Base"
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Stamina Recovery",
+					"tag": "Inventory.Stats.Heal Over Time",
+					"value": 6,
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
 					"value": 1e+01,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Stamina Drain",
-					"value": -2e+01,
-					"modifyType": "Add"
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -46,7 +61,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "2c64d57671b753d1164f44f36e45b5c0"
+			"sourceHash": "52a0e34fba71611dfacac4ce03df8438"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Beer Biere Larue Can",
@@ -58,27 +73,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Effect Duration",
-					"value": 6e+01,
-					"modifyType": "Base"
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Stamina Recovery",
+					"tag": "Inventory.Stats.Heal Over Time",
+					"value": 6,
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
 					"value": 1e+01,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Stamina Drain",
-					"value": -2e+01,
-					"modifyType": "Add"
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -93,7 +123,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "fb71cd6845a0576d1283a9dfbc99bc3a"
+			"sourceHash": "44465896f219ce4d9f588fe78b382951"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Condensed Milk",
@@ -105,27 +135,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Effect Duration",
-					"value": 6e+01,
-					"modifyType": "Base"
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Stamina Recovery",
+					"tag": "Inventory.Stats.Heal Over Time",
+					"value": 6,
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
 					"value": 1e+01,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Stamina Drain",
-					"value": -2e+01,
-					"modifyType": "Add"
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -140,7 +185,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "53b4ca3bddc7c6b5cfd2c8f5f30072c0"
+			"sourceHash": "84903b948385d65a0bdba611c05ef270"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Milk",
@@ -152,27 +197,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Effect Duration",
-					"value": 6e+01,
-					"modifyType": "Base"
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Stamina Recovery",
+					"tag": "Inventory.Stats.Heal Over Time",
+					"value": 6,
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
 					"value": 1e+01,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Stamina Drain",
-					"value": -2e+01,
-					"modifyType": "Add"
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -187,7 +247,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "ef206b9926e4e901842adee07d67a264"
+			"sourceHash": "0af4ab4a0a8117b6fc9e0c2d201a842d"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Water Bottle",
@@ -199,27 +259,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Effect Duration",
-					"value": 6e+01,
-					"modifyType": "Base"
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Stamina Recovery",
+					"tag": "Inventory.Stats.Heal Over Time",
+					"value": 6,
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
 					"value": 1e+01,
-					"modifyType": "Add"
-				},
-				{
-					"tag": "Inventory.Stats.Stamina Drain",
-					"value": -2e+01,
-					"modifyType": "Add"
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -234,7 +309,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "e6de7925ccdcc0c55ed527152d787bf5"
+			"sourceHash": "232f8a17826d46c4cdb48aa2723b9734"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Beef Stew",
@@ -246,17 +321,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 3,
-					"modifyType": "Base"
+					"value": 1,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Healing Boost",
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Over Time",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -271,7 +371,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "78ac59e80797dd2185786e229a2d5cec"
+			"sourceHash": "a84c2878d5dcfc8edcf7a0ed64eb6e32"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Corn",
@@ -283,17 +383,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 3,
-					"modifyType": "Base"
+					"value": 1,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Healing Boost",
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Over Time",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -308,7 +433,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "6cdfcb01f17b8cbd25d6cdf1dcbbae93"
+			"sourceHash": "e90030d24735eb7f264ec38f8b155372"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Pork Patey",
@@ -320,17 +445,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 3,
-					"modifyType": "Base"
+					"value": 1,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Healing Boost",
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Over Time",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -345,7 +495,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "259eed0f74efc7848948baee6441e9ae"
+			"sourceHash": "709a612c922debe48648c80d2cdfbb64"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Sardines",
@@ -357,17 +507,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 3,
-					"modifyType": "Base"
+					"value": 1,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Healing Boost",
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Over Time",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -382,7 +557,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "75cd99131485acf7baf5c70c85ec8b05"
+			"sourceHash": "f9ed59898f7075b53fe272f337f52adb"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Soup",
@@ -394,17 +569,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 3,
-					"modifyType": "Base"
+					"value": 1,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Healing Boost",
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Over Time",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -419,7 +619,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "5bedadccc95b7675b9c69939d3b5f70d"
+			"sourceHash": "225dc4759bdbb79aae562426202bc22f"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Squid",
@@ -431,17 +631,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 3,
-					"modifyType": "Base"
+					"value": 1,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Healing Boost",
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Over Time",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -456,7 +681,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "8fa38b96bffff472218b44ec447382b1"
+			"sourceHash": "190208628183c97ad0b4f90fe5d29684"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Tuna",
@@ -468,17 +693,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 3,
-					"modifyType": "Base"
+					"value": 1,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Healing Boost",
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Over Time",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -493,7 +743,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "42b6b38579aeb171fc7625870b8e0835"
+			"sourceHash": "b3aa24e921f8fb8b2982376fff171f04"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Chips",
@@ -505,17 +755,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 3,
-					"modifyType": "Base"
+					"value": 1,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Healing Boost",
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Over Time",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -530,7 +805,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "3f49dd11700624b51b3cdf006a4fdf29"
+			"sourceHash": "342fcaab51d49bbe1c378da743f3d5fb"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Cornflakes",
@@ -542,17 +817,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 3,
-					"modifyType": "Base"
+					"value": 1,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Healing Boost",
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Over Time",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -567,7 +867,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "58567819a9b2f0f725bb84e7b9e9b3a6"
+			"sourceHash": "137c41223805fe5f2fa559f922d28aab"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Crackers",
@@ -579,17 +879,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 3,
-					"modifyType": "Base"
+					"value": 1,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Healing Boost",
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Over Time",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -604,7 +929,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "ebfe760b32937d030d7877ef698efd1f"
+			"sourceHash": "e01d9f1e32c759301193962d9ed43c94"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Peanut Butter",
@@ -616,17 +941,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 3,
-					"modifyType": "Base"
+					"value": 1,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Healing Boost",
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Over Time",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -641,7 +991,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "40d25132fda32c3ba77e7f6ccef5d4dc"
+			"sourceHash": "ed45581d296a5d571f217a87003bcec3"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Squid Chips",
@@ -653,17 +1003,42 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 3,
-					"modifyType": "Base"
+					"value": 1,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Healing Boost",
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Over Time",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "None",
+					"effectField": "Amount",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -678,9 +1053,9 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "082ed93a5f24a054dfc3e273ce992029"
+			"sourceHash": "1b1508a1042309822c456e3147fba9e2"
 		}
 	],
-	"schemaSoftVersion": 2,
+	"schemaSoftVersion": 3,
 	"schemaHardVersion": 1
 }
