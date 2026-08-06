@@ -363,8 +363,10 @@ function statDesc(key) {
 function statLabel(key) { return keyName(key) || statDesc(key)?.displayName || leaf(keyTag(key)); }
 function statName(s) { return s.displayName || statLabel(statKey(s)); }
 /* Effect-backed stats (heal over time, stamina boost) are None-modify in-engine — their number lives on
- * the stat's gameplay effect — but they are editable and sortable like any other stat. */
-const isEditableStat = s => s.modifyType !== "None" || !!s.effectField;
+ * the stat's gameplay effect — but they are editable and sortable like any other stat.
+ * An unset FName serializes as the string "None", which is truthy here, so never test effectField raw. */
+const effectFieldOf = s => (s.effectField && s.effectField !== "None") ? s.effectField : "";
+const isEditableStat = s => s.modifyType !== "None" || !!effectFieldOf(s);
 function findStat(it, key) {
   const tag = keyTag(key), name = keyName(key);
   return (it.stats || []).find(x => x.tag === tag && isEditableStat(x) && (!name || !x.displayName || x.displayName === name));
@@ -727,7 +729,7 @@ function renderOverview(it) {
     for (const { s, si } of editableStats) {
       const d = statDesc(statKey(s));
       const b = sel.c.baseline[sel.i].stats[si];
-      const eff = !!s.effectField;
+      const eff = !!effectFieldOf(s);
       const changed = b && (b.value !== s.value || b.modifyType !== s.modifyType || b.effectDuration !== s.effectDuration);
       // A ticking effect's value is per tick, so spell out what it adds up to over the full duration.
       const total = eff && s.effectTickInterval > 0 && s.effectDuration > 0
