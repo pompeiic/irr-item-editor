@@ -12,6 +12,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 8.5,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -20,6 +21,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -28,6 +30,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 4,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -47,7 +50,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "272ab9403324a989cc5d671ac6b5357e"
+			"sourceHash": "908017ce31a40ede28eadb985ace317c"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.AVS Rifleman V4 Vest",
@@ -60,6 +63,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 8,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -68,6 +72,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1.2e+02,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -76,6 +81,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 3,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -95,7 +101,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "1b917958869f7b70a9833d85d5b5258d"
+			"sourceHash": "2b8e6529fa93735beb872021b0575a36"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.AVS SL Vest",
@@ -108,6 +114,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 9,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -116,6 +123,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 8e+01,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -124,6 +132,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 2,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -143,7 +152,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "00adc67a03ec84b64381375371b3d005"
+			"sourceHash": "df50365953330c366a865adef00ef8b1"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.JTAC V1 Nguyin Edition Armored Rig",
@@ -156,6 +165,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 9.5,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -164,6 +174,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1.1e+02,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -172,6 +183,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 4,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -191,7 +203,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "21d3f7ffe8fb877916de36bb81fa4494"
+			"sourceHash": "2b85fbe49903cb1b364a63a0c6167382"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.JTAC V1 Vest",
@@ -204,6 +216,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 7.5,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -212,6 +225,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 8e+01,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -220,6 +234,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 1,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -239,7 +254,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "2bc8dcda9ba28f417a7b0555055f80ad"
+			"sourceHash": "1dcb1cd2a5eca39857c0bed5df09cf2b"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.LBT Breacher V1",
@@ -252,6 +267,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 8,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -260,6 +276,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1.1e+02,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -268,6 +285,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 2,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -287,7 +305,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "44dde84f4e55960781446773f20edaaa"
+			"sourceHash": "339fa912ec74cd48e0fb1a361fa44a9b"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.LBT MED V1 Armored Rig",
@@ -300,6 +318,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 8,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -308,6 +327,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -316,6 +336,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 3,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -335,7 +356,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "de183869e327170d8ca1f46bd80b635e"
+			"sourceHash": "ba66b51fcb957b33f782cdb08dd4cbe8"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.Spiritus LV119 Armored Rig",
@@ -348,6 +369,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1e+01,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -356,6 +378,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -364,6 +387,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 2,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -383,7 +407,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "e34ef463f1c2b67e33cfa33f7e510962"
+			"sourceHash": "372244193bd2e08dc4f45a19f6ea620e"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.Wartech-TV-110 Armored Rig",
@@ -396,6 +420,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 8.5,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -404,6 +429,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1.3e+02,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -412,6 +438,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 4,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -431,7 +458,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "117a509e14ab6c8ab804d1f606d52468"
+			"sourceHash": "e9dc2a4c28dee2e4b522d0ea6fa1cf88"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.ADA Assault Backpack",
@@ -444,6 +471,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 2,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -463,7 +491,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "0e77b32438b2004526b27a266c115f28"
+			"sourceHash": "70fe64ae7418bcdbaf7577ab16d781dc"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.AVS CRYE Precision Backpack",
@@ -476,6 +504,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 2,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -495,7 +524,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "8f059489dd050549f916ce1bd929b82c"
+			"sourceHash": "ee19bf82ad16ad15feb52b4137b75886"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.AVS Delta Backpack",
@@ -508,6 +537,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.5,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -527,7 +557,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "d3c574d154bb32b517330e3896b58b59"
+			"sourceHash": "990c21d05d5affcddd27a5afe2ba408b"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.AVS Mini Backpack",
@@ -540,6 +570,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.2,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -559,7 +590,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "150231e8cc6bbf6a19958bc458d4efb6"
+			"sourceHash": "4b18042ce05b1c8569fb27a2c55489ce"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.CamelBak Backpack",
@@ -572,6 +603,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.5,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -591,7 +623,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "eb1e39954e91096a6bd386b79cc57c35"
+			"sourceHash": "0c19edd12135634941d3a8faabf91482"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.F2 Bergen Backpack",
@@ -604,6 +636,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.2,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -623,7 +656,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "32c2965fe6c6c9fd4de3321c2e9c0112"
+			"sourceHash": "d5306eae671b9faad2828cf45cf863b3"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.Mystery Ranch SALT Backpack",
@@ -636,6 +669,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.2,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -655,7 +689,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "d9519aa98321a14e1da8e890da9f5b80"
+			"sourceHash": "10bcb26130e0fd4216269dd94057bb92"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.HHV Helmet",
@@ -668,6 +702,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.3,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -676,6 +711,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 95,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -684,6 +720,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 3,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -703,7 +740,7 @@
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "a8e6618673ce9c2987c74644f01ad4f4"
+			"sourceHash": "785136363ffe184eb8fee0bedfcae3bf"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.High Cut LSHZ Helmet",
@@ -716,6 +753,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.3,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -724,6 +762,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1.1e+02,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -732,6 +771,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 3,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -751,7 +791,7 @@
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "4b1bf331d39f06237bbcb9d72cbc0ca2"
+			"sourceHash": "a6bf301557b03bcbb327e12872760b2b"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Kiver RSP Helmet",
@@ -764,6 +804,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.4,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -772,6 +813,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 6e+01,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -780,6 +822,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 2,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -799,7 +842,7 @@
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "6ba461d0a289395609496d421d3a3b41"
+			"sourceHash": "787ea7c6a993159cb65a0cdedf585a85"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Kiver RSP Nguyin Edition Helmet",
@@ -812,6 +855,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.4,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -820,6 +864,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -828,6 +873,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 3,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -847,7 +893,7 @@
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "333aa0cd395caf857a6297a5e7885524"
+			"sourceHash": "06ae76dc152bcabbc9548999e04360d1"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.MICH 2000",
@@ -860,6 +906,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.3,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -868,6 +915,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 8e+01,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -876,6 +924,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 2,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -895,7 +944,7 @@
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "32356c5771a5908f19d180890c1a2dd3"
+			"sourceHash": "4ef28df78243582d380d19ce31ee2f73"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Ops-Core FAST Bump Helmet",
@@ -908,6 +957,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.2,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -916,6 +966,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1.1e+02,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -924,6 +975,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 2,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -943,7 +995,7 @@
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "2fd434db9e109152f3535a1007df62e0"
+			"sourceHash": "fd90566606b16c558f4aa78b16b5cddd"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.SESTAN-BUSCH BK-3 Helmet",
@@ -956,6 +1008,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -964,6 +1017,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 9e+01,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -972,6 +1026,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 1,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -989,7 +1044,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "09fb176aff8b4985113fa9d79e9e75f8"
+			"sourceHash": "0ca001c522392755c1aadc13bffb257e"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Super High Cut Ops Core Fast MT V1 Helmet",
@@ -1002,6 +1057,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.83,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1010,6 +1066,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1.3e+02,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1018,6 +1075,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 2,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1037,7 +1095,7 @@
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "d10788a3f45ef7055a4b7329366d11cd"
+			"sourceHash": "25f903341b4cd501155a0e2a4bf67aad"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Team Wendy EXFIL Helmet",
@@ -1050,6 +1108,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.72,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1058,6 +1117,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 105,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1066,6 +1126,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 4,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1085,7 +1146,7 @@
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "98482e0380295dc218409e5cd2ac0dcd"
+			"sourceHash": "051daf626b8626e9330690dfdbd7538d"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles",
@@ -1098,6 +1159,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.49,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1115,7 +1177,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "1fb5bca4f8e3605957b169901f598133"
+			"sourceHash": "473a8cf96b32ee3737014656b39361eb"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.AVS Plate Carrier",
@@ -1128,6 +1190,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 7.5,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1136,6 +1199,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 8e+01,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1144,6 +1208,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 2,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1161,7 +1226,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c946dccdfc29a646eaf563839422ebaf"
+			"sourceHash": "c1826c49fbebac55cc0e70250766ac0b"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.JPC Plate Carrier",
@@ -1174,6 +1239,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 9,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1182,6 +1248,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1190,6 +1257,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 2,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1207,7 +1275,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b02c2ec26ac43fb7da4c91ac65b4a21a"
+			"sourceHash": "30f321092a1c2c981bd5377363435919"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.MSV Plate Carrier",
@@ -1220,6 +1288,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 9.5,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1228,6 +1297,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 9e+01,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1236,6 +1306,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 3,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1253,7 +1324,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "2a29a7afcb70cc1816a5db3ff798c7e1"
+			"sourceHash": "0ab50566502ea620f422f247cd208102"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.Paraclete Origin Plate Carrier",
@@ -1266,6 +1337,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 10.5,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1274,6 +1346,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 9e+01,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1282,6 +1355,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 2,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1299,7 +1373,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "25a23520d484ef1ff1a9e7acd9904f74"
+			"sourceHash": "3be2cf58f8ae6f4340943c974fd0667e"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.The Slickster Plate Carrier",
@@ -1312,6 +1386,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1e+01,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1320,6 +1395,7 @@
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
 					"modifyType": "Base",
+					"displayName": "Armor Points",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1328,6 +1404,7 @@
 					"tag": "Inventory.Stats.Protection Level",
 					"value": 1,
 					"modifyType": "Base",
+					"displayName": "Protection Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1345,7 +1422,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "5306acac650e86054ee63db5b756b024"
+			"sourceHash": "b8aaf81fae93e1c4ddf46aacb554aee3"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Unarmored Rig.D3CRM Unarmored Rig",
@@ -1358,6 +1435,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.35,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1377,7 +1455,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "4f67a0756d3c6c86973a4b2bf442a0bb"
+			"sourceHash": "3e5e135fc80708163ab2743cc68ba454"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Unarmored Rig.D3CRX Unarmored Rig",
@@ -1390,6 +1468,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1.25,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1409,7 +1488,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "61e2d558ba3c42880c9e24ad0d581e85"
+			"sourceHash": "41d66aa0cc8ac136387f424ae558a34a"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Unarmored Rig.Vest Virtus Unarmored Rig",
@@ -1422,6 +1501,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 1,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -1441,9 +1521,9 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "83c75edb1787adfedb3c52c3dd6f4f59"
+			"sourceHash": "51c57d5f5b00b79e78bd075d3d36987b"
 		}
 	],
-	"schemaSoftVersion": 3,
+	"schemaSoftVersion": 4,
 	"schemaHardVersion": 1
 }
