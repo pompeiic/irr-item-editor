@@ -11,7 +11,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -26,7 +29,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "f2fe814bdcb8927872c08dd376a20af9"
+			"sourceHash": "690213427ccb75c554801e7af93ce473"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Antenna Piece 2",
@@ -38,7 +41,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -53,7 +59,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "4475fe81ba541625ac291dc8932323ed"
+			"sourceHash": "00117e93b4228b012b2c5dc6596f7887"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Antenna Piece 3",
@@ -65,7 +71,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -80,7 +89,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "302afa8e541f73d688de745fee514162"
+			"sourceHash": "fa8990ff90a1db5c77ada6b2cae5589f"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Basic Machine Parts",
@@ -92,7 +101,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -107,7 +119,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "cf8089f1871ee834fafb325300abf404"
+			"sourceHash": "d303653828b2e8ef532b989f5991ad32"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Bomb",
@@ -119,7 +131,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 1,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -134,7 +149,7 @@
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "ba70188d2e71f2cf0082a03a2d6a9892"
+			"sourceHash": "6c7bd6d60666f6b9a618c50f426e1838"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Bug",
@@ -146,7 +161,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -161,7 +179,7 @@
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "5f0b981ce0fdf671f12d4fc130a7f927"
+			"sourceHash": "9f0688083ec61687de757ae9bc3aaa21"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Classified Document-IGC",
@@ -173,7 +191,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -188,7 +209,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "65cef07b8a6c985cc1aa1fc1ca3282e6"
+			"sourceHash": "d9b317a579bff1498ffa0b17c157992b"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Classified Document-UICS",
@@ -200,7 +221,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -215,7 +239,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "dfbc5bf77f1e64e35205d354df01855e"
+			"sourceHash": "1398fad32d49161a6e72975936edb501"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Classified Document-VLF",
@@ -227,7 +251,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -242,7 +269,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a671e8f69fcc301dbebacf575f48e485"
+			"sourceHash": "d4dc12320fd3dfad01c5ed92c8dcb042"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Construction HxAxS Blueprint Layout Guide",
@@ -254,7 +281,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -269,7 +299,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "795ea36cdc5e3fe35a9a15b0a60736d9"
+			"sourceHash": "8ab112a14d341b32e66f2b5e4e0a0a17"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Construction HxAxS Blueprint Materials List",
@@ -281,7 +311,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -296,7 +329,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a9ab0d67dfcc50e2b81e5b5ea3b35565"
+			"sourceHash": "5f43369486f6c59c613f41c8a3749591"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Jammer",
@@ -308,7 +341,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -323,7 +359,7 @@
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "5e0e569fdef601e22f37633410c3f38e"
+			"sourceHash": "eca247f0649e9389f034ef92a6cf5192"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Key Cards.Key Card A",
@@ -335,7 +371,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.05,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -350,7 +389,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "895258b901608fe051a0cc7a0617d605"
+			"sourceHash": "93dfa0878d70627c757c7e81fd87950a"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Misc",
@@ -362,7 +401,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -379,7 +421,7 @@
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "72323da6600c67cfd3757bd6946635ca"
+			"sourceHash": "aacd3f8e2bd17fa913d5178ac0dbd20a"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan A",
@@ -391,7 +433,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -406,7 +451,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "da36411d57315219af9583bfbb81e3fc"
+			"sourceHash": "d2fb8410f05fd3c1a405fdae74ddf972"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan B",
@@ -418,7 +463,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -433,7 +481,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0d40e0532f7b5ab3c560185d4b371dd8"
+			"sourceHash": "e485f7833c39c39e51afb3143ed9437e"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan C",
@@ -445,7 +493,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -460,7 +511,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a106d80a6ecbbdbecfb1734c37274976"
+			"sourceHash": "2832a883cd141083f31416a8b7cd37e2"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Poison",
@@ -472,12 +523,18 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 3,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -492,7 +549,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "38b61db68e3a0a2434bd6074b58f5f62"
+			"sourceHash": "8419f3da69a2f37f8a3fbadccabbdd57"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Shipping Manifest",
@@ -504,7 +561,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -519,7 +579,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c2c5b129054c9341296362865faf7931"
+			"sourceHash": "9c0679364e98a65f405c367f7848cf29"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Surveillance Camera",
@@ -531,7 +591,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -546,7 +609,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "79d4be831999618869424d7e29bf0fae"
+			"sourceHash": "db5dd9eec3b3fe35a54c3aaca9e46c40"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Troop Movement Paper",
@@ -558,7 +621,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -573,7 +639,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "271affa46457add7aaaf18bc44b8a40a"
+			"sourceHash": "8f39341a02307c0fd8a09c1968f68860"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.USB Drive",
@@ -585,7 +651,10 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -600,9 +669,9 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "fb9734a4303f91c2873e04b42ca33b05"
+			"sourceHash": "8f8ae844168c4e93e3c019787d703387"
 		}
 	],
-	"schemaSoftVersion": 2,
+	"schemaSoftVersion": 3,
 	"schemaHardVersion": 1
 }
