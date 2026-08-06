@@ -11,22 +11,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 46,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 8,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -41,7 +53,7 @@
 			"bCanStack": true,
 			"maxStack": 3e+01,
 			"supportedItemTags": [],
-			"sourceHash": "4bbdb362afbf7ff710c7d253dcd4569f"
+			"sourceHash": "b53cc2d08e6d2634a465234c8a605db5"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.12x70.Slug",
@@ -53,22 +65,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 1.7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 3,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 38,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -83,7 +107,7 @@
 			"bCanStack": true,
 			"maxStack": 3e+01,
 			"supportedItemTags": [],
-			"sourceHash": "0fd7d230a1ec216590457ffbf8ac53c1"
+			"sourceHash": "199569b4dc6ba46f67bc21f437bbe5ea"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.45ACP.HS",
@@ -95,22 +119,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0025,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 78,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 1,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 12,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -125,7 +161,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "5930520e4f69c16e9327a4336a33dc55"
+			"sourceHash": "bfe37ab882a99b99c5f8a4d6ec6d142e"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.545x39.BP",
@@ -137,22 +173,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 48,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 3,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 28,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -167,7 +215,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "bd1148e9059254319facacd97f8b58af"
+			"sourceHash": "1a089f6b2631ab898a328115d4b248f8"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.545x39.PS",
@@ -179,22 +227,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0035,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 56,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 15,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -209,7 +269,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "5c7606eefd0232ab58997ea03ba99f12"
+			"sourceHash": "12be396364a026f745ee804ed502f66d"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.556x45.FMJ",
@@ -221,22 +281,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0035,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 64,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 22,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -251,7 +323,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "cf6885fd0058abdb0a580a0632d1396c"
+			"sourceHash": "ccdf502ea90abdbeb8637888d4ac753c"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.556x45.M855",
@@ -263,22 +335,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0035,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 56,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 4,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 32,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -293,7 +377,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "9b8d1d1392eb5421985398e793f8f97b"
+			"sourceHash": "af7ba6d89638180fdd127d0ebef2f1a8"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.57x28.SS198LF",
@@ -305,22 +389,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 68,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 17,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -335,7 +431,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "d2cc4ef7107a3f66ff5762d9a77c37c6"
+			"sourceHash": "b8042231839acf8915ce9e04ed2ebf96"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.BP",
@@ -347,22 +443,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 66,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 3,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 35,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -377,7 +485,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "9d21d2a30edcf9fcfa2e74af93fa01b6"
+			"sourceHash": "46d25057fe6ead0b26832ee1e9919599"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.HP",
@@ -389,22 +497,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 48,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 16,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -419,7 +539,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "9cbe78d117f6d02b604a902ab8306d25"
+			"sourceHash": "092bd802d36a3ccb995b4e4f1472fa31"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.PS",
@@ -431,22 +551,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 68,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 19,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -461,7 +593,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "94e79e559e8c8f1307669c2763d10e4e"
+			"sourceHash": "aa42f44da35aef064319cb7131a17d51"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x51.M62",
@@ -473,22 +605,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0095,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 85,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 4,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 36,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -503,7 +647,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "7652aea81bf6b5be41a72e6e8b771d0a"
+			"sourceHash": "50fc98096b830f675e92e1e30fda3b2e"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x51.M80",
@@ -515,22 +659,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0095,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 9e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 3,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 25,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -545,7 +701,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "46275de92e83a7c0c4217bd677d99d38"
+			"sourceHash": "b849b311b433c6d936cf89383baf8ad7"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x54.R PS",
@@ -557,22 +713,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0095,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 9e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 3,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 31,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -587,7 +755,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "c1558cd3334acdfda1808c8a6d938f9f"
+			"sourceHash": "10fe30863e4ddedb1979847c97cb5c00"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.9x19.AP6x3",
@@ -599,22 +767,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 62,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 23,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -629,7 +809,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "8bf72d78b01c3957e16ee606bd3f1c31"
+			"sourceHash": "96c61ddeceefdf44d88c06ff13c16839"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.9x19.PSO",
@@ -641,22 +821,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 6e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 1,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 1e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -671,7 +863,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "c0735b5f885c5ed762b2638b271d486b"
+			"sourceHash": "93b9bce5b6f3425e3ea89dc180ca6114"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x300 Blackout.M62",
@@ -683,22 +875,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 56,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 3,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 25,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -713,7 +917,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "2eec47798e2c02481ead7d0a48755d33"
+			"sourceHash": "015d4525009efd180ea3da55af6b52e2"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x300 Blackout.ME3",
@@ -725,22 +929,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 62,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 4,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 34,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -755,7 +971,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "dd6e972a58614c0297ed6f052abd8d44"
+			"sourceHash": "7d7733caa086be8ea551e4700031998f"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x338.AP",
@@ -767,22 +983,34 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Damage",
 					"value": 138,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 4,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
 					"value": 4e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -797,9 +1025,9 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "7d3420380be4364dac961516d51c7a16"
+			"sourceHash": "26fcee08c597499ffac6857f3cbe31b3"
 		}
 	],
-	"schemaSoftVersion": 2,
+	"schemaSoftVersion": 3,
 	"schemaHardVersion": 1
 }
