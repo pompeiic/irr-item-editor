@@ -12,6 +12,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.6,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -20,6 +21,7 @@
 					"tag": "Inventory.Stats.Shrapnel Chance",
 					"value": 6e+01,
 					"modifyType": "Base",
+					"displayName": "Shrapnel Chance",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -28,6 +30,7 @@
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
 					"modifyType": "Base",
+					"displayName": "Piercing Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -36,6 +39,7 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 2e+01,
 					"modifyType": "Base",
+					"displayName": "Penetration",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -44,6 +48,7 @@
 					"tag": "Inventory.Stats.Explosion Radius",
 					"value": 8,
 					"modifyType": "Base",
+					"displayName": "Explosion Radius",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -52,6 +57,7 @@
 					"tag": "Inventory.Stats.Explosion Delay",
 					"value": 5,
 					"modifyType": "Base",
+					"displayName": "Explosion Delay",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -69,7 +75,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "3090760bbe43aea6647adbefa70deab6"
+			"sourceHash": "ad1273e8037f60debfd3001c4c9eddd3"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.M18 Smoke Grenade",
@@ -82,6 +88,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.4,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -90,6 +97,7 @@
 					"tag": "Inventory.Stats.Explosion Radius",
 					"value": 4,
 					"modifyType": "Base",
+					"displayName": "Smoke Radius",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -98,6 +106,7 @@
 					"tag": "Inventory.Stats.Explosion Delay",
 					"value": 3,
 					"modifyType": "Base",
+					"displayName": "Explosion Delay",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -115,7 +124,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "f7ee0697f6068280ceb545b38b38d7d0"
+			"sourceHash": "0e4ba6d6346474669b83cc6a4b61eb07"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.M67 Hand Grenade",
@@ -128,6 +137,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.4,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -136,6 +146,7 @@
 					"tag": "Inventory.Stats.Shrapnel Chance",
 					"value": 4e+01,
 					"modifyType": "Base",
+					"displayName": "Shrapnel Chance",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -144,6 +155,7 @@
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
 					"modifyType": "Base",
+					"displayName": "Piercing Level",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -152,6 +164,7 @@
 					"tag": "Inventory.Stats.Penetration",
 					"value": 2e+01,
 					"modifyType": "Base",
+					"displayName": "Penetration",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -160,6 +173,7 @@
 					"tag": "Inventory.Stats.Explosion Radius",
 					"value": 1e+01,
 					"modifyType": "Base",
+					"displayName": "Explosion Radius",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -168,6 +182,7 @@
 					"tag": "Inventory.Stats.Explosion Delay",
 					"value": 5,
 					"modifyType": "Base",
+					"displayName": "Explosion Delay",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -185,7 +200,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0443d97aa00e423648be95f25122f876"
+			"sourceHash": "dc6ff6c78144bf9e213e5a0bfcf8dd5a"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.Model 7290 Flash Bang Grenade",
@@ -198,6 +213,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -206,6 +222,7 @@
 					"tag": "Inventory.Stats.Shrapnel Chance",
 					"value": 5e+01,
 					"modifyType": "Base",
+					"displayName": "Shrapnel Chance",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -214,6 +231,7 @@
 					"tag": "Inventory.Stats.Explosion Radius",
 					"value": 4,
 					"modifyType": "Base",
+					"displayName": "Explosion Radius",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -222,6 +240,7 @@
 					"tag": "Inventory.Stats.Explosion Delay",
 					"value": 5,
 					"modifyType": "Base",
+					"displayName": "Explosion Delay",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -239,7 +258,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "8eda304589ee37d58a4535b9aa86cf3d"
+			"sourceHash": "4b2271eeb6ce7107c03de29d2919356a"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.RG-VO Gas Grenade",
@@ -252,6 +271,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.0075,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -260,6 +280,7 @@
 					"tag": "Inventory.Stats.Explosion Radius",
 					"value": 4,
 					"modifyType": "Base",
+					"displayName": "Explosion Radius",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -268,6 +289,7 @@
 					"tag": "Inventory.Stats.Explosion Delay",
 					"value": 1.5,
 					"modifyType": "Base",
+					"displayName": "Explosion Delay",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -285,9 +307,9 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b57669cfbd5d630e6bf400d63385fc10"
+			"sourceHash": "32551d9f3e86a6f822da08c83a9d274b"
 		}
 	],
-	"schemaSoftVersion": 3,
+	"schemaSoftVersion": 4,
 	"schemaHardVersion": 1
 }
