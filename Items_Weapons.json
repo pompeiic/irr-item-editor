@@ -11,62 +11,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 55,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 42,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 786,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 0.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 6e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -129,7 +165,7 @@
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "272e7b649b4e4bdfc453b27a1260ecb5"
+			"sourceHash": "5888874d49565eb13d0869bfaa901a63"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.Galil Ace",
@@ -141,62 +177,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.6,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 6e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 4e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 786,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 0.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 6e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -262,7 +334,7 @@
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "a06b4b1d6424874777dd836bd39ab24f"
+			"sourceHash": "318eac0a9de9013c815d1cb3d4920b9f"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SKS",
@@ -274,62 +346,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.7,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 43,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 55,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 869,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 0.75,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 3e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 1.5e+03,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -355,7 +463,7 @@
 				"Inventory.Items.Attachments.Stock.SKS SAGE International SKSALCV Chassis",
 				"Inventory.Items.Attachments.Stock.SKS Wooden Stock"
 			],
-			"sourceHash": "e21dc19cacf989b269daba946cbc2928"
+			"sourceHash": "751b94ca084622048fc0d6dd554dbdf6"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SR-25",
@@ -367,62 +475,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 6e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 42,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 862,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 0.46,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 9e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 3e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -482,7 +626,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "7110f927ace56c2a880eb8554ac588a9"
+			"sourceHash": "73a99ad1b8b5ed20379c4eb26f17b33b"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.KAC LAMG",
@@ -494,62 +638,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3.8,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 32,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 56,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 9e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 575,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 3e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -599,7 +779,7 @@
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.LAMG Buffer Tube Stock"
 			],
-			"sourceHash": "27911c8b802f69f30bfb64c1f0f2659d"
+			"sourceHash": "c379d2acdb40345d43194f7f8766bf97"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.RPK-74",
@@ -611,62 +791,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 41,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 56,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 9e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 6e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 3e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -712,7 +928,7 @@
 				"Inventory.Items.Attachments.Sight.PSO-1 4x24 Scope",
 				"Inventory.Items.Attachments.Stock.RPK-74 Folding Stock"
 			],
-			"sourceHash": "544ca2fad1a3580191fbbb27217be871"
+			"sourceHash": "cf892bef0a0701250c286b822d0795ac"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.FN Five Seven",
@@ -724,62 +940,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.6,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 78,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 52,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 4e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.3,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 3e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -804,7 +1056,7 @@
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "79712928648dd16afb155bb203f0246b"
+			"sourceHash": "a3724b0c71c094f6f38a6c8ec55e2ca3"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.Glock 19",
@@ -816,62 +1068,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.4,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 7e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 56,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 376,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 3e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -896,7 +1184,7 @@
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "732d1e738fa1b5b9b80a5c5f215aeb17"
+			"sourceHash": "1aff9d7ccc4974065df4f8309c832e0b"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.M9A3",
@@ -908,62 +1196,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.8,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 8e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 55,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 4e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 3e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -987,7 +1311,7 @@
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "c335c3a4f565649c4266b3a09fb8713a"
+			"sourceHash": "e5febcb6087b2ec5daa81a86b62fa96b"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.P320",
@@ -999,62 +1323,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.725,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 72,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 5e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 3.9e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.4,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 3e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1081,7 +1441,7 @@
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "c1005904917070cca9f6116e51fab8fa"
+			"sourceHash": "d665fa5f555c6ca6f12b658ca2d906c0"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.QSZ-92",
@@ -1093,62 +1453,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.4,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 68,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 58,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 376,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 3e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1168,7 +1564,7 @@
 				"Inventory.Items.Attachments.Mag.QSZ-92 9x19 15rnd",
 				"Inventory.Items.Attachments.Receiver.QSZ-92 Pistol Slide"
 			],
-			"sourceHash": "138a16ca97c4405b60d809829f9c6027"
+			"sourceHash": "1b623a60633ddd199214b1f5e8992201"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-101",
@@ -1180,62 +1576,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 52,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 47,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 9.1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1287,7 +1719,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "91afd813cedac2089e5d1d67026b0f33"
+			"sourceHash": "04427488a9d6194356a4273145208786"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-102",
@@ -1299,62 +1731,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 54,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 51,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 8.6e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 4e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1406,7 +1874,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "b401c805d67c0abaad5132a9537f6248"
+			"sourceHash": "8d3030ee461a8da14b22e4fb4b741cc8"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-103",
@@ -1418,62 +1886,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 52,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 48,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 8.6e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 4e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1525,7 +2029,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "0f758d4b51cfe15ab8f262cfdadcd309"
+			"sourceHash": "a8d06906524c3bb4b5a3351a642f7bfc"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-104",
@@ -1537,62 +2041,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.85,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 54,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 5e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 6.7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 2.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 3e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1644,7 +2184,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "637a5f3060e3ca5c74c6c402b3ed2d01"
+			"sourceHash": "e146efee76a930ea0c868f6ccd4137e6"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-105",
@@ -1656,62 +2196,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 54,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 46,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 8.8e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.8,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 4e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1770,7 +2346,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "6f0a62f0d2685a9538db0ac69bc161e3"
+			"sourceHash": "614b238820f64f7f7264603ed230a66c"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-12",
@@ -1782,62 +2358,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 55,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 42,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 9.1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 3e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -1875,7 +2487,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "637494b676dde9db73daa4c444b22630"
+			"sourceHash": "5d92e400dfa23868741f0871b49af9be"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-74M",
@@ -1887,62 +2499,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 5e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 5e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 9.1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 3e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2001,7 +2649,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "e7ae7aabf674086c1cef237113b162fb"
+			"sourceHash": "0643d2fd92fbed1fa0bbeaa19eabc83c"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AKS-74",
@@ -2013,62 +2661,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 48,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 52,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 9e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 3e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2125,7 +2809,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AKS-74U Stock"
 			],
-			"sourceHash": "f56db895f25b2eabab10e96f9ad03285"
+			"sourceHash": "664a253134d06d3083e8cc4091962516"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AKS-74U",
@@ -2137,62 +2821,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.25,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 58,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 56,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 731,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 3e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2241,7 +2961,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AKS-74U Stock"
 			],
-			"sourceHash": "0d2e7b36c8c0e372f5f1881d2f691306"
+			"sourceHash": "7671fe8b2e6f992b496b496041df2308"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AUG A3",
@@ -2253,62 +2973,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 65,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 4e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 9.3e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 0.8,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 715,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2342,7 +3098,7 @@
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "51797fc10ab95f8ea7a5d579d1500d0d"
+			"sourceHash": "9343115d1fb99295717c3cb3cb39222b"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Colt M4A1",
@@ -2354,62 +3110,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 52,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 62,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 862,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 8e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2482,7 +3274,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "b2969b764a2632e688b06d2bc731b9a1"
+			"sourceHash": "71614a279cb80f767e147f7c9212d2b1"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.FN FAL",
@@ -2494,62 +3286,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 45,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 7e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 8.8e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 0.9,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2588,7 +3416,7 @@
 				"Inventory.Items.Attachments.Stock.FAL Standard Stock",
 				"Inventory.Items.Attachments.Stock.FAL Wooden Stock"
 			],
-			"sourceHash": "89de6a891446a2332e7fdb7791a1a222"
+			"sourceHash": "9e2f132e6cbf7803a0e9b8ab80b393d7"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.FN SCAR-L",
@@ -2600,62 +3428,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 56,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 36,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 8.8e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 6.5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2724,7 +3588,7 @@
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "19ffd6bd563701cd7dac931c4de7c345"
+			"sourceHash": "d78dd3af7e9c749aad43366940ee40a7"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Honey Badger",
@@ -2736,62 +3600,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.65,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 55,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 52,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 9e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 0.7,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 8e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2850,7 +3750,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube",
 				"Inventory.Items.Attachments.Stock.Honey Badger Stock"
 			],
-			"sourceHash": "7d564eaed5171a5514badc21d52c577b"
+			"sourceHash": "059a22fd76e6c50d2d19f847ee4a0a19"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco CQ",
@@ -2862,62 +3762,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 48,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 68,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 862,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 8e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.1,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -2990,7 +3926,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "515e5a29893fe0adc31125c04cdbb6a4"
+			"sourceHash": "58192f43d3581e3270ca7c5a00a4e74b"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco QBZ-97",
@@ -3002,62 +3938,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.6,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 41,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 54,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 9.3e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 6e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -3086,7 +4058,7 @@
 				"Inventory.Items.Attachments.Sight.QBZ-97 Y-MA-95-1-600 3x Scope",
 				"Inventory.Items.Attachments.Stock.QBZ-97 Cheek Rest"
 			],
-			"sourceHash": "63b22ec24fb9c2d5e23ff8d13f9e5d96"
+			"sourceHash": "2a71b514584f09d4effd73477b93c5c9"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Sig Sauer MCX Rattler",
@@ -3098,62 +4070,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 45,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 56,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 8.6e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 0.9,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 8e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -3209,7 +4217,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "a69e2ea9d7849751cff2bcb366fd9bcd"
+			"sourceHash": "273ad7e3aea1dd53565c9ed9b54f8a88"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Sig Sauer MCX Virtus",
@@ -3221,62 +4229,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.8,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 47,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 58,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 9e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 0.8,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 8e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -3340,7 +4384,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "b0bb3986bdedc2b964c0d4e0dad5ff6a"
+			"sourceHash": "7a0041ae5cda03311c47299473173054"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.STV-380",
@@ -3352,62 +4396,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.7,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 53,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 44,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 8.8e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -3456,7 +4536,7 @@
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "6a6f4760004aeba1ef104a54b5a0532c"
+			"sourceHash": "2329ce6ce79fbe170ac880440344412f"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.Benelli M2",
@@ -3468,62 +4548,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 62,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 55,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 869,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 0.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 3e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 1.7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -3553,7 +4669,7 @@
 				"Inventory.Items.Attachments.Stock.M2 ComforTech Field Stock",
 				"Inventory.Items.Attachments.Stock.M2 Tactical Pistol Grip Stock"
 			],
-			"sourceHash": "7c062a4917de93084b11eac160568906"
+			"sourceHash": "70baacdcb99a6eb61d5d7a6c2cb8f937"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.RIA VR80",
@@ -3565,62 +4681,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 55,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 42,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 869,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 3e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 1.7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -3672,7 +4824,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "55ceb5122d45b75f14855c4fee3c242f"
+			"sourceHash": "331b5b2e9326a2e6dd71cff7a06c8a08"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.Saiga-12K",
@@ -3684,62 +4836,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3.6,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 34,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 54,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 869,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 6,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 4.5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 7e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -3781,7 +4969,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "a92d68ba98a217dad2bbcb5372865c82"
+			"sourceHash": "356721e4bad13909217d701972e3c3ba"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.FN P90",
@@ -3793,62 +4981,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.25,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 7e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 42,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 6.1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.25,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 9e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -3889,7 +5113,7 @@
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "c1a36360a87f7a814647a0a9180387f7"
+			"sourceHash": "97fa98c3e49b3fdea21f4ae284cfb79d"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.KRISS Vector 45ACP",
@@ -3901,62 +5125,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.15,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 7e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 48,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 4e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 2.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 9.5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -4017,7 +5277,7 @@
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "b7e03c275c476c28cc33ae6f8d8b04c3"
+			"sourceHash": "b05324d6b840a3500bc25e2cd28e0bfb"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MP5",
@@ -4029,62 +5289,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 68,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 55,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 4e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 9.5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -4116,7 +5412,7 @@
 				"Inventory.Items.Attachments.Stock.MP5 A3 Fixed Buttstock",
 				"Inventory.Items.Attachments.Stock.MP5 End-Cap Buttstock"
 			],
-			"sourceHash": "e90686ab0f58d53cf9beb68f2ebe189c"
+			"sourceHash": "f778874f6168481b8607e68747451a0c"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MP5k",
@@ -4128,62 +5424,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 7e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 58,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 4e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 9.5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -4214,7 +5546,7 @@
 				"Inventory.Items.Attachments.Stock.MP5 A3 Fixed Buttstock",
 				"Inventory.Items.Attachments.Stock.MP5 End-Cap Buttstock"
 			],
-			"sourceHash": "7f0c1be76a8cd8213b6d941ba55e8b2b"
+			"sourceHash": "428d5f97136cc153dca6703e6f40e937"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MP5SD",
@@ -4226,62 +5558,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.86,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 62.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 4e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 4e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.15,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 9.5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -4307,7 +5675,7 @@
 				"Inventory.Items.Attachments.Stock.MP5 A3 Fixed Buttstock",
 				"Inventory.Items.Attachments.Stock.MP5 End-Cap Buttstock"
 			],
-			"sourceHash": "99f16a498f4310faf901a1318c47cdc1"
+			"sourceHash": "6b9a5663da11f31b58862fc4a84e8e38"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MPX",
@@ -4319,62 +5687,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.1,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 62,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 52,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 4e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.45,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 8.5e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 3e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -4439,7 +5843,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "1a86023c1f80779a51bd64ff9c7669df"
+			"sourceHash": "cbcecf1a46f131f2ec3667be68d95685"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.PP-19 Vitayz",
@@ -4451,62 +5855,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 58,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 62,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 375,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 1.25,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 7e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -4545,7 +5985,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.PP-19 Stock"
 			],
-			"sourceHash": "70fc4040f6ca2db5031792e2d7bfa616"
+			"sourceHash": "64354351d9de40ccbfe5e51c5b378bdf"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.Remington M700",
@@ -4557,62 +5997,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3.05,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 38,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 68,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 869,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 0.2,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 3e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 1e+03,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -4661,7 +6137,7 @@
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "5fb0825b4a02500e19514bd8c55b9ff2"
+			"sourceHash": "fbfc30dbf4e87a328702e7f98646820c"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.SRS A2",
@@ -4673,62 +6149,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 2.5,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 55,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 52,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 869,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 0.5,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 3e+01,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 1.7e+03,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -4770,7 +6282,7 @@
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "b440ac746d7c4eb1ce563b47ebeb7706"
+			"sourceHash": "205d961aec4ca91e604dd51e3bac22c3"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.SVDS",
@@ -4782,62 +6294,98 @@
 				{
 					"tag": "Inventory.Stats.Weight",
 					"value": 3,
-					"modifyType": "Add"
+					"modifyType": "Add",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
 					"value": 1e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
 					"value": 45,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
 					"value": 36,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
 					"value": 8.3e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
 					"value": 0.7,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
 					"value": 6e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
 					"value": 8e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
 					"value": 0.05,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
-					"modifyType": "Base"
+					"modifyType": "Base",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -4865,9 +6413,9 @@
 				"Inventory.Items.Attachments.Stock.SVDS Folding Stock",
 				"Inventory.Items.Attachments.Stock.SVDS Lynx Buffer Tube Adapter"
 			],
-			"sourceHash": "3f96e092fd597b9385aea419f24bccbd"
+			"sourceHash": "56b00b6af357aec5d603c309107d1c85"
 		}
 	],
-	"schemaSoftVersion": 2,
+	"schemaSoftVersion": 3,
 	"schemaHardVersion": 1
 }
