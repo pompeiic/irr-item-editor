@@ -31,6 +31,18 @@
 			"maxValue": 0
 		},
 		{
+			"tag": "Inventory.Stats.Durability",
+			"displayName": "Content",
+			"unit": "LP",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Durability",
+			"displayName": "Durability",
+			"unit": "%",
+			"maxValue": 1e+02
+		},
+		{
 			"tag": "Inventory.Stats.Durability Burn",
 			"displayName": "Durability Burn",
 			"unit": "%",
@@ -57,6 +69,12 @@
 		{
 			"tag": "Inventory.Stats.Explosion Radius",
 			"displayName": "Explosion Radius",
+			"unit": "m",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Explosion Radius",
+			"displayName": "Smoke Radius",
 			"unit": "m",
 			"maxValue": 0
 		},
@@ -177,6 +195,6 @@
 		"Quest",
 		"Weapons"
 	],
-	"schemaSoftVersion": 3,
+	"schemaSoftVersion": 4,
 	"schemaHardVersion": 1
 }
