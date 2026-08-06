@@ -311,7 +311,7 @@ let sel = null;             // {c, i}
 let activeTab = "overview";
 let view = "all";           // all | recent | attention | cat:<Name> | sub:<Name>/<Sub>
 let expandedCats = new Set(); // split categories whose children are shown
-let statColTag = WEIGHT_TAG;
+let statColKey = WEIGHT_TAG + "|";  // resolved against the schema on load
 let ghUser = null;
 
 const $ = id => document.getElementById(id);
@@ -350,12 +350,25 @@ function avatarText(it) {
   const a = (it.abbreviation || it.name || leaf(it.itemTag) || "?").trim();
   return esc(a.slice(0, 4).toUpperCase());
 }
-function statDesc(tag) { return (schema?.stats || []).find(s => s.tag === tag); }
-function statLabel(tag) { const d = statDesc(tag); return (d && d.displayName) ? d.displayName : leaf(tag); }
+/* A stat's identity is tag + display name: the same tag means different things on different items
+ * (Durability is "Armor Points" on armor, "Content" on containers), so each meaning gets its own label,
+ * unit and column. Entries exported before display names existed fall back to the tag. */
+const statKey = s => `${s.tag}|${s.displayName || ""}`;
+const keyTag = k => String(k).split("|")[0];
+const keyName = k => String(k).split("|").slice(1).join("|");
+function statDesc(key) {
+  const stats = schema?.stats || [];
+  return stats.find(s => statKey(s) === key) || stats.find(s => s.tag === keyTag(key));
+}
+function statLabel(key) { return keyName(key) || statDesc(key)?.displayName || leaf(keyTag(key)); }
+function statName(s) { return s.displayName || statLabel(statKey(s)); }
 /* Effect-backed stats (heal over time, stamina boost) are None-modify in-engine — their number lives on
  * the stat's gameplay effect — but they are editable and sortable like any other stat. */
 const isEditableStat = s => s.modifyType !== "None" || !!s.effectField;
-function findStat(it, tag) { return (it.stats || []).find(x => x.tag === tag && isEditableStat(x)); }
+function findStat(it, key) {
+  const tag = keyTag(key), name = keyName(key);
+  return (it.stats || []).find(x => x.tag === tag && isEditableStat(x) && (!name || !x.displayName || x.displayName === name));
+}
 function allEntries() {
   const out = [];
   for (const c of cats) (c.doc.items || []).forEach((it, i) => out.push({ c, i, item: it }));
@@ -473,9 +486,9 @@ function entryDiff(base, cur) {
   txt("Description", base.description, cur.description);
   const bs = base.stats || [], cs = cur.stats || [];
   for (let i = 0; i < Math.min(bs.length, cs.length); i++) {
-    if (bs[i].value !== cs[i].value) lines.push({ label: statLabel(cs[i].tag), old: fmt(bs[i].value), new: fmt(cs[i].value) });
-    if (bs[i].modifyType !== cs[i].modifyType) lines.push({ label: statLabel(cs[i].tag) + " modify", old: bs[i].modifyType, new: cs[i].modifyType });
-    if (bs[i].effectDuration !== cs[i].effectDuration) lines.push({ label: statLabel(cs[i].tag) + " duration", old: fmt(bs[i].effectDuration) + "s", new: fmt(cs[i].effectDuration) + "s" });
+    if (bs[i].value !== cs[i].value) lines.push({ label: statName(cs[i]), old: fmt(bs[i].value), new: fmt(cs[i].value) });
+    if (bs[i].modifyType !== cs[i].modifyType) lines.push({ label: statName(cs[i]) + " modify", old: bs[i].modifyType, new: cs[i].modifyType });
+    if (bs[i].effectDuration !== cs[i].effectDuration) lines.push({ label: statName(cs[i]) + " duration", old: fmt(bs[i].effectDuration) + "s", new: fmt(cs[i].effectDuration) + "s" });
   }
   if ((base.maxStack ?? null) !== (cur.maxStack ?? null)) lines.push({ label: "Max stack", old: String(base.maxStack), new: String(cur.maxStack) });
   if (base.vendor && cur.vendor && base.vendor.bHasVendorRow) {
@@ -541,7 +554,7 @@ function visibleEntries() {
     const nameOf = e => String(e.item.name || leaf(e.item.itemTag)).toLowerCase();
     const rarityOf = e => e.item.vendor?.bHasVendorRow && e.item.vendor.rarityTag !== "None" ? leaf(e.item.vendor.rarityTag) : "\uffff";
     const priceOf = e => e.item.vendor?.bHasVendorRow ? e.item.vendor.defaultMarketPrice : -1;
-    const statOf = (e, missing) => { const s = findStat(e.item, statColTag); return s ? s.value : missing; };
+    const statOf = (e, missing) => { const s = findStat(e.item, statColKey); return s ? s.value : missing; };
     const updOf = e => lastEditOf(e.item.itemTag)?.time || "";
     out.sort((a, b) => {
       if (sort === "category") return a.c.name.localeCompare(b.c.name) || nameOf(a).localeCompare(nameOf(b));
@@ -608,20 +621,20 @@ function renderTable() {
   const changes = allChanges();
   $("changesBadge").textContent = changes.length;
   $("countline").textContent = `${entries.length} of ${allEntries().length} items` + (changes.length ? ` · ${changes.length} with unsaved changes` : "");
-  $("statColHead").textContent = statLabel(statColTag);
+  $("statColHead").textContent = statLabel(statColKey);
 
   const tb = $("rows");
   tb.innerHTML = "";
   $("tableEmpty").style.display = entries.length ? "none" : "block";
   $("tableEmpty").textContent = "No items match.";
-  const d = statDesc(statColTag);
+  const d = statDesc(statColKey);
   const unit = d?.unit ? " " + d.unit : "";
   for (const e of entries) {
     const it = e.item;
     const changed = entryDiff(e.c.baseline[e.i], it).length > 0;
     const attn = hasAttention(it.itemTag);
     const note = !!noteOf(it.itemTag);
-    const s = findStat(it, statColTag);
+    const s = findStat(it, statColKey);
     const last = lastEditOf(it.itemTag);
     const price = it.vendor?.bHasVendorRow && it.vendor.defaultMarketPrice >= 0 ? fmt(it.vendor.defaultMarketPrice) : "—";
     const tr = document.createElement("tr");
@@ -712,7 +725,7 @@ function renderOverview(it) {
   else {
     html += `<table class="stats">`;
     for (const { s, si } of editableStats) {
-      const d = statDesc(s.tag);
+      const d = statDesc(statKey(s));
       const b = sel.c.baseline[sel.i].stats[si];
       const eff = !!s.effectField;
       const changed = b && (b.value !== s.value || b.modifyType !== s.modifyType || b.effectDuration !== s.effectDuration);
@@ -729,7 +742,7 @@ function renderOverview(it) {
             modifyTypes.map(m => `<option value="${esc(m)}"${m === s.modifyType ? " selected" : ""}>${esc(m)}</option>`).join("") +
           `</select>`;
       html += `<tr class="${changed ? "modified" : ""}" title="${esc(s.tag)}${eff ? " — gameplay effect" : ""}">` +
-        `<td class="sname">${esc(statLabel(s.tag))}${d?.unit ? ` <span class="unit">[${esc(d.unit)}]</span>` : ""}${total}</td>` +
+        `<td class="sname">${esc(statName(s))}${d?.unit ? ` <span class="unit">[${esc(d.unit)}]</span>` : ""}${total}</td>` +
         `<td class="sval"><input type="number" step="any" data-stat="${si}" data-field="value" value="${esc(s.value)}"></td>` +
         `<td class="smod">${trailing}</td></tr>`;
     }
@@ -846,26 +859,26 @@ $("bulkToggle").onclick = () => $("bulkPanel").classList.toggle("open");
 function renderBulk() {
   $("bulkStat").innerHTML =
     `<option value="__price">Price (market)</option><option value="__blackmarket">Price (black market)</option>` +
-    (schema?.stats || []).map(s => `<option value="${esc(s.tag)}">${esc(s.displayName || leaf(s.tag))}</option>`).join("");
+    (schema?.stats || []).map(s => `<option value="${esc(statKey(s))}">${esc(s.displayName || leaf(s.tag))}</option>`).join("");
 }
 $("bulkBtn").onclick = () => {
-  const tag = $("bulkStat").value, op = $("bulkOp").value, val = parseFloat($("bulkVal").value);
-  if (!tag) return status("Pick a stat.", true);
+  const target = $("bulkStat").value, op = $("bulkOp").value, val = parseFloat($("bulkVal").value);
+  if (!target) return status("Pick a stat.", true);
   if (!Number.isFinite(val)) return status("Bulk value is not a number.", true);
   let touched = 0;
-  const isPrice = tag === "__price" || tag === "__blackmarket";
+  const isPrice = target === "__price" || target === "__blackmarket";
   for (const e of visibleEntries()) {
     if (isPrice) {
       const v = e.item.vendor;
       if (!v?.bHasVendorRow) continue;
-      const cur = tag === "__price" ? v.defaultMarketPrice : v.blackMarketPrice;
+      const cur = target === "__price" ? v.defaultMarketPrice : v.blackMarketPrice;
       // -1 = not sold: scale/offset never turns an unsold item into a sold one; only Set does.
       if (op !== "set" && !(cur >= 0)) continue;
       const nv = op === "set" ? val : op === "add" ? cur + val : cur * val;
       const r = Math.round(nv * 100) / 100;
-      if (tag === "__price") v.defaultMarketPrice = r; else v.blackMarketPrice = r;
+      if (target === "__price") v.defaultMarketPrice = r; else v.blackMarketPrice = r;
     } else {
-      const s = findStat(e.item, tag);
+      const s = findStat(e.item, target);
       if (!s) continue;
       const nv = op === "set" ? val : op === "add" ? s.value + val : s.value * val;
       s.value = Math.round(nv * 10000) / 10000;
@@ -873,7 +886,7 @@ $("bulkBtn").onclick = () => {
     touched++;
   }
   renderAll();
-  const label = tag === "__price" ? "Price" : tag === "__blackmarket" ? "Black market price" : statLabel(tag);
+  const label = target === "__price" ? "Price" : target === "__blackmarket" ? "Black market price" : statLabel(target);
   status(`Bulk: ${label} ${op} ${val} applied to ${touched} item(s). Review in Changes before committing.`);
 };
 
@@ -1009,9 +1022,12 @@ function renderAll() { renderSidebar(); renderTable(); renderPanel(); }
 function renderStatColSelect() {
   const stats = (schema?.stats || []).slice().sort((a, b) => String(a.displayName || leaf(a.tag)).localeCompare(String(b.displayName || leaf(b.tag))));
   const el = $("statCol");
-  el.innerHTML = stats.map(s => `<option value="${esc(s.tag)}"${s.tag === statColTag ? " selected" : ""}>Col: ${esc(s.displayName || leaf(s.tag))}</option>`).join("");
-  if (!stats.some(s => s.tag === statColTag) && stats.length) { statColTag = stats[0].tag; el.value = statColTag; }
-  el.oninput = () => { statColTag = el.value; renderTable(); };
+  el.innerHTML = stats.map(s => `<option value="${esc(statKey(s))}"${statKey(s) === statColKey ? " selected" : ""}>Col: ${esc(s.displayName || leaf(s.tag))}</option>`).join("");
+  if (!stats.some(s => statKey(s) === statColKey) && stats.length) {
+    statColKey = statKey(stats.find(s => s.tag === WEIGHT_TAG) || stats[0]);
+    el.value = statColKey;
+  }
+  el.oninput = () => { statColKey = el.value; renderTable(); };
 }
 
 async function load() {

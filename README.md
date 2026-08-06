@@ -44,6 +44,10 @@ them back onto the assets. The game never reads this repo — changes ship with 
   changing rarity in-editor.
 - **Max stack** imports; the stackable flag and the container-support tags (Relations) are read-only —
   structural setup stays in Unreal.
+- **A stat is identified by its tag *and* its display name.** The same tag can mean different things on
+  different items (`Inventory.Stats.Durability` is "Armor Points" on armor, "Content" on containers), so each
+  meaning gets its own label, unit and sortable column. Display names are read-only here — rename them on the
+  stat config asset in Unreal (`Content/Blueprints/InventorySystem/Objects/Stats/U_*.uasset`).
 - **Effect stats** (Heal Over Time, Stamina Boost) are the stats whose number lives on the stat's gameplay
   effect rather than on the item. They edit and sort like any other stat, with the effect's **duration** in
   place of the modify-type column, and a per-tick stat also shows what it adds up to over that duration.
