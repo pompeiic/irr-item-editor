@@ -7,6 +7,12 @@
 			"maxValue": 5
 		},
 		{
+			"tag": "Inventory.Stats.Chance To Wound",
+			"displayName": "Stop Wound",
+			"unit": "",
+			"maxValue": 0
+		},
+		{
 			"tag": "Inventory.Stats.Cooldown",
 			"displayName": "Cooldown",
 			"unit": "%",
@@ -28,12 +34,6 @@
 			"tag": "Inventory.Stats.Durability Burn",
 			"displayName": "Durability Burn",
 			"unit": "%",
-			"maxValue": 0
-		},
-		{
-			"tag": "Inventory.Stats.Effect Duration",
-			"displayName": "Duration",
-			"unit": "s",
 			"maxValue": 0
 		},
 		{
@@ -61,14 +61,14 @@
 			"maxValue": 0
 		},
 		{
-			"tag": "Inventory.Stats.Healing Boost",
+			"tag": "Inventory.Stats.Heal Instant",
 			"displayName": "Healing Amount",
-			"unit": "",
+			"unit": "HP",
 			"maxValue": 0
 		},
 		{
-			"tag": "Inventory.Stats.Health Buff",
-			"displayName": "Pain Debuff",
+			"tag": "Inventory.Stats.Heal Over Time",
+			"displayName": "Heal Over Time",
 			"unit": "HP",
 			"maxValue": 0
 		},
@@ -127,21 +127,15 @@
 			"maxValue": 1.2e+03
 		},
 		{
-			"tag": "Inventory.Stats.Stamina Drain",
-			"displayName": "Body Stamina Drain",
-			"unit": "%",
-			"maxValue": 0
-		},
-		{
-			"tag": "Inventory.Stats.Stamina Recovery",
-			"displayName": "Body Stamina Recovery",
+			"tag": "Inventory.Stats.Stamina Boost",
+			"displayName": "Stamina Boost",
 			"unit": "%",
 			"maxValue": 0
 		},
 		{
 			"tag": "Inventory.Stats.Usage Time",
 			"displayName": "Usage Time",
-			"unit": "",
+			"unit": "s",
 			"maxValue": 0
 		},
 		{
@@ -183,6 +177,6 @@
 		"Quest",
 		"Weapons"
 	],
-	"schemaSoftVersion": 2,
+	"schemaSoftVersion": 3,
 	"schemaHardVersion": 1
 }
