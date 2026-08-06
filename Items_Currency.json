@@ -12,6 +12,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -29,7 +30,7 @@
 			"bCanStack": true,
 			"maxStack": 1e+05,
 			"supportedItemTags": [],
-			"sourceHash": "bcc7f57baaa6fdefa16ca2f17914fd44"
+			"sourceHash": "29912cd0963dec7d40af91e48a6d890f"
 		},
 		{
 			"itemTag": "Inventory.Items.Currency.Marked Coin",
@@ -42,6 +43,7 @@
 					"tag": "Inventory.Stats.Weight",
 					"value": 0.01,
 					"modifyType": "Add",
+					"displayName": "",
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -59,9 +61,9 @@
 			"bCanStack": true,
 			"maxStack": 5e+02,
 			"supportedItemTags": [],
-			"sourceHash": "8cb4ceb50c23a04068bd031c373119d7"
+			"sourceHash": "3723838695a425bec0be8c4d280e8f60"
 		}
 	],
-	"schemaSoftVersion": 3,
+	"schemaSoftVersion": 4,
 	"schemaHardVersion": 1
 }
