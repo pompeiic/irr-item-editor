@@ -729,11 +729,12 @@ function renderOverview(it) {
     for (const { s, si } of editableStats) {
       const d = statDesc(statKey(s));
       const b = sel.c.baseline[sel.i].stats[si];
-      const eff = !!effectFieldOf(s);
+      const eff = effectFieldOf(s);
       const changed = b && (b.value !== s.value || b.modifyType !== s.modifyType || b.effectDuration !== s.effectDuration);
-      // A ticking effect's value is per tick, so spell out what it adds up to over the full duration.
-      const total = eff && s.effectTickInterval > 0 && s.effectDuration > 0
-        ? `<br><small class="hint">≈ ${esc(fmt(s.value * (s.effectDuration / s.effectTickInterval)))}${d?.unit ? " " + esc(d.unit) : ""} over ${esc(fmt(s.effectDuration))}s</small>`
+      // An accumulating amount is authored as the TOTAL over the duration, so the per-tick number is the
+      // derived one. Stamina influence is a flat multiplier held for the whole duration — never divide it.
+      const rate = eff === "Amount" && s.effectTickInterval > 0 && s.effectDuration > 0
+        ? `<br><small class="hint">≈ ${esc(fmt(s.value / (s.effectDuration / s.effectTickInterval)))}${d?.unit ? " " + esc(d.unit) : ""} per ${esc(fmt(s.effectTickInterval))}s tick</small>`
         : "";
       // Third column carries the effect's duration where a plain stat carries its modify type.
       const trailing = eff
@@ -744,7 +745,7 @@ function renderOverview(it) {
             modifyTypes.map(m => `<option value="${esc(m)}"${m === s.modifyType ? " selected" : ""}>${esc(m)}</option>`).join("") +
           `</select>`;
       html += `<tr class="${changed ? "modified" : ""}" title="${esc(s.tag)}${eff ? " — gameplay effect" : ""}">` +
-        `<td class="sname">${esc(statName(s))}${d?.unit ? ` <span class="unit">[${esc(d.unit)}]</span>` : ""}${total}</td>` +
+        `<td class="sname">${esc(statName(s))}${d?.unit ? ` <span class="unit">[${esc(d.unit)}]</span>` : ""}${rate}</td>` +
         `<td class="sval"><input type="number" step="any" data-stat="${si}" data-field="value" value="${esc(s.value)}"></td>` +
         `<td class="smod">${trailing}</td></tr>`;
     }

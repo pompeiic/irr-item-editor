@@ -50,9 +50,13 @@ them back onto the assets. The game never reads this repo — changes ship with 
   stat config asset in Unreal (`Content/Blueprints/InventorySystem/Objects/Stats/U_*.uasset`).
 - **Effect stats** (Heal Over Time, Stamina Boost) are the stats whose number lives on the stat's gameplay
   effect rather than on the item. They edit and sort like any other stat, with the effect's **duration** in
-  place of the modify-type column, and a per-tick stat also shows what it adds up to over that duration.
-  Stamina boost is a **percent**: `+10` means `RecoverMultiplier 1.1`, and the drain multiplier is kept
-  symmetric (`0.9`). Which effect fields exist is structural — the web editor never adds or removes effects.
+  place of the modify-type column.
+  - **Heal Over Time** is the **total** healed across the duration, not a per-tick amount — 6 HP over 120s
+    is 6 HP in total. The greyed line under the name shows the per-tick rate that works out to.
+  - **Stamina Boost** is a **percent** held flat for the duration: `+10` means `RecoverMultiplier 1.1`, and
+    the drain multiplier is kept symmetric (`0.9`).
+
+  Which effect fields exist is structural — the web editor never adds or removes effects.
 - Price `-1` means "not sold on that market".
 
 ## One-time setup: your editor token
