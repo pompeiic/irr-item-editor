@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Self-heal: GitHub's Pages deployment queue wedged on 2026-08-06 and a deploy only fires on push or
+  # dispatch, so the site stays down until something retries. Remove once deploys are stable again.
+  schedule:
+    - cron: "20 * * * *"
 
 permissions:
   contents: read
