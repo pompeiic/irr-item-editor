@@ -1187,6 +1187,80 @@
 			"lines": [
 				"Description updated"
 			]
+		},
+		{
+			"tag": "Inventory.Items.Provisions.Drinks.Beer BiaSaigon Bottle",
+			"time": "2026-08-10T10:44:28.121Z",
+			"author": "pompeiic",
+			"lines": [
+				"Heal Over Time 6 → -2",
+				"Heal Over Time duration 120s → 150s",
+				"Stamina Boost 10 → 9",
+				"Stamina Boost duration 120s → 150s"
+			]
+		},
+		{
+			"tag": "Inventory.Items.Provisions.Drinks.Beer Biere Larue Can",
+			"time": "2026-08-10T10:44:28.121Z",
+			"author": "pompeiic",
+			"lines": [
+				"Heal Over Time 6 → -1",
+				"Stamina Boost 10 → 7"
+			]
+		},
+		{
+			"tag": "Inventory.Items.Provisions.Drinks.Condensed Milk",
+			"time": "2026-08-10T10:44:28.121Z",
+			"author": "pompeiic",
+			"lines": [
+				"Heal Over Time 6 → 1",
+				"Heal Over Time duration 120s → 90s",
+				"Stamina Boost 10 → 6",
+				"Stamina Boost duration 120s → 90s"
+			]
+		},
+		{
+			"tag": "Inventory.Items.Provisions.Food.Canned Beef Stew",
+			"time": "2026-08-10T10:44:28.121Z",
+			"author": "pompeiic",
+			"lines": [
+				"Heal Over Time 6 → 12",
+				"Heal Over Time duration 120s → 180s",
+				"Stamina Boost 10 → -1",
+				"Stamina Boost duration 120s → 180s"
+			]
+		},
+		{
+			"tag": "Inventory.Items.Provisions.Food.Canned Soup",
+			"time": "2026-08-10T10:44:28.121Z",
+			"author": "pompeiic",
+			"lines": [
+				"Heal Over Time 6 → 2",
+				"Heal Over Time duration 120s → 180s",
+				"Stamina Boost duration 120s → 180s"
+			]
+		},
+		{
+			"tag": "Inventory.Items.Provisions.Food.Canned Squid",
+			"time": "2026-08-10T10:44:28.121Z",
+			"author": "pompeiic",
+			"lines": [
+				"Heal Over Time 6 → 13",
+				"Heal Over Time duration 120s → 150s",
+				"Stamina Boost 10 → -2",
+				"Stamina Boost duration 120s → 150s"
+			]
+		},
+		{
+			"tag": "Inventory.Items.Provisions.Food.Chips",
+			"time": "2026-08-10T10:44:28.121Z",
+			"author": "pompeiic",
+			"lines": [
+				"Heal Over Time 6 → 5",
+				"Heal Over Time duration 120s → 90s",
+				"Stamina Boost 10 → 2",
+				"Stamina Boost duration 120s → 90s"
+			]
 		}
 	],
 	"notes": {}
