@@ -191,7 +191,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 45,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -235,20 +235,20 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heal Over Time",
-					"value": 6,
+					"value": 3,
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 120,
+					"effectDuration": 150,
 					"effectTickInterval": 10
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 10,
+					"value": 7,
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 120,
+					"effectDuration": 150,
 					"effectTickInterval": 10
 				}
 			],
@@ -257,7 +257,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 55,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -301,20 +301,20 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heal Over Time",
-					"value": 6,
+					"value": 1,
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 120,
+					"effectDuration": 150,
 					"effectTickInterval": 10
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 10,
+					"value": 8,
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 120,
+					"effectDuration": 150,
 					"effectTickInterval": 10
 				}
 			],
@@ -323,7 +323,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 40,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -389,7 +389,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 150,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -433,7 +433,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heal Over Time",
-					"value": 6,
+					"value": 4,
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
@@ -442,7 +442,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 10,
+					"value": 5,
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
@@ -455,7 +455,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -499,7 +499,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heal Over Time",
-					"value": 6,
+					"value": 8,
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
@@ -508,7 +508,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 10,
+					"value": 0,
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
@@ -521,7 +521,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 90,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -565,20 +565,20 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heal Over Time",
-					"value": 6,
+					"value": 10,
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 120,
+					"effectDuration": 150,
 					"effectTickInterval": 10
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 10,
+					"value": -1,
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 120,
+					"effectDuration": 150,
 					"effectTickInterval": 10
 				}
 			],
@@ -587,7 +587,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 95,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -653,7 +653,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 100,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -719,7 +719,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 160,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -763,20 +763,20 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heal Over Time",
-					"value": 6,
+					"value": 9,
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 120,
+					"effectDuration": 180,
 					"effectTickInterval": 10
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 10,
+					"value": 2,
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 120,
+					"effectDuration": 180,
 					"effectTickInterval": 10
 				}
 			],
@@ -785,7 +785,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 130,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -851,7 +851,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 30,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -895,7 +895,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heal Over Time",
-					"value": 6,
+					"value": 2,
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
@@ -904,7 +904,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 10,
+					"value": 6,
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
@@ -917,7 +917,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 35,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -961,20 +961,20 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heal Over Time",
-					"value": 6,
+					"value": 3,
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 120,
+					"effectDuration": 90,
 					"effectTickInterval": 10
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 10,
+					"value": 3,
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 120,
+					"effectDuration": 90,
 					"effectTickInterval": 10
 				}
 			],
@@ -1027,20 +1027,20 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heal Over Time",
-					"value": 6,
+					"value": 7,
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 120,
+					"effectDuration": 180,
 					"effectTickInterval": 10
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 10,
+					"value": 4,
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 120,
+					"effectDuration": 180,
 					"effectTickInterval": 10
 				}
 			],
@@ -1049,7 +1049,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 110,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -1093,20 +1093,20 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heal Over Time",
-					"value": 6,
+					"value": 4,
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 120,
+					"effectDuration": 90,
 					"effectTickInterval": 10
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 10,
+					"value": 4,
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 120,
+					"effectDuration": 90,
 					"effectTickInterval": 10
 				}
 			],
@@ -1115,7 +1115,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"defaultMarketPrice": 40,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
