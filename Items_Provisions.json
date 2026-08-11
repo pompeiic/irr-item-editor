@@ -41,8 +41,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 150,
-					"effectTickInterval": 10
+					"effectDuration": 1.5e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -50,22 +50,23 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 150,
-					"effectTickInterval": 10
+					"effectDuration": 1.5e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Beer_BiaSaigon_Bottle",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 120,
+				"defaultMarketPrice": 1.2e+02,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "136abf0fbd0c02072f021cd5176d44fc"
+			"sourceHash": "bf119245a7b36a1e138f12099953f827"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Beer Biere Larue Can",
@@ -107,8 +108,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 120,
-					"effectTickInterval": 10
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -116,22 +117,23 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 120,
-					"effectTickInterval": 10
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Beer_Biere_Larue_Can",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 80,
+				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "8d1663f69826c1ae6839d9a192726f64"
+			"sourceHash": "578b7f25ff02063bd4e4653963164975"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Condensed Milk",
@@ -173,8 +175,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 90,
-					"effectTickInterval": 10
+					"effectDuration": 9e+01,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -182,11 +184,12 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 90,
-					"effectTickInterval": 10
+					"effectDuration": 9e+01,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Condensed_Milk",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -197,7 +200,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "832ddfebbb86169ac9dea610ffb20824"
+			"sourceHash": "0ec3ee01c16407670b598f79f8076b26"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Milk",
@@ -239,8 +242,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 150,
-					"effectTickInterval": 10
+					"effectDuration": 1.5e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -248,11 +251,12 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 150,
-					"effectTickInterval": 10
+					"effectDuration": 1.5e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Milk",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -263,7 +267,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "afec2196560a34641b6a008b56a14ea9"
+			"sourceHash": "704fd1b0d9b284d35e3bd81e475ba402"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Water Bottle",
@@ -305,8 +309,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 150,
-					"effectTickInterval": 10
+					"effectDuration": 1.5e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -314,22 +318,23 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 150,
-					"effectTickInterval": 10
+					"effectDuration": 1.5e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Water_Bottle",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 40,
+				"defaultMarketPrice": 4e+01,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c02674aaabe4fdc0a02ed178cd0dbb8e"
+			"sourceHash": "597aafb10840a0a184658639799eafda"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Beef Stew",
@@ -371,8 +376,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 180,
-					"effectTickInterval": 10
+					"effectDuration": 1.8e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -380,22 +385,23 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 180,
-					"effectTickInterval": 10
+					"effectDuration": 1.8e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Canned_BeefStew",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 150,
+				"defaultMarketPrice": 1.5e+02,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "bff8ff4bf6145e671a36e7368beb86af"
+			"sourceHash": "53561dc483a852db211239a22ae46c3a"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Corn",
@@ -437,8 +443,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 120,
-					"effectTickInterval": 10
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -446,22 +452,23 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 120,
-					"effectTickInterval": 10
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Canned_Corn",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 50,
+				"defaultMarketPrice": 5e+01,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "bc6adb9be2437a276f2c9250915c1eff"
+			"sourceHash": "b57b8dccf5f5b2e13add48d785316691"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Pork Patey",
@@ -503,8 +510,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 120,
-					"effectTickInterval": 10
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -512,22 +519,23 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 120,
-					"effectTickInterval": 10
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Canned_PorkPatey",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 90,
+				"defaultMarketPrice": 9e+01,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "fe3b1bdf67991c077c9e60a92125228e"
+			"sourceHash": "23f0ebd19d1c2b82435f00c83a788a1e"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Sardines",
@@ -565,12 +573,12 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heal Over Time",
-					"value": 10,
+					"value": 1e+01,
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 150,
-					"effectTickInterval": 10
+					"effectDuration": 1.5e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -578,11 +586,12 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 150,
-					"effectTickInterval": 10
+					"effectDuration": 1.5e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Canned_Sardines",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -593,7 +602,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0b2ff8bf1a6b2be6476f075bd9a4947a"
+			"sourceHash": "56bf5ada4020dfa79e8d5dde956c5d9a"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Soup",
@@ -635,31 +644,32 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 180,
-					"effectTickInterval": 10
+					"effectDuration": 1.8e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 10,
+					"value": 1e+01,
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 180,
-					"effectTickInterval": 10
+					"effectDuration": 1.8e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Canned_Soup",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 100,
+				"defaultMarketPrice": 1e+02,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a73d1d16bfef677f5f53a7b6a4812bdc"
+			"sourceHash": "9423d995daa967ff8d85f972509a1773"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Squid",
@@ -701,8 +711,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 150,
-					"effectTickInterval": 10
+					"effectDuration": 1.5e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -710,22 +720,23 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 150,
-					"effectTickInterval": 10
+					"effectDuration": 1.5e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Canned_Squid",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 160,
+				"defaultMarketPrice": 1.6e+02,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "e50b8fdd0654c21a1d9dac16b40797c4"
+			"sourceHash": "50c0a9d93055d7a14a4bf264138bd560"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Tuna",
@@ -767,8 +778,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 180,
-					"effectTickInterval": 10
+					"effectDuration": 1.8e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -776,22 +787,23 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 180,
-					"effectTickInterval": 10
+					"effectDuration": 1.8e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Canned_TunaMix",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 130,
+				"defaultMarketPrice": 1.3e+02,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b5695209e8af1d52a972e8719cbaab5d"
+			"sourceHash": "493a292f3de4be2b95000af007bce193"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Chips",
@@ -833,8 +845,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 90,
-					"effectTickInterval": 10
+					"effectDuration": 9e+01,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -842,22 +854,23 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 90,
-					"effectTickInterval": 10
+					"effectDuration": 9e+01,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Chips",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 30,
+				"defaultMarketPrice": 3e+01,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a388c71903c43562a6eecf2bdc5e6945"
+			"sourceHash": "2c8d29affe28740aee39517ad197ed32"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Cornflakes",
@@ -899,8 +912,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 120,
-					"effectTickInterval": 10
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -908,11 +921,12 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 120,
-					"effectTickInterval": 10
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Cornflakes",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -923,73 +937,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c075996ad7beebbd862c914a536f1a8c"
-		},
-		{
-			"itemTag": "Inventory.Items.Provisions.Food.Crackers",
-			"assetPath": "/Game/Blueprints/InventorySystem/Items/Provisions/Food/Crackers/ID_Crackers.ID_Crackers",
-			"name": "Crackers",
-			"abbreviation": "C",
-			"description": "Very cracky.",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.2,
-					"modifyType": "Add",
-					"displayName": "",
-					"effectField": "None",
-					"effectDuration": -1,
-					"effectTickInterval": 0
-				},
-				{
-					"tag": "Inventory.Stats.Durability",
-					"value": 1,
-					"modifyType": "Base",
-					"displayName": "Content",
-					"effectField": "None",
-					"effectDuration": -1,
-					"effectTickInterval": 0
-				},
-				{
-					"tag": "Inventory.Stats.Usage Time",
-					"value": 5,
-					"modifyType": "Base",
-					"displayName": "Usage Time",
-					"effectField": "None",
-					"effectDuration": -1,
-					"effectTickInterval": 0
-				},
-				{
-					"tag": "Inventory.Stats.Heal Over Time",
-					"value": 3,
-					"modifyType": "None",
-					"displayName": "Heal Over Time",
-					"effectField": "Amount",
-					"effectDuration": 90,
-					"effectTickInterval": 10
-				},
-				{
-					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 3,
-					"modifyType": "None",
-					"displayName": "Stamina Boost",
-					"effectField": "InfluencePercent",
-					"effectDuration": 90,
-					"effectTickInterval": 10
-				}
-			],
-			"vendor": {
-				"rowName": "Crackers",
-				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "None",
-				"defaultMarketPrice": 20,
-				"blackMarketPrice": -1
-			},
-			"bCanStack": false,
-			"maxStack": 1,
-			"supportedItemTags": [],
-			"sourceHash": "861117eb5741daa3274e5ce366087854"
+			"sourceHash": "fe252fad795fa50cf4385082602da31d"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Peanut Butter",
@@ -1031,8 +979,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 180,
-					"effectTickInterval": 10
+					"effectDuration": 1.8e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -1040,22 +988,23 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 180,
-					"effectTickInterval": 10
+					"effectDuration": 1.8e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Peanut_Butter",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 110,
+				"defaultMarketPrice": 1.1e+02,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "20ca077600de8699a15cea05a1a5ae74"
+			"sourceHash": "0b80531b6e21d0d22e6d0269a7d0d0dd"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Squid Chips",
@@ -1097,8 +1046,8 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 90,
-					"effectTickInterval": 10
+					"effectDuration": 9e+01,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
@@ -1106,22 +1055,23 @@
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 90,
-					"effectTickInterval": 10
+					"effectDuration": 9e+01,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Squid_Chips",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 40,
+				"defaultMarketPrice": 4e+01,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "de51e35be77a0a0a5a0713cfb5128394"
+			"sourceHash": "027fe5e73cb340c23a30f5ca0f703386"
 		}
 	],
 	"schemaSoftVersion": 4,
