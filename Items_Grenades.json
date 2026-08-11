@@ -162,7 +162,7 @@
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
+					"value": 0.5,
 					"modifyType": "Add",
 					"displayName": "",
 					"effectField": "None",
@@ -171,7 +171,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Shrapnel Chance",
-					"value": 5e+01,
+					"value": 0,
 					"modifyType": "Base",
 					"displayName": "Shrapnel Chance",
 					"effectField": "None",
@@ -180,7 +180,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
-					"value": 2,
+					"value": 0,
 					"modifyType": "Base",
 					"displayName": "Piercing Level",
 					"effectField": "None",
@@ -189,7 +189,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
-					"value": 2e+01,
+					"value": 0,
 					"modifyType": "Base",
 					"displayName": "Penetration",
 					"effectField": "None",
@@ -198,7 +198,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Radius",
-					"value": 8,
+					"value": 12,
 					"modifyType": "Base",
 					"displayName": "Explosion Radius",
 					"effectField": "None",
@@ -207,7 +207,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Delay",
-					"value": 5,
+					"value": 2,
 					"modifyType": "Base",
 					"displayName": "Explosion Delay",
 					"effectField": "None",
@@ -221,8 +221,8 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
+				"defaultMarketPrice": 90,
+				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -234,11 +234,11 @@
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/RGO_Grenade/ID_RGO_Grenade.ID_RGO_Grenade",
 			"name": "RGO Grenade",
 			"abbreviation": "RGO",
-			"description": "RGO Greande Template",
+			"description": "Soviet defensive frag. The dense fragment sleeve stays lethal well past the blast, so throw it from cover.",
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
+					"value": 0.53,
 					"modifyType": "Add",
 					"displayName": "",
 					"effectField": "None",
@@ -247,7 +247,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Shrapnel Chance",
-					"value": 5e+01,
+					"value": 70,
 					"modifyType": "Base",
 					"displayName": "Shrapnel Chance",
 					"effectField": "None",
@@ -274,7 +274,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Radius",
-					"value": 8,
+					"value": 9,
 					"modifyType": "Base",
 					"displayName": "Explosion Radius",
 					"effectField": "None",
@@ -283,7 +283,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Delay",
-					"value": 5,
+					"value": 4,
 					"modifyType": "Base",
 					"displayName": "Explosion Delay",
 					"effectField": "None",
@@ -297,8 +297,8 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
+				"defaultMarketPrice": 300,
+				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -314,7 +314,7 @@
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
+					"value": 0.45,
 					"modifyType": "Add",
 					"displayName": "",
 					"effectField": "None",
@@ -323,7 +323,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Shrapnel Chance",
-					"value": 5e+01,
+					"value": 0,
 					"modifyType": "Base",
 					"displayName": "Shrapnel Chance",
 					"effectField": "None",
@@ -332,7 +332,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
-					"value": 2,
+					"value": 0,
 					"modifyType": "Base",
 					"displayName": "Piercing Level",
 					"effectField": "None",
@@ -341,7 +341,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
-					"value": 2e+01,
+					"value": 0,
 					"modifyType": "Base",
 					"displayName": "Penetration",
 					"effectField": "None",
@@ -359,7 +359,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Delay",
-					"value": 5,
+					"value": 2,
 					"modifyType": "Base",
 					"displayName": "Explosion Delay",
 					"effectField": "None",
@@ -373,8 +373,8 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
+				"defaultMarketPrice": 120,
+				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -390,7 +390,7 @@
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
+					"value": 0.2,
 					"modifyType": "Add",
 					"displayName": "",
 					"effectField": "None",
@@ -399,7 +399,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Shrapnel Chance",
-					"value": 5e+01,
+					"value": 0,
 					"modifyType": "Base",
 					"displayName": "Shrapnel Chance",
 					"effectField": "None",
@@ -408,7 +408,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
-					"value": 2,
+					"value": 0,
 					"modifyType": "Base",
 					"displayName": "Piercing Level",
 					"effectField": "None",
@@ -417,7 +417,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
-					"value": 2e+01,
+					"value": 0,
 					"modifyType": "Base",
 					"displayName": "Penetration",
 					"effectField": "None",
@@ -426,7 +426,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Radius",
-					"value": 8,
+					"value": 6,
 					"modifyType": "Base",
 					"displayName": "Explosion Radius",
 					"effectField": "None",
@@ -435,7 +435,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Delay",
-					"value": 5,
+					"value": 1.5,
 					"modifyType": "Base",
 					"displayName": "Explosion Delay",
 					"effectField": "None",
@@ -449,8 +449,8 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
+				"defaultMarketPrice": 140,
+				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
