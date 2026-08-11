@@ -78,58 +78,9 @@
 			"sourceHash": "ad1273e8037f60debfd3001c4c9eddd3"
 		},
 		{
-			"itemTag": "Inventory.Items.Grenades.M18 Smoke Grenade",
-			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/M18_Smoke_Grenade/ID_M18_Smoke_Grenade.ID_M18_Smoke_Grenade",
-			"name": "M18 Smoke Grenade",
-			"abbreviation": "M18",
-			"description": "Template",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.4,
-					"modifyType": "Add",
-					"displayName": "",
-					"effectField": "None",
-					"effectDuration": -1,
-					"effectTickInterval": 0
-				},
-				{
-					"tag": "Inventory.Stats.Explosion Radius",
-					"value": 4,
-					"modifyType": "Base",
-					"displayName": "Smoke Radius",
-					"effectField": "None",
-					"effectDuration": -1,
-					"effectTickInterval": 0
-				},
-				{
-					"tag": "Inventory.Stats.Explosion Delay",
-					"value": 3,
-					"modifyType": "Base",
-					"displayName": "Explosion Delay",
-					"effectField": "None",
-					"effectDuration": -1,
-					"effectTickInterval": 0
-				}
-			],
-			"vendor":
-			{
-				"rowName": "M18_Smoke_Grenade",
-				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 2",
-				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 2e+02,
-				"blackMarketPrice": -1
-			},
-			"bCanStack": false,
-			"maxStack": 1,
-			"supportedItemTags": [],
-			"sourceHash": "0e4ba6d6346474669b83cc6a4b61eb07"
-		},
-		{
 			"itemTag": "Inventory.Items.Grenades.M67 Hand Grenade",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/M67/ID_M67.ID_M67",
-			"name": "M67",
+			"name": "M67 Grenade",
 			"abbreviation": "M67",
 			"description": "Modernized version of a classic M33.",
 			"stats": [
@@ -200,14 +151,14 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "dc6ff6c78144bf9e213e5a0bfcf8dd5a"
+			"sourceHash": "6ab7ee93ddf4798e8b3cb89bc8747254"
 		},
 		{
-			"itemTag": "Inventory.Items.Grenades.Model 7290 Flash Bang Grenade",
-			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/Model_7290_Flash_Bang_Grenade/ID_Model_7290_Flash_Bang_Grenade.ID_Model_7290_Flash_Bang_Grenade",
-			"name": "Model 7290 Flash Bang Grenade",
-			"abbreviation": "Model 7290",
-			"description": "Template",
+			"itemTag": "Inventory.Items.Grenades.RGD_Smoke_Grenade",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/RGD_Smoke_Grenade/ID_RGD_Smoke_Grenade.ID_RGD_Smoke_Grenade",
+			"name": "RGD Smoke Grenade",
+			"abbreviation": "RGD",
+			"description": "Russian smoke grenade. Best when you want to hide or obscure enemy sight lines.",
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
@@ -228,8 +179,26 @@
 					"effectTickInterval": 0
 				},
 				{
+					"tag": "Inventory.Stats.Piercing Level",
+					"value": 2,
+					"modifyType": "Base",
+					"displayName": "Piercing Level",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Penetration",
+					"value": 2e+01,
+					"modifyType": "Base",
+					"displayName": "Penetration",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
 					"tag": "Inventory.Stats.Explosion Radius",
-					"value": 4,
+					"value": 8,
 					"modifyType": "Base",
 					"displayName": "Explosion Radius",
 					"effectField": "None",
@@ -248,24 +217,24 @@
 			],
 			"vendor":
 			{
-				"rowName": "Model_7290_Flash_Bang_Grenade",
+				"rowName": "RGD_Smoke_Grenade",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 2",
-				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 2e+02,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "4b2271eeb6ce7107c03de29d2919356a"
+			"sourceHash": "8d0393855913302d0b0f97070114f516"
 		},
 		{
-			"itemTag": "Inventory.Items.Grenades.RG-VO Gas Grenade",
-			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/RG-VO_Gas_Grenade/ID_RG-VO_Gas_Grenade.ID_RG-VO_Gas_Grenade",
-			"name": "RG-VO Gas Grenade",
-			"abbreviation": "RG-VO",
-			"description": "Template",
+			"itemTag": "Inventory.Items.Grenades.RGO Grenade",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/RGO_Grenade/ID_RGO_Grenade.ID_RGO_Grenade",
+			"name": "RGO Grenade",
+			"abbreviation": "RGO",
+			"description": "RGO Greande Template",
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
@@ -277,8 +246,35 @@
 					"effectTickInterval": 0
 				},
 				{
+					"tag": "Inventory.Stats.Shrapnel Chance",
+					"value": 5e+01,
+					"modifyType": "Base",
+					"displayName": "Shrapnel Chance",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Piercing Level",
+					"value": 2,
+					"modifyType": "Base",
+					"displayName": "Piercing Level",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Penetration",
+					"value": 2e+01,
+					"modifyType": "Base",
+					"displayName": "Penetration",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
 					"tag": "Inventory.Stats.Explosion Radius",
-					"value": 4,
+					"value": 8,
 					"modifyType": "Base",
 					"displayName": "Explosion Radius",
 					"effectField": "None",
@@ -287,7 +283,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Delay",
-					"value": 1.5,
+					"value": 5,
 					"modifyType": "Base",
 					"displayName": "Explosion Delay",
 					"effectField": "None",
@@ -297,17 +293,169 @@
 			],
 			"vendor":
 			{
-				"rowName": "RG-VO_Gas_Grenade",
+				"rowName": "RGO_Grenade",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 2",
-				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3e+02,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "32551d9f3e86a6f822da08c83a9d274b"
+			"sourceHash": "450645ff113949bd188caf5b8b1870e5"
+		},
+		{
+			"itemTag": "Inventory.Items.Grenades.RGR Gas Grenade",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/RGR_Gas_Grenade/ID_RGR_Gas_Grenade.ID_RGR_Gas_Grenade",
+			"name": "RGR Gas Grenade",
+			"abbreviation": "RGR",
+			"description": "Russian made tear gas grenade. Do not inhale.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.0075,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Shrapnel Chance",
+					"value": 5e+01,
+					"modifyType": "Base",
+					"displayName": "Shrapnel Chance",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Piercing Level",
+					"value": 2,
+					"modifyType": "Base",
+					"displayName": "Piercing Level",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Penetration",
+					"value": 2e+01,
+					"modifyType": "Base",
+					"displayName": "Penetration",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Radius",
+					"value": 8,
+					"modifyType": "Base",
+					"displayName": "Explosion Radius",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Delay",
+					"value": 5,
+					"modifyType": "Base",
+					"displayName": "Explosion Delay",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "RGR_Gas_Grenade",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "50c79f4de0329c80c1cb3a3ddeabf83c"
+		},
+		{
+			"itemTag": "Inventory.Items.Grenades.Zarya Flash Grenade",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/Zarya_Flash_Grenade/ID_Zarya_Flash_Grenade.ID_Zarya_Flash_Grenade",
+			"name": "Zarya Flash Grenade",
+			"abbreviation": "Zarya",
+			"description": "Russian flash grenade. It is recommended NOT to look at the explosion.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.0075,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Shrapnel Chance",
+					"value": 5e+01,
+					"modifyType": "Base",
+					"displayName": "Shrapnel Chance",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Piercing Level",
+					"value": 2,
+					"modifyType": "Base",
+					"displayName": "Piercing Level",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Penetration",
+					"value": 2e+01,
+					"modifyType": "Base",
+					"displayName": "Penetration",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Radius",
+					"value": 8,
+					"modifyType": "Base",
+					"displayName": "Explosion Radius",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Explosion Delay",
+					"value": 5,
+					"modifyType": "Base",
+					"displayName": "Explosion Delay",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Zarya_Flash_Grenade",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "b1bc931fa39adeee5a480a310eeb2ab1"
 		}
 	],
 	"schemaSoftVersion": 4,
