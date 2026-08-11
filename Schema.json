@@ -73,12 +73,6 @@
 			"maxValue": 0
 		},
 		{
-			"tag": "Inventory.Stats.Explosion Radius",
-			"displayName": "Smoke Radius",
-			"unit": "m",
-			"maxValue": 0
-		},
-		{
 			"tag": "Inventory.Stats.Heal Instant",
 			"displayName": "Heal Instant",
 			"unit": "HP",
