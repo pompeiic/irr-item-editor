@@ -27,6 +27,15 @@
 					"effectTickInterval": 0
 				},
 				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 3e+01,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
+				},
+				{
 					"tag": "Inventory.Stats.Piercing Level",
 					"value": 2,
 					"modifyType": "Base",
@@ -57,7 +66,7 @@
 			"bCanStack": true,
 			"maxStack": 3e+01,
 			"supportedItemTags": [],
-			"sourceHash": "667387a563a8bbe008ea870d94f871a3"
+			"sourceHash": "f7185906d2faeb556e206c859c34c17f"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.12x70.Slug",
@@ -83,6 +92,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 5,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -115,7 +133,7 @@
 			"bCanStack": true,
 			"maxStack": 3e+01,
 			"supportedItemTags": [],
-			"sourceHash": "0e67c307749798b76bf81e6b3c252c1a"
+			"sourceHash": "61bc587201f6983efed841e32cfe9910"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.45ACP.HS",
@@ -141,6 +159,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 42,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -173,7 +200,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "ce88928ef7da6334e46c0079b98dbfcc"
+			"sourceHash": "cc6152a4b9721e55f464de371a8198e3"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.545x39.BP",
@@ -199,6 +226,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 8,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -231,7 +267,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "e0b5358a2eeea39c741fa57ff82fc92d"
+			"sourceHash": "ecb146ce71773582b643ddde63f2fc99"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.545x39.PS",
@@ -257,6 +293,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 1e+01,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -289,7 +334,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "1dfc2401a719db6f2792a390a7057610"
+			"sourceHash": "695283a1dd630f8e32f0ce0488873850"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.556x45.FMJ",
@@ -315,6 +360,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 5,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -347,7 +401,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "8e6e6882c8ad81d636bf9ef8c1fdf991"
+			"sourceHash": "7e1c8baf798afaec6ba81d0aa8460d4e"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.556x45.M855",
@@ -373,6 +427,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 4,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -405,7 +468,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "e6bf12823c489072c99eb58c43a42fee"
+			"sourceHash": "ceb5b2ae18084dfc0a37405b6fd2e5d4"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.57x28.SS198LF",
@@ -431,6 +494,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 2e+01,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -463,7 +535,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "f342304369c97a10c44b18795020cda6"
+			"sourceHash": "8df048dd6191cd0e1c1231a4a58177d7"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.BP",
@@ -489,6 +561,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 8,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -521,7 +602,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "346f0899fd95c053c22ff05f2649c744"
+			"sourceHash": "307d1a9fbb8eb69e17b66c8c4f7758e3"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.HP",
@@ -547,6 +628,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 1e+01,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -579,7 +669,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "844d2d739850039f7792a4ab18f65aec"
+			"sourceHash": "977c87644c29afcd92a8ef4402661f25"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.PS",
@@ -605,6 +695,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 1e+01,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -637,7 +736,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "ed7eed33202628249a993e88b4f2b43e"
+			"sourceHash": "85cac1934d9e63b44996c10a7a57c609"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x51.M62",
@@ -663,6 +762,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 2.5,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -695,7 +803,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "982f9dd2f7fece26624b3a6cb250842a"
+			"sourceHash": "00b619562bbc88863e32fe5dbc4fde91"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x51.M80",
@@ -721,6 +829,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 5,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -753,7 +870,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "e68d71b6bd2cc61a6c4a0de35cebee7e"
+			"sourceHash": "8249d19553aea6835a33d529aab9b752"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x54.R PS",
@@ -779,6 +896,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 2e+01,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -811,7 +937,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "c70a4ad66323fc05140509d628ccba18"
+			"sourceHash": "fbe102277a943628ae0954f8cdd97f8b"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.9x19.AP6x3",
@@ -837,6 +963,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 2,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -869,7 +1004,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "5dffb4f35e7d752276ead27d1547f8a3"
+			"sourceHash": "6b165e74476cd9ac8d31eb114645ff97"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.9x19.PSO",
@@ -895,6 +1030,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 8,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -927,7 +1071,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "1b125a1a42ab5466fbb53ed179e6d17a"
+			"sourceHash": "d922e002a8aaa333ce4cf568e31abff6"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x300 Blackout.M62",
@@ -953,6 +1097,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 6,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -985,7 +1138,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "b3521638b62c399871efeea6e4dad59f"
+			"sourceHash": "1d16cbdecd77196a4dc68e12047f4e10"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x300 Blackout.ME3",
@@ -1011,6 +1164,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 8,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -1043,7 +1205,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "3076e0a79de76d40dbf5c77968786060"
+			"sourceHash": "bada09eac3b67e8a60d57c34d18d4c06"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x338.AP",
@@ -1069,6 +1231,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": 55,
+					"modifyType": "None",
+					"displayName": "Chance To Wound",
+					"effectField": "BleedingChance",
+					"effectDuration": -1,
+					"effectTickInterval": 1
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
@@ -1101,7 +1272,7 @@
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "1785694e7115b387ef0c631df3672def"
+			"sourceHash": "464e5b12c0cee519b3b56ff185eaf81c"
 		}
 	],
 	"schemaSoftVersion": 4,
