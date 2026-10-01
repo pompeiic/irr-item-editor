@@ -18696,7 +18696,7 @@
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
-					"value": 0.1,
+					"value": 0.63,
 					"modifyType": "Add",
 					"displayName": "",
 					"effectField": "None",
