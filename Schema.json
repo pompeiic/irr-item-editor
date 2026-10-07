@@ -38,6 +38,12 @@
 		},
 		{
 			"tag": "Inventory.Stats.Durability",
+			"displayName": "Battery",
+			"unit": "%",
+			"maxValue": 1e+02
+		},
+		{
+			"tag": "Inventory.Stats.Durability",
 			"displayName": "Content",
 			"unit": "LP",
 			"maxValue": 0
