@@ -25,6 +25,7 @@
     --changed: #c9b87a;
     --danger: #d47868;
     --t1: #9a9588; --t2: #8fbf7f; --t3: #7fa8c9; --t4: #b08fc9;
+    --f-blue: #7fa8c9; --f-op: #d47868; --f-grey: #9a9588; --f-fang: #c9b87a;
     --font-ui: "Barlow Condensed", "Segoe UI", sans-serif;
     --font-mono: "IBM Plex Mono", Consolas, monospace;
   }
@@ -233,11 +234,13 @@
       <div class="trow">
         <input type="text" id="search" placeholder="Search name, tag or description… (rel:m4 = items related to matches)">
         <select id="rarityFilter"><option value="All">All rarities</option></select>
+        <select id="factionFilter"><option value="All">All factions</option></select>
         <select id="statCol" title="Which stat the value column shows"></select>
         <select id="sortBy">
           <option value="name">Sort: Name</option>
           <option value="category">Sort: Category</option>
           <option value="rarity">Sort: Rarity</option>
+          <option value="faction">Sort: Faction</option>
           <option value="priceAsc">Sort: Price ↑</option>
           <option value="priceDesc">Sort: Price ↓</option>
           <option value="statAsc">Sort: Stat column ↑</option>
@@ -262,7 +265,7 @@
     <div id="tableWrap">
       <table id="items">
         <thead><tr>
-          <th style="width:34%">Item</th><th>Category</th><th>Rarity</th>
+          <th style="width:32%">Item</th><th>Category</th><th>Rarity</th><th>Faction</th>
           <th style="text-align:right">Price</th><th style="text-align:right" id="statColHead">Weight</th>
           <th>Updated</th><th>Status</th>
         </tr></thead>
@@ -340,10 +343,17 @@ function relTime(iso) {
   return new Date(iso).toLocaleDateString();
 }
 const RARITY_COLORS = { "Tier 1": "var(--t1)", "Tier 2": "var(--t2)", "Tier 3": "var(--t3)", "Tier 4": "var(--t4)" };
+const FACTION_COLORS = { "BLUEFOR": "var(--f-blue)", "OPFOR": "var(--f-op)", "GREYFOR": "var(--f-grey)", "FANG": "var(--f-fang)" };
 function rarityChip(tag) {
   if (!tag || tag === "None") return `<span class="rchip" style="color:var(--faint)"><span class="dot" style="background:var(--faint)"></span>None</span>`;
   const l = leaf(tag);
   const col = RARITY_COLORS[l] || "var(--dim)";
+  return `<span class="rchip" style="color:${col}"><span class="dot" style="background:${col}"></span>${esc(l)}</span>`;
+}
+function factionChip(tag) {
+  if (!tag || tag === "None") return `<span class="rchip" style="color:var(--faint)"><span class="dot" style="background:var(--faint)"></span>None</span>`;
+  const l = leaf(tag);
+  const col = FACTION_COLORS[l] || "var(--dim)";
   return `<span class="rchip" style="color:${col}"><span class="dot" style="background:${col}"></span>${esc(l)}</span>`;
 }
 function avatarText(it) {
@@ -550,17 +560,21 @@ function visibleEntries() {
     }
   }
   if (rarity !== "All") out = out.filter(e => e.item.vendor?.rarityTag === rarity);
+  const faction = $("factionFilter").value;
+  if (faction !== "All") out = out.filter(e => (e.item.vendor?.bHasVendorRow ? e.item.vendor.factionTag : "None") === faction);
 
   if (view !== "recent") {
     const sort = $("sortBy").value;
     const nameOf = e => String(e.item.name || leaf(e.item.itemTag)).toLowerCase();
     const rarityOf = e => e.item.vendor?.bHasVendorRow && e.item.vendor.rarityTag !== "None" ? leaf(e.item.vendor.rarityTag) : "\uffff";
+    const factionOf = e => e.item.vendor?.bHasVendorRow && e.item.vendor.factionTag && e.item.vendor.factionTag !== "None" ? leaf(e.item.vendor.factionTag) : "\uffff";
     const priceOf = e => e.item.vendor?.bHasVendorRow ? e.item.vendor.defaultMarketPrice : -1;
     const statOf = (e, missing) => { const s = findStat(e.item, statColKey); return s ? s.value : missing; };
     const updOf = e => lastEditOf(e.item.itemTag)?.time || "";
     out.sort((a, b) => {
       if (sort === "category") return a.c.name.localeCompare(b.c.name) || nameOf(a).localeCompare(nameOf(b));
       if (sort === "rarity") return rarityOf(a).localeCompare(rarityOf(b)) || nameOf(a).localeCompare(nameOf(b));
+      if (sort === "faction") return factionOf(a).localeCompare(factionOf(b)) || nameOf(a).localeCompare(nameOf(b));
       if (sort === "priceAsc") return priceOf(a) - priceOf(b) || nameOf(a).localeCompare(nameOf(b));
       if (sort === "priceDesc") return priceOf(b) - priceOf(a) || nameOf(a).localeCompare(nameOf(b));
       if (sort === "statAsc") return statOf(a, Infinity) - statOf(b, Infinity) || nameOf(a).localeCompare(nameOf(b));
@@ -647,6 +661,7 @@ function renderTable() {
         `<div class="tg" title="${esc(it.itemTag)}">${esc(it.itemTag)}</div></div></div></td>` +
       `<td class="c-cat">${esc(e.c.name)}${(sub => sub ? ` <span style="color:var(--faint)">/ ${esc(sub)}</span>` : "")(subCatOf(it, e.c.name))}</td>` +
       `<td>${rarityChip(it.vendor?.bHasVendorRow ? it.vendor.rarityTag : null)}</td>` +
+      `<td>${factionChip(it.vendor?.bHasVendorRow ? it.vendor.factionTag : null)}</td>` +
       `<td class="c-num">${esc(price)}</td>` +
       `<td class="c-num">${s ? esc(fmt(s.value)) + esc(unit) : "—"}</td>` +
       `<td class="c-upd">${changed ? "unsaved" : relTime(last?.time)}</td>` +
@@ -674,7 +689,7 @@ function renderPanel() {
     `<div class="top"><div class="avatar">${avatarText(it)}</div><div style="min-width:0;flex:1">` +
       `<div class="nm">${esc(it.name || leaf(it.itemTag))}</div>` +
       `<div class="tg">${esc(it.itemTag)}</div>` +
-      `<div class="meta">${rarityChip(it.vendor?.bHasVendorRow ? it.vendor.rarityTag : null)}<span class="cat">${esc(sel.c.name)}</span></div>` +
+      `<div class="meta">${rarityChip(it.vendor?.bHasVendorRow ? it.vendor.rarityTag : null)}${factionChip(it.vendor?.bHasVendorRow ? it.vendor.factionTag : null)}<span class="cat">${esc(sel.c.name)}</span></div>` +
     `</div><span class="close" id="panelClose">✕</span></div>` +
     `<div id="tabs">` +
       `<div class="tab${activeTab === "overview" ? " active" : ""}" data-tab="overview">Overview</div>` +
@@ -1065,6 +1080,12 @@ async function load() {
     opt.value = r; opt.textContent = leaf(r);
     rf.appendChild(opt);
   }
+  const ff = $("factionFilter");
+  for (const f of ["None", ...(schema.factionTags || [])]) {
+    const opt = document.createElement("option");
+    opt.value = f; opt.textContent = f === "None" ? "None" : leaf(f);
+    ff.appendChild(opt);
+  }
   renderStatColSelect();
   renderBulk();
   renderAll();
@@ -1072,6 +1093,7 @@ async function load() {
 
 $("search").oninput = renderTable;
 $("rarityFilter").oninput = renderTable;
+$("factionFilter").oninput = renderTable;
 $("sortBy").oninput = renderTable;
 $("saveToken").onclick = () => { localStorage.setItem("irr_item_pat", $("token").value.trim()); status("Token stored in this browser."); };
 $("token").value = localStorage.getItem("irr_item_pat") || "";
