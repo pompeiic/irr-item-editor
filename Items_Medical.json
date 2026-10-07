@@ -85,20 +85,20 @@
 					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Heal Instant",
-					"value": 4e+01,
-					"modifyType": "None",
-					"displayName": "Heal Instant",
-					"effectField": "Amount",
-					"effectDuration": -1,
-					"effectTickInterval": 0
-				},
-				{
 					"tag": "Inventory.Stats.Usage Time",
 					"value": 3,
 					"modifyType": "Base",
 					"displayName": "Usage Time",
 					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heal Instant",
+					"value": 4e+01,
+					"modifyType": "None",
+					"displayName": "Heal Instant",
+					"effectField": "Amount",
 					"effectDuration": -1,
 					"effectTickInterval": 0
 				}
@@ -115,7 +115,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "e92eefd7cdc718ee009c3f68b7325d32"
+			"sourceHash": "6fea4a8e791b350a33f479745889d7f6"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Painkiller",
