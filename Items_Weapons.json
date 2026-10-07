@@ -163,6 +163,7 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
@@ -177,7 +178,7 @@
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "f0731e782393513f4b21b44c7ee27101"
+			"sourceHash": "1164eb3f6585d0cb0a9c9a379b30ca34"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.Galil Ace",
@@ -315,6 +316,7 @@
 				"Inventory.Items.Attachments.Mag.AR-10 Stanag 762x51 20rnd",
 				"Inventory.Items.Attachments.Mag.AR-10 X-Products X-25 762x51 50Rnd",
 				"Inventory.Items.Attachments.Mag.Magpul PMAG 20 LR SR 762x51 20Rnd",
+				"Inventory.Items.Attachments.Muzzle.AR-10 CMMG SV 762x51 Muzzle Device",
 				"Inventory.Items.Attachments.Muzzle.AR-10 M110 762x51 Muzzle Brake",
 				"Inventory.Items.Attachments.Muzzle.Galil ACE II 762x51 Muzzle",
 				"Inventory.Items.Attachments.Muzzle.Jmac Customs RRD-4C 545x39",
@@ -339,6 +341,7 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
@@ -358,7 +361,381 @@
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "71d127d42a560e6a457af052394b5171"
+			"sourceHash": "3010d99596d6e9be24b26c2cde8321a4"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Dmr.M14",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/DMR/M14/ID_M14.ID_M14",
+			"name": "M14",
+			"abbreviation": "M14",
+			"description": "Service rifle primarly knowm from a Vietnam war... hmm..",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.6,
+					"modifyType": "Base",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base",
+					"displayName": "Durability",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 65,
+					"modifyType": "Base",
+					"displayName": "Ergonomics",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 4e+01,
+					"modifyType": "Base",
+					"displayName": "Recoil",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.3e+02,
+					"modifyType": "Base",
+					"displayName": "Velocity",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.8,
+					"modifyType": "Base",
+					"displayName": "Accuracy",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 715,
+					"modifyType": "Base",
+					"displayName": "Fire Rate",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base",
+					"displayName": "Eff. Distance",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base",
+					"displayName": "Range",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "M14",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 4.5e+03,
+				"blackMarketPrice": 3
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Ammunition.Rounds.762x51",
+				"Inventory.Items.Attachments.Barrel.M14 22 Inch 762x51 Barrel",
+				"Inventory.Items.Attachments.Barrel.M14_16 Inch 762x51 Barrel",
+				"Inventory.Items.Attachments.Mag.M14 762x51 10Rnd",
+				"Inventory.Items.Attachments.Mag.M14 762x51 20Rnd",
+				"Inventory.Items.Attachments.Mag.M14 X-Products X-14 Drum 762x51 50Rnd",
+				"Inventory.Items.Attachments.Rail.M14 Leapers UTG Sight Mount",
+				"Inventory.Items.Attachments.Rail.M14 SAGE International Sight Mount",
+				"Inventory.Items.Attachments.Sight.M14 Rear Iron Sight",
+				"Inventory.Items.Attachments.Stock.M14 Norinco M305 Polymer Chassis",
+				"Inventory.Items.Attachments.Stock.M14 SAGE International Chassis",
+				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
+				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
+			],
+			"sourceHash": "80aaa1cac44cde37273df4e2b3bd88f6"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Dmr.Norinco M305",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/DMR/Norinco_M305/ID_Norinco_M305.ID_Norinco_M305",
+			"name": "Norinco M305",
+			"abbreviation": "M305",
+			"description": "Semi auto only rifle based on a popular american rifle.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.6,
+					"modifyType": "Base",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base",
+					"displayName": "Durability",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 65,
+					"modifyType": "Base",
+					"displayName": "Ergonomics",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 4e+01,
+					"modifyType": "Base",
+					"displayName": "Recoil",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.3e+02,
+					"modifyType": "Base",
+					"displayName": "Velocity",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.8,
+					"modifyType": "Base",
+					"displayName": "Accuracy",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 715,
+					"modifyType": "Base",
+					"displayName": "Fire Rate",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base",
+					"displayName": "Eff. Distance",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base",
+					"displayName": "Range",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Norinco_m305",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 1.68e+03,
+				"blackMarketPrice": 2
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Ammunition.Rounds.762x51",
+				"Inventory.Items.Attachments.Barrel.M14 22 Inch 762x51 Barrel",
+				"Inventory.Items.Attachments.Barrel.M14_16 Inch 762x51 Barrel",
+				"Inventory.Items.Attachments.Mag.M14 762x51 10Rnd",
+				"Inventory.Items.Attachments.Mag.M14 762x51 20Rnd",
+				"Inventory.Items.Attachments.Mag.M14 X-Products X-14 Drum 762x51 50Rnd",
+				"Inventory.Items.Attachments.Rail.M14 Leapers UTG Sight Mount",
+				"Inventory.Items.Attachments.Rail.M14 SAGE International Sight Mount",
+				"Inventory.Items.Attachments.Sight.M14 Rear Iron Sight",
+				"Inventory.Items.Attachments.Stock.M14 Norinco M305 Polymer Chassis",
+				"Inventory.Items.Attachments.Stock.M14 SAGE International Chassis",
+				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
+				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
+			],
+			"sourceHash": "791b71295901854309e6f3589f53ce44"
+		},
+		{
+			"itemTag": "Inventory.Items.Weapons.Dmr.RFB",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/DMR/Kel_Tec_RFB/ID_Kel_Tec_RFB.ID_Kel_Tec_RFB",
+			"name": "Kel-Tec RFB",
+			"abbreviation": "RFB",
+			"description": "Kel-Tec 7.62x51mm semi automatic rifle.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.6,
+					"modifyType": "Base",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base",
+					"displayName": "Durability",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 65,
+					"modifyType": "Base",
+					"displayName": "Ergonomics",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 4e+01,
+					"modifyType": "Base",
+					"displayName": "Recoil",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.3e+02,
+					"modifyType": "Base",
+					"displayName": "Velocity",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.8,
+					"modifyType": "Base",
+					"displayName": "Accuracy",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 715,
+					"modifyType": "Base",
+					"displayName": "Fire Rate",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base",
+					"displayName": "Eff. Distance",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base",
+					"displayName": "Range",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Zarya_Flash_Grenade",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Ammunition.Rounds.762x51",
+				"Inventory.Items.Attachments.Barrel.RFB 18 Inch 762x51 Barrel",
+				"Inventory.Items.Attachments.Barrel.RFB 24 Inch 762x51 Barrel",
+				"Inventory.Items.Attachments.Mag.FAL 762x51 20rnd",
+				"Inventory.Items.Attachments.Mag.FAL 762x51 30rnd",
+				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
+				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
+				"Inventory.Items.Attachments.Rail.RFB Quad Rail Mount",
+				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
+				"Inventory.Items.Attachments.Sight.AR-15 Colt A2 Rear Sight",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
+				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
+				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
+				"Inventory.Items.Attachments.Sight.EOTECH Vudu 1-6x Scope",
+				"Inventory.Items.Attachments.Sight.KAC Folding Micro Front Sight",
+				"Inventory.Items.Attachments.Sight.KAC Folding Micro Rear Sight",
+				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
+				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.RFB Front Sight",
+				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
+				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
+				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
+				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
+				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
+				"Inventory.Items.Attachments.Tactical.Inforce APLc Compact Flashlight",
+				"Inventory.Items.Attachments.Tactical.Inforce WMLx Flashlight",
+				"Inventory.Items.Attachments.Tactical.PEQ-15 LA-5 Tactical Device",
+				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
+				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
+				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
+			],
+			"sourceHash": "668f9dccc11d94c2c715405f2933a9b3"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SKS",
@@ -635,6 +1012,7 @@
 				"Inventory.Items.Attachments.Handguard.AR-10 CMMG MK3 RML15 15 Inch Ghillie Handguard",
 				"Inventory.Items.Attachments.Handguard.AR-10 CMMG MK3 RML15 15 Inch Handguard",
 				"Inventory.Items.Attachments.Handguard.AR-10 CMMG MK3 RML9 9 Inch Handguard",
+				"Inventory.Items.Attachments.Handguard.AR-10 Lancer LCH7 M-LOK Handguard",
 				"Inventory.Items.Attachments.Handguard.AR-10 Noveske Quadrail 10x5 Inch Handguard",
 				"Inventory.Items.Attachments.Handguard.AR-10 URX 4 14x5 Inch Handguard",
 				"Inventory.Items.Attachments.Mag.AR-10 Stanag 762x51 20rnd",
@@ -661,6 +1039,7 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
@@ -674,7 +1053,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "205b1a791d70514cf1eeb1cd59e2b295"
+			"sourceHash": "832ee79ad41ad3d4b4898437a129d0c9"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.KAC LAMG",
@@ -830,6 +1209,7 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
@@ -839,7 +1219,7 @@
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.LAMG Buffer Tube Stock"
 			],
-			"sourceHash": "90cd15a7b463116b2935cacaf25f7e72"
+			"sourceHash": "434dd1aabf7d19a90db84004b7e44fbf"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.RPK-74",
@@ -2177,6 +2557,8 @@
 				"Inventory.Items.Attachments.Handguard.CAF WASR Wooden Handguard",
 				"Inventory.Items.Attachments.Mag.AK 762x39 20rnd",
 				"Inventory.Items.Attachments.Mag.AK 762x39 Bakelite 30rnd",
+				"Inventory.Items.Attachments.Mag.AK Magpul PMAG GEN M3 762x39 30Rnd",
+				"Inventory.Items.Attachments.Mag.AK Molot Arms 762x39 75Rnd",
 				"Inventory.Items.Attachments.Mag.Z111 762x39 30rnd",
 				"Inventory.Items.Attachments.Muzzle.AK-74M Muzzle Brake",
 				"Inventory.Items.Attachments.Muzzle.Jmac Customs RRD-4C 545x39",
@@ -2197,7 +2579,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "6b1e835d7674ab06abc36af593e20519"
+			"sourceHash": "0e8a6c1a26621f4903291ab201a8049c"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-104",
@@ -2344,6 +2726,8 @@
 				"Inventory.Items.Attachments.Handguard.CAF WASR Wooden Handguard",
 				"Inventory.Items.Attachments.Mag.AK 762x39 20rnd",
 				"Inventory.Items.Attachments.Mag.AK 762x39 Bakelite 30rnd",
+				"Inventory.Items.Attachments.Mag.AK Magpul PMAG GEN M3 762x39 30Rnd",
+				"Inventory.Items.Attachments.Mag.AK Molot Arms 762x39 75Rnd",
 				"Inventory.Items.Attachments.Mag.Z111 762x39 30rnd",
 				"Inventory.Items.Attachments.Muzzle.AK-74M Muzzle Brake",
 				"Inventory.Items.Attachments.Muzzle.Jmac Customs RRD-4C 545x39",
@@ -2364,7 +2748,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "e5e3ee747185a3f2ccbc503316ace56d"
+			"sourceHash": "d747fe6d16eccab91a10eee538170cda"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-105",
@@ -3525,6 +3909,7 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
@@ -3538,7 +3923,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "9849ac24d6cdd4e1eb7b148eaf86a681"
+			"sourceHash": "08430a063fb0dcf72a046cac7f0a30c8"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.FN FAL",
@@ -3862,6 +4247,7 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
@@ -3876,7 +4262,7 @@
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "d4b6549cc5e334bcc8ea02b1372f9a15"
+			"sourceHash": "42495fcc947f69b49e33a1d4f3596310"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Honey Badger",
@@ -4053,6 +4439,154 @@
 			"sourceHash": "ce886a7934f7afc890a61b407303f53c"
 		},
 		{
+			"itemTag": "Inventory.Items.Weapons.Rifle.MK-47",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/MK-47/ID_MK-47.ID_MK-47",
+			"name": "MK-47",
+			"abbreviation": "MK-47",
+			"description": "Looks like a mutant made from AK and AR-15.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.6,
+					"modifyType": "Base",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base",
+					"displayName": "Durability",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Ergonomics",
+					"value": 65,
+					"modifyType": "Base",
+					"displayName": "Ergonomics",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Recoil",
+					"value": 4e+01,
+					"modifyType": "Base",
+					"displayName": "Recoil",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Muzzle Velocity",
+					"value": 9.3e+02,
+					"modifyType": "Base",
+					"displayName": "Velocity",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Accuracy",
+					"value": 0.8,
+					"modifyType": "Base",
+					"displayName": "Accuracy",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Rounds Per Minute",
+					"value": 715,
+					"modifyType": "Base",
+					"displayName": "Fire Rate",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Effective Distance",
+					"value": 5e+02,
+					"modifyType": "Base",
+					"displayName": "Eff. Distance",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Sighting Range",
+					"value": 2e+02,
+					"modifyType": "Base",
+					"displayName": "Range",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "MK-47",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 3.85e+03,
+				"blackMarketPrice": 3
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Ammunition.Rounds.762x39",
+				"Inventory.Items.Attachments.Barrel.MK-47 10-Inch 762x39mm Barrel",
+				"Inventory.Items.Attachments.Barrel.MK-47 16-Inch 762x39 Barrel",
+				"Inventory.Items.Attachments.Handguard.AR-10 CMMG MK3 RML15 15 Inch Ghillie Handguard",
+				"Inventory.Items.Attachments.Handguard.AR-10 CMMG MK3 RML15 15 Inch Handguard",
+				"Inventory.Items.Attachments.Handguard.AR-10 CMMG MK3 RML9 9 Inch Handguard",
+				"Inventory.Items.Attachments.Handguard.AR-10 Lancer LCH7 M-LOK Handguard",
+				"Inventory.Items.Attachments.Handguard.AR-10 Noveske Quadrail 10x5 Inch Handguard",
+				"Inventory.Items.Attachments.Handguard.AR-10 URX 4 14x5 Inch Handguard",
+				"Inventory.Items.Attachments.Mag.AK 762x39 20rnd",
+				"Inventory.Items.Attachments.Mag.AK 762x39 Bakelite 30rnd",
+				"Inventory.Items.Attachments.Mag.AK Magpul PMAG GEN M3 762x39 30Rnd",
+				"Inventory.Items.Attachments.Mag.AK Molot Arms 762x39 75Rnd",
+				"Inventory.Items.Attachments.Mag.Z111 762x39 30rnd",
+				"Inventory.Items.Attachments.Pistol Grip.AR-15 Colt A2 Pistol Grip",
+				"Inventory.Items.Attachments.Pistol Grip.AR-15 Colt A2 Tan Pistol Grip",
+				"Inventory.Items.Attachments.Pistol Grip.AR-15 Daniel Defense Pistol Grip",
+				"Inventory.Items.Attachments.Pistol Grip.AR-15 ERGO Pistol Grip",
+				"Inventory.Items.Attachments.Pistol Grip.AR-15 MDT Pistol Grip",
+				"Inventory.Items.Attachments.Pistol Grip.MCX Rattler Pistol Grip",
+				"Inventory.Items.Attachments.Pistol Grip.MCX Virtus Pistol Grip",
+				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
+				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
+				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
+				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
+				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
+				"Inventory.Items.Attachments.Sight.EOTECH Vudu 1-6x Scope",
+				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
+				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
+				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
+				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
+				"Inventory.Items.Attachments.Stock.AR-15 ACE Ultra Lite Stock",
+				"Inventory.Items.Attachments.Stock.AR-15 Colt A2 Buffertube",
+				"Inventory.Items.Attachments.Stock.AR-15 Magpul UBR Buttstock",
+				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
+				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
+			],
+			"sourceHash": "5f19fd0c445dc052a2655ba6839a45bc"
+		},
+		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco CQ",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Weapons/Rifle/Norinco_CQ/ID_Norinco_CQ.ID_Norinco_CQ",
 			"name": "Norinco CQ",
@@ -4225,6 +4759,7 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
@@ -4238,7 +4773,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "e48cc16a4c3a9d0acfb0a2c0572a6736"
+			"sourceHash": "79c84a3b1e42fb65f3cc68ebb83e02d2"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco QBZ-97",
@@ -4875,6 +5410,8 @@
 				"Inventory.Items.Attachments.Foregrip.Troy Modular Combat Grip",
 				"Inventory.Items.Attachments.Mag.AK 762x39 20rnd",
 				"Inventory.Items.Attachments.Mag.AK 762x39 Bakelite 30rnd",
+				"Inventory.Items.Attachments.Mag.AK Magpul PMAG GEN M3 762x39 30Rnd",
+				"Inventory.Items.Attachments.Mag.AK Molot Arms 762x39 75Rnd",
 				"Inventory.Items.Attachments.Mag.Z111 762x39 30rnd",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.NCSTAR MPR45 45 Degrees Offset Rail",
@@ -4896,7 +5433,7 @@
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "cb5b45d52eb0ce7f30705d6c3bb03267"
+			"sourceHash": "aad1a7d12ca2a560279705815478b993"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.Benelli M2",
