@@ -372,7 +372,7 @@
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
-					"value": 3.6,
+					"value": 4.1,
 					"modifyType": "Base",
 					"displayName": "",
 					"effectField": "None",
@@ -390,7 +390,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": 65,
+					"value": 44,
 					"modifyType": "Base",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -399,7 +399,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 4e+01,
+					"value": 58,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -408,7 +408,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
-					"value": 9.3e+02,
+					"value": 850,
 					"modifyType": "Base",
 					"displayName": "Velocity",
 					"effectField": "None",
@@ -417,7 +417,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
-					"value": 0.8,
+					"value": 0.65,
 					"modifyType": "Base",
 					"displayName": "Accuracy",
 					"effectField": "None",
@@ -426,7 +426,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
-					"value": 715,
+					"value": 725,
 					"modifyType": "Base",
 					"displayName": "Fire Rate",
 					"effectField": "None",
@@ -435,7 +435,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
-					"value": 5e+02,
+					"value": 600,
 					"modifyType": "Base",
 					"displayName": "Eff. Distance",
 					"effectField": "None",
@@ -458,7 +458,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 4.5e+03,
+				"defaultMarketPrice": 5400,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -489,7 +489,7 @@
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
-					"value": 3.6,
+					"value": 3.7,
 					"modifyType": "Base",
 					"displayName": "",
 					"effectField": "None",
@@ -507,7 +507,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": 65,
+					"value": 46,
 					"modifyType": "Base",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -516,7 +516,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 4e+01,
+					"value": 64,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -525,7 +525,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
-					"value": 9.3e+02,
+					"value": 820,
 					"modifyType": "Base",
 					"displayName": "Velocity",
 					"effectField": "None",
@@ -534,7 +534,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
-					"value": 0.8,
+					"value": 0.95,
 					"modifyType": "Base",
 					"displayName": "Accuracy",
 					"effectField": "None",
@@ -543,7 +543,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
-					"value": 715,
+					"value": 30,
 					"modifyType": "Base",
 					"displayName": "Fire Rate",
 					"effectField": "None",
@@ -552,7 +552,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
-					"value": 5e+02,
+					"value": 450,
 					"modifyType": "Base",
 					"displayName": "Eff. Distance",
 					"effectField": "None",
@@ -575,7 +575,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 1.68e+03,
+				"defaultMarketPrice": 2600,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -606,7 +606,7 @@
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
-					"value": 3.6,
+					"value": 3.9,
 					"modifyType": "Base",
 					"displayName": "",
 					"effectField": "None",
@@ -624,7 +624,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": 65,
+					"value": 58,
 					"modifyType": "Base",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -633,7 +633,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 4e+01,
+					"value": 60,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -642,7 +642,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
-					"value": 9.3e+02,
+					"value": 800,
 					"modifyType": "Base",
 					"displayName": "Velocity",
 					"effectField": "None",
@@ -651,7 +651,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
-					"value": 0.8,
+					"value": 0.85,
 					"modifyType": "Base",
 					"displayName": "Accuracy",
 					"effectField": "None",
@@ -660,7 +660,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
-					"value": 715,
+					"value": 30,
 					"modifyType": "Base",
 					"displayName": "Fire Rate",
 					"effectField": "None",
@@ -669,7 +669,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
-					"value": 5e+02,
+					"value": 450,
 					"modifyType": "Base",
 					"displayName": "Eff. Distance",
 					"effectField": "None",
@@ -690,10 +690,10 @@
 			{
 				"rowName": "Zarya_Flash_Grenade",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 3200,
+				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1064,7 +1064,7 @@
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
-					"value": 3.8,
+					"value": 4.8,
 					"modifyType": "Add",
 					"displayName": "",
 					"effectField": "None",
@@ -1082,7 +1082,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": 32,
+					"value": 34,
 					"modifyType": "Base",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -1091,7 +1091,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 56,
+					"value": 38,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -1100,7 +1100,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
-					"value": 9e+02,
+					"value": 890,
 					"modifyType": "Base",
 					"displayName": "Velocity",
 					"effectField": "None",
@@ -1109,7 +1109,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
-					"value": 2,
+					"value": 1.25,
 					"modifyType": "Base",
 					"displayName": "Accuracy",
 					"effectField": "None",
@@ -1127,7 +1127,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
-					"value": 3e+02,
+					"value": 500,
 					"modifyType": "Base",
 					"displayName": "Eff. Distance",
 					"effectField": "None",
@@ -1175,10 +1175,10 @@
 			{
 				"rowName": "KAC_LAMG",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 5,
-				"blackMarketPrice": -1
+				"defaultMarketPrice": 7600,
+				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -4447,7 +4447,7 @@
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
-					"value": 3.6,
+					"value": 3.3,
 					"modifyType": "Base",
 					"displayName": "",
 					"effectField": "None",
@@ -4465,7 +4465,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": 65,
+					"value": 50,
 					"modifyType": "Base",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -4474,7 +4474,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 4e+01,
+					"value": 46,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -4483,7 +4483,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
-					"value": 9.3e+02,
+					"value": 820,
 					"modifyType": "Base",
 					"displayName": "Velocity",
 					"effectField": "None",
@@ -4492,7 +4492,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Accuracy",
-					"value": 0.8,
+					"value": 1.6,
 					"modifyType": "Base",
 					"displayName": "Accuracy",
 					"effectField": "None",
@@ -4501,7 +4501,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
-					"value": 715,
+					"value": 650,
 					"modifyType": "Base",
 					"displayName": "Fire Rate",
 					"effectField": "None",
@@ -4510,7 +4510,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
-					"value": 5e+02,
+					"value": 400,
 					"modifyType": "Base",
 					"displayName": "Eff. Distance",
 					"effectField": "None",
@@ -4533,7 +4533,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 3.85e+03,
+				"defaultMarketPrice": 4600,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,

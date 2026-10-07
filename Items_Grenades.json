@@ -350,7 +350,7 @@
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
-					"value": 0.0075,
+					"value": 0.45,
 					"modifyType": "Add",
 					"displayName": "",
 					"effectField": "None",
@@ -359,7 +359,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Shrapnel Chance",
-					"value": 5e+01,
+					"value": 0,
 					"modifyType": "Base",
 					"displayName": "Shrapnel Chance",
 					"effectField": "None",
@@ -368,7 +368,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 5,
+					"value": 0,
 					"modifyType": "None",
 					"displayName": "Chance To Wound",
 					"effectField": "BleedingChance",
@@ -377,7 +377,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Piercing Level",
-					"value": 2,
+					"value": 0,
 					"modifyType": "Base",
 					"displayName": "Piercing Level",
 					"effectField": "None",
@@ -386,7 +386,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Penetration",
-					"value": 2e+01,
+					"value": 0,
 					"modifyType": "Base",
 					"displayName": "Penetration",
 					"effectField": "None",
@@ -395,7 +395,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Radius",
-					"value": 8,
+					"value": 12,
 					"modifyType": "Base",
 					"displayName": "Explosion Radius",
 					"effectField": "None",
@@ -404,7 +404,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Explosion Delay",
-					"value": 5,
+					"value": 2,
 					"modifyType": "Base",
 					"displayName": "Explosion Delay",
 					"effectField": "None",
@@ -417,9 +417,9 @@
 				"rowName": "RGR_Gas_Grenade",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 140,
+				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
