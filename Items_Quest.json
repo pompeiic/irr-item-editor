@@ -678,6 +678,15 @@
 					"effectField": "None",
 					"effectDuration": -1,
 					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1e+02,
+					"modifyType": "Base",
+					"displayName": "Battery",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
 				}
 			],
 			"vendor":
@@ -692,7 +701,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "31877626df2595d9e43c93793d451b0f"
+			"sourceHash": "c918aaa22974716247c12b8d1a567ef7"
 		}
 	],
 	"schemaSoftVersion": 4,
