@@ -37,7 +37,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 42,
+					"value": 44,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -123,7 +123,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 7284,
+				"defaultMarketPrice": 7300,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -216,7 +216,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 4e+01,
+					"value": 48,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -302,7 +302,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3138,
+				"defaultMarketPrice": 4900,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -399,7 +399,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 58,
+					"value": 60,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -456,10 +456,10 @@
 			{
 				"rowName": "M14",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 5.4e+03,
-				"blackMarketPrice": 3
+				"defaultMarketPrice": 3100,
+				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -516,7 +516,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 64,
+					"value": 66,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -573,10 +573,10 @@
 			{
 				"rowName": "Norinco_m305",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 2.6e+03,
-				"blackMarketPrice": 2
+				"defaultMarketPrice": 2400,
+				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -633,7 +633,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 6e+01,
+					"value": 54,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -692,7 +692,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 3.2e+03,
+				"defaultMarketPrice": 4000,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -773,7 +773,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 55,
+					"value": 52,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -859,7 +859,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 1.61e+03,
+				"defaultMarketPrice": 1650,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -914,7 +914,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 42,
+					"value": 38,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -1000,7 +1000,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 6.8e+03,
+				"defaultMarketPrice": 8600,
 				"blackMarketPrice": 4
 			},
 			"bCanStack": false,
