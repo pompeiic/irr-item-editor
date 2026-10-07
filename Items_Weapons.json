@@ -456,10 +456,10 @@
 			{
 				"rowName": "M14",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 3",
-				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 4.5e+03,
-				"blackMarketPrice": 3
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -478,7 +478,7 @@
 				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
 				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
 			],
-			"sourceHash": "80aaa1cac44cde37273df4e2b3bd88f6"
+			"sourceHash": "2b99203154c0608d3042d1205c53eb6a"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.Norinco M305",
@@ -571,12 +571,12 @@
 			],
 			"vendor":
 			{
-				"rowName": "Norinco_m305",
+				"rowName": "Norinco_M305",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 2",
-				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 1.68e+03,
-				"blackMarketPrice": 2
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -595,7 +595,7 @@
 				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
 				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
 			],
-			"sourceHash": "791b71295901854309e6f3589f53ce44"
+			"sourceHash": "72acecbc45fe8ad8d7ff7922f1e5e6aa"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.RFB",
@@ -688,7 +688,7 @@
 			],
 			"vendor":
 			{
-				"rowName": "Zarya_Flash_Grenade",
+				"rowName": "Kel_Tec_RFB",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
@@ -735,7 +735,7 @@
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "668f9dccc11d94c2c715405f2933a9b3"
+			"sourceHash": "6ab5d7d03db52cb61111bc96b5c91127"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SKS",
@@ -4531,10 +4531,10 @@
 			{
 				"rowName": "MK-47",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 3",
-				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 3.85e+03,
-				"blackMarketPrice": 3
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -4584,7 +4584,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "5f19fd0c445dc052a2655ba6839a45bc"
+			"sourceHash": "40b67387e65c6f7bc9342878bbdf82bd"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco CQ",
