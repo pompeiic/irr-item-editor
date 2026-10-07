@@ -408,7 +408,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
-					"value": 850,
+					"value": 8.5e+02,
 					"modifyType": "Base",
 					"displayName": "Velocity",
 					"effectField": "None",
@@ -435,7 +435,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
-					"value": 600,
+					"value": 6e+02,
 					"modifyType": "Base",
 					"displayName": "Eff. Distance",
 					"effectField": "None",
@@ -458,7 +458,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 5400,
+				"defaultMarketPrice": 5.4e+03,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -478,7 +478,7 @@
 				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
 				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
 			],
-			"sourceHash": "80aaa1cac44cde37273df4e2b3bd88f6"
+			"sourceHash": "b82b0888a52c6f9bd634d57800d8a007"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.Norinco M305",
@@ -525,7 +525,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
-					"value": 820,
+					"value": 8.2e+02,
 					"modifyType": "Base",
 					"displayName": "Velocity",
 					"effectField": "None",
@@ -543,7 +543,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
-					"value": 30,
+					"value": 3e+01,
 					"modifyType": "Base",
 					"displayName": "Fire Rate",
 					"effectField": "None",
@@ -552,7 +552,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
-					"value": 450,
+					"value": 4.5e+02,
 					"modifyType": "Base",
 					"displayName": "Eff. Distance",
 					"effectField": "None",
@@ -575,7 +575,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 2600,
+				"defaultMarketPrice": 2.6e+03,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -595,7 +595,7 @@
 				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
 				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
 			],
-			"sourceHash": "791b71295901854309e6f3589f53ce44"
+			"sourceHash": "f7f6fea5f602fc00445b6a56db654ecf"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.RFB",
@@ -633,7 +633,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 60,
+					"value": 6e+01,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -642,7 +642,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
-					"value": 800,
+					"value": 8e+02,
 					"modifyType": "Base",
 					"displayName": "Velocity",
 					"effectField": "None",
@@ -660,7 +660,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
-					"value": 30,
+					"value": 3e+01,
 					"modifyType": "Base",
 					"displayName": "Fire Rate",
 					"effectField": "None",
@@ -669,7 +669,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
-					"value": 450,
+					"value": 4.5e+02,
 					"modifyType": "Base",
 					"displayName": "Eff. Distance",
 					"effectField": "None",
@@ -688,11 +688,11 @@
 			],
 			"vendor":
 			{
-				"rowName": "Zarya_Flash_Grenade",
+				"rowName": "Kel_Tec_RFB",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 3200,
+				"defaultMarketPrice": 3.2e+03,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -735,7 +735,7 @@
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "668f9dccc11d94c2c715405f2933a9b3"
+			"sourceHash": "9c6f571d506dbc937e0981013c2e3d24"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SKS",
@@ -1100,7 +1100,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
-					"value": 890,
+					"value": 8.9e+02,
 					"modifyType": "Base",
 					"displayName": "Velocity",
 					"effectField": "None",
@@ -1127,7 +1127,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
-					"value": 500,
+					"value": 5e+02,
 					"modifyType": "Base",
 					"displayName": "Eff. Distance",
 					"effectField": "None",
@@ -1177,7 +1177,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 7600,
+				"defaultMarketPrice": 7.6e+03,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -1219,7 +1219,7 @@
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.LAMG Buffer Tube Stock"
 			],
-			"sourceHash": "434dd1aabf7d19a90db84004b7e44fbf"
+			"sourceHash": "42b0652b6a1bd6fd79d128b05bd6cdb8"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.RPK-74",
@@ -4465,7 +4465,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": 50,
+					"value": 5e+01,
 					"modifyType": "Base",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -4483,7 +4483,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Muzzle Velocity",
-					"value": 820,
+					"value": 8.2e+02,
 					"modifyType": "Base",
 					"displayName": "Velocity",
 					"effectField": "None",
@@ -4501,7 +4501,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Rounds Per Minute",
-					"value": 650,
+					"value": 6.5e+02,
 					"modifyType": "Base",
 					"displayName": "Fire Rate",
 					"effectField": "None",
@@ -4510,7 +4510,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Effective Distance",
-					"value": 400,
+					"value": 4e+02,
 					"modifyType": "Base",
 					"displayName": "Eff. Distance",
 					"effectField": "None",
@@ -4533,7 +4533,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 4600,
+				"defaultMarketPrice": 4.6e+03,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -4584,7 +4584,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "5f19fd0c445dc052a2655ba6839a45bc"
+			"sourceHash": "c847696a209b582f9f24255e1d3121b8"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco CQ",
