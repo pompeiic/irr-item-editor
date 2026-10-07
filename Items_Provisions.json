@@ -512,15 +512,6 @@
 					"effectField": "Amount",
 					"effectDuration": 1.2e+02,
 					"effectTickInterval": 1e+01
-				},
-				{
-					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 0,
-					"modifyType": "None",
-					"displayName": "Stamina Boost",
-					"effectField": "InfluencePercent",
-					"effectDuration": 1.2e+02,
-					"effectTickInterval": 1e+01
 				}
 			],
 			"vendor":
@@ -535,7 +526,7 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "23f0ebd19d1c2b82435f00c83a788a1e"
+			"sourceHash": "d7134d42432b6138b445823b576ab14a"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Sardines",
