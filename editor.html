@@ -344,6 +344,13 @@ function relTime(iso) {
 }
 const RARITY_COLORS = { "Tier 1": "var(--t1)", "Tier 2": "var(--t2)", "Tier 3": "var(--t3)", "Tier 4": "var(--t4)" };
 const FACTION_COLORS = { "BLUEFOR": "var(--f-blue)", "OPFOR": "var(--f-op)", "GREYFOR": "var(--f-grey)", "FANG": "var(--f-fang)" };
+// Vendor rows store the mission tag. The trader shows the allegiance abbreviation.
+const FACTION_NAMES = { "BLUEFOR": "UICS", "GREYFOR": "VLF", "OPFOR": "IGC", "FANG": "FANG" };
+function factionLabel(tag) {
+  if (!tag || tag === "None") return "None";
+  const l = leaf(tag);
+  return FACTION_NAMES[l] || l;
+}
 function rarityChip(tag) {
   if (!tag || tag === "None") return `<span class="rchip" style="color:var(--faint)"><span class="dot" style="background:var(--faint)"></span>None</span>`;
   const l = leaf(tag);
@@ -354,7 +361,7 @@ function factionChip(tag) {
   if (!tag || tag === "None") return `<span class="rchip" style="color:var(--faint)"><span class="dot" style="background:var(--faint)"></span>None</span>`;
   const l = leaf(tag);
   const col = FACTION_COLORS[l] || "var(--dim)";
-  return `<span class="rchip" style="color:${col}"><span class="dot" style="background:${col}"></span>${esc(l)}</span>`;
+  return `<span class="rchip" style="color:${col}"><span class="dot" style="background:${col}"></span>${esc(factionLabel(tag))}</span>`;
 }
 function avatarText(it) {
   const a = (it.abbreviation || it.name || leaf(it.itemTag) || "?").trim();
@@ -567,7 +574,7 @@ function visibleEntries() {
     const sort = $("sortBy").value;
     const nameOf = e => String(e.item.name || leaf(e.item.itemTag)).toLowerCase();
     const rarityOf = e => e.item.vendor?.bHasVendorRow && e.item.vendor.rarityTag !== "None" ? leaf(e.item.vendor.rarityTag) : "\uffff";
-    const factionOf = e => e.item.vendor?.bHasVendorRow && e.item.vendor.factionTag && e.item.vendor.factionTag !== "None" ? leaf(e.item.vendor.factionTag) : "\uffff";
+    const factionOf = e => e.item.vendor?.bHasVendorRow && e.item.vendor.factionTag && e.item.vendor.factionTag !== "None" ? factionLabel(e.item.vendor.factionTag) : "\uffff";
     const priceOf = e => e.item.vendor?.bHasVendorRow ? e.item.vendor.defaultMarketPrice : -1;
     const statOf = (e, missing) => { const s = findStat(e.item, statColKey); return s ? s.value : missing; };
     const updOf = e => lastEditOf(e.item.itemTag)?.time || "";
@@ -673,9 +680,10 @@ function renderTable() {
 
 // ---- detail panel -------------------------------------------------------------------------------
 
-function tagSelect(id, options, current) {
+function tagSelect(id, options, current, labelOf) {
   const opts = [...new Set(["None", ...(options || []), current].filter(Boolean))];
-  return `<select id="${id}">` + opts.map(o => `<option value="${esc(o)}"${o === current ? " selected" : ""}>${esc(o === "None" ? "None" : leaf(o))}</option>`).join("") + `</select>`;
+  const lab = labelOf || (o => o === "None" ? "None" : leaf(o));
+  return `<select id="${id}">` + opts.map(o => `<option value="${esc(o)}"${o === current ? " selected" : ""}>${esc(lab(o))}</option>`).join("") + `</select>`;
 }
 
 function renderPanel() {
@@ -731,7 +739,7 @@ function renderOverview(it) {
     html += `<div class="row2"><div><label>Price — <small class="hint">-1 = not sold</small></label><input type="number" step="any" id="fPrice" value="${esc(it.vendor.defaultMarketPrice)}"></div>` +
             `<div><label>Black market — <small class="hint">-1 = not sold</small></label><input type="number" step="any" id="fBlackPrice" value="${esc(it.vendor.blackMarketPrice)}"></div></div>`;
     html += `<div class="row2"><div><label>Rarity</label>${tagSelect("fRarity", schema?.rarityTags, it.vendor.rarityTag)}</div>` +
-            `<div><label>Faction — <small class="hint">None = can't be bought</small></label>${tagSelect("fFaction", schema?.factionTags, it.vendor.factionTag)}</div></div>`;
+            `<div><label>Faction — <small class="hint">None = can't be bought</small></label>${tagSelect("fFaction", schema?.factionTags, it.vendor.factionTag, factionLabel)}</div></div>`;
   }
   const stackHint = it.bCanStack === false ? ` — <small class="hint">item is not stackable</small>` : "";
   html += `<div class="row2"><div><label>Max stack${stackHint}</label><input type="number" step="1" id="fMaxStack" value="${esc(it.maxStack ?? "")}"${it.maxStack === undefined ? " readonly" : ""}></div><div></div></div>`;
@@ -1083,7 +1091,7 @@ async function load() {
   const ff = $("factionFilter");
   for (const f of ["None", ...(schema.factionTags || [])]) {
     const opt = document.createElement("option");
-    opt.value = f; opt.textContent = f === "None" ? "None" : leaf(f);
+    opt.value = f; opt.textContent = factionLabel(f);
     ff.appendChild(opt);
   }
   renderStatColSelect();

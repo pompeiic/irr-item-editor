@@ -2774,7 +2774,7 @@
 				"rowName": "MK-47_10-Inch_762x39_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
-				"factionTag": "Mission.Faction.GREYFOR",
+				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 95,
 				"blackMarketPrice": 1
 			},
@@ -2844,7 +2844,7 @@
 				"rowName": "MK-47_16-Inch_762x39_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
-				"factionTag": "Mission.Faction.GREYFOR",
+				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 165,
 				"blackMarketPrice": 1
 			},
@@ -3707,7 +3707,7 @@
 				"rowName": "RFB_18_Inch_762x51_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
-				"factionTag": "Mission.Faction.GREYFOR",
+				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 1.4e+02,
 				"blackMarketPrice": 1
 			},
@@ -3774,7 +3774,7 @@
 				"rowName": "RFB_24_Inch_762x51_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
-				"factionTag": "Mission.Faction.GREYFOR",
+				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2.9e+02,
 				"blackMarketPrice": 2
 			},
@@ -16586,7 +16586,7 @@
 				"rowName": "RFB_762x51_Muzzle_Device",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
-				"factionTag": "Mission.Faction.GREYFOR",
+				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 7e+01,
 				"blackMarketPrice": 1
 			},
@@ -19387,7 +19387,7 @@
 				"rowName": "RFB_Quad_Rail_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
-				"factionTag": "Mission.Faction.GREYFOR",
+				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 1.1e+02,
 				"blackMarketPrice": 1
 			},
@@ -20713,7 +20713,7 @@
 				"rowName": "RFB_Front_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "Mission.Faction.GREYFOR",
+				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 18,
 				"blackMarketPrice": -1
 			},
@@ -20744,7 +20744,7 @@
 				"rowName": "RFB_Rear_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "Mission.Faction.GREYFOR",
+				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 24,
 				"blackMarketPrice": -1
 			},

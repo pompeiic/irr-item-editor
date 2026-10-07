@@ -691,7 +691,7 @@
 				"rowName": "Kel_Tec_RFB",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
-				"factionTag": "Mission.Faction.GREYFOR",
+				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 3.2e+03,
 				"blackMarketPrice": 2
 			},
@@ -4532,7 +4532,7 @@
 				"rowName": "MK-47",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
-				"factionTag": "Mission.Faction.GREYFOR",
+				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 4.6e+03,
 				"blackMarketPrice": 3
 			},
