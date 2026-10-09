@@ -45,13 +45,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_10x5_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 4e+01,
+				"defaultMarketPrice": 40,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -111,13 +110,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_11x5_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 4e+01,
+				"defaultMarketPrice": 40,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -177,13 +175,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_14x5_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 7e+01,
+				"defaultMarketPrice": 70,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -243,13 +240,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_16_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 9e+01,
+				"defaultMarketPrice": 90,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -309,13 +305,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_18_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.3e+02,
+				"defaultMarketPrice": 130,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -375,8 +370,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_20_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -441,8 +435,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_A3_Barrel_15_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -503,8 +496,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_A3_Barrel_16x4_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -565,8 +557,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_A3_Barrel_20_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -627,8 +618,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_13_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -695,8 +685,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_16_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -763,8 +752,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_21_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -831,8 +819,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Five_Seven_Standard_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -889,13 +876,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Five_Seven_Threaded_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3.1e+02,
+				"defaultMarketPrice": 310,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -949,13 +935,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Glock_19_Standard_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 6e+01,
+				"defaultMarketPrice": 60,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -1007,8 +992,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Glock_19_Threaded_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1069,8 +1053,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Honey_Badger_12_Inch_barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -1140,8 +1123,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Honey_Badger_7_Inch_barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1211,8 +1193,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Honey_Badger_9_Inch_barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -1282,8 +1263,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KRISS_Vector_45ACP_12_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -1344,8 +1324,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KRISS_Vector_45ACP_5x5_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1406,8 +1385,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KRISS_Vector_45ACP_9_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1468,13 +1446,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_22_Inch_762x51_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.8e+02,
+				"defaultMarketPrice": 280,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -1529,8 +1506,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_16_Inch_762x51_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1590,8 +1566,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M2_14_Inch_Tactical_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1650,8 +1625,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M2_18x5_Inch_Field_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1710,8 +1684,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M2_18x5_Inch_Tactical_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1770,8 +1743,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M2_21_Inch_Field_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1830,8 +1802,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_14_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1891,8 +1862,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_16_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -1952,8 +1922,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_18_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -2013,8 +1982,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_20_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -2074,8 +2042,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_22_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -2135,13 +2102,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_24_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.2e+02,
+				"defaultMarketPrice": 220,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -2196,8 +2162,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_26_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -2257,13 +2222,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_28_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.2e+02,
+				"defaultMarketPrice": 220,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -2318,8 +2282,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_PGW_Defense_C14_26_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -2380,8 +2343,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M9A3_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -2444,13 +2406,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_11x5_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.9e+02,
+				"defaultMarketPrice": 190,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -2509,13 +2470,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_16_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.2e+02,
+				"defaultMarketPrice": 220,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -2574,13 +2534,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_6x75_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 3e+01,
+				"defaultMarketPrice": 30,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -2639,8 +2598,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_9_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -2704,8 +2662,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_Rattler_5x5_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -2769,8 +2726,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MK-47_10-Inch_762x39_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -2839,8 +2795,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MK-47_16-Inch_762x39_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -2909,8 +2864,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_10x5_Inch_9x19_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -2970,8 +2924,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_14_Inch_9x19_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -3031,8 +2984,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_4x5_Inch_9x19_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -3094,8 +3046,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_6x5_Inch_9x19_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -3157,13 +3108,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_8_Inch_9x19_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 3.1e+02,
+				"defaultMarketPrice": 310,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -3220,8 +3170,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_Ronin_6_Inch_9x19_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -3281,13 +3230,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P320_13x5mm_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 3e+01,
+				"defaultMarketPrice": 30,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -3339,8 +3287,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P320_Compact_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -3399,8 +3346,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P320_Threaded_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -3461,8 +3407,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P90_10x4_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -3522,8 +3467,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P90_14x25_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -3583,8 +3527,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P90_16_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -3644,8 +3587,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "QSZ-92_Standard_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -3702,13 +3644,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "RFB_18_Inch_762x51_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.4e+02,
+				"defaultMarketPrice": 140,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -3769,13 +3710,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "RFB_24_Inch_762x51_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.9e+02,
+				"defaultMarketPrice": 290,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -3836,13 +3776,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SCAR-H_16_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.1e+02,
+				"defaultMarketPrice": 110,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -3904,13 +3843,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SCAR-L_Barrel_10_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 9e+01,
+				"defaultMarketPrice": 90,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -3969,8 +3907,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SCAR-L_Barrel_14_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -4034,8 +3971,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SCAR-L_Barrel_18_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -4099,13 +4035,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SR-25_16_Inch_762x51_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 3.1e+02,
+				"defaultMarketPrice": 310,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -4169,8 +4104,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SR-25_20_Inch_762x51_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -4213,7 +4147,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Add",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -4239,8 +4173,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SRS_A2_16_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -4303,8 +4236,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SRS_A2_18_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -4367,8 +4299,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SRS_A2_22_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -4431,8 +4362,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SRS_A2_24_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -4495,8 +4425,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SRS_A2_26_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -4559,8 +4488,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "VR80_20_Inch_Barrel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -4611,13 +4539,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "VR80_Barrel_Nut",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -4660,13 +4587,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "VR80_Barrel_Shroud",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 6e+01,
+				"defaultMarketPrice": 60,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -4691,13 +4617,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Izhmash_Dust_Cover",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3e+01,
+				"defaultMarketPrice": 30,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -4722,8 +4647,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_SAG_MK3_Krink_Dust_Cover",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -4784,8 +4708,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_SAG_MK3_Upper_Rail_Dust_Cover",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -4841,13 +4764,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Zenitco_B-33_Dust_Cover",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 1.6e+02,
+				"defaultMarketPrice": 160,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -4891,13 +4813,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK-12_Dust_Cover",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 9e+01,
+				"defaultMarketPrice": 90,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -4941,13 +4862,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AKS-74U_Dust_Cover",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3e+01,
+				"defaultMarketPrice": 30,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -4972,13 +4892,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Advanced_Dust_Cover",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 1.9e+02,
+				"defaultMarketPrice": 190,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -5022,8 +4941,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Standard_Dust_Cover",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -5053,8 +4971,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "PP-19_Dust_Cover",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -5103,13 +5020,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "QBZ-97_Carry_Handle",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 7e+01,
+				"defaultMarketPrice": 70,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -5136,8 +5052,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "QBZ-97_Longbow_Carry_Handle",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -5189,8 +5104,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Saiga_12K_Dust_Cover",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -5229,13 +5143,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_Vertical_Foregrip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 1e+02,
+				"defaultMarketPrice": 100,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -5278,8 +5191,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "BCM_Gunfighter_Mod3_Foregrip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -5327,8 +5239,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "BT_Quick_Detach_Unigrip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -5376,13 +5287,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Daniel_Defense_M-LOK_Vertical_Foregrip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 2.1e+02,
+				"defaultMarketPrice": 210,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -5425,8 +5335,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Daniel_Defense_Picatinny_Foregrip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -5474,13 +5383,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Fortis_SHIFT_Short_M-LOK_Angled_Foregrip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2e+02,
+				"defaultMarketPrice": 200,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -5523,8 +5431,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Fortis_SHIFT_Vertical_Foregrip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -5572,8 +5479,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "IMI_Defense_FSG2_Foregrip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -5621,8 +5527,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Kingarms_Lite_Angled_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -5670,8 +5575,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Magpul_MOE_RVG_Foregrip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -5710,13 +5614,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Magpul_MVG_M-LOK_FDE_Vertical_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3e+02,
+				"defaultMarketPrice": 300,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -5759,13 +5662,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Stark_SE3_Foregrip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2e+02,
+				"defaultMarketPrice": 200,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -5799,8 +5701,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "STV-380_Handguard_Panel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -5848,13 +5749,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "TangoDown_Stubby_Vertical_Foregrip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 9e+01,
+				"defaultMarketPrice": 90,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -5897,8 +5797,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Troy_Modular_Combat_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -5928,13 +5827,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK-74_Gas_Tube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -5959,13 +5857,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AKS-74U_Gas_Tube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 6e+01,
+				"defaultMarketPrice": 60,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -5990,13 +5887,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-10_Low_Profile_Gas_Block",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 7e+01,
+				"defaultMarketPrice": 70,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -6021,13 +5917,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Daniel_Defense_MK12_Low_Profile_Gas_Block",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 7e+01,
+				"defaultMarketPrice": 70,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -6052,8 +5947,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Honey_Badger_Gas_Tube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -6083,13 +5977,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M4A1_Front_Sight_With_Gas_Block",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 8e+01,
+				"defaultMarketPrice": 80,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -6114,13 +6007,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_Long_Gas_Tube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 8e+01,
+				"defaultMarketPrice": 80,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -6145,13 +6037,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_Short_Gas_Tube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 7e+01,
+				"defaultMarketPrice": 70,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -6176,13 +6067,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "PP-19_Gas_Tube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -6207,13 +6097,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "RPK-74_Gas_Tube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -6238,13 +6127,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Saiga_12K_Gas_Tube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 7e+01,
+				"defaultMarketPrice": 70,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -6269,8 +6157,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SR-25_HTX_Concepts_Low_Profile_Gas_Block",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -6300,8 +6187,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SR-25_M110_Gas_Block",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -6331,13 +6217,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SVDS_Gas_Tube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 7e+01,
+				"defaultMarketPrice": 70,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -6380,13 +6265,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Izhmash_Polymer_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 7e+01,
+				"defaultMarketPrice": 70,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -6429,8 +6313,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Magpul_MOE_M-LOK_FDE_Hanguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -6485,8 +6368,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_SAG_MK1_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -6548,13 +6430,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_SAG_MK2x1_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.7e+02,
+				"defaultMarketPrice": 170,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -6626,8 +6507,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_SAG_MK3_Lower_M-LOK_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -6682,8 +6562,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_SAG_MK3_Lower_Rail_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -6747,13 +6626,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Zenitco_B-10_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 1.2e+02,
+				"defaultMarketPrice": 120,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -6813,13 +6691,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Zenitco_B-11_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 1.1e+02,
+				"defaultMarketPrice": 110,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -6878,8 +6755,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Zenitco_B-30_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -6944,8 +6820,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK-12_Handguard_Polymer",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -7010,8 +6885,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AKS-74U_Alfa_Arms_Goliaf_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -7076,13 +6950,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AKS-74U_Wooden_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 8e+01,
+				"defaultMarketPrice": 80,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -7108,7 +6981,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": 1e+01,
+					"value": 10,
 					"modifyType": "Add",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -7125,8 +6998,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-10_CMMG_MK3_RML15_15_Inch_Ghillie_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -7174,8 +7046,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-10_CMMG_MK3_RML15_15_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -7237,8 +7108,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-10_CMMG_MK3_RML9_9_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -7300,8 +7170,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-10_Lancer_LCH7_M-LOK_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -7356,13 +7225,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-10_Noveske_Quadrail_10x5_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.3e+02,
+				"defaultMarketPrice": 130,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -7422,8 +7290,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-10_URX_4_14x5_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -7485,8 +7352,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Colt_A2_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -7534,13 +7400,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Daniel_Defense_RIS_II_9x5_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.8e+02,
+				"defaultMarketPrice": 180,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -7600,8 +7465,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Geissele_MK16_M-LOK_10x5_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -7663,8 +7527,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Geissele_MK16_M-LOK_13x5_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -7726,8 +7589,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Geissele_MK16_M-LOK_9x3_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -7789,8 +7651,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Geissele_MK8_M-LOK_13_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -7852,8 +7713,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Geissele_MK8_M-LOK_7_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -7915,8 +7775,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Geissele_MK8_M-LOK_9x5_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -7978,8 +7837,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_KAC_URX_4_10x75_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -8041,8 +7899,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_KAC_URX_4_14_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -8104,13 +7961,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_KAC_URX_4_8x5_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.2e+02,
+				"defaultMarketPrice": 120,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -8167,8 +8023,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_A3_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -8233,8 +8088,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_CAF_WASR_Wooden_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -8282,8 +8136,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_M-LOK_Short_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -8345,13 +8198,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Quad_Rail_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 2e+02,
+				"defaultMarketPrice": 200,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -8411,8 +8263,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Standard_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -8460,8 +8311,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_VLTOR_Short_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -8526,8 +8376,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Honey_Badger_12_Inch_handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -8589,8 +8438,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Honey_Badger_6_Inch_handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -8652,8 +8500,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Honey_Badger_9_Inch_handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -8715,8 +8562,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KRISS_Vector_11_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -8768,8 +8614,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KRISS_Vector_MK1_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -8827,13 +8672,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "LAMG_M-LOK_Standard_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.2e+02,
+				"defaultMarketPrice": 220,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -8895,8 +8739,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "LAMG_Picatinny_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -8946,7 +8789,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": 3,
+					"value": 2,
 					"modifyType": "Add",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -8955,7 +8798,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1.5,
+					"value": -1,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -8963,8 +8806,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_Norinco_Black_Top",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -9012,8 +8854,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_Springfield_Armory_Brown_Top",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -9052,8 +8893,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M2_Agency_Arms_Benelli_M-LOK_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -9099,13 +8939,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M2_Field_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 8e+01,
+				"defaultMarketPrice": 80,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -9148,8 +8987,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_MDT_ESS_12_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -9205,8 +9043,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_MDT_ESS_15_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -9262,8 +9099,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_MDT_ESS_18_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -9319,8 +9155,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_10_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -9382,8 +9217,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_12_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -9445,8 +9279,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_16_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -9508,8 +9341,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_8_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -9571,8 +9403,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_Canebrake_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -9634,8 +9465,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_Rattler_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -9688,8 +9518,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_SD_10_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -9751,8 +9580,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_SD_12_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -9814,8 +9642,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_SD_16_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -9877,8 +9704,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MP5_ICS_With_Flashlight_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -9917,13 +9743,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "HK_MP5_Polymer_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.1e+02,
+				"defaultMarketPrice": 110,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -9966,8 +9791,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MP5_PTR_Tri-Rail_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -10031,8 +9855,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MP5_Slim_Polymer_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -10080,8 +9903,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MP5K_M-LOK_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -10135,8 +9957,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MP5K_Polymer_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -10184,8 +10005,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MP5K_Polymer_With_Foregrip_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -10233,8 +10053,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_Lancer_M-LOK_14_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -10290,8 +10109,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_Lancer_M-LOK_16_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -10347,8 +10165,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_M-LOK_4_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -10401,13 +10218,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_M-LOK_6_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.5e+02,
+				"defaultMarketPrice": 250,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -10464,8 +10280,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_M-LOK_8_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -10527,8 +10342,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_Midwest_M-LOK_10x5_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -10590,8 +10404,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_Midwest_M-LOK_14_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -10653,13 +10466,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_Midwest_M-LOK_6x5_Inch_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 3.4e+02,
+				"defaultMarketPrice": 340,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -10716,8 +10528,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P90_DHD_M-LOK_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -10773,8 +10584,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P90_Quad_Rail_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -10839,8 +10649,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "RPK-74_Polymer_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -10888,8 +10697,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Saiga_12K_Bravo-18_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -10969,8 +10777,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Saiga_12K_Custom_Guns_Type-340_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -11021,8 +10828,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Saiga_12K_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -11070,8 +10876,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SRS_A2_Covert_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -11127,8 +10932,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SRS_A2_Full_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -11167,7 +10971,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": 1e+01,
+					"value": 10,
 					"modifyType": "Add",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -11184,13 +10988,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SVD_SAG_Mk1_Chassis",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3.2e+02,
+				"defaultMarketPrice": 320,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -11265,13 +11068,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SVDS_Polymer_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 9e+01,
+				"defaultMarketPrice": 90,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -11314,8 +11116,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "VR80_Handguard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -11367,13 +11168,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_545x39_30rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 4e+01,
+				"defaultMarketPrice": 40,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -11409,8 +11209,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_545x39_Polymer_45Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -11451,8 +11250,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_545x39_60rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -11493,8 +11291,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_545x39_Bakelite_30rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -11535,8 +11332,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_545x39_Drum_95rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -11577,8 +11373,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Molot_556x45_45Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -11619,8 +11414,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_556x45_Black_30rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -11661,8 +11455,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_762x39_Star_20Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -11703,8 +11496,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_762x39_Bakelite_30rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -11745,8 +11537,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Magpul_PMAG_GEN_M3_762x39_30Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -11787,13 +11578,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Molot_Arms_762x39_75Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 3.6e+02,
+				"defaultMarketPrice": 360,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -11829,8 +11619,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK-12_545x39_Polymer_30Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -11871,8 +11660,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-10_762x51_Stanag_20Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -11913,13 +11701,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-10_X-Products_X-25_762x51_50Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.1e+02,
+				"defaultMarketPrice": 110,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -11955,13 +11742,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Colt_A2_Stanag_556x45_20Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 6e+01,
+				"defaultMarketPrice": 60,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -11998,8 +11784,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Colt_A2_Stanag_556x45_30Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -12041,8 +11826,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_MagPul_PMAG_556x45_60rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -12084,8 +11868,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_SureFire_MAG5_Stanag_556x45_60Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -12118,13 +11901,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_556x45_30rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 6e+02,
+				"defaultMarketPrice": 600,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -12160,13 +11942,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_556x45_42rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 8e+01,
+				"defaultMarketPrice": 80,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -12202,8 +11983,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_762x51_20rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -12244,8 +12024,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_762x51_30rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -12286,8 +12065,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_762x51_50rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -12328,8 +12106,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Five_Seven_57x28_20rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -12370,8 +12147,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Five_Seven_57x28_30rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -12412,8 +12188,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Glock_19_9x19_15rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -12454,8 +12229,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Glock_19_9x19_20rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -12496,8 +12270,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MP5_KCI_9x19_20Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -12538,13 +12311,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "HK_MP5_9x19_30rnd_magazine",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 6e+01,
+				"defaultMarketPrice": 60,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -12580,8 +12352,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MP5_X-Products_X-5_9x19_50Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -12622,8 +12393,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KRISS_Vector_45ACP_13Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -12664,8 +12434,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KRISS_Vector_45ACP_30rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -12706,13 +12475,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "LAMG_Box_556x45_150Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.4e+02,
+				"defaultMarketPrice": 240,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -12748,8 +12516,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_Standard_762x51_10Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -12790,8 +12557,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_Standard_762x51_20Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -12832,13 +12598,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_X-Products_X-14_Drum_762x51_50Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.8e+02,
+				"defaultMarketPrice": 180,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -12874,13 +12639,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M2_Agency_Arms_18x5_Inch_12ga_7-shell",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 7e+01,
+				"defaultMarketPrice": 70,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -12916,8 +12680,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M2_Agency_Arms_21_Inch_12ga_8-shell",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -12958,8 +12721,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M2_Nordic_14_inch_12ga_5-shell",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -13000,8 +12762,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_x338_5rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -13042,8 +12803,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_x338_8rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -13084,8 +12844,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M9A3_9x19_17rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -13126,8 +12885,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M9A3_9x19_20rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -13168,8 +12926,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Magpul_PMAG_20_LR_SR_762x51_20Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -13210,8 +12967,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_9x19_25Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -13252,8 +13008,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_9x19_35Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -13294,8 +13049,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_F5_9x19_50Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -13336,8 +13090,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P320_9x19_17rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -13378,8 +13131,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P320_9x19_21rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -13420,8 +13172,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P90_57x28_50rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -13462,8 +13213,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "PP-19_9x19_30rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -13504,8 +13254,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "PP-19_F5MFG_9mm_50Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -13546,8 +13295,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "QSZ-92_9x19_15Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -13588,13 +13336,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Saiga_12K_SAI-02_10Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3e+01,
+				"defaultMarketPrice": 30,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -13630,13 +13377,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Saiga_12K_Powermag_Drum_20Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 6e+01,
+				"defaultMarketPrice": 60,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -13672,13 +13418,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Saiga_12K_Sb5_5Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 2e+01,
+				"defaultMarketPrice": 20,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -13714,8 +13459,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SCAR-H_762x51_20rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -13756,8 +13500,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SCAR-L_556x45_30rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -13799,13 +13542,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SKS_Standard_762x39_10rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -13841,8 +13583,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SKS_Star_762x39_20rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -13883,8 +13624,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SKS_Tapco_762x39_20rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -13925,8 +13665,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SRS_A2_x338_5rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -13967,8 +13706,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SRS_A2_x338_8rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -14009,8 +13747,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SVD_762x54_10rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -14051,8 +13788,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "VR80_12ga_10rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -14093,13 +13829,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "VR80_12ga_5rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 4e+01,
+				"defaultMarketPrice": 40,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -14135,8 +13870,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Z111_762x39_30Rnd",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -14195,13 +13929,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AAC_762-SDN-6_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3.74e+03,
+				"defaultMarketPrice": 3740,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -14253,13 +13986,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK-12_545x39_Muzzle",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 1.3e+02,
+				"defaultMarketPrice": 130,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -14311,8 +14043,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK-74_Steel_PATRIOT_Silencer",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -14360,13 +14091,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK-74M_Muzzle_Brake",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -14418,8 +14148,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AKS-74U_Muzzle",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -14476,8 +14205,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-10_CMMG_SV_762x51_Muzzle_Device",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -14534,8 +14262,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-10_M110_762x51_Muzzle_Brake",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -14592,13 +14319,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Griffin_Armament_Gate-LOK_Hammer_Flash_Hider",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 6e+01,
+				"defaultMarketPrice": 60,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -14652,13 +14378,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Griffin_Armament_M4SD_II_Silencer",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 6.25e+03,
+				"defaultMarketPrice": 6250,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -14710,13 +14435,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_A3_Flash_Hider",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 8e+01,
+				"defaultMarketPrice": 80,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -14768,8 +14492,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_Ase_Utra_S_Series_SL7i_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -14808,13 +14531,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_RAT_Worx_Muzzle_Adapter",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 1.5e+02,
+				"defaultMarketPrice": 150,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -14872,13 +14594,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Colt_USGI_A2_Flash_Hider",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -14932,13 +14653,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "DT338_Muzzle_Brake",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.3e+02,
+				"defaultMarketPrice": 130,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -14992,8 +14712,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "DT338_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -15050,13 +14769,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Standard_Muzzle",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 1e+02,
+				"defaultMarketPrice": 100,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -15108,8 +14826,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Galil_ACE_II_762x51_Muzzle",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -15166,13 +14883,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Honey_Badger_Cherry_Bomb_Muzzle_Brake",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1e+02,
+				"defaultMarketPrice": 100,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -15226,13 +14942,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Honey_Badger_Standard_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 3.11e+03,
+				"defaultMarketPrice": 3110,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -15258,7 +14973,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Add",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -15284,8 +14999,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Honey_Badger_Trash_PANDA_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -15342,8 +15056,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Honey_Badger_Whistletip_Muzzle_Brake",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -15400,8 +15113,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Jmac_Customs_RRD-4C_545x39_Muzzle_Brake",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -15458,13 +15170,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KAC_QDC_3-Prong_Eliminator_556x45_Muzzle_Device",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.5e+02,
+				"defaultMarketPrice": 150,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -15522,8 +15233,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KVP_XL_45ACP_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -15580,8 +15290,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_16_Inch_762x51_Muzzle_Adapter",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -15648,8 +15357,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_22_Inch_762x51_Muzzle_Adapter",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -15716,8 +15424,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_National_Match_762x51_Muzzle_Brake",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -15776,8 +15483,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_Smith_Enterprise_SOCOM_16_762x51_Muzzle_Brake",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -15836,13 +15542,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_PGW_Timberwolf_Muzzle_Brake",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 6e+01,
+				"defaultMarketPrice": 60,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -15877,7 +15582,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -15894,8 +15599,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_PGW_Timberwolf_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -15952,8 +15656,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M9A3_Compensator",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -16010,13 +15713,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M9A3_Thread_Protector",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2e+01,
+				"defaultMarketPrice": 20,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -16068,8 +15770,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MP5_PDW_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -16126,13 +15827,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_9x19_Flash_Hider",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -16184,13 +15884,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_Ronin_12_Inch_9x19_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 3.74e+03,
+				"defaultMarketPrice": 3740,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -16242,13 +15941,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MPX_Ronin_8_Inch_9x19_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.2e+03,
+				"defaultMarketPrice": 2200,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -16291,13 +15989,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P320_Compact_Compensator",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.3e+02,
+				"defaultMarketPrice": 230,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -16349,8 +16046,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P90_Flash_Hider",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -16407,13 +16103,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "PBS-4_545x39_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 1.3e+03,
+				"defaultMarketPrice": 1300,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -16465,8 +16160,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "PP-19_Muzzle",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -16523,13 +16217,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "QBZ-97_556x45_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 2.05e+03,
+				"defaultMarketPrice": 2050,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -16581,13 +16274,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "RFB_762x51_Muzzle_Device",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 7e+01,
+				"defaultMarketPrice": 70,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -16613,7 +16305,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": -2e+01,
+					"value": -20,
 					"modifyType": "Add",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -16639,8 +16331,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "RS_Putnik_Multi-Caliber_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -16697,13 +16388,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Saiga_12K_12ga_Muzzle_Device",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -16738,7 +16428,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -16755,8 +16445,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Saiga_12K_GK-02_12ga_Muzzle_Device",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -16787,7 +16476,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Add",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -16813,8 +16502,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Saiga_12K_Tromix_Monster_Claw_12ga_Muzzle_Device",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -16871,13 +16559,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SCAR-H_AAC_SD_51T_Flash_Hider",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1e+02,
+				"defaultMarketPrice": 100,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -16931,8 +16618,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SCAR-L_AAC_SD_51T_Flash_Hider",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -16974,7 +16660,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -16991,13 +16677,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Sig_Sauer_SRD762_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 3.42e+03,
+				"defaultMarketPrice": 3420,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -17049,13 +16734,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SilencerCo_Hybrid_46_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3.94e+03,
+				"defaultMarketPrice": 3940,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -17107,13 +16791,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SilencerCo_Omega_45k_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.33e+03,
+				"defaultMarketPrice": 2330,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -17165,8 +16848,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SilencerCo_Osprey_45K_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -17223,8 +16905,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SilencerCo_Salvo12_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -17281,13 +16962,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SKS_OSS_HX-QD_762_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 3.29e+03,
+				"defaultMarketPrice": 3290,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -17313,7 +16993,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": -2e+01,
+					"value": -20,
 					"modifyType": "Add",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -17339,13 +17019,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Surefire_Ryder_9M_TI_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.21e+03,
+				"defaultMarketPrice": 2210,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -17397,13 +17076,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Surefire_SD3P-556_3_Flash_Hider",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1e+02,
+				"defaultMarketPrice": 100,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -17457,13 +17135,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Surefire_SOCOM338-TI_Muzzle_Brake",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.8e+02,
+				"defaultMarketPrice": 280,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -17517,8 +17194,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Surefire_SOCOM338-TI_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -17575,8 +17251,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Surefire_SOCOM556-MONSTER_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -17607,7 +17282,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -17633,13 +17308,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SVD_Rotor43_762x54_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 1.95e+03,
+				"defaultMarketPrice": 1950,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -17691,13 +17365,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SVD_Rotor43_Thread_Adapter",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3e+01,
+				"defaultMarketPrice": 30,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -17751,8 +17424,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "TGP-A_545x39_Suppressor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -17809,13 +17481,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Zenitco_DTK-1_545x39_Muzzle_Brake",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 1.8e+02,
+				"defaultMarketPrice": 180,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -17849,8 +17520,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Izhmash_Polymer_PistolGrip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -17889,8 +17559,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Magpul_MOE_FDE_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -17929,13 +17598,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK-12_Pistolgrip_Polymer",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3e+01,
+				"defaultMarketPrice": 30,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -17969,13 +17637,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Colt_A2_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 4e+01,
+				"defaultMarketPrice": 40,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -18009,13 +17676,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Colt_A2_Tan_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -18049,8 +17715,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Daniel_Defense_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -18089,13 +17754,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_ERGO_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 7e+01,
+				"defaultMarketPrice": 70,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -18129,8 +17793,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_MDT_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -18169,8 +17832,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_ERGO_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -18209,8 +17871,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Standard_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -18249,8 +17910,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Wooden_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -18289,8 +17949,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_Rattler_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -18329,8 +17988,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_Virtus_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -18369,8 +18027,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "PP-19_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -18409,13 +18066,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SVDS_Polymer_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 6e+01,
+				"defaultMarketPrice": 60,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -18458,8 +18114,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "VR80_Stock_And_Pistol_Grip",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -18489,13 +18144,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Doublestar_AR-15_Pistol_Grip_Adapter",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 7e+01,
+				"defaultMarketPrice": 70,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -18528,13 +18182,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Zenitco_B-13_Rail",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 8e+01,
+				"defaultMarketPrice": 80,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -18578,8 +18231,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_A3_M1_1x5_Optic_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -18625,8 +18277,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_A3_M1_High_Sight_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -18675,8 +18326,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_A3_M1_Low_Sight_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -18725,13 +18375,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AUG_A3_Vertical_Grip_Rail",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 4e+01,
+				"defaultMarketPrice": 40,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -18766,8 +18415,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Five_Seven_MRD_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -18799,8 +18447,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "GBRS_Hydra_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -18845,8 +18492,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KRISS_Vector_Rail",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -18880,8 +18526,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Leupold_DeltaPoint_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -18913,8 +18558,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_Leapers_UTG_Sight_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -18963,8 +18607,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_SAGE_International_Sight_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -19013,13 +18656,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M2_Picatinny_Rail",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 2e+01,
+				"defaultMarketPrice": 20,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -19053,8 +18695,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_Badger_Ordnance_Embedded_Front_Rail",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -19092,8 +18733,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M9A3_MRDS_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -19125,8 +18765,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Magpul_M-LOK_2x1_Inch_Rail",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -19160,8 +18799,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Magpul_M-LOK_4x1_Inch_Rail",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -19208,8 +18846,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MP5_Picatinny_Rail",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -19255,8 +18892,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "NCSTAR_MPR45_45_Degrees_Offset_Rail",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -19290,13 +18926,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "QBZ-97_Front_Rail_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -19335,8 +18970,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "QBZ-97_Scorpio_FK-HM95C_Rail_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -19382,13 +19016,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "RFB_Quad_Rail_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.1e+02,
+				"defaultMarketPrice": 110,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -19430,8 +19063,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SKS_EST_Tula_Dovetail",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -19465,8 +19097,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SKS_UTG_Leapers_U640_Dust_Cover",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -19515,8 +19146,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Trijicon_RMR_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -19548,8 +19178,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Five_Seven_Pistol_Slide",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -19583,7 +19212,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": 1e+01,
+					"value": 10,
 					"modifyType": "Add",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -19600,13 +19229,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_AICS_Chassis",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 3.7e+02,
+				"defaultMarketPrice": 370,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -19649,13 +19277,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_McMillan_A5_Chassis",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 6.2e+02,
+				"defaultMarketPrice": 620,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -19682,8 +19309,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_MDT_ESS_Chassis",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -19726,8 +19352,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M9A3_Pistol_Slide",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -19761,8 +19386,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P320_Compact_Pistol_Slide",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -19794,8 +19418,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "P320_Pistol_Slide",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -19827,13 +19450,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "QSZ-92_Pistol_Slide",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 4e+01,
+				"defaultMarketPrice": 40,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -19858,8 +19480,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "TRIARC_Glock_19_Slide",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -19892,7 +19513,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
-					"value": 2e+02,
+					"value": 200,
 					"modifyType": "Base",
 					"displayName": "Range",
 					"effectField": "None",
@@ -19900,8 +19521,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Aimpoint_Micro_T1_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -19931,13 +19551,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Colt_A2_Rear_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -19962,13 +19581,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "CQ_Carry_Handle",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 2e+01,
+				"defaultMarketPrice": 20,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -19993,8 +19611,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Elcan_SpecterDR_1x-4x_Scope",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -20024,13 +19641,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "EOTECH_CNVDT_1x_Thermal_Scope",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 9.23e+03,
+				"defaultMarketPrice": 9230,
 				"blackMarketPrice": 4
 			},
 			"bCanStack": false,
@@ -20055,13 +19671,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "EOTECH_EXPS3_Holographic_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 4e+02,
+				"defaultMarketPrice": 400,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -20086,13 +19701,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "EOTECH_HHS-1_Hybrid_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 5.25e+03,
+				"defaultMarketPrice": 5250,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -20117,8 +19731,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "EOTECH_Vudu_1-6x_Scope",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -20148,8 +19761,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Para_Rear_Ironsight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -20179,13 +19791,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Standard_Rear_Ironsight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -20210,8 +19821,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Five_Seven_Rear_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -20241,8 +19851,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Hensoldt_Wetzlar_Fero-Z_4x24_Scope",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -20272,8 +19881,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KAC_Folding_Micro_Front_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -20303,13 +19911,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KAC_Folding_Micro_Rear_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 9e+01,
+				"defaultMarketPrice": 90,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -20334,13 +19941,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Leupold_Carbine_Optic_Reflex_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3.3e+02,
+				"defaultMarketPrice": 330,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -20365,8 +19971,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Leupold_DeltaPoint_Reflex_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -20396,13 +20001,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Leupold_HAMR_4x24_Hybrid_Scope",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 6.28e+03,
+				"defaultMarketPrice": 6280,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -20429,13 +20033,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_Front_Iron_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2e+01,
+				"defaultMarketPrice": 20,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -20460,13 +20063,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_Rear_Iron_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 3e+01,
+				"defaultMarketPrice": 30,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -20491,13 +20093,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M2_Tactical_Rear_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 5e+01,
+				"defaultMarketPrice": 50,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -20522,13 +20123,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M9A3_Sights_Short",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2e+01,
+				"defaultMarketPrice": 20,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -20553,13 +20153,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M9A3_Sights_Tall",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 4e+01,
+				"defaultMarketPrice": 40,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -20584,13 +20183,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "OKP-7_Reflex_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 1.6e+02,
+				"defaultMarketPrice": 160,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -20615,8 +20213,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "OKP-77_Reflex_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -20646,8 +20243,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "PSO-1_4x24_Scope",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -20677,8 +20273,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "QBZ-97_Y-MA-95-1-600_3x_Scope",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -20708,8 +20303,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "RFB_Front_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -20739,8 +20333,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "RFB_Rear_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -20770,13 +20363,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SCAR_Front_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 6e+01,
+				"defaultMarketPrice": 60,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -20801,13 +20393,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SCAR_Rear_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 6e+01,
+				"defaultMarketPrice": 60,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -20842,7 +20433,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
-					"value": 8e+02,
+					"value": 800,
 					"modifyType": "Base",
 					"displayName": "Range",
 					"effectField": "None",
@@ -20850,13 +20441,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SIG_Sauer_BRAVO4_4x30_Scope",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 3.95e+03,
+				"defaultMarketPrice": 3950,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -20890,8 +20480,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "STV-380_Rear_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -20931,7 +20520,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
-					"value": 8e+02,
+					"value": 800,
 					"modifyType": "Base",
 					"displayName": "Range",
 					"effectField": "None",
@@ -20939,8 +20528,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Trijicon_ACOG_4x24_Scope",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -20972,13 +20560,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Trijicon_ACOG_6x48_Scope",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.63e+03,
+				"defaultMarketPrice": 2630,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -21019,8 +20606,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Trijicon_RMR_Miniature_Reflex_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -21050,8 +20636,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Trijicon_SkeetIR_1x_Thermal_Scope",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -21082,7 +20667,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
-					"value": 2e+02,
+					"value": 200,
 					"modifyType": "Base",
 					"displayName": "Range",
 					"effectField": "None",
@@ -21090,8 +20675,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Vortex_RAZOR_AMG_UH-1_Gen_II_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -21122,7 +20706,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Sighting Range",
-					"value": 2e+02,
+					"value": 200,
 					"modifyType": "Base",
 					"displayName": "Range",
 					"effectField": "None",
@@ -21130,13 +20714,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Zenitco_BelOMO_PK-06_Reflex_Sight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 4e+02,
+				"defaultMarketPrice": 400,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -21171,7 +20754,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -21179,13 +20762,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_Izhmash_Polymer_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 8e+01,
+				"defaultMarketPrice": 80,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -21228,8 +20810,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_SAG_ACR_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -21277,8 +20858,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK_SAG_Buffertube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -21336,13 +20916,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AK-12_Collapsible_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 1.4e+02,
+				"defaultMarketPrice": 140,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -21385,8 +20964,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AKS-74U_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -21426,7 +21004,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -2e+01,
+					"value": -20,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -21434,8 +21012,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_ACE_Ultra_Lite_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -21483,8 +21060,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_BCMGUNFIGHTER_Mod_0_Buttstock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -21532,13 +21108,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_CMMG_Ripstock_Buttstock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 1.4e+02,
+				"defaultMarketPrice": 140,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -21581,13 +21156,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Colt_A2_Buffertube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 8e+01,
+				"defaultMarketPrice": 80,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -21623,7 +21197,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": 1e+01,
+					"value": 10,
 					"modifyType": "Add",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -21640,13 +21214,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Daniel_Defense_Buttstock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.1e+02,
+				"defaultMarketPrice": 110,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -21681,7 +21254,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -21689,8 +21262,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_LMT_Sopmod_Ghillie_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -21730,7 +21302,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -21738,13 +21310,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_LMT_Sopmod_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.2e+02,
+				"defaultMarketPrice": 120,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -21787,13 +21358,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Magpul_CTR_Buttstock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.2e+02,
+				"defaultMarketPrice": 120,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -21836,8 +21406,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Magpul_UBR_Buttstock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -21885,8 +21454,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_PWS_Enhanced_Buffertube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -21944,13 +21512,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Standard_M4SS_Buttstock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 8e+01,
+				"defaultMarketPrice": 80,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -21993,8 +21560,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Strike_Industries_Viper_Mod_1_Buttstock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -22042,8 +21608,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_Strike_SI_AR_Advanced_Buffertube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -22101,13 +21666,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "AR-15_VLTOR_IMOD_Buttstock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 4e+02,
+				"defaultMarketPrice": 400,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -22150,8 +21714,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Folding_Buffertube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -22209,8 +21772,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Folding_Para_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -22250,7 +21812,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -2e+01,
+					"value": -20,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -22258,8 +21820,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Series_X_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -22290,7 +21851,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": 1e+01,
+					"value": 10,
 					"modifyType": "Add",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -22307,8 +21868,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Standard_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -22356,8 +21916,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "FAL_Wooden_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -22397,7 +21956,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -22405,8 +21964,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Honey_Badger_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -22446,7 +22004,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -22454,8 +22012,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KRISS_Vector_Folding_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -22485,13 +22042,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KRISS_Vector_Sling_Adapter",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 8e+01,
+				"defaultMarketPrice": 80,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -22516,8 +22072,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KRISS_Vector_Stock_Adapter",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -22572,8 +22127,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "LAMG_Buffer_Tube_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -22631,8 +22185,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_Norinco_M305_Polymer_Chassis",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -22683,13 +22236,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_SAGE_International_Chassis",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 5.2e+02,
+				"defaultMarketPrice": 520,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -22740,8 +22292,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_Springfield_Armory_Wooden_Chassis",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -22792,13 +22343,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M14_Troy_SASS_Chassis",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 6.4e+02,
+				"defaultMarketPrice": 640,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -22880,7 +22430,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -22888,13 +22438,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M2_ComforTech_Field_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 1.1e+02,
+				"defaultMarketPrice": 110,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -22937,8 +22486,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M2_Tactical_Pistol_Grip_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -22986,13 +22534,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_MDT_ESS_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2e+02,
+				"defaultMarketPrice": 200,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -23017,8 +22564,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "M700_MDT_ESS_Stock_Adapter",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -23064,7 +22610,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -23072,8 +22618,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_Collapsible_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -23103,8 +22648,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_Folding_Buffer_Mount",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -23158,8 +22702,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_Folding_Collapsible_Tube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -23207,8 +22750,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_Folding_Mini_Skeleton_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -23248,7 +22790,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -2e+01,
+					"value": -20,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -23256,8 +22798,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_Folding_Skeleton_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -23305,8 +22846,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MCX_Folding_Visor",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -23354,8 +22894,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MP5_A2_Fixed_Buttstock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -23403,8 +22942,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MP5_A3_F_Retractable_Buttstock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -23452,8 +22990,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "MP5_A3_Fixed_Buttstock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -23501,13 +23038,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "HK_MP5_End-Cap_Buttstock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 6e+01,
+				"defaultMarketPrice": 60,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -23542,7 +23078,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -23550,8 +23086,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "PP-19_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -23591,7 +23126,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -23599,8 +23134,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "QBZ-97_Cheek_Rest",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -23640,7 +23174,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -23648,13 +23182,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "RPK-74_Folding_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 1.3e+02,
+				"defaultMarketPrice": 130,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -23697,8 +23230,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SKS_ATI_Monte_Carlo_Chassis",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -23738,7 +23270,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -2e+01,
+					"value": -20,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -23746,8 +23278,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SKS_SAGE_International_SKSALCS_Telescoping_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -23778,7 +23309,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Ergonomics",
-					"value": 1e+01,
+					"value": 10,
 					"modifyType": "Add",
 					"displayName": "Ergonomics",
 					"effectField": "None",
@@ -23795,13 +23326,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SKS_SAGE_International_SKSALCV_Chassis",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 7.5e+02,
+				"defaultMarketPrice": 750,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -23865,7 +23395,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -23873,13 +23403,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SKS_Wooden_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 9e+01,
+				"defaultMarketPrice": 90,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -23914,7 +23443,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": -1e+01,
+					"value": -10,
 					"modifyType": "Multiply",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -23922,8 +23451,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SVDS_Folding_Stock",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -23953,8 +23481,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SVDS_Lynx_Buffer_Tube_Adapter",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -23990,13 +23517,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Inforce_APLc_Compact_Flashlight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 1.4e+02,
+				"defaultMarketPrice": 140,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -24021,8 +23547,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Inforce_WMLx_Flashlight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -24052,13 +23577,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "PEQ-15_LA-5_Tactical_Device",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 7.3e+02,
+				"defaultMarketPrice": 730,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -24083,8 +23607,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Steiner_CQBL-1_Laser",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -24114,13 +23637,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "SureFire_Mini_Scout_Flashight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 2.4e+02,
+				"defaultMarketPrice": 240,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -24145,13 +23667,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Zenitco_Klesch_2IKS3_Laser",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 3.2e+02,
+				"defaultMarketPrice": 320,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
