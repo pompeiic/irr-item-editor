@@ -1261,6 +1261,15 @@
 				"Stamina Boost 10 → 2",
 				"Stamina Boost duration 120s → 90s"
 			]
+		},
+		{
+			"tag": "Inventory.Items.Attachments.Handguard.M14 Norinco Black Top",
+			"time": "2026-10-09T21:40:44.709Z",
+			"author": "pompeiic",
+			"lines": [
+				"Ergonomics 3 → 2",
+				"Recoil -1.5 → -1"
+			]
 		}
 	],
 	"notes": {}
