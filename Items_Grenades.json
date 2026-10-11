@@ -248,13 +248,13 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 90,
+				"defaultMarketPrice": 9e+01,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "059ff1eb1d13d5b5642581318ece19c9"
+			"sourceHash": "7dcaedc17f7564d2abb1368ed9c959ea"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.RGO Grenade",
@@ -274,7 +274,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Shrapnel Chance",
-					"value": 70,
+					"value": 7e+01,
 					"modifyType": "Base",
 					"displayName": "Shrapnel Chance",
 					"effectField": "None",
@@ -333,13 +333,13 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 300,
+				"defaultMarketPrice": 3e+02,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a81597538100b29a4095620f31b8d193"
+			"sourceHash": "1771e70511b288a4ab3949ae5af06088"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.RGR Gas Grenade",
@@ -417,99 +417,14 @@
 				"rowName": "RGR_Gas_Grenade",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 1.4e+02,
-				"blackMarketPrice": 1
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "67afdd08051e4bd55441d938c7034ab8"
-		},
-		{
-			"itemTag": "Inventory.Items.Grenades.Zarya Flash Grenade",
-			"assetPath": "/Game/Blueprints/InventorySystem/Items/Grenades/Zarya_Flash_Grenade/ID_Zarya_Flash_Grenade.ID_Zarya_Flash_Grenade",
-			"name": "Zarya Flash Grenade",
-			"abbreviation": "Zarya",
-			"description": "Russian flash grenade. It is recommended NOT to look at the explosion.",
-			"stats": [
-				{
-					"tag": "Inventory.Stats.Weight",
-					"value": 0.2,
-					"modifyType": "Add",
-					"displayName": "",
-					"effectField": "None",
-					"effectDuration": -1,
-					"effectTickInterval": 0
-				},
-				{
-					"tag": "Inventory.Stats.Shrapnel Chance",
-					"value": 0,
-					"modifyType": "Base",
-					"displayName": "Shrapnel Chance",
-					"effectField": "None",
-					"effectDuration": -1,
-					"effectTickInterval": 0
-				},
-				{
-					"tag": "Inventory.Stats.Chance To Wound",
-					"value": 0,
-					"modifyType": "None",
-					"displayName": "Chance To Wound",
-					"effectField": "BleedingChance",
-					"effectDuration": -1,
-					"effectTickInterval": 1
-				},
-				{
-					"tag": "Inventory.Stats.Piercing Level",
-					"value": 0,
-					"modifyType": "Base",
-					"displayName": "Piercing Level",
-					"effectField": "None",
-					"effectDuration": -1,
-					"effectTickInterval": 0
-				},
-				{
-					"tag": "Inventory.Stats.Penetration",
-					"value": 0,
-					"modifyType": "Base",
-					"displayName": "Penetration",
-					"effectField": "None",
-					"effectDuration": -1,
-					"effectTickInterval": 0
-				},
-				{
-					"tag": "Inventory.Stats.Explosion Radius",
-					"value": 6,
-					"modifyType": "Base",
-					"displayName": "Explosion Radius",
-					"effectField": "None",
-					"effectDuration": -1,
-					"effectTickInterval": 0
-				},
-				{
-					"tag": "Inventory.Stats.Explosion Delay",
-					"value": 1.5,
-					"modifyType": "Base",
-					"displayName": "Explosion Delay",
-					"effectField": "None",
-					"effectDuration": -1,
-					"effectTickInterval": 0
-				}
-			],
-			"vendor":
-			{
-				"rowName": "Zarya_Flash_Grenade",
-				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 140,
-				"blackMarketPrice": 1
-			},
-			"bCanStack": false,
-			"maxStack": 1,
-			"supportedItemTags": [],
-			"sourceHash": "4c0b2ef3670a2649cb7c7ba2c11bbbb4"
+			"sourceHash": "0437eea08d8a53349caa776b30512b1b"
 		}
 	],
 	"schemaSoftVersion": 4,
