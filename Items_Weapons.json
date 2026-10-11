@@ -123,7 +123,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 7300,
+				"defaultMarketPrice": 7.3e+03,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -152,9 +152,11 @@
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.NCSTAR MPR45 45 Degrees Offset Rail",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.AR-15 Colt A2 Rear Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -165,20 +167,26 @@
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Tactical.Inforce APLc Compact Flashlight",
 				"Inventory.Items.Attachments.Tactical.Inforce WMLx Flashlight",
+				"Inventory.Items.Attachments.Tactical.L3Harris NGAL",
 				"Inventory.Items.Attachments.Tactical.PEQ-15 LA-5 Tactical Device",
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
+				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
+				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "1164eb3f6585d0cb0a9c9a379b30ca34"
+			"sourceHash": "3fbc4fd63b2e4ff5640cb03feea69fbb"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.Galil Ace",
@@ -302,7 +310,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
-				"defaultMarketPrice": 4900,
+				"defaultMarketPrice": 4.9e+03,
 				"blackMarketPrice": 3
 			},
 			"bCanStack": false,
@@ -330,9 +338,11 @@
 				"Inventory.Items.Attachments.Rail.Magpul M-LOK 4x1 Inch Rail",
 				"Inventory.Items.Attachments.Rail.NCSTAR MPR45 45 Degrees Offset Rail",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.AR-15 Colt A2 Rear Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -343,25 +353,32 @@
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.AR-15 ACE Ultra Lite Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 Colt A2 Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Magpul UBR Buttstock",
+				"Inventory.Items.Attachments.Stock.AR-15 Odin Works Zulu Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube",
 				"Inventory.Items.Attachments.Tactical.Inforce APLc Compact Flashlight",
 				"Inventory.Items.Attachments.Tactical.Inforce WMLx Flashlight",
+				"Inventory.Items.Attachments.Tactical.L3Harris NGAL",
 				"Inventory.Items.Attachments.Tactical.PEQ-15 LA-5 Tactical Device",
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
+				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
+				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "3010d99596d6e9be24b26c2cde8321a4"
+			"sourceHash": "27bac5b424ee47b33cbe73e12ec3dcbb"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.M14",
@@ -399,7 +416,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Recoil",
-					"value": 60,
+					"value": 6e+01,
 					"modifyType": "Base",
 					"displayName": "Recoil",
 					"effectField": "None",
@@ -443,6 +460,33 @@
 					"effectTickInterval": 0
 				},
 				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base",
+					"displayName": "Durability Burn",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base",
+					"displayName": "Heat",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base",
+					"displayName": "Cooldown",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
 					"modifyType": "Base",
@@ -458,7 +502,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 3100,
+				"defaultMarketPrice": 3.1e+03,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -478,7 +522,7 @@
 				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
 				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
 			],
-			"sourceHash": "b82b0888a52c6f9bd634d57800d8a007"
+			"sourceHash": "ed3685fd474028dbf336dbf2c99730fd"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.Norinco M305",
@@ -560,6 +604,33 @@
 					"effectTickInterval": 0
 				},
 				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base",
+					"displayName": "Durability Burn",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base",
+					"displayName": "Heat",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base",
+					"displayName": "Cooldown",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
 					"modifyType": "Base",
@@ -575,7 +646,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 2400,
+				"defaultMarketPrice": 2.4e+03,
 				"blackMarketPrice": 1
 			},
 			"bCanStack": false,
@@ -595,7 +666,7 @@
 				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
 				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
 			],
-			"sourceHash": "f7f6fea5f602fc00445b6a56db654ecf"
+			"sourceHash": "a4abc0c56ee2f362bb4aea8e50a038f1"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.RFB",
@@ -677,6 +748,33 @@
 					"effectTickInterval": 0
 				},
 				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base",
+					"displayName": "Durability Burn",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base",
+					"displayName": "Heat",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base",
+					"displayName": "Cooldown",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
 					"modifyType": "Base",
@@ -688,11 +786,11 @@
 			],
 			"vendor":
 			{
-				"rowName": "Kel_Tec_RFB",
+				"rowName": "Zarya_Flash_Grenade",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 4000,
+				"defaultMarketPrice": 4e+03,
 				"blackMarketPrice": 2
 			},
 			"bCanStack": false,
@@ -707,9 +805,11 @@
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.RFB Quad Rail Mount",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.AR-15 Colt A2 Rear Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -722,20 +822,26 @@
 				"Inventory.Items.Attachments.Sight.RFB Front Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Tactical.Inforce APLc Compact Flashlight",
 				"Inventory.Items.Attachments.Tactical.Inforce WMLx Flashlight",
+				"Inventory.Items.Attachments.Tactical.L3Harris NGAL",
 				"Inventory.Items.Attachments.Tactical.PEQ-15 LA-5 Tactical Device",
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
+				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
+				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "9c6f571d506dbc937e0981013c2e3d24"
+			"sourceHash": "4a008350253809a8a2c0960d5b6fbbe6"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SKS",
@@ -859,7 +965,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 1650,
+				"defaultMarketPrice": 1.65e+03,
 				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
@@ -876,7 +982,7 @@
 				"Inventory.Items.Attachments.Stock.SKS SAGE International SKSALCV Chassis",
 				"Inventory.Items.Attachments.Stock.SKS Wooden Stock"
 			],
-			"sourceHash": "9ecfe27b0926a2c34c60691b10fce96b"
+			"sourceHash": "f6fd0d08c2ff37f60957de7ec37c10d0"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SR-25",
@@ -1000,7 +1106,7 @@
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 8600,
+				"defaultMarketPrice": 8.6e+03,
 				"blackMarketPrice": 4
 			},
 			"bCanStack": false,
@@ -1028,9 +1134,11 @@
 				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.AR-15 Colt A2 Rear Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -1041,19 +1149,23 @@
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.AR-15 ACE Ultra Lite Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 Colt A2 Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Magpul UBR Buttstock",
+				"Inventory.Items.Attachments.Stock.AR-15 Odin Works Zulu Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "832ee79ad41ad3d4b4898437a129d0c9"
+			"sourceHash": "a1ef67a2ff2b02116acfb6961c2764d1"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.KAC LAMG",
@@ -1175,10 +1287,10 @@
 			{
 				"rowName": "KAC_LAMG",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 7.6e+03,
-				"blackMarketPrice": 3
+				"defaultMarketPrice": 5,
+				"blackMarketPrice": -1
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1198,9 +1310,11 @@
 				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.AR-15 Colt A2 Rear Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -1211,15 +1325,18 @@
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.LAMG Buffer Tube Stock"
 			],
-			"sourceHash": "42b0652b6a1bd6fd79d128b05bd6cdb8"
+			"sourceHash": "0d11923e972a31de18329c44a6765456"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.RPK-74",
@@ -1518,9 +1635,10 @@
 				"Inventory.Items.Attachments.Receiver.Five Seven Pistol Slide",
 				"Inventory.Items.Attachments.Tactical.Inforce APLc Compact Flashlight",
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
+				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "35e02acccd98612b1d7b95969728143f"
+			"sourceHash": "2a9eeb95967fbf11bdc157fba9d02a3a"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.Glock 19",
@@ -1658,9 +1776,10 @@
 				"Inventory.Items.Attachments.Receiver.TRIARC Glock 19 Slide",
 				"Inventory.Items.Attachments.Tactical.Inforce APLc Compact Flashlight",
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
+				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "6784da992521d0446ce5859bbd0c3b0b"
+			"sourceHash": "7bfec985fcc6408fc91a969d563f326e"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.M9A3",
@@ -1797,9 +1916,10 @@
 				"Inventory.Items.Attachments.Receiver.M9A3 Pistol Slide",
 				"Inventory.Items.Attachments.Tactical.Inforce APLc Compact Flashlight",
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
+				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "bc7240dfe242f9277eb9858f7943fbc0"
+			"sourceHash": "42cab409deea9c521db55445031125bd"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.P320",
@@ -1939,9 +2059,10 @@
 				"Inventory.Items.Attachments.Receiver.P320 Pistol Slide",
 				"Inventory.Items.Attachments.Tactical.Inforce APLc Compact Flashlight",
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
+				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "b1ae65f496db626821e10edd0ffcd803"
+			"sourceHash": "beddac6a18cef0cdebe426180c633e5a"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.QSZ-92",
@@ -3732,9 +3853,10 @@
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Tactical.Inforce APLc Compact Flashlight",
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
+				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "3ebbae6cc64766ca9ddaf4eed7b763c3"
+			"sourceHash": "bb5dd32a97874b99ea5403b3ed8a0c05"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Colt M4A1",
@@ -3897,10 +4019,12 @@
 				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.AR-15 Colt A2 Rear Sight",
 				"Inventory.Items.Attachments.Sight.CQ Carry Handle",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -3911,19 +4035,23 @@
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.AR-15 ACE Ultra Lite Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 Colt A2 Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Magpul UBR Buttstock",
+				"Inventory.Items.Attachments.Stock.AR-15 Odin Works Zulu Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "08430a063fb0dcf72a046cac7f0a30c8"
+			"sourceHash": "d3871d7d61137a62593cf12d2d3777c8"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.FN FAL",
@@ -4236,9 +4364,11 @@
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.NCSTAR MPR45 45 Degrees Offset Rail",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.AR-15 Colt A2 Rear Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -4249,20 +4379,26 @@
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Tactical.Inforce APLc Compact Flashlight",
 				"Inventory.Items.Attachments.Tactical.Inforce WMLx Flashlight",
+				"Inventory.Items.Attachments.Tactical.L3Harris NGAL",
 				"Inventory.Items.Attachments.Tactical.PEQ-15 LA-5 Tactical Device",
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
+				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
+				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "42495fcc947f69b49e33a1d4f3596310"
+			"sourceHash": "830683d06a1da5d4faa3d477fd71cb7a"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Honey Badger",
@@ -4414,8 +4550,10 @@
 				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -4423,20 +4561,24 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.AR-15 ACE Ultra Lite Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 Colt A2 Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Magpul UBR Buttstock",
+				"Inventory.Items.Attachments.Stock.AR-15 Odin Works Zulu Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube",
 				"Inventory.Items.Attachments.Stock.Honey Badger Stock"
 			],
-			"sourceHash": "ce886a7934f7afc890a61b407303f53c"
+			"sourceHash": "24d223025ca05db974db5d2c8df70de9"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.MK-47",
@@ -4518,6 +4660,33 @@
 					"effectTickInterval": 0
 				},
 				{
+					"tag": "Inventory.Stats.Durability Burn",
+					"value": 0.05,
+					"modifyType": "Base",
+					"displayName": "Durability Burn",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Heat",
+					"value": 0.05,
+					"modifyType": "Base",
+					"displayName": "Heat",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Cooldown",
+					"value": 0.05,
+					"modifyType": "Base",
+					"displayName": "Cooldown",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
 					"tag": "Inventory.Stats.Sighting Range",
 					"value": 2e+02,
 					"modifyType": "Base",
@@ -4563,8 +4732,10 @@
 				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -4572,19 +4743,23 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.AR-15 ACE Ultra Lite Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 Colt A2 Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Magpul UBR Buttstock",
+				"Inventory.Items.Attachments.Stock.AR-15 Odin Works Zulu Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "c847696a209b582f9f24255e1d3121b8"
+			"sourceHash": "2237dd46183097e96f97da29e0c3f161"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco CQ",
@@ -4747,10 +4922,12 @@
 				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.AR-15 Colt A2 Rear Sight",
 				"Inventory.Items.Attachments.Sight.CQ Carry Handle",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -4761,19 +4938,23 @@
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.AR-15 ACE Ultra Lite Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 Colt A2 Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Magpul UBR Buttstock",
+				"Inventory.Items.Attachments.Stock.AR-15 Odin Works Zulu Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "79c84a3b1e42fb65f3cc68ebb83e02d2"
+			"sourceHash": "59dd6ee4a2db39e3d8a4b05d10d002f6"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco QBZ-97",
@@ -5066,8 +5247,10 @@
 				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -5075,9 +5258,12 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
@@ -5088,7 +5274,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "aad5abb918a5b81df2c22ee4732f7155"
+			"sourceHash": "927b5f5eeb9d6700a7bf17ca29682e69"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Sig Sauer MCX Virtus",
@@ -5245,8 +5431,10 @@
 				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -5254,9 +5442,12 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
@@ -5267,7 +5458,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "7ad8f418e83d04b9ccbd8d74eed7138f"
+			"sourceHash": "41c68aef2553a45c58ce455f136b1f2f"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.STV-380",
@@ -5416,6 +5607,7 @@
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.NCSTAR MPR45 45 Degrees Offset Rail",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
@@ -5423,17 +5615,21 @@
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.STV-380 Rear Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Tactical.Inforce APLc Compact Flashlight",
 				"Inventory.Items.Attachments.Tactical.Inforce WMLx Flashlight",
+				"Inventory.Items.Attachments.Tactical.L3Harris NGAL",
 				"Inventory.Items.Attachments.Tactical.PEQ-15 LA-5 Tactical Device",
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
+				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
+				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "aad1a7d12ca2a560279705815478b993"
+			"sourceHash": "1415ec6cbf07b5afc43fac75554aa071"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.Benelli M2",
@@ -5724,8 +5920,10 @@
 				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -5733,19 +5931,23 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.AR-15 ACE Ultra Lite Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 Colt A2 Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Magpul UBR Buttstock",
+				"Inventory.Items.Attachments.Stock.AR-15 Odin Works Zulu Stock",
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "619ae8df1457eab05b2eaea91fa40fae"
+			"sourceHash": "9b7754a6d8a966a3d3a6bce530bf20f9"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.Saiga-12K",
@@ -6042,8 +6244,10 @@
 				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -6051,14 +6255,17 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "719eb722e5e8a58323f9ba5c6b1a9c5a"
+			"sourceHash": "bfa75c287e9baa75f9ff8c4141ede3e8"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.KRISS Vector 45ACP",
@@ -6210,8 +6417,10 @@
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.NCSTAR MPR45 45 Degrees Offset Rail",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -6219,9 +6428,12 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
@@ -6229,12 +6441,15 @@
 				"Inventory.Items.Attachments.Stock.KRISS Vector Stock Adapter",
 				"Inventory.Items.Attachments.Tactical.Inforce APLc Compact Flashlight",
 				"Inventory.Items.Attachments.Tactical.Inforce WMLx Flashlight",
+				"Inventory.Items.Attachments.Tactical.L3Harris NGAL",
 				"Inventory.Items.Attachments.Tactical.PEQ-15 LA-5 Tactical Device",
 				"Inventory.Items.Attachments.Tactical.Steiner CQBL-1 Laser",
+				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.SureFire Mini Scout Flashight",
+				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "4acb80221be02d623db52d4003740e8c"
+			"sourceHash": "520d4fb9035406868cbc7c97b03bc3d3"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MP5",
@@ -6826,8 +7041,10 @@
 				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -6835,9 +7052,12 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
@@ -6848,7 +7068,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "fe116576ba4cabd70130280c8ca86a2d"
+			"sourceHash": "e3d6dd92c4eb755db34b1b8aff137997"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.PP-19 Vitayz",
@@ -6988,6 +7208,7 @@
 				"Inventory.Items.Attachments.Mag.PP-19 9x19 30rnd",
 				"Inventory.Items.Attachments.Mag.PP-19 9x19 50rnd",
 				"Inventory.Items.Attachments.Muzzle.PP-19 Muzzle",
+				"Inventory.Items.Attachments.Muzzle.Rugged Obsidian 9 Suppressor",
 				"Inventory.Items.Attachments.Muzzle.SilencerCo Hybrid 46 Suppressor",
 				"Inventory.Items.Attachments.Muzzle.SilencerCo Osprey 45K Suppressor",
 				"Inventory.Items.Attachments.Muzzle.Surefire Ryder 9M TI Suppressor",
@@ -7002,7 +7223,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.PP-19 Stock"
 			],
-			"sourceHash": "9481fc2965bcbc4f9705a4b350abaf09"
+			"sourceHash": "f0a84908dc3a2481971ee3c50400494d"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.Remington M700",
@@ -7150,8 +7371,10 @@
 				"Inventory.Items.Attachments.Receiver.M700 AICS Chassis",
 				"Inventory.Items.Attachments.Receiver.M700 McMillan A5 Chassis",
 				"Inventory.Items.Attachments.Receiver.M700 MDT ESS Chassis",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -7159,14 +7382,17 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "565796dc8de64ecb97f1b9be65fc34c8"
+			"sourceHash": "c56f2568296bc09b66d623649e417da8"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.SRS A2",
@@ -7307,8 +7533,10 @@
 				"Inventory.Items.Attachments.Rail.GBRS Hydra Mount",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.Trijicon RMR Mount",
+				"Inventory.Items.Attachments.Sight.Aimpoint Acro P2 Sight",
 				"Inventory.Items.Attachments.Sight.Aimpoint Micro T1 Sight",
 				"Inventory.Items.Attachments.Sight.Elcan SpecterDR 1x/4x Scope",
+				"Inventory.Items.Attachments.Sight.Elcan SpecterDr 6x Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH CNVDT 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.EOTECH EXPS3 Holographic Sight",
 				"Inventory.Items.Attachments.Sight.EOTECH HHS-1 Hybrid_Sight",
@@ -7316,14 +7544,17 @@
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
+				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
+				"Inventory.Items.Attachments.Sight.Trijicon MRO Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Trijicon SkeetIR 1x Thermal Scope",
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "976c36cba86162194b83fee3c5a24d94"
+			"sourceHash": "fc21634272916ff689c561e142021653"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.SVDS",
