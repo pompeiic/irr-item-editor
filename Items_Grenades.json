@@ -79,12 +79,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 2.5e+02,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "503dfe566e4bcfad672843283f0d3250"
+			"sourceHash": "6321f615030e2fbfb91c85bd2f588fa0"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.M67 Hand Grenade",
@@ -164,12 +166,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 1.6e+02,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "d023dde8a3898c0bf06068b0cd895cbd"
+			"sourceHash": "b9d8fb9f63a2130bdc00896c9cb867a9"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.RGD_Smoke_Grenade",
@@ -249,12 +253,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 9e+01,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "7dcaedc17f7564d2abb1368ed9c959ea"
+			"sourceHash": "e127a95e6810783e2396e9a9193aa9b0"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.RGO Grenade",
@@ -334,12 +340,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 3e+02,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "1771e70511b288a4ab3949ae5af06088"
+			"sourceHash": "99e8a8e0f578b7c23395accaca353fb5"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.RGR Gas Grenade",
@@ -419,12 +427,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0437eea08d8a53349caa776b30512b1b"
+			"sourceHash": "8b11186c9a63f967252d8c9bfcdf5a8f"
 		}
 	],
 	"schemaSoftVersion": 4,
