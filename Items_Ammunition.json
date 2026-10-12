@@ -61,12 +61,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 3e+01,
 			"supportedItemTags": [],
-			"sourceHash": "f7185906d2faeb556e206c859c34c17f"
+			"sourceHash": "d69207557008105551ce353d1228cef5"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.12x70.Slug",
@@ -128,12 +130,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 6,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 3e+01,
 			"supportedItemTags": [],
-			"sourceHash": "61bc587201f6983efed841e32cfe9910"
+			"sourceHash": "0c786a217d93d96a9701dddd894fb9bf"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.45ACP.HS",
@@ -195,12 +199,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 4,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "cc6152a4b9721e55f464de371a8198e3"
+			"sourceHash": "60664233f7f9ea0fcdf316988213431f"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.545x39.BP",
@@ -262,12 +268,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 12,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "ecb146ce71773582b643ddde63f2fc99"
+			"sourceHash": "ff94c9178b1d8c5b5998c7f56f7afa9d"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.545x39.PS",
@@ -329,12 +337,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 3,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "695283a1dd630f8e32f0ce0488873850"
+			"sourceHash": "25779bcc17d31d118c6b26cff1365745"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.556x45.FMJ",
@@ -396,12 +406,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "7e1c8baf798afaec6ba81d0aa8460d4e"
+			"sourceHash": "e010dd0e8688643530e87b2b1c10e94d"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.556x45.M855",
@@ -463,12 +475,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 13,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "ceb5b2ae18084dfc0a37405b6fd2e5d4"
+			"sourceHash": "c0697741899042b884f81fc2656ab52a"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.57x28.SS198LF",
@@ -530,12 +544,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "8df048dd6191cd0e1c1231a4a58177d7"
+			"sourceHash": "f47f2bcab6fa76369119f1a9364d2b35"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.BP",
@@ -597,12 +613,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 17,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "307d1a9fbb8eb69e17b66c8c4f7758e3"
+			"sourceHash": "8f49812c5271f1f106d5f3f518ac48e2"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.HP",
@@ -664,12 +682,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 3,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "977c87644c29afcd92a8ef4402661f25"
+			"sourceHash": "2030237a00cd14e9d64740ccb0a1acd4"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x39.PS",
@@ -731,12 +751,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 8,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "85cac1934d9e63b44996c10a7a57c609"
+			"sourceHash": "69db9831e4fa99f31fc0e1403470ee3d"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x51.M62",
@@ -798,12 +820,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 4e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "00b619562bbc88863e32fe5dbc4fde91"
+			"sourceHash": "f165ab133634b4a832b40a7f6f61e657"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x51.M80",
@@ -865,12 +889,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "8249d19553aea6835a33d529aab9b752"
+			"sourceHash": "2b4ebf02fa342a59ad700a9757ad895f"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.762x54.R PS",
@@ -932,12 +958,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 9,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "fbe102277a943628ae0954f8cdd97f8b"
+			"sourceHash": "c0cd87b79fa8cd974b0366e8a612e586"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.9x19.AP6x3",
@@ -999,12 +1027,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 11,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "6b165e74476cd9ac8d31eb114645ff97"
+			"sourceHash": "32e856ea27ff57ce87843013fc958ecb"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.9x19.PSO",
@@ -1066,12 +1096,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 1,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "d922e002a8aaa333ce4cf568e31abff6"
+			"sourceHash": "3732308efba00d0d33175d035addd268"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x300 Blackout.M62",
@@ -1133,12 +1165,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "1d16cbdecd77196a4dc68e12047f4e10"
+			"sourceHash": "09af4337464f271426eca3a01e0d79db"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x300 Blackout.ME3",
@@ -1200,12 +1234,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 33,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "bada09eac3b67e8a60d57c34d18d4c06"
+			"sourceHash": "b8120b277dd766bbd1dd1ca0fe0a8523"
 		},
 		{
 			"itemTag": "Inventory.Items.Ammunition.Rounds.x338.AP",
@@ -1267,12 +1303,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 32,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 6e+01,
 			"supportedItemTags": [],
-			"sourceHash": "464e5b12c0cee519b3b56ff185eaf81c"
+			"sourceHash": "3bb2e9fcb520151fcf2052fa43fc06dd"
 		}
 	],
 	"schemaSoftVersion": 4,
