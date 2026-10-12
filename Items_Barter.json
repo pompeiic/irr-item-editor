@@ -25,12 +25,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
 				"defaultMarketPrice": 5.82e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a9a687560b3537c46e11bb2c157a11c5"
+			"sourceHash": "6b2a2210e4cd3628237e839d9fce9fe8"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Antique Water Pitcher",
@@ -56,12 +58,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
 				"defaultMarketPrice": 459,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "30bd4d7efd1d777440244cea8a9db1dd"
+			"sourceHash": "6fada5977ad5d694422ef96f80cabdcd"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Basketball",
@@ -87,12 +91,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 108,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "6b6ec952133ebdcbb0a1de35b21bd57f"
+			"sourceHash": "1cac44ece2a051244b02942b2369bb98"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Boardgame",
@@ -118,12 +124,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 2.5e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "ffcb4ee8a5119aad1e4a9dc0de76e5ab"
+			"sourceHash": "e3b881b99ec3b8470abb5b05e54688f9"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Book",
@@ -149,12 +157,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 8e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "92ca2f69df2efc709987a6438996b844"
+			"sourceHash": "17176905a311c31cda8dee6d1e214527"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Brandy",
@@ -180,12 +190,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
 				"defaultMarketPrice": 4.3e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c12bcde4f6872f4187642e0743e33216"
+			"sourceHash": "9690a9cc7a827c0e74aa16d65ef27c9c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Candle Holder",
@@ -211,12 +223,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 91,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "abb991b3ebc63718375a0a03829907e1"
+			"sourceHash": "2ab2ef30e7002fdb1c20439cb754fa34"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Candlestick",
@@ -242,12 +256,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
 				"defaultMarketPrice": 4e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0ebb6b34b0fd09eabd15a662810ca2be"
+			"sourceHash": "d9dd72e96f7af9203a12bdccbc74c6d7"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Cat Figure",
@@ -273,12 +289,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "None",
 				"defaultMarketPrice": 1.03e+04,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "8745d14461cae00962a8d7f0f37c596f"
+			"sourceHash": "d6041e9d9cb53f08f30509a66faf19fa"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Compass",
@@ -304,12 +322,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
 				"defaultMarketPrice": 834,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "8be68861b753b343270cd2502c5341b2"
+			"sourceHash": "bfaf030404fad311d06947159c6f0147"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Cuban Cigar",
@@ -335,12 +355,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
 				"defaultMarketPrice": 1.2e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "d29d5df050ecca80821587ab0f073f58"
+			"sourceHash": "a7f424b2a3e573c53e2f9b45398fb3fd"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Earth Globe",
@@ -366,12 +388,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 93,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "70f6789f1cc3197c309515222fc2811f"
+			"sourceHash": "b0393acc07da36a0fec3b5245d143a48"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Film Case",
@@ -397,12 +421,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.FANG",
 				"defaultMarketPrice": 433,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c0d4a546369c57af722a0ebd5c51faba"
+			"sourceHash": "1a112c8c071f7fbf67d56f361b2338ca"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Bangle",
@@ -428,12 +454,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "None",
 				"defaultMarketPrice": 2e+04,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "eeee50f4a4cc847bbc3ed1154b70edaf"
+			"sourceHash": "2088089a2a36957ffe8109bbdfe56e72"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Mirror",
@@ -459,12 +487,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
 				"defaultMarketPrice": 8.65e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "e1652ad3b04f8d14f39c5461a0bcd7ec"
+			"sourceHash": "95fd2257ea330f6920ad0f128a0503ff"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Ring",
@@ -490,12 +520,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "None",
 				"defaultMarketPrice": 15111,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "35ebdb3052ca995a795ffd3496c20333"
+			"sourceHash": "56f65c4ce6f279acc13df9221da9876a"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Golden Watering Can",
@@ -521,12 +553,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "None",
 				"defaultMarketPrice": 1.34e+04,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "33967601aeca9540d32f4f7b84013bc4"
+			"sourceHash": "25579148cf1db267d1f74bccdba48c5d"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Inca Vase",
@@ -552,12 +586,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
 				"defaultMarketPrice": 2.01e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b7179f0de0b2add8f08df8d0e2daa97e"
+			"sourceHash": "6257ba3e2088fcb0dc214c58a9636859"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Luxury Tobacco Cigar",
@@ -583,12 +619,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 198,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "6f62552f2fc2bda7c9339625ceaf4fa5"
+			"sourceHash": "52e09556ce6322111300bb83983c56f5"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Marlboro Red Cigarettes",
@@ -614,12 +652,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 2e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "27f7674f1884aa5591274357fb9c3243"
+			"sourceHash": "0d764fce3a7589d891b978a59dc81a6c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Matryoshka",
@@ -645,12 +685,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "None",
 				"defaultMarketPrice": 12882,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "7c2c7f4415924578aef199a14b816918"
+			"sourceHash": "28c6bc348d891a2f4a5fe65c1cefe47f"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Puzzle Cube",
@@ -676,12 +718,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 8e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "9e6af86e560923cac7268661c89f27f1"
+			"sourceHash": "8517d2be6cc3e9988e2ff90779c94eb8"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Silver Pearls",
@@ -707,12 +751,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "None",
 				"defaultMarketPrice": 13327,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "6c9a9de572194958605518baaa8f109f"
+			"sourceHash": "af3dccfc259973656117e2f52cafba02"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Soccer Trophy",
@@ -738,12 +784,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 987,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c40cc854ae60c1e15d169eb149a104ae"
+			"sourceHash": "d29afc0c1f245ce10d18aff588d7e09d"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Soviet Figure",
@@ -769,12 +817,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 3.5e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "8b43348f20d80c4ba5695d8744d31da7"
+			"sourceHash": "d3a395cf68d10321097d901a73e00444"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Collectibles.Thang Long Cigarettes",
@@ -800,12 +850,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 1.8e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "7c4b46f5f909c8c9cf07b2da0de34e13"
+			"sourceHash": "d48da136621a8a5131075c8117084d44"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Battery 18650",
@@ -831,12 +883,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 9,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "95f6562c680a9cd2f9d5eda19873f916"
+			"sourceHash": "82f5039fe121f594b8cacca7e656e6b0"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Battery Car",
@@ -862,12 +916,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 9e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "7552bfedfe47c8e7c88f0f16c20c0ab1"
+			"sourceHash": "d1baa4ea7de047459edb27516eef8362"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Battery PP3",
@@ -893,12 +949,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 5.2e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "59a9ed438648fa86e2c38dc2ed055c62"
+			"sourceHash": "71e37c39e12f77fe3c42b3fe188dc3a9"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.DLSR Camera",
@@ -924,12 +982,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
 				"defaultMarketPrice": 925,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "43a2e5569f2ba03043aeef741314973f"
+			"sourceHash": "f2bbae832be04c4c7222fef78f38551f"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Field Radio",
@@ -955,12 +1015,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 95,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "2f629742bd421612e80fe6d1145dc9f5"
+			"sourceHash": "f83f4e4f69e69ccaea9cd961d93d6aef"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Generator",
@@ -986,12 +1048,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.FANG",
 				"defaultMarketPrice": 6.2e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a140bc18f9fa5269534c20b831c60293"
+			"sourceHash": "5880d4f6f830662bb93c14a7a8c225c0"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Graphics Card",
@@ -1017,12 +1081,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
 				"defaultMarketPrice": 2532,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "ce699f64e92f499edb6a7db020f29212"
+			"sourceHash": "4d575b89d541ff9b6d301aa4bd81ffbc"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Hard Drive",
@@ -1048,12 +1114,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 3173,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "58028e23892b6829b953929ec0dc137a"
+			"sourceHash": "d1af92b518dc3537cd2b1e4e5e5030f0"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.HDMI Cable",
@@ -1079,12 +1147,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 48,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "bfaacc4da5c60cbf7a486ae63b47c89c"
+			"sourceHash": "b4bc2b68d250ca7f39612fe534729df3"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Kestrel 5700X",
@@ -1110,12 +1180,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
 				"defaultMarketPrice": 4261,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "7b3c4254544a4540c01886423a9432f2"
+			"sourceHash": "06f8b310fd8a83017f94739ce5598741"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Military Laptop",
@@ -1141,12 +1213,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "Mission.Faction.FANG",
 				"defaultMarketPrice": 1.2e+04,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "fbfb371365942c3303975a9399653ddb"
+			"sourceHash": "6a715a45210010ca04c139ee34ec96f6"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Military Radio",
@@ -1172,12 +1246,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 2465,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "9c17db8271a59ab3367172795002853d"
+			"sourceHash": "23085e91070c9c20c883e7bed2c8298a"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Mining Battery",
@@ -1203,12 +1279,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.FANG",
 				"defaultMarketPrice": 5394,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "36dbba4137a33ac0024873823491abd6"
+			"sourceHash": "313b5888aa072002ead1a6c25eb849e7"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Motherboard",
@@ -1234,12 +1312,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
 				"defaultMarketPrice": 628,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "920d954c197b4c2d64dcd266cf422003"
+			"sourceHash": "606b5ae3a0d1599c98fe24eee2f27b93"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Old Communicator",
@@ -1265,12 +1345,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 354,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "8f4bfb3c0d47a343c7322e9bf1fa524c"
+			"sourceHash": "3b6cffc0c7013690c1623d095c35d65c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Old Flashlight",
@@ -1296,12 +1378,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 23,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "91e2b7964c32e3958f4663da5083a895"
+			"sourceHash": "d82de42686eb5bb3fe7057a3dca8a976"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Old Radio",
@@ -1327,12 +1411,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 94,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "6b0afbbf15cce194733d3b377df19739"
+			"sourceHash": "eb6f7b022dd566bcadbd550e144d2de5"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Power Cable",
@@ -1358,12 +1444,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 133,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "508c8ec8d685571e110e2cac1cebc9d2"
+			"sourceHash": "17770b8e5baaa17d7d9abd3293d3f523"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Rebar Cutter",
@@ -1389,12 +1477,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
 				"defaultMarketPrice": 8.23e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "61d5ec73a5659d612409dc8a76dfaa7d"
+			"sourceHash": "750c794e2d5951a3a7fc0837f17d636d"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Spotlight",
@@ -1420,12 +1510,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 378,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "42345b960c4a6f7f985423c55fdd540a"
+			"sourceHash": "014b3609c57991343cf7bb7080d366e5"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Electronics.Walkie Talkie",
@@ -1451,12 +1543,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 235,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "eddc796a9da3660344d06cbbb84a12af"
+			"sourceHash": "1403e67e8db6a2f09d00f34c3c3a773e"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Bathroom Cleaner",
@@ -1482,12 +1576,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 13,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "763aa6e581be19e9db9f4d0c62f98a5e"
+			"sourceHash": "e00e186dbe07b9b4c41bf60f9c2d807b"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Bed Roll",
@@ -1513,12 +1609,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 1.2e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "cabdc5af098e9dda26310a25e4e6183a"
+			"sourceHash": "408ac6a41f4fd83de51c46f3af8c7a29"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Canteen",
@@ -1544,12 +1642,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 112,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0cc364c9664502094a6aa0a645322562"
+			"sourceHash": "7178e6c557d6c8008059685dc3ae0ada"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Collagen",
@@ -1575,12 +1675,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 81,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "4622de57fa5652a5ee699f9925233147"
+			"sourceHash": "425ac764554076132a5bc1482ad08ea2"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Food Container",
@@ -1606,12 +1708,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 51,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "7f52c3d066f275c9dba9470f241445c3"
+			"sourceHash": "0b8eedb095692de4f452a165f260743c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Marker",
@@ -1637,12 +1741,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 3e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "07fcec1493ad6a6c46bb59aa0d4900d5"
+			"sourceHash": "a49c8c404cd749bc84ee94435a92fdba"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Misprinted Condensed Milk",
@@ -1704,12 +1810,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 6e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b8ee2a2af46f271b00a2b15df1d0da21"
+			"sourceHash": "590ef40dcf49e07f028d32d0c98a81f1"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Old Chemical Bottle",
@@ -1735,12 +1843,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 86,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "90a5100f4a047dcc6fd6cab8a27eebb3"
+			"sourceHash": "b6556f5cda06124d2f8c1c7347996a0d"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Paintbrush",
@@ -1766,12 +1876,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 8e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "559961ef6df9b1b9750da9bc2bd72a38"
+			"sourceHash": "a3ecbfee46018b9d6308a5bf4a76ee00"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Polishing Oil",
@@ -1797,12 +1909,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 173,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "67d162de28c8d7743157676a2d3a0a54"
+			"sourceHash": "443e66dc9a060be943ef57b33f25d5cd"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Prepped Meal",
@@ -1828,12 +1942,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 6e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 3,
 			"supportedItemTags": [],
-			"sourceHash": "4f208fc7c6a6e4f6780ad6a875b1fb5a"
+			"sourceHash": "569e6a9aa05d023580197d0fc9b9148a"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Rope",
@@ -1859,12 +1975,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 8e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a4a74092158f4fc52d200744d30e5740"
+			"sourceHash": "36748dc2b0796725633c87a31f1ee98f"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Shampoo",
@@ -1890,12 +2008,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 43,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a293b6a3ebdb7fc9e146a69504ad2550"
+			"sourceHash": "16d3bfd1264272c4e45821c04668e6db"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Shaving Cream",
@@ -1921,12 +2041,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 39,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "6a7e438262ec06efd936ab063a4b6480"
+			"sourceHash": "58494b5043c3f67385b3992127bb8ed3"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Soap",
@@ -1952,12 +2074,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 7,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a548fdbdc7800762e468ebd48cdd13b9"
+			"sourceHash": "b74993e677491c5b35a6ac0a1ac85170"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Spraycan",
@@ -1983,12 +2107,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 25,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "f7f62a71bd3aa0f934bc72889de56323"
+			"sourceHash": "3b32c3104bc5dc7550b16c7dcd67a9cf"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Household Items.Vodka",
@@ -2014,12 +2140,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 185,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "5808688d15cfb4bad3b54d1fff6cb0e5"
+			"sourceHash": "a7c6c4741b461665891fd667e523763e"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Bolt Cutter",
@@ -2045,12 +2173,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 2e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "7fdb4caaeab0a3b396d821e61eaa2208"
+			"sourceHash": "d4374de3be39cc3ae34157f8cea4c680"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Clamp",
@@ -2076,12 +2206,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 63,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "fe0e446c2261039ca947d5fde53e8b70"
+			"sourceHash": "10a1f233953cd8055f38ba063d242d1f"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Duct Tape",
@@ -2107,12 +2239,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 2e+01,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "815634cadf1eca0ac7d8bf51fd9e9027"
+			"sourceHash": "2b310971cc2006cd11639e2872c52b16"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Fan",
@@ -2138,12 +2272,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 108,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "14627c959309be0f214c9f96603482a3"
+			"sourceHash": "ca12074b666f4b3035abcc7bc8dfea27"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Fuel",
@@ -2169,12 +2305,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 1.9e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "2d93faf95f1fe34ee0bc862a884252e0"
+			"sourceHash": "9df65c27c44d36df6c684c76ec7196e9"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Gas Can",
@@ -2200,12 +2338,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 178,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "9542af5ab169cbbd6eaf4e55db5c848e"
+			"sourceHash": "8b46a9d658ed788e01786bf05fcb5ff3"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Hammer",
@@ -2231,12 +2371,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 23,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "8ab0a529c282d755b266702ca3f4c83c"
+			"sourceHash": "2d43cf000f1a3493250089f92279bc79"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Hesco Armor Plate",
@@ -2262,12 +2404,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 8e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "ac573a2f60d6ab0b388485f966a825b1"
+			"sourceHash": "1d52fe7cc77889ee7361e25e69dbcde5"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Nails",
@@ -2293,12 +2437,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 36,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "4736123e059248f8598743f54dff66b6"
+			"sourceHash": "194847ba43d1b9db5061ed1de873c785"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Nylon Fabric",
@@ -2324,12 +2470,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 2e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 1e+01,
 			"supportedItemTags": [],
-			"sourceHash": "727b6936c68b18e3dd47196ffe8b208a"
+			"sourceHash": "475dd64a6d2e415f026db306a57c48ac"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Plastic Wire Spool",
@@ -2355,12 +2503,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 972,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "afb69c422c44b81cf3a200b7f75eadbc"
+			"sourceHash": "8f48a93bd7cd5052441210b317fa800c"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Polyester Fabric",
@@ -2386,12 +2536,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 1.2e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 1e+01,
 			"supportedItemTags": [],
-			"sourceHash": "bac0ec989f149adcd3a4daf60ae3a340"
+			"sourceHash": "90346a7ba50b4643ec3fdc90029f99d3"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Saw",
@@ -2417,12 +2569,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 2e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "e444bfeeea8495310d1a44876424adcf"
+			"sourceHash": "cdf2c67469f746b5d15b67c2181a6950"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Sewing Kit",
@@ -2448,12 +2602,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 1.5e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "bc9ac9af63eb2f6bafb9cb314b62700b"
+			"sourceHash": "22663a0f1f42baa3afe4dcd9dc1a1b09"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Staple Gun",
@@ -2479,12 +2635,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 8e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "467b47b9cbb8f89d1e6b1b1afbe5b1a7"
+			"sourceHash": "75cf8fd842b4d76edbe2febbd7977ad1"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.Toolbox",
@@ -2510,12 +2668,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
 				"defaultMarketPrice": 3.2e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "e76c0f25412b03be5438cc6b22cab2dc"
+			"sourceHash": "edaf574368b4d4745e9f7d3aa22ff4c2"
 		},
 		{
 			"itemTag": "Inventory.Items.Barter.Tools.WD40 Spray",
@@ -2541,12 +2701,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 5e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "2560db50b9f5078dd299b5ee541f88bb"
+			"sourceHash": "8c30b03d1be1c0b11325d8a41471d747"
 		}
 	],
 	"schemaSoftVersion": 4,
