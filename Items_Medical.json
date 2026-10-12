@@ -52,12 +52,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 15,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "2c567ed41557b37ef0d337b67a3c0921"
+			"sourceHash": "5e303a94e6d4481b7ae14a24f6259643"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Health Injector",
@@ -110,12 +112,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 4.3e+02,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "6fea4a8e791b350a33f479745889d7f6"
+			"sourceHash": "5e3539922f2d4cfa4d72c89582bccf71"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Painkiller",
@@ -159,12 +163,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "6f8f8e5cc48a4c27e6d4c819bece517b"
+			"sourceHash": "bf2951a21bb540e63b202610a2345d6e"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Revive Syringe",
@@ -208,12 +214,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 3e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "9ca02f2d7865d754aadb7f3eef979c6b"
+			"sourceHash": "001cab480ab1a708f57e2a5110ccb0fd"
 		}
 	],
 	"schemaSoftVersion": 4,
