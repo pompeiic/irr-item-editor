@@ -124,7 +124,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 7.3e+03,
-				"blackMarketPrice": 3
+				"blackMarketPrice": 3,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -164,11 +166,11 @@
 				"Inventory.Items.Attachments.Sight.KAC Folding Micro Rear Sight",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -186,7 +188,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "3fbc4fd63b2e4ff5640cb03feea69fbb"
+			"sourceHash": "605c99dc17abbb8e1a026990ec23deda"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.Galil Ace",
@@ -311,7 +313,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 4.9e+03,
-				"blackMarketPrice": 3
+				"blackMarketPrice": 3,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -350,11 +354,11 @@
 				"Inventory.Items.Attachments.Sight.KAC Folding Micro Rear Sight",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -378,7 +382,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "27bac5b424ee47b33cbe73e12ec3dcbb"
+			"sourceHash": "415fedb8693904eb9d4a6ea6ea6a62be"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.M14",
@@ -503,7 +507,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 3.1e+03,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -522,7 +528,7 @@
 				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
 				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
 			],
-			"sourceHash": "ed3685fd474028dbf336dbf2c99730fd"
+			"sourceHash": "2330f20b4a3ee4309272e15b24c39a5b"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.Norinco M305",
@@ -647,7 +653,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.4e+03,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -666,7 +674,7 @@
 				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
 				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
 			],
-			"sourceHash": "a4abc0c56ee2f362bb4aea8e50a038f1"
+			"sourceHash": "25a54770e929bbb0a658f32e0ed0d31d"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.RFB",
@@ -791,7 +799,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 4e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -818,12 +828,12 @@
 				"Inventory.Items.Attachments.Sight.KAC Folding Micro Rear Sight",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Front Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -841,7 +851,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "4a008350253809a8a2c0960d5b6fbbe6"
+			"sourceHash": "28067340ca12a7f505877f7986e3fbb9"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SKS",
@@ -966,7 +976,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1.65e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -982,7 +994,7 @@
 				"Inventory.Items.Attachments.Stock.SKS SAGE International SKSALCV Chassis",
 				"Inventory.Items.Attachments.Stock.SKS Wooden Stock"
 			],
-			"sourceHash": "f6fd0d08c2ff37f60957de7ec37c10d0"
+			"sourceHash": "aa62b8b1ea7931ac50f4790c100c6aef"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SR-25",
@@ -1107,7 +1119,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 8.6e+03,
-				"blackMarketPrice": 4
+				"blackMarketPrice": 4,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1146,11 +1160,11 @@
 				"Inventory.Items.Attachments.Sight.KAC Folding Micro Rear Sight",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -1165,7 +1179,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "a1ef67a2ff2b02116acfb6961c2764d1"
+			"sourceHash": "e42c643931052c09129b1e0200c58eac"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.KAC LAMG",
@@ -1290,7 +1304,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 5,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1322,11 +1338,11 @@
 				"Inventory.Items.Attachments.Sight.KAC Folding Micro Rear Sight",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -1336,7 +1352,7 @@
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.LAMG Buffer Tube Stock"
 			],
-			"sourceHash": "0d11923e972a31de18329c44a6765456"
+			"sourceHash": "939eb03855890b117e1790658f9c9cbd"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.RPK-74",
@@ -1461,7 +1477,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 4.3e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1497,7 +1515,7 @@
 				"Inventory.Items.Attachments.Sight.PSO-1 4x24 Scope",
 				"Inventory.Items.Attachments.Stock.RPK-74 Folding Stock"
 			],
-			"sourceHash": "8cf000db2c31e30c71dc68404bcde6a0"
+			"sourceHash": "c418f38a924231fcdc2f9509624ccf9f"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.FN Five Seven",
@@ -1622,7 +1640,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 1792,
-				"blackMarketPrice": 4
+				"blackMarketPrice": 4,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1638,7 +1658,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "2a9eeb95967fbf11bdc157fba9d02a3a"
+			"sourceHash": "20b1370b131bb6d008bc68a64004f7c7"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.Glock 19",
@@ -1763,7 +1783,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 1.1e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1779,7 +1801,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "7bfec985fcc6408fc91a969d563f326e"
+			"sourceHash": "31c2268ab0842b9ec377414ea5a52eab"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.M9A3",
@@ -1904,7 +1926,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 9e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1919,7 +1943,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "42cab409deea9c521db55445031125bd"
+			"sourceHash": "d1e9786b4f7c29c8ff9549fdd8805484"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.P320",
@@ -2044,7 +2068,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 8.3e+02,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -2062,7 +2088,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "beddac6a18cef0cdebe426180c633e5a"
+			"sourceHash": "58526cf3524bc0102e674705c4fec5b5"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.QSZ-92",
@@ -2187,7 +2213,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 6e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -2197,7 +2225,7 @@
 				"Inventory.Items.Attachments.Mag.QSZ-92 9x19 15rnd",
 				"Inventory.Items.Attachments.Receiver.QSZ-92 Pistol Slide"
 			],
-			"sourceHash": "e45b4c55afcfc5f25a601f5ef73c69b4"
+			"sourceHash": "80d835503e3a13cf61fce076445c17a4"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-101",
@@ -2322,7 +2350,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.82e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -2364,7 +2394,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "a6edec6535d6ea5ccf70fdbb0e602ced"
+			"sourceHash": "145fd3d41d0dfe0254a9bfa030506c7f"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-102",
@@ -2489,7 +2519,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.05e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -2531,7 +2563,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "8676d9d46705e7d7884ff6c87153ad70"
+			"sourceHash": "3f4668fab21c16a70a704ce624ffd16a"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-103",
@@ -2656,7 +2688,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.38e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -2700,7 +2734,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "0e8a6c1a26621f4903291ab201a8049c"
+			"sourceHash": "41f5c1dab0b9ffbc6c924978daf56763"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-104",
@@ -2825,7 +2859,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 3.15e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -2869,7 +2905,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "d747fe6d16eccab91a10eee538170cda"
+			"sourceHash": "0bdc9dbc3b70c9f47e10418f5c08be36"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-105",
@@ -2994,7 +3030,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 2885,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -3043,7 +3081,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "ef628c70930a8ef39efbc4527edb470d"
+			"sourceHash": "0fc30661bcb3f4deedc2230e41d338d4"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-12",
@@ -3168,7 +3206,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 4.11e+03,
-				"blackMarketPrice": 3
+				"blackMarketPrice": 3,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -3196,7 +3236,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "91d4f7a5cb359ad7f66cc645aca944f5"
+			"sourceHash": "c0e01ed05a5d41ade588315c8e054943"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-74M",
@@ -3321,7 +3361,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 2.1e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -3370,7 +3412,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "32a586f10bb84f53baff56bbc38eb822"
+			"sourceHash": "779bf6ed93d485a8b39eb88927aa761a"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AKS-74",
@@ -3495,7 +3537,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 1.99e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -3542,7 +3586,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AKS-74U Stock"
 			],
-			"sourceHash": "23dce8e0a9a980e354dd39d5d9152381"
+			"sourceHash": "708a8e6f6490926ae0b28493ab915152"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AKS-74U",
@@ -3667,7 +3711,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 1725,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -3706,7 +3752,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AKS-74U Stock"
 			],
-			"sourceHash": "db643e9fbecfb0fd8fcd1f432eecd978"
+			"sourceHash": "9dc5f13bc42c31ff1becc8708950c778"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AUG A3",
@@ -3831,7 +3877,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.29e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -3856,7 +3904,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "bb5dd32a97874b99ea5403b3ed8a0c05"
+			"sourceHash": "57b70006f525f199d4631c4a7c8c3496"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Colt M4A1",
@@ -3981,7 +4029,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2.45e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -4032,11 +4082,11 @@
 				"Inventory.Items.Attachments.Sight.KAC Folding Micro Rear Sight",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -4051,7 +4101,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "d3871d7d61137a62593cf12d2d3777c8"
+			"sourceHash": "cadef12ccfcc09e2825116b0efbe4c6a"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.FN FAL",
@@ -4176,7 +4226,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 6.4e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -4205,7 +4257,7 @@
 				"Inventory.Items.Attachments.Stock.FAL Standard Stock",
 				"Inventory.Items.Attachments.Stock.FAL Wooden Stock"
 			],
-			"sourceHash": "ab5575a97d12e15ddb040461547032a1"
+			"sourceHash": "003be7cc61e75b0efb319151d9da2f78"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.FN SCAR-L",
@@ -4330,7 +4382,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 3.97e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -4376,11 +4430,11 @@
 				"Inventory.Items.Attachments.Sight.KAC Folding Micro Rear Sight",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -4398,7 +4452,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "830683d06a1da5d4faa3d477fd71cb7a"
+			"sourceHash": "aee406c808866f3b0d5ecc8789d77efb"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Honey Badger",
@@ -4523,7 +4577,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 6976,
-				"blackMarketPrice": 4
+				"blackMarketPrice": 4,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -4560,9 +4616,9 @@
 				"Inventory.Items.Attachments.Sight.EOTECH Vudu 1-6x Scope",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -4578,7 +4634,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube",
 				"Inventory.Items.Attachments.Stock.Honey Badger Stock"
 			],
-			"sourceHash": "24d223025ca05db974db5d2c8df70de9"
+			"sourceHash": "c1caa183c76cbee5f2ea3fbe801b7ddc"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.MK-47",
@@ -4703,7 +4759,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 4.6e+03,
-				"blackMarketPrice": 3
+				"blackMarketPrice": 3,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -4742,9 +4800,9 @@
 				"Inventory.Items.Attachments.Sight.EOTECH Vudu 1-6x Scope",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -4759,7 +4817,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "2237dd46183097e96f97da29e0c3f161"
+			"sourceHash": "a2ce884d1e419c4b58c989dfd7336113"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco CQ",
@@ -4884,7 +4942,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1264,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -4935,11 +4995,11 @@
 				"Inventory.Items.Attachments.Sight.KAC Folding Micro Rear Sight",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.RFB Rear Sight",
 				"Inventory.Items.Attachments.Sight.SCAR Rear Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -4954,7 +5014,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "59dd6ee4a2db39e3d8a4b05d10d002f6"
+			"sourceHash": "561e8b15c0175179c0abe6e8c4026814"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco QBZ-97",
@@ -5079,7 +5139,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1.65e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -5098,7 +5160,7 @@
 				"Inventory.Items.Attachments.Sight.QBZ-97 Y-MA-95-1-600 3x Scope",
 				"Inventory.Items.Attachments.Stock.QBZ-97 Cheek Rest"
 			],
-			"sourceHash": "1966f87dc1b5683cbba428aa2d2f949a"
+			"sourceHash": "55e30f0179ee55c5815acc32f9355091"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Sig Sauer MCX Rattler",
@@ -5223,7 +5285,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 3.3e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -5257,9 +5321,9 @@
 				"Inventory.Items.Attachments.Sight.EOTECH Vudu 1-6x Scope",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -5274,7 +5338,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "927b5f5eeb9d6700a7bf17ca29682e69"
+			"sourceHash": "2b00fb666b5f0acb314fe2eea83f0622"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Sig Sauer MCX Virtus",
@@ -5399,7 +5463,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 5.93e+03,
-				"blackMarketPrice": 3
+				"blackMarketPrice": 3,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -5441,9 +5507,9 @@
 				"Inventory.Items.Attachments.Sight.EOTECH Vudu 1-6x Scope",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -5458,7 +5524,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "41c68aef2553a45c58ce455f136b1f2f"
+			"sourceHash": "5413112d7af491e8266392a40eee62f1"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.STV-380",
@@ -5583,7 +5649,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 3.11e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -5602,7 +5670,6 @@
 				"Inventory.Items.Attachments.Mag.AK 762x39 20rnd",
 				"Inventory.Items.Attachments.Mag.AK 762x39 Bakelite 30rnd",
 				"Inventory.Items.Attachments.Mag.AK Magpul PMAG GEN M3 762x39 30Rnd",
-				"Inventory.Items.Attachments.Mag.AK Molot Arms 762x39 75Rnd",
 				"Inventory.Items.Attachments.Mag.Z111 762x39 30rnd",
 				"Inventory.Items.Attachments.Rail.Leupold DeltaPoint Mount",
 				"Inventory.Items.Attachments.Rail.NCSTAR MPR45 45 Degrees Offset Rail",
@@ -5629,7 +5696,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "1415ec6cbf07b5afc43fac75554aa071"
+			"sourceHash": "7c8a7ca7c16a34b22ef4b4e3ecdd8c7e"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.Benelli M2",
@@ -5754,7 +5821,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 3.2e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -5774,7 +5843,7 @@
 				"Inventory.Items.Attachments.Stock.M2 ComforTech Field Stock",
 				"Inventory.Items.Attachments.Stock.M2 Tactical Pistol Grip Stock"
 			],
-			"sourceHash": "25039667a363620103b20a13d2968b24"
+			"sourceHash": "0975d6e19382bdcd3f70eeef3d6fb3c0"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.RIA VR80",
@@ -5899,7 +5968,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 5192,
-				"blackMarketPrice": 3
+				"blackMarketPrice": 3,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -5930,9 +6001,9 @@
 				"Inventory.Items.Attachments.Sight.EOTECH Vudu 1-6x Scope",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -5947,7 +6018,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "9b7754a6d8a966a3d3a6bce530bf20f9"
+			"sourceHash": "bf6f88860f5fe593b5fa51dc0daa80c4"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.Saiga-12K",
@@ -6072,7 +6143,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 4.87e+03,
-				"blackMarketPrice": 3
+				"blackMarketPrice": 3,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -6104,7 +6177,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "e626a0070de0206566bc40c6608c7a71"
+			"sourceHash": "940a5268c29d562248950195d10e64cc"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.FN P90",
@@ -6229,7 +6302,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 5226,
-				"blackMarketPrice": 3
+				"blackMarketPrice": 3,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -6254,9 +6329,9 @@
 				"Inventory.Items.Attachments.Sight.EOTECH Vudu 1-6x Scope",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -6265,7 +6340,7 @@
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "bfa75c287e9baa75f9ff8c4141ede3e8"
+			"sourceHash": "07ae486bf28da60a738401aeba21943e"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.KRISS Vector 45ACP",
@@ -6390,7 +6465,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 6.01e+03,
-				"blackMarketPrice": 3
+				"blackMarketPrice": 3,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -6427,9 +6504,9 @@
 				"Inventory.Items.Attachments.Sight.EOTECH Vudu 1-6x Scope",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -6449,7 +6526,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "520d4fb9035406868cbc7c97b03bc3d3"
+			"sourceHash": "204e6e9982a4c0260f692d1e3c7f814d"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MP5",
@@ -6574,7 +6651,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1.7e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -6596,7 +6675,7 @@
 				"Inventory.Items.Attachments.Stock.MP5 A3 Fixed Buttstock",
 				"Inventory.Items.Attachments.Stock.MP5 End-Cap Buttstock"
 			],
-			"sourceHash": "9e8b3dd78fef5f840308dcf2c3aad5bb"
+			"sourceHash": "fef8452eaffeb2a98be1f1acb2de92de"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MP5k",
@@ -6721,7 +6800,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 7.7e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -6742,7 +6823,7 @@
 				"Inventory.Items.Attachments.Stock.MP5 A3 Fixed Buttstock",
 				"Inventory.Items.Attachments.Stock.MP5 End-Cap Buttstock"
 			],
-			"sourceHash": "36adc537a5c9cbbb5bd803e24e3eaa19"
+			"sourceHash": "828f9d9aeac5e200d4e0d6ac3fc4e6c5"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MP5SD",
@@ -6867,7 +6948,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 5892,
-				"blackMarketPrice": 3
+				"blackMarketPrice": 3,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -6883,7 +6966,7 @@
 				"Inventory.Items.Attachments.Stock.MP5 A3 Fixed Buttstock",
 				"Inventory.Items.Attachments.Stock.MP5 End-Cap Buttstock"
 			],
-			"sourceHash": "330a5a6ac8743b92c8fed12ae5e5673f"
+			"sourceHash": "e3ae695b1306c120708e1bc9e92ea78e"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MPX",
@@ -7008,7 +7091,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 4.11e+03,
-				"blackMarketPrice": 3
+				"blackMarketPrice": 3,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -7051,9 +7136,9 @@
 				"Inventory.Items.Attachments.Sight.EOTECH Vudu 1-6x Scope",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -7068,7 +7153,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "e3d6dd92c4eb755db34b1b8aff137997"
+			"sourceHash": "629c5f0f389e1d3cc9a78a412ffac37b"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.PP-19 Vitayz",
@@ -7193,7 +7278,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1.15e+03,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -7223,7 +7310,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.PP-19 Stock"
 			],
-			"sourceHash": "f0a84908dc3a2481971ee3c50400494d"
+			"sourceHash": "70acbc00bb53923e8e8c8ab7f5222828"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.Remington M700",
@@ -7348,7 +7435,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 3.65e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -7381,9 +7470,9 @@
 				"Inventory.Items.Attachments.Sight.EOTECH Vudu 1-6x Scope",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -7392,7 +7481,7 @@
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "c56f2568296bc09b66d623649e417da8"
+			"sourceHash": "c3e695d8761a6374d8aff0bc648e9508"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.SRS A2",
@@ -7517,7 +7606,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 9.73e+03,
-				"blackMarketPrice": 4
+				"blackMarketPrice": 4,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -7543,9 +7634,9 @@
 				"Inventory.Items.Attachments.Sight.EOTECH Vudu 1-6x Scope",
 				"Inventory.Items.Attachments.Sight.Leupold Carbine Optic Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Leupold HAMR 4x24 Hybrid Scope",
+				"Inventory.Items.Attachments.Sight.Nightforce ATACR 4-16x42 Scope",
 				"Inventory.Items.Attachments.Sight.OKP-77 Reflex Sight",
 				"Inventory.Items.Attachments.Sight.Schmidt and Bender 1-8x24 PM II ShortDot Scope",
-				"Inventory.Items.Attachments.Sight.Schmidt and Bender 5-25x56 PM II Scope",
 				"Inventory.Items.Attachments.Sight.SIG Sauer BRAVO4 4x30 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 4x24 Scope",
 				"Inventory.Items.Attachments.Sight.Trijicon ACOG 6x48 Scope",
@@ -7554,7 +7645,7 @@
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "fc21634272916ff689c561e142021653"
+			"sourceHash": "cf917320fcc9a3b482bc3115436534d7"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.SVDS",
@@ -7679,7 +7770,9 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 4285,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -7697,7 +7790,7 @@
 				"Inventory.Items.Attachments.Stock.SVDS Folding Stock",
 				"Inventory.Items.Attachments.Stock.SVDS Lynx Buffer Tube Adapter"
 			],
-			"sourceHash": "e24e0f2c9f3f47e100a00fbbd42d1f5f"
+			"sourceHash": "70805a68a0af360ee4fae930bfd293ba"
 		}
 	],
 	"schemaSoftVersion": 4,
