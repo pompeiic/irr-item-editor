@@ -34,12 +34,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 6e+03,
-				"blackMarketPrice": 3
+				"blackMarketPrice": 3,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "f655a6b1a99acf4b3790bc92e0c658ba"
+			"sourceHash": "84959ebb48f5ba3c27e240006bd2ea61"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.Elevator Room",
@@ -74,12 +76,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "816fdb90ad95643a195124d55a0c2ae6"
+			"sourceHash": "178ec8b99af7945106ad63c88118f386"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.Extraction Room Key",
@@ -114,12 +118,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 725,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c0940ddcc1d89c8843226acfe7e52a5e"
+			"sourceHash": "9ed1c9e31825a68d59499f03618a3cd9"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.General Bunker Key",
@@ -154,12 +160,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "2ea0fee5d707baece0d39fc5e5413b0a"
+			"sourceHash": "b8cf74d557ac66a84fdc685a6f3ae8d1"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.Large Safe Key",
@@ -194,12 +202,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 3e+04,
-				"blackMarketPrice": 4
+				"blackMarketPrice": 4,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "36e5e768bd1c4e2e4550ebb786edc59f"
+			"sourceHash": "c8340edb112159c40b63d0a512a41d21"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Delta.Compact Safe Key",
@@ -234,12 +244,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 5e+03,
-				"blackMarketPrice": 2
+				"blackMarketPrice": 2,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "22a8d1b5427a3aa4da8c526e48f049fd"
+			"sourceHash": "1ebb7880148f91d3a35cd381ae4b2532"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Delta.General Key",
@@ -274,12 +286,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 2.8e+03,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "fdb7b2cd6b5a97732efe28b6928c603e"
+			"sourceHash": "7a14bded2bb8d92a7da2b626c1821724"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Delta.Large Safe Key",
@@ -314,12 +328,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 3e+04,
-				"blackMarketPrice": 4
+				"blackMarketPrice": 4,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "d2de20abacd77a3e3ffd664232f5ecf2"
+			"sourceHash": "45900e2bbe0b3054226ff7977292f290"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.HAS.HAS-0023-B",
@@ -354,12 +370,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 2.5e+04,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c0496f157ed9b32e10d5da63cbbf081b"
+			"sourceHash": "2723e71c7ab5f5cadddcae3feb4cb784"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.HAS.HAS-0226-C",
@@ -394,12 +412,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 1.5e+04,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "928422c780531f83e3a77fe148bd1601"
+			"sourceHash": "0d32d79e34529ed713e1e56555927c82"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.HAS.HAS-0410-A",
@@ -434,12 +454,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 3.2e+04,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "842bff9a8b5f42b5ae710b3ca7c0a05c"
+			"sourceHash": "97a5db3750bdf34ee0f8238e19aae071"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Quarry.Compact Safe Key",
@@ -474,12 +496,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 5.6e+03,
-				"blackMarketPrice": 3
+				"blackMarketPrice": 3,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "830f0251d41202c628d9aee8da8e3637"
+			"sourceHash": "285f6182e48c4cf69458ababafeae7b7"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Quarry.General Key",
@@ -514,12 +538,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.5e+03,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "e8c3101341b05694d0b232b49c6d6207"
+			"sourceHash": "cf1bd8af6b89b56573c49819035d59c8"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Quarry.Large Safe Key",
@@ -554,12 +580,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2.7e+04,
-				"blackMarketPrice": 4
+				"blackMarketPrice": 4,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "8fbd04626731a8f17eed52cf439b1aa2"
+			"sourceHash": "961b76dfd4b8e6397c2396a3085bc2a4"
 		}
 	],
 	"schemaSoftVersion": 4,
