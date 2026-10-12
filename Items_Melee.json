@@ -25,12 +25,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 622,
-				"blackMarketPrice": 1
+				"blackMarketPrice": 1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "56a425438aac00316a6ffc130d8aac07"
+			"sourceHash": "1fb0151d0b1e094d343f6dcd1e049920"
 		},
 		{
 			"itemTag": "Inventory.Items.Melee.Machete",
@@ -56,12 +58,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 204,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "d9e1b3ff9a0ef6b67a02fb6a33db4264"
+			"sourceHash": "22a83ad8bde7019b46f1545e9cff5cd1"
 		},
 		{
 			"itemTag": "Inventory.Items.Melee.Tomahawk",
@@ -87,12 +91,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 7.1e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "5b29622944ab2236608bfbcb803caaf8"
+			"sourceHash": "54d675e9027701b66b9194e7d88b732e"
 		}
 	],
 	"schemaSoftVersion": 4,
