@@ -61,12 +61,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 1.2e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "bf119245a7b36a1e138f12099953f827"
+			"sourceHash": "4280f52705edbaf93cfd02fb27cc5f1f"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Beer Biere Larue Can",
@@ -128,12 +130,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 8e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "578b7f25ff02063bd4e4653963164975"
+			"sourceHash": "bdc41ba0e9672d800f2a7a239f8c3948"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Condensed Milk",
@@ -195,12 +199,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 45,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0ec3ee01c16407670b598f79f8076b26"
+			"sourceHash": "a1c5f02fdd44915723cfbff5de3f3d79"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Milk",
@@ -262,12 +268,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 55,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "704fd1b0d9b284d35e3bd81e475ba402"
+			"sourceHash": "a7cf224c0319e76cae4facc16be57221"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Water Bottle",
@@ -329,12 +337,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 4e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "597aafb10840a0a184658639799eafda"
+			"sourceHash": "da0041641bc423a708e60d54483c8a7a"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Beef Stew",
@@ -396,12 +406,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 1.5e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "53561dc483a852db211239a22ae46c3a"
+			"sourceHash": "3f7bb4c16c47de6f5ff06ce7a77ba8f2"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Corn",
@@ -463,12 +475,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 5e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b57b8dccf5f5b2e13add48d785316691"
+			"sourceHash": "22a906a02f6109d33bc318c0ba1c94b3"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Pork Patey",
@@ -521,12 +535,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 9e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "d7134d42432b6138b445823b576ab14a"
+			"sourceHash": "a4aea974877590e8fd9cafb6007ff1fc"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Sardines",
@@ -588,12 +604,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 95,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "56bf5ada4020dfa79e8d5dde956c5d9a"
+			"sourceHash": "2256b1952b7ce410ecac0710aac833df"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Soup",
@@ -655,12 +673,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 1e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "9423d995daa967ff8d85f972509a1773"
+			"sourceHash": "4b0a0169d4cb70983f3af03a83f8feb6"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Squid",
@@ -722,12 +742,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 1.6e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "50c0a9d93055d7a14a4bf264138bd560"
+			"sourceHash": "21ad1e0cb2d5f34d2df90498fed7fc50"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Tuna",
@@ -789,12 +811,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 1.3e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "493a292f3de4be2b95000af007bce193"
+			"sourceHash": "d4788eee986e4ba60867fc5f3a513915"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Chips",
@@ -856,12 +880,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 3e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "2c8d29affe28740aee39517ad197ed32"
+			"sourceHash": "4dc282b2274c1638fcd92d7fc3eef6f4"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Cornflakes",
@@ -923,12 +949,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 35,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "fe252fad795fa50cf4385082602da31d"
+			"sourceHash": "446f2fe612c4540b530e9b9352575e09"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Peanut Butter",
@@ -990,12 +1018,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 1.1e+02,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0b80531b6e21d0d22e6d0269a7d0d0dd"
+			"sourceHash": "58afb908b9fdcad774cfca7d4ced72f1"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Squid Chips",
@@ -1057,12 +1087,14 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 4e+01,
-				"blackMarketPrice": -1
+				"blackMarketPrice": -1,
+				"bSoldForCash": true,
+				"bSoldForMarkedCoin": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "027fe5e73cb340c23a30f5ca0f703386"
+			"sourceHash": "38acb74d3af104af0682823259e3a99c"
 		}
 	],
 	"schemaSoftVersion": 4,
