@@ -44,15 +44,14 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 7e+03,
 				"blackMarketPrice": 4,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "e57e8504dfaee20972e86eb0a77cb29c"
+			"sourceHash": "e858bb7b034e6a3739cb8af4de034ec1"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.AVS Rifleman V4 Vest",
@@ -97,15 +96,14 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 6241,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "d81bbc841dbd8934bfb9f677d46ad1e4"
+			"sourceHash": "e8beb64e63d385d777f8317ce0ebfaff"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.AVS SL Vest",
@@ -150,15 +148,14 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2.43e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "64317126da24c7527bcd7a66a06a03f3"
+			"sourceHash": "a1410be148322f8a9d7d81b5dab60a63"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.JTAC V1 Nguyin Edition Armored Rig",
@@ -203,15 +200,14 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 1.8e+04,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "b2c0de1ed36e96caac7f7f3ea4964ee8"
+			"sourceHash": "d415eff417c7464cf280b6e8219f71bf"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.JTAC V1 Vest",
@@ -256,15 +252,14 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1.3e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "1ccf36d76753e7d72c42c9c454c4bde2"
+			"sourceHash": "edee88aa51a3fae88b3625f05a443014"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.LBT Breacher V1",
@@ -309,15 +304,14 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2.18e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "3704fd8293b6932b5e68508dd9575a7e"
+			"sourceHash": "d63026ae8a7c05407ef1d0e67f29ede2"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.LBT MED V1 Armored Rig",
@@ -362,15 +356,14 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 6.53e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "ac54e4a27e7debed8b423f35ed2d75f2"
+			"sourceHash": "c0d754219d841e0050c5be41fc8063df"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.Spiritus LV119 Armored Rig",
@@ -415,15 +408,14 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2.28e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "0f58645349b3961f8a7122aa322647a9"
+			"sourceHash": "d7d04583ecb24f5930e652847cd3f270"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.Wartech-TV-110 Armored Rig",
@@ -468,15 +460,14 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 2.5e+04,
 				"blackMarketPrice": 4,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "3d656d576f6c7255cd169100f1122b1d"
+			"sourceHash": "7b6343baa1e06b707d34490561a85ffb"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.ADA Assault Backpack",
@@ -503,15 +494,14 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.73e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "6192486f434697f251678ed0aa33fd6f"
+			"sourceHash": "e057e2b86e60c3696fae9f8abc1b3855"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.AVS CRYE Precision Backpack",
@@ -538,15 +528,14 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 1.9e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "5c1e002ad96f8f7ce95d622962532956"
+			"sourceHash": "e816782ed4719ef5ef05fd52cdc6dedd"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.AVS Delta Backpack",
@@ -573,15 +562,14 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1.1e+03,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "0e837b902f233873ebd20c0c2d3c7f11"
+			"sourceHash": "7686ae966e89cf0c99932345df2a953d"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.AVS Mini Backpack",
@@ -608,15 +596,14 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 3e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "37e6d0781f88ff159e315ed49bbe0b85"
+			"sourceHash": "bd0ceb2abf0cbb1650061a34f5a9d755"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.CamelBak Backpack",
@@ -643,15 +630,14 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1.8e+03,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "5b864d389199a64f7f661ff0c8d7a847"
+			"sourceHash": "24ab9a8b016129ead9b52e5819ee1fd2"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.F2 Bergen Backpack",
@@ -678,15 +664,14 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2.99e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "f6aebef6e8b85668a03ab5d7a7a11ab7"
+			"sourceHash": "9663e179cceee21270dac9c469f73cea"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.Mystery Ranch SALT Backpack",
@@ -713,15 +698,14 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 3.48e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "b88ae1e37aaff008a6dd529e7f234c77"
+			"sourceHash": "e95a8f458a0cd630e9a72907c829ff54"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.HHV Helmet",
@@ -766,15 +750,14 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.15e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "a50666d9486f1bfaab4762ec2cc7178c"
+			"sourceHash": "1bd00b1833caecb3cf503b3add7a988d"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.High Cut LSHZ Helmet",
@@ -819,15 +802,14 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 3.23e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "124046daf34eabfdd4ad9280ad6e57f0"
+			"sourceHash": "714037d318efc4abe2b7ed39ecfdadd1"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Kiver RSP Helmet",
@@ -872,15 +854,14 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 8e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "aa4a63bc98ee7cc070888e3efb557395"
+			"sourceHash": "4f34f0d20917220302ce924f915a792f"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Kiver RSP Nguyin Edition Helmet",
@@ -925,15 +906,14 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 7.3e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "67361f71c4e25d5913a8971dd5b90794"
+			"sourceHash": "2d5f169a36a7f98e64b03e1d25b4457a"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.MICH 2000",
@@ -978,15 +958,14 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 9e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "97eb29c3babbcbce5f1251b4136d9592"
+			"sourceHash": "83baffe34ad5934f8274c70cd259775d"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Ops-Core FAST Bump Helmet",
@@ -1031,15 +1010,14 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2.3e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "0d8bc8f2a6df63b9b34e2a8b313d4dea"
+			"sourceHash": "d2d65f188a865d19e08e30183cf1da33"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.SESTAN-BUSCH BK-3 Helmet",
@@ -1084,13 +1062,12 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 6.1e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "d57238f7d349f6b598b4de0d56ef8dfe"
+			"sourceHash": "1a3f907005a856e97c1463aeef641af0"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Super High Cut Ops Core Fast MT V1 Helmet",
@@ -1135,15 +1112,14 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2.35e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "2ce9c7030f4e83cf984178f6cfbb1d5c"
+			"sourceHash": "613c282040d93b0843d3fd01900a6065"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Team Wendy EXFIL Helmet",
@@ -1188,15 +1164,14 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 8633,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "5353d02fdd7dc1b6c9a42fdc2fc1f1b3"
+			"sourceHash": "e24dd1e5a4e36d3c95fe5ec0c75c92a9"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles",
@@ -1223,13 +1198,12 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 3e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "26dde8361c619be81270d3aadc4abfe6"
+			"sourceHash": "004165b79f972e6a6b777174622b5470"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.AVS Plate Carrier",
@@ -1274,13 +1248,12 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 7e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "7c6666522749befa1b49b64605ab1150"
+			"sourceHash": "335539e9a496166db434eecf8714e793"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.JPC Plate Carrier",
@@ -1325,13 +1298,12 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 1.9e+03,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a686cfc3563dd3073ace2c11c8da8ac8"
+			"sourceHash": "b79a7205dc9856fc119ad495c2a14d84"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.MSV Plate Carrier",
@@ -1376,13 +1348,12 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 3e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "1ed630b69bed34bffb22a00c40c14294"
+			"sourceHash": "fed95c79b7a0e8c62a0dd43f463b02ed"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.Paraclete Origin Plate Carrier",
@@ -1427,13 +1398,12 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 1.63e+03,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "738515c52adbf346a743c10406cf6f34"
+			"sourceHash": "703556700653d4103c1908eb3e1f19b0"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.The Slickster Plate Carrier",
@@ -1478,13 +1448,12 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 3.5e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "94f409ea24939e09db9ebad8095e71e8"
+			"sourceHash": "567f4b7b7ce53e8fb8219723a52b8715"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Unarmored Rig.D3CRM Unarmored Rig",
@@ -1511,15 +1480,14 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 625,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "8d5f34dc107114783708009241813570"
+			"sourceHash": "aa21892c39db27661f0b77fb14155c68"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Unarmored Rig.D3CRX Unarmored Rig",
@@ -1546,15 +1514,14 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 775,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "fb71440976afbeed4b85cfd035a0142a"
+			"sourceHash": "f2932f4b19bfdd6bc4444fc7de58d5d7"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Unarmored Rig.Vest Virtus Unarmored Rig",
@@ -1581,15 +1548,14 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 305,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "9aa5753b6ac616845ac2558922e106ca"
+			"sourceHash": "816d0c92a918d87a893a2c26c8dadc5f"
 		}
 	],
 	"schemaSoftVersion": 4,
