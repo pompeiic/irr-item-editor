@@ -26,13 +26,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 0,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "7305dd828c4481eef2da9d6fee0e6b63"
+			"sourceHash": "d70b445b714b5d01e7e92d6140ea14e4"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Antenna Piece 2",
@@ -59,13 +58,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 0,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "66422a2744bc724b4ca19b2eca83be1b"
+			"sourceHash": "bc2b3ff0e1f9e177e81914682712bf2a"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Antenna Piece 3",
@@ -92,13 +90,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 0,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "310684fb04cfd3e04eb3c29be35aa2d4"
+			"sourceHash": "3bfc57314c2fcab16516247cdd4e7e05"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Basic Machine Parts",
@@ -125,13 +122,12 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 6e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "1487c4b8981514d94843b329fea37fee"
+			"sourceHash": "3c654c6b004694bd1eac3473869b5764"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Bomb",
@@ -158,13 +154,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": false
 			},
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "25c3e9d28ac0580bf1cfd59fa93ae892"
+			"sourceHash": "a6d0d46f0ca6220bdad442b4abe035c7"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Bug",
@@ -191,13 +186,12 @@
 				"factionTag": "Mission.Faction.FANG",
 				"defaultMarketPrice": 1,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "2fd8f3c7e1b3792baea6d6054874d780"
+			"sourceHash": "ed90208aa7bd986d6635a331a9eeb458"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Classified Document-IGC",
@@ -224,13 +218,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "56a2cbf354d2d94dcc2d830ca0096006"
+			"sourceHash": "c0d0590d60084a336c5e495e50ad68bf"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Classified Document-UICS",
@@ -257,13 +250,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "968634c4f4949b5857aefbf214bf191e"
+			"sourceHash": "815ff6084b6dfe2700a23483562bacfb"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Classified Document-VLF",
@@ -290,13 +282,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "34eb6ae55798f333a465f98d646732f0"
+			"sourceHash": "d14ab72f6f63b594f4824aa487d65ffb"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Construction HxAxS Blueprint Layout Guide",
@@ -323,13 +314,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "d506141f035178e6eefe25b3f73cbe72"
+			"sourceHash": "93e2d55d7128bfe22f67a9904d407e9c"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Construction HxAxS Blueprint Materials List",
@@ -356,13 +346,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "7b1dd8b844e44b620c3790b1fdf26c00"
+			"sourceHash": "a977de25aedaa1bb45f26badfef40948"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Jammer",
@@ -389,13 +378,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": false
 			},
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "5a9b3fcda1cf0f04ee64331c351913ff"
+			"sourceHash": "9171e55f7edef26444472696e04e38a3"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Key Cards.Key Card A",
@@ -422,13 +410,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 6.5e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "cd7617cfd7bdfbb1bb871ae8c788457f"
+			"sourceHash": "3e0b3ab7a50ebfee2e3ed54ab2769bab"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Misc",
@@ -455,15 +442,14 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 4e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "f95964bdf917a5d50cef864b73f100d0"
+			"sourceHash": "618f3b400dbc87e1e6481373d393fef1"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan A",
@@ -490,13 +476,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b5c081e1534d925e8dccee1598feaec8"
+			"sourceHash": "82af5f9015067536170ecaac4d2e0e3d"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan B",
@@ -523,13 +508,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "9e1fa76e1e83a2ccb4e1bc7bac74e6c5"
+			"sourceHash": "a89a30830da6bf737900359ab73b3182"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan C",
@@ -556,13 +540,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c087971dd1e160ea1a41771e659ffbe7"
+			"sourceHash": "5a67d01f8b6d0c913719cd526d70398d"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Poison",
@@ -598,13 +581,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "4a4ca4ba069315fc76c49e6b45f7a2dd"
+			"sourceHash": "3b4e9bcd00e6d7abe512b466665016fe"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Shipping Manifest",
@@ -631,13 +613,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "2281a235f1dbb5b00a69631f2110cd8b"
+			"sourceHash": "d6b6fdafdac975cca0a7e4ebd5005890"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Surveillance Camera",
@@ -664,13 +645,12 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 1,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0dcfef86befdc8f250c4e24dd3c1a1d9"
+			"sourceHash": "ce2d91b14cb22728d29128edf2f502dd"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Troop Movement Paper",
@@ -697,13 +677,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "01c13150df9b22aa329f1d59c3b150a3"
+			"sourceHash": "a27e48e65d061088b16f4909d2284caa"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.USB Drive",
@@ -739,13 +718,12 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 1,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "76f276c59ac6a9862941859a83385e9a"
+			"sourceHash": "764a9dc28017e016827ab8f8ad972cfa"
 		}
 	],
 	"schemaSoftVersion": 4,
