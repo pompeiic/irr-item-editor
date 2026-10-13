@@ -125,8 +125,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 7.3e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -188,7 +187,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "605c99dc17abbb8e1a026990ec23deda"
+			"sourceHash": "15420d9d9227111bad400aa5382f4d54"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.Galil Ace",
@@ -314,8 +313,7 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 4.9e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -382,7 +380,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "415fedb8693904eb9d4a6ea6ea6a62be"
+			"sourceHash": "207d5176e4afaf5ce16fc2418aa1eda1"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.M14",
@@ -508,8 +506,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 3.1e+03,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -528,7 +525,7 @@
 				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
 				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
 			],
-			"sourceHash": "2330f20b4a3ee4309272e15b24c39a5b"
+			"sourceHash": "762834cf6b4779e28af3f4210125db8f"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.Norinco M305",
@@ -654,8 +651,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.4e+03,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -674,7 +670,7 @@
 				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
 				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
 			],
-			"sourceHash": "25a54770e929bbb0a658f32e0ed0d31d"
+			"sourceHash": "5ff72813903930e1d10aa44c95a0890b"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.RFB",
@@ -794,14 +790,13 @@
 			],
 			"vendor":
 			{
-				"rowName": "Zarya_Flash_Grenade",
+				"rowName": "Kel_Tec_RFB",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 2",
-				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 4e+03,
-				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 3895,
+				"blackMarketPrice": -1,
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -851,7 +846,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "28067340ca12a7f505877f7986e3fbb9"
+			"sourceHash": "b821986b00d5fae81cf91f42c3d2cbfb"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SKS",
@@ -977,8 +972,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1.65e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -994,7 +988,7 @@
 				"Inventory.Items.Attachments.Stock.SKS SAGE International SKSALCV Chassis",
 				"Inventory.Items.Attachments.Stock.SKS Wooden Stock"
 			],
-			"sourceHash": "aa62b8b1ea7931ac50f4790c100c6aef"
+			"sourceHash": "745331cf220c1f779b459aa8043ccce9"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SR-25",
@@ -1120,8 +1114,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 8.6e+03,
 				"blackMarketPrice": 4,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1179,7 +1172,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "e42c643931052c09129b1e0200c58eac"
+			"sourceHash": "363502d63af099e12d3df247435aee33"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.KAC LAMG",
@@ -1305,8 +1298,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 5,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1352,7 +1344,7 @@
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.LAMG Buffer Tube Stock"
 			],
-			"sourceHash": "939eb03855890b117e1790658f9c9cbd"
+			"sourceHash": "2e3e24c501f3d433fbb83104f84ca690"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.RPK-74",
@@ -1478,8 +1470,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 4.3e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1515,7 +1506,7 @@
 				"Inventory.Items.Attachments.Sight.PSO-1 4x24 Scope",
 				"Inventory.Items.Attachments.Stock.RPK-74 Folding Stock"
 			],
-			"sourceHash": "c418f38a924231fcdc2f9509624ccf9f"
+			"sourceHash": "609ed9774e88b75bc76eb8f4b9f4c3af"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.FN Five Seven",
@@ -1641,8 +1632,7 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 1792,
 				"blackMarketPrice": 4,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1658,7 +1648,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "20b1370b131bb6d008bc68a64004f7c7"
+			"sourceHash": "cc9ac2387b2d836f48958b4133f0670e"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.Glock 19",
@@ -1784,8 +1774,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 1.1e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1801,7 +1790,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "31c2268ab0842b9ec377414ea5a52eab"
+			"sourceHash": "92b9b1cad589961a7f5ee39eb1181f30"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.M9A3",
@@ -1927,8 +1916,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 9e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -1943,7 +1931,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "d1e9786b4f7c29c8ff9549fdd8805484"
+			"sourceHash": "ec53d95a9cb8f75e9856dec7b788900a"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.P320",
@@ -2069,8 +2057,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 8.3e+02,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -2088,7 +2075,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "58526cf3524bc0102e674705c4fec5b5"
+			"sourceHash": "b8ad1c08b518d36a19d6528eb2220e00"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.QSZ-92",
@@ -2214,8 +2201,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 6e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -2225,7 +2211,7 @@
 				"Inventory.Items.Attachments.Mag.QSZ-92 9x19 15rnd",
 				"Inventory.Items.Attachments.Receiver.QSZ-92 Pistol Slide"
 			],
-			"sourceHash": "80d835503e3a13cf61fce076445c17a4"
+			"sourceHash": "7236db9015bd87725b0648885094f279"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-101",
@@ -2351,8 +2337,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.82e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -2394,7 +2379,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "145fd3d41d0dfe0254a9bfa030506c7f"
+			"sourceHash": "a8c0ee90466d39a0e4811908a748ce53"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-102",
@@ -2520,8 +2505,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.05e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -2563,7 +2547,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "3f4668fab21c16a70a704ce624ffd16a"
+			"sourceHash": "e3354a54510cb57bf2fbcb51d084319f"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-103",
@@ -2689,8 +2673,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.38e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -2734,7 +2717,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "41f5c1dab0b9ffbc6c924978daf56763"
+			"sourceHash": "f0a7a8fbd0a73e9c2fc49d21d8591c23"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-104",
@@ -2860,8 +2843,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 3.15e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -2905,7 +2887,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "0bdc9dbc3b70c9f47e10418f5c08be36"
+			"sourceHash": "9796c33c967b4c6fd4435f8c95e788a8"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-105",
@@ -3031,8 +3013,7 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 2885,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -3081,7 +3062,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "0fc30661bcb3f4deedc2230e41d338d4"
+			"sourceHash": "c412c62ad44edb244cc52a7167d7bd3d"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-12",
@@ -3207,8 +3188,7 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 4.11e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -3236,7 +3216,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "c0e01ed05a5d41ade588315c8e054943"
+			"sourceHash": "8adb33a7955ae45573ea2091b11ac02f"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-74M",
@@ -3362,8 +3342,7 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 2.1e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -3412,7 +3391,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "779bf6ed93d485a8b39eb88927aa761a"
+			"sourceHash": "f5cee7806131b6d065d3ca37bfc4d28b"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AKS-74",
@@ -3538,8 +3517,7 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 1.99e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -3586,7 +3564,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AKS-74U Stock"
 			],
-			"sourceHash": "708a8e6f6490926ae0b28493ab915152"
+			"sourceHash": "c87154286748c18180b277ee88161224"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AKS-74U",
@@ -3712,8 +3690,7 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 1725,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -3752,7 +3729,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AKS-74U Stock"
 			],
-			"sourceHash": "9dc5f13bc42c31ff1becc8708950c778"
+			"sourceHash": "1bd7f98b03694442a80cf2bb45353fcf"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AUG A3",
@@ -3878,8 +3855,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.29e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -3904,7 +3880,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "57b70006f525f199d4631c4a7c8c3496"
+			"sourceHash": "c30bc5983f0e2f5543c6e228a6c0e986"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Colt M4A1",
@@ -4030,8 +4006,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2.45e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -4101,7 +4076,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "cadef12ccfcc09e2825116b0efbe4c6a"
+			"sourceHash": "5e0b9e733d8620498240749c6ee97087"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.FN FAL",
@@ -4227,8 +4202,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 6.4e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -4257,7 +4231,7 @@
 				"Inventory.Items.Attachments.Stock.FAL Standard Stock",
 				"Inventory.Items.Attachments.Stock.FAL Wooden Stock"
 			],
-			"sourceHash": "003be7cc61e75b0efb319151d9da2f78"
+			"sourceHash": "424b3a2f0d7fcabbf639768e23f4534d"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.FN SCAR-L",
@@ -4383,8 +4357,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 3.97e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -4452,7 +4425,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "aee406c808866f3b0d5ecc8789d77efb"
+			"sourceHash": "2c53e5b294bf127cdcd28ec593047122"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Honey Badger",
@@ -4578,8 +4551,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 6976,
 				"blackMarketPrice": 4,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -4634,7 +4606,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube",
 				"Inventory.Items.Attachments.Stock.Honey Badger Stock"
 			],
-			"sourceHash": "c1caa183c76cbee5f2ea3fbe801b7ddc"
+			"sourceHash": "37499dfaa744087cedc9f46299dbcb24"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.MK-47",
@@ -4760,8 +4732,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 4.6e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -4817,7 +4788,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "a2ce884d1e419c4b58c989dfd7336113"
+			"sourceHash": "4b2bf9624eff6c9160df4ef51057452c"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco CQ",
@@ -4943,8 +4914,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1264,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -5014,7 +4984,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "561e8b15c0175179c0abe6e8c4026814"
+			"sourceHash": "c37f68936df253021d37f02343e59ae7"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco QBZ-97",
@@ -5140,8 +5110,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1.65e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -5160,7 +5129,7 @@
 				"Inventory.Items.Attachments.Sight.QBZ-97 Y-MA-95-1-600 3x Scope",
 				"Inventory.Items.Attachments.Stock.QBZ-97 Cheek Rest"
 			],
-			"sourceHash": "55e30f0179ee55c5815acc32f9355091"
+			"sourceHash": "6ce5ae2ba4e70b78b5d170dca83a60d3"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Sig Sauer MCX Rattler",
@@ -5286,8 +5255,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 3.3e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -5338,7 +5306,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "2b00fb666b5f0acb314fe2eea83f0622"
+			"sourceHash": "1dd2c8154d61b452a3d512d87c9a38d7"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Sig Sauer MCX Virtus",
@@ -5464,8 +5432,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 5.93e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -5524,7 +5491,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "5413112d7af491e8266392a40eee62f1"
+			"sourceHash": "dc7e4a4d0ecb3a7adbcf33bdc5f868ed"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.STV-380",
@@ -5650,8 +5617,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 3.11e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -5696,7 +5662,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "7c8a7ca7c16a34b22ef4b4e3ecdd8c7e"
+			"sourceHash": "fa1ce747a9545e99c8c10796af2a3ecb"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.Benelli M2",
@@ -5822,8 +5788,7 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 3.2e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -5843,7 +5808,7 @@
 				"Inventory.Items.Attachments.Stock.M2 ComforTech Field Stock",
 				"Inventory.Items.Attachments.Stock.M2 Tactical Pistol Grip Stock"
 			],
-			"sourceHash": "0975d6e19382bdcd3f70eeef3d6fb3c0"
+			"sourceHash": "649ce33ec48c900b5502687f9ff376b7"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.RIA VR80",
@@ -5969,8 +5934,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 5192,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -6018,7 +5982,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "bf6f88860f5fe593b5fa51dc0daa80c4"
+			"sourceHash": "ff49e48eeaad46617a09a278cb19f720"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.Saiga-12K",
@@ -6144,8 +6108,7 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 4.87e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -6177,7 +6140,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "940a5268c29d562248950195d10e64cc"
+			"sourceHash": "4a40ca6eb5f8a228ff6428bff49f4332"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.FN P90",
@@ -6303,8 +6266,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 5226,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -6340,7 +6302,7 @@
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "07ae486bf28da60a738401aeba21943e"
+			"sourceHash": "b7b97a967452ac3ee1845bbca9a31ee8"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.KRISS Vector 45ACP",
@@ -6466,8 +6428,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 6.01e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -6526,7 +6487,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "204e6e9982a4c0260f692d1e3c7f814d"
+			"sourceHash": "77521275b563729903e26810fdb057d4"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MP5",
@@ -6652,8 +6613,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1.7e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -6675,7 +6635,7 @@
 				"Inventory.Items.Attachments.Stock.MP5 A3 Fixed Buttstock",
 				"Inventory.Items.Attachments.Stock.MP5 End-Cap Buttstock"
 			],
-			"sourceHash": "fef8452eaffeb2a98be1f1acb2de92de"
+			"sourceHash": "60ed647563f140f96c0fa04ba069afc5"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MP5k",
@@ -6801,8 +6761,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 7.7e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -6823,7 +6782,7 @@
 				"Inventory.Items.Attachments.Stock.MP5 A3 Fixed Buttstock",
 				"Inventory.Items.Attachments.Stock.MP5 End-Cap Buttstock"
 			],
-			"sourceHash": "828f9d9aeac5e200d4e0d6ac3fc4e6c5"
+			"sourceHash": "7692fb288b38a47cfbeef727bb5462f7"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MP5SD",
@@ -6949,8 +6908,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 5892,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -6966,7 +6924,7 @@
 				"Inventory.Items.Attachments.Stock.MP5 A3 Fixed Buttstock",
 				"Inventory.Items.Attachments.Stock.MP5 End-Cap Buttstock"
 			],
-			"sourceHash": "e3ae695b1306c120708e1bc9e92ea78e"
+			"sourceHash": "0d8b8cd92b76e481f3212c2d64dc3345"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MPX",
@@ -7092,8 +7050,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 4.11e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -7153,7 +7110,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "629c5f0f389e1d3cc9a78a412ffac37b"
+			"sourceHash": "aeb9a4a16cade0f0b1e8fb96736fd7ad"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.PP-19 Vitayz",
@@ -7279,8 +7236,7 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 1.15e+03,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -7310,7 +7266,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.PP-19 Stock"
 			],
-			"sourceHash": "70acbc00bb53923e8e8c8ab7f5222828"
+			"sourceHash": "c98ae9207566c0618b9237afdc440db9"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.Remington M700",
@@ -7436,8 +7392,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 3.65e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -7481,7 +7436,7 @@
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "c3e695d8761a6374d8aff0bc648e9508"
+			"sourceHash": "50c50aab54b64c3b8153137865f58824"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.SRS A2",
@@ -7607,8 +7562,7 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 9.73e+03,
 				"blackMarketPrice": 4,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -7645,7 +7599,7 @@
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "cf917320fcc9a3b482bc3115436534d7"
+			"sourceHash": "494f499b068bb181d3a5b5992d9eaad0"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.SVDS",
@@ -7771,8 +7725,7 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 4285,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
@@ -7790,7 +7743,7 @@
 				"Inventory.Items.Attachments.Stock.SVDS Folding Stock",
 				"Inventory.Items.Attachments.Stock.SVDS Lynx Buffer Tube Adapter"
 			],
-			"sourceHash": "70805a68a0af360ee4fae930bfd293ba"
+			"sourceHash": "3550c79f56cffd730e7850d826791c9f"
 		}
 	],
 	"schemaSoftVersion": 4,
