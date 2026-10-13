@@ -62,13 +62,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 1.2e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "4280f52705edbaf93cfd02fb27cc5f1f"
+			"sourceHash": "ee9e009cf15422772aa89e2a3103e6f9"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Beer Biere Larue Can",
@@ -131,13 +130,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "bdc41ba0e9672d800f2a7a239f8c3948"
+			"sourceHash": "55cfa9b6505ffbd79b0ca0f6aa4e6765"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Condensed Milk",
@@ -200,13 +198,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 45,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a1c5f02fdd44915723cfbff5de3f3d79"
+			"sourceHash": "8e71f147dca3849b6b9bb7f0d56d8576"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Milk",
@@ -269,13 +266,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 55,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a7cf224c0319e76cae4facc16be57221"
+			"sourceHash": "7a2642ec759b2ddffd7113d0379f7dff"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Drinks.Water Bottle",
@@ -338,13 +334,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 4e+01,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "da0041641bc423a708e60d54483c8a7a"
+			"sourceHash": "1e843939fdc653ac5dec44cb1050bcbd"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Beef Stew",
@@ -407,13 +402,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 1.5e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "3f7bb4c16c47de6f5ff06ce7a77ba8f2"
+			"sourceHash": "d664835ab045a2865464396d582883b4"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Corn",
@@ -476,13 +470,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 5e+01,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "22a906a02f6109d33bc318c0ba1c94b3"
+			"sourceHash": "efe295c94f0781f380fbadd2216177e7"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Pork Patey",
@@ -536,13 +529,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 9e+01,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a4aea974877590e8fd9cafb6007ff1fc"
+			"sourceHash": "6cf70ab132db0e29fbf4a38a4d437c34"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Sardines",
@@ -605,13 +597,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 95,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "2256b1952b7ce410ecac0710aac833df"
+			"sourceHash": "d07610371cb28a2e4eb54d12e26a2dfa"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Soup",
@@ -674,13 +665,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 1e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "4b0a0169d4cb70983f3af03a83f8feb6"
+			"sourceHash": "38919163e8aaebfd428c0fefafaf4f67"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Squid",
@@ -743,13 +733,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 1.6e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "21ad1e0cb2d5f34d2df90498fed7fc50"
+			"sourceHash": "90841f531cab6e7ecece942b33144992"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Canned Tuna",
@@ -812,13 +801,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 1.3e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "d4788eee986e4ba60867fc5f3a513915"
+			"sourceHash": "38f36866b30d824d2e0723b407f8c25b"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Chips",
@@ -881,13 +869,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 3e+01,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "4dc282b2274c1638fcd92d7fc3eef6f4"
+			"sourceHash": "00d93e90fd45cdf842a2fbfde6d1bbc5"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Cornflakes",
@@ -950,13 +937,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 35,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "446f2fe612c4540b530e9b9352575e09"
+			"sourceHash": "f16011a995b94c61370d298b0e0d97bb"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Peanut Butter",
@@ -1019,13 +1005,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 1.1e+02,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "58afb908b9fdcad774cfca7d4ced72f1"
+			"sourceHash": "7948d3d590df3eb06561971479fefc55"
 		},
 		{
 			"itemTag": "Inventory.Items.Provisions.Food.Squid Chips",
@@ -1088,13 +1073,12 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 4e+01,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "38acb74d3af104af0682823259e3a99c"
+			"sourceHash": "177c1940e8b9ed10582168b811d5a4bd"
 		}
 	],
 	"schemaSoftVersion": 4,
