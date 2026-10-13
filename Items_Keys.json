@@ -35,13 +35,12 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 6e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "84959ebb48f5ba3c27e240006bd2ea61"
+			"sourceHash": "a734544829b4d0513da5dac84fcbf44a"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.Elevator Room",
@@ -77,13 +76,12 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "178ec8b99af7945106ad63c88118f386"
+			"sourceHash": "ed0b2c04cfe6745e12ec6aa025094fb5"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.Extraction Room Key",
@@ -119,13 +117,12 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 725,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "9ed1c9e31825a68d59499f03618a3cd9"
+			"sourceHash": "534fccf5cea569b46ec8d55d46874dab"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.General Bunker Key",
@@ -161,13 +158,12 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "b8cf74d557ac66a84fdc685a6f3ae8d1"
+			"sourceHash": "5e79a73da930729fb497aecc6569e3a4"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Bunker.Large Safe Key",
@@ -203,13 +199,12 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 3e+04,
 				"blackMarketPrice": 4,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c8340edb112159c40b63d0a512a41d21"
+			"sourceHash": "2e0b92c66f00ee6dbfc1c7630bf656bb"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Delta.Compact Safe Key",
@@ -245,13 +240,12 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 5e+03,
 				"blackMarketPrice": 2,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "1ebb7880148f91d3a35cd381ae4b2532"
+			"sourceHash": "743e04e0092ab002bafafc5d33f4e33d"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Delta.General Key",
@@ -287,13 +281,12 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 2.8e+03,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "7a14bded2bb8d92a7da2b626c1821724"
+			"sourceHash": "03ab997c7248b0482503e8d759956811"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Delta.Large Safe Key",
@@ -329,13 +322,12 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 3e+04,
 				"blackMarketPrice": 4,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "45900e2bbe0b3054226ff7977292f290"
+			"sourceHash": "d4c1888a080cc6b2832be29a140be980"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.HAS.HAS-0023-B",
@@ -371,13 +363,12 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 2.5e+04,
 				"blackMarketPrice": -1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "2723e71c7ab5f5cadddcae3feb4cb784"
+			"sourceHash": "e362d6af1aef2f7845ce94af918f43b0"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.HAS.HAS-0226-C",
@@ -413,13 +404,12 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 1.5e+04,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "0d32d79e34529ed713e1e56555927c82"
+			"sourceHash": "9dcfc2a2a2593da610b0faac3a8142c0"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.HAS.HAS-0410-A",
@@ -455,13 +445,12 @@
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 3.2e+04,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "97a5db3750bdf34ee0f8238e19aae071"
+			"sourceHash": "0f706506b5b914000756a0bb56cde26f"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Quarry.Compact Safe Key",
@@ -497,13 +486,12 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 5.6e+03,
 				"blackMarketPrice": 3,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "285f6182e48c4cf69458ababafeae7b7"
+			"sourceHash": "24819c8fcf641957427e8153fc42eca8"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Quarry.General Key",
@@ -539,13 +527,12 @@
 				"factionTag": "Mission.Faction.GREYFOR",
 				"defaultMarketPrice": 2.5e+03,
 				"blackMarketPrice": 1,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "cf1bd8af6b89b56573c49819035d59c8"
+			"sourceHash": "fad872cf6ff1121131da2ffbad78c880"
 		},
 		{
 			"itemTag": "Inventory.Items.Keys.Quarry.Large Safe Key",
@@ -581,13 +568,12 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": 2.7e+04,
 				"blackMarketPrice": 4,
-				"bSoldForCash": true,
-				"bSoldForMarkedCoin": true
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "961b76dfd4b8e6397c2396a3085bc2a4"
+			"sourceHash": "c9531c5e9dad5b987e1f12904e8d5adc"
 		}
 	],
 	"schemaSoftVersion": 4,
