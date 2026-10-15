@@ -18,19 +18,20 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Antenna_Piece_1",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 0,
 				"blackMarketPrice": -1,
-				"bIsSold": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "d70b445b714b5d01e7e92d6140ea14e4"
+			"sourceHash": "48923c886cfe860de945abb2bec237a3"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Antenna Piece 2",
@@ -49,19 +50,20 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Antenna_Piece_2",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 0,
 				"blackMarketPrice": -1,
-				"bIsSold": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "bc2b3ff0e1f9e177e81914682712bf2a"
+			"sourceHash": "4dea3dcc22eb50b5dacb2658c10874ed"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Antenna Piece 3",
@@ -80,19 +82,20 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Antenna_Piece_3",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
 				"defaultMarketPrice": 0,
 				"blackMarketPrice": -1,
-				"bIsSold": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "3bfc57314c2fcab16516247cdd4e7e05"
+			"sourceHash": "a561b0b3d0b7b91d10ae50871d30e7cd"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Basic Machine Parts",
@@ -111,12 +114,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Missing_Supplies",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 6000,
+				"defaultMarketPrice": 6e+03,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -142,7 +146,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Bomb",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -154,7 +159,7 @@
 			"bCanStack": true,
 			"maxStack": 5,
 			"supportedItemTags": [],
-			"sourceHash": "a6d0d46f0ca6220bdad442b4abe035c7"
+			"sourceHash": "3e48d1b1bb502e90c874acd41675e58c"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Bug",
@@ -173,7 +178,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Bug",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -204,7 +210,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Classified_Document-IGC",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -235,7 +242,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Classified_Document-UICS",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -266,7 +274,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Classified_Document-VLF",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -297,7 +306,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Construction_HxAxS_Blueprint_Layout_Guide",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -328,7 +338,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Construction_HxAxS_Blueprint_Materials_List",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -359,7 +370,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Jammer",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -390,19 +402,20 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "KeyCard1",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 650,
+				"defaultMarketPrice": 6.5e+02,
 				"blackMarketPrice": -1,
-				"bIsSold": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "3e0b3ab7a50ebfee2e3ed54ab2769bab"
+			"sourceHash": "971f413e4cb5eca609cfde2f4807498c"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Misc",
@@ -421,21 +434,22 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Recording_Backpack",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "None",
-				"defaultMarketPrice": 4000,
+				"defaultMarketPrice": 4e+03,
 				"blackMarketPrice": -1,
-				"bIsSold": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "618f3b400dbc87e1e6481373d393fef1"
+			"sourceHash": "42707c2bbeb33e562ed3740b0e72926d"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan A",
@@ -454,19 +468,20 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Operation_Plan_A",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
-				"defaultMarketPrice": 200,
+				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1,
-				"bIsSold": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "82af5f9015067536170ecaac4d2e0e3d"
+			"sourceHash": "7c0f5fe390857230f9e85744097d2c57"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan B",
@@ -485,19 +500,20 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Operation_Plan_B",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
-				"defaultMarketPrice": 200,
+				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1,
-				"bIsSold": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a89a30830da6bf737900359ab73b3182"
+			"sourceHash": "3b770bc4931bc253f1a042acb9db41b3"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Operation Plans.Operation Plan C",
@@ -516,19 +532,20 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Operation_Plan_C",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
-				"defaultMarketPrice": 200,
+				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1,
-				"bIsSold": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "5a67d01f8b6d0c913719cd526d70398d"
+			"sourceHash": "a2fc31ebfd729d909b7a9736d2216e26"
 		},
 		{
 			"itemTag": "Inventory.Items.Quest.Poison",
@@ -556,7 +573,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Poison",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -587,7 +605,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Shipping_Manifest",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -618,7 +637,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "520TVL_CCTV_Mini_Camera",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -649,7 +669,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Troop_Movement_Paper",
 				"bHasVendorRow": true,
 				"rarityTag": "None",
@@ -681,7 +702,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 100,
+					"value": 1e+02,
 					"modifyType": "Base",
 					"displayName": "Battery",
 					"effectField": "None",
@@ -689,7 +710,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "USB_Drive",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
