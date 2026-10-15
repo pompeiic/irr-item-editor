@@ -322,6 +322,18 @@ const esc = s => String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").repl
 const leaf = t => { const s = String(t ?? ""); const i = s.lastIndexOf("."); return i >= 0 ? s.slice(i + 1) : s; };
 const fmt = v => Number.isFinite(v) ? String(Math.round(v * 10000) / 10000) : String(v);
 const clone = o => JSON.parse(JSON.stringify(o));
+// Older exports carry the Cash / Marked Coin pair that Unreal merged into bIsSold.
+function migrateVendor(doc) {
+  for (const it of doc.items || []) {
+    const v = it.vendor;
+    if (!v || v.bIsSold !== undefined) continue;
+    v.bIsSold = v.bSoldForCash !== false && v.bSoldForMarkedCoin !== false;
+    delete v.bSoldForCash; delete v.bSoldForMarkedCoin;
+  }
+  return doc;
+}
+// Same rule as FIRRVendorDefaultItem::IsLootOnly: no selling faction or no price, so Is Sold is forced off.
+const isLootOnly = v => !v.factionTag || v.factionTag === "None" || (v.defaultMarketPrice < 0 && v.blackMarketPrice < 0);
 
 function status(msg, isErr) {
   const el = $("status");
@@ -516,6 +528,8 @@ function entryDiff(base, cur) {
     v("Faction", base.vendor.factionTag, cur.vendor.factionTag, true);
     v("Price", base.vendor.defaultMarketPrice, cur.vendor.defaultMarketPrice);
     v("Black market", base.vendor.blackMarketPrice, cur.vendor.blackMarketPrice);
+    const yn = b => b === false ? "no" : "yes";
+    if (yn(base.vendor.bIsSold) !== yn(cur.vendor.bIsSold)) lines.push({ label: "Is Sold", old: yn(base.vendor.bIsSold), new: yn(cur.vendor.bIsSold) });
   }
   return lines;
 }
@@ -657,6 +671,7 @@ function renderTable() {
     const changed = entryDiff(e.c.baseline[e.i], it).length > 0;
     const attn = hasAttention(it.itemTag);
     const note = !!noteOf(it.itemTag);
+    const notSold = it.vendor?.bHasVendorRow && (it.vendor.bIsSold === false || isLootOnly(it.vendor));
     const s = findStat(it, statColKey);
     const last = lastEditOf(it.itemTag);
     const price = it.vendor?.bHasVendorRow && it.vendor.defaultMarketPrice >= 0 ? fmt(it.vendor.defaultMarketPrice) : "—";
@@ -672,7 +687,7 @@ function renderTable() {
       `<td class="c-num">${esc(price)}</td>` +
       `<td class="c-num">${s ? esc(fmt(s.value)) + esc(unit) : "—"}</td>` +
       `<td class="c-upd">${changed ? "unsaved" : relTime(last?.time)}</td>` +
-      `<td><div class="stat-badges">${changed ? '<span class="sb edited">Edited</span>' : ""}${attn ? '<span class="sb attn">Attention</span>' : ""}${note ? '<span class="sb note">Note</span>' : ""}</div></td>`;
+      `<td><div class="stat-badges">${changed ? '<span class="sb edited">Edited</span>' : ""}${attn ? '<span class="sb attn">Attention</span>' : ""}${note ? '<span class="sb note">Note</span>' : ""}${notSold ? '<span class="sb" style="color:var(--faint)">Not sold</span>' : ""}</div></td>`;
     tr.onclick = () => { sel = { c: e.c, i: e.i }; activeTab = activeTab || "overview"; renderPanel(); renderTable(); };
     tb.appendChild(tr);
   }
@@ -738,6 +753,7 @@ function renderOverview(it) {
   if (it.vendor?.bHasVendorRow) {
     html += `<div class="row2"><div><label>Price — <small class="hint">-1 = not sold</small></label><input type="number" step="any" id="fPrice" value="${esc(it.vendor.defaultMarketPrice)}"></div>` +
             `<div><label>Black market — <small class="hint">-1 = not sold</small></label><input type="number" step="any" id="fBlackPrice" value="${esc(it.vendor.blackMarketPrice)}"></div></div>`;
+    html += `<div class="row2"><div><label><input type="checkbox" id="fSold"${it.vendor.bIsSold === false ? "" : " checked"}${isLootOnly(it.vendor) ? " disabled" : ""}> Is Sold — <small class="hint" id="fSoldHint"></small></label></div><div></div></div>`;
     html += `<div class="row2"><div><label>Rarity</label>${tagSelect("fRarity", schema?.rarityTags, it.vendor.rarityTag)}</div>` +
             `<div><label>Faction — <small class="hint">None = can't be bought</small></label>${tagSelect("fFaction", schema?.factionTags, it.vendor.factionTag, factionLabel)}</div></div>`;
   }
@@ -800,10 +816,19 @@ function renderOverview(it) {
     onEdit();
   });
   if (it.vendor?.bHasVendorRow) {
+    const refreshSold = () => {
+      const lootOnly = isLootOnly(it.vendor);
+      if (lootOnly) it.vendor.bIsSold = false;
+      $("fSold").disabled = lootOnly;
+      $("fSold").checked = it.vendor.bIsSold !== false;
+      $("fSoldHint").textContent = lootOnly ? "locked off: needs a faction and a price or black market price" : "off keeps the prices as the item's value";
+    };
+    refreshSold();
     $("fRarity").oninput = e => { it.vendor.rarityTag = e.target.value; onEdit(); };
-    $("fFaction").oninput = e => { it.vendor.factionTag = e.target.value; onEdit(); };
-    $("fPrice").oninput = e => { const v = num(e.target); if (Number.isFinite(v)) it.vendor.defaultMarketPrice = v; onEdit(); };
-    $("fBlackPrice").oninput = e => { const v = num(e.target); if (Number.isFinite(v)) it.vendor.blackMarketPrice = v; onEdit(); };
+    $("fFaction").oninput = e => { it.vendor.factionTag = e.target.value; refreshSold(); onEdit(); };
+    $("fPrice").oninput = e => { const v = num(e.target); if (Number.isFinite(v)) it.vendor.defaultMarketPrice = v; refreshSold(); onEdit(); };
+    $("fBlackPrice").oninput = e => { const v = num(e.target); if (Number.isFinite(v)) it.vendor.blackMarketPrice = v; refreshSold(); onEdit(); };
+    $("fSold").onchange = e => { it.vendor.bIsSold = e.target.checked; onEdit(); };
   }
 }
 
@@ -1070,7 +1095,7 @@ async function load() {
     try {
       const res = await fetch(`Items_${name}.json?t=` + Date.now());
       if (!res.ok) continue;
-      const doc = await res.json();
+      const doc = migrateVendor(await res.json());
       cats.push({ name, file: `Items_${name}.json`, doc, baseline: clone(doc.items || []) });
     } catch (e) { status("Could not load Items_" + name + ".json: " + e.message, true); }
   }
