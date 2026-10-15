@@ -1270,6 +1270,38 @@
 				"Ergonomics 3 → 2",
 				"Recoil -1.5 → -1"
 			]
+		},
+		{
+			"tag": "Inventory.Items.Barter.Collectibles.Film Case",
+			"time": "2026-10-15T10:59:24.980Z",
+			"author": "pompeiic",
+			"lines": [
+				"Faction FANG → None"
+			]
+		},
+		{
+			"tag": "Inventory.Items.Barter.Electronics.Generator",
+			"time": "2026-10-15T10:59:24.980Z",
+			"author": "pompeiic",
+			"lines": [
+				"Faction FANG → None"
+			]
+		},
+		{
+			"tag": "Inventory.Items.Barter.Electronics.Military Laptop",
+			"time": "2026-10-15T10:59:24.980Z",
+			"author": "pompeiic",
+			"lines": [
+				"Faction FANG → None"
+			]
+		},
+		{
+			"tag": "Inventory.Items.Barter.Electronics.Mining Battery",
+			"time": "2026-10-15T10:59:24.980Z",
+			"author": "pompeiic",
+			"lines": [
+				"Faction FANG → None"
+			]
 		}
 	],
 	"notes": {}
