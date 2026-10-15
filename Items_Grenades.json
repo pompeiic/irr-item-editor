@@ -421,15 +421,15 @@
 				"rowName": "RGR_Gas_Grenade",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
-				"blackMarketPrice": -1,
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 1.4e+02,
+				"blackMarketPrice": 1,
 				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "36d3fe010efaeb96c6685e1508a81324"
+			"sourceHash": "e54e11ec8d79c5d5be96cd911e4ddbd5"
 		},
 		{
 			"itemTag": "Inventory.Items.Grenades.Zarya Flash Grenade",
