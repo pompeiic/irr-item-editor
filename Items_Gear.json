@@ -200,14 +200,14 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 1.8e+04,
 				"blackMarketPrice": -1,
-				"bIsSold": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
 				"Inventory.Items"
 			],
-			"sourceHash": "d415eff417c7464cf280b6e8219f71bf"
+			"sourceHash": "8693afc0b99b6ee19fa05bfce388a002"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.JTAC V1 Vest",
@@ -418,6 +418,58 @@
 			"sourceHash": "d7d04583ecb24f5930e652847cd3f270"
 		},
 		{
+			"itemTag": "Inventory.Items.Gear.Armored Rig.Warrior Assault DCS Armored Rig",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/ArmoredRig/Warrior_Assault_DCS_Armored_Rig/ID_Warrior_Assault_DCS_Armored_Rig.ID_Warrior_Assault_DCS_Armored_Rig",
+			"name": "Warrior Assault DCS Armored Rig",
+			"abbreviation": "Warrior Assault",
+			"description": "DCS plate carrier kitted with AK pouches, a dump pouch and groin protection.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.1,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1.1e+02,
+					"modifyType": "Base",
+					"displayName": "Armor Points",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 3,
+					"modifyType": "Base",
+					"displayName": "Protection Level",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Warrior_Assault_DCS_Armored_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 5.9e+03,
+				"blackMarketPrice": 3,
+				"bIsSold": true
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "894181887ef2f38c1644f95ba3d08810"
+		},
+		{
 			"itemTag": "Inventory.Items.Gear.Armored Rig.Wartech-TV-110 Armored Rig",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/ArmoredRig/Wartech-TV-110_Armored_Rig/ID_Wartech-TV-110_Armored_Rig.ID_Wartech-TV-110_Armored_Rig",
 			"name": "Wartech-TV-110 Armored Rig",
@@ -502,6 +554,40 @@
 				"Inventory.Items"
 			],
 			"sourceHash": "e057e2b86e60c3696fae9f8abc1b3855"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Backpack.ALICE Pack",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Backpack/ALICE_pack/ID_ALICE_pack.ID_ALICE_pack",
+			"name": "ALICE Pack",
+			"abbreviation": "Alice",
+			"description": "Decades-old issue rucksack on a steel frame. Holds a lot, and weighs like it.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 3.4,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "ALICE_Pack",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 2.1e+03,
+				"blackMarketPrice": 2,
+				"bIsSold": true
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "9a0d81a0be1c7db586eb340027aa8bab"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Backpack.AVS CRYE Precision Backpack",
@@ -674,6 +760,40 @@
 			"sourceHash": "9663e179cceee21270dac9c469f73cea"
 		},
 		{
+			"itemTag": "Inventory.Items.Gear.Backpack.Mystery Ranch 3 Day Assault Pack",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Backpack/Mystery_Ranch_3_Day_Assault_Pack/ID_Mystery_Ranch_3_Day_Assault_Pack.ID_Mystery_Ranch_3_Day_Assault_Pack",
+			"name": "Mystery Ranch 3 Day Assault Pack",
+			"abbreviation": "3 Day Pack",
+			"description": "Tri-zip assault pack built to carry three days of kit without fighting its wearer.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 2.3,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Mystery_Ranch_3_Day_Assault_Pack",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 3.15e+03,
+				"blackMarketPrice": 3,
+				"bIsSold": true
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "b34a24fd1c0ef60de3ce16582f5dea4b"
+		},
+		{
 			"itemTag": "Inventory.Items.Gear.Backpack.Mystery Ranch SALT Backpack",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Backpack/Mystery_Ranch_SALT_Backpack/ID_Mystery_Ranch_SALT_Backpack.ID_Mystery_Ranch_SALT_Backpack",
 			"name": "Mystery Ranch SALT Backpack",
@@ -706,6 +826,93 @@
 				"Inventory.Items"
 			],
 			"sourceHash": "e95a8f458a0cd630e9a72907c829ff54"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Backpack.SSO Smersh Buttpack",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Backpack/SSO_Smersh_Backpack/ID_SSO_Smersh_Backpack.ID_SSO_Smersh_Backpack",
+			"name": "SSO Smersh Buttpack",
+			"abbreviation": "Smersh",
+			"description": "Russian-made buttpack. Barely a backpack, but it beats carrying everything in your pockets.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.8,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "SSO_Smersh_Backpack",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 4.5e+02,
+				"blackMarketPrice": -1,
+				"bIsSold": true
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "e32cac7501581667a3b4330095f200b0"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Helmet.Galvion Caiman Ballistic Helmet",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Helmet/Galvion_Caiman_Ballistic_Helmet/ID_Galvion_Caiman_Ballistic_Helmet.ID_Galvion_Caiman_Ballistic_Helmet",
+			"name": "Galvion Caiman Ballistic Helmet",
+			"abbreviation": "Caiman",
+			"description": "Modular ballistic helmet with rails and a shroud as standard.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.05,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 115,
+					"modifyType": "Base",
+					"displayName": "Armor Points",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 4,
+					"modifyType": "Base",
+					"displayName": "Protection Level",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Galvion_Caiman_Ballistic_Helmet",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 9.2e+03,
+				"blackMarketPrice": 4,
+				"bIsSold": true
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.L3Harris GPNVG-18",
+				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
+			],
+			"sourceHash": "841ca24bb974fd333b70ca2d30ea96d1"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.HHV Helmet",
@@ -755,9 +962,10 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.L3Harris GPNVG-18",
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "1bd00b1833caecb3cf503b3add7a988d"
+			"sourceHash": "6a9b770f2348a4f95aebcbe68bf7054d"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.High Cut LSHZ Helmet",
@@ -807,9 +1015,63 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.L3Harris GPNVG-18",
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "714037d318efc4abe2b7ed39ecfdadd1"
+			"sourceHash": "9e68ae6c49b1eab865d120067380100a"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Helmet.IHPS Helmet",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/Helmet/IHPS_Helmet/ID_IHPS_Helmet.ID_IHPS_Helmet",
+			"name": "IHPS Helmet",
+			"abbreviation": "IHPS",
+			"description": "US Army Integrated Head Protection System. Lighter and tougher than the ACH it replaced.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.05,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1.2e+02,
+					"modifyType": "Base",
+					"displayName": "Armor Points",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 3,
+					"modifyType": "Base",
+					"displayName": "Protection Level",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "IHPS_Helmet",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 3.9e+03,
+				"blackMarketPrice": 3,
+				"bIsSold": true
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.L3Harris GPNVG-18",
+				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
+			],
+			"sourceHash": "8b7f3fb33fd6ae8f67d62abbdc637501"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Kiver RSP Helmet",
@@ -859,9 +1121,10 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.L3Harris GPNVG-18",
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "4f34f0d20917220302ce924f915a792f"
+			"sourceHash": "e96ed3ee4d2b68a4e33cad0a7036429d"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Kiver RSP Nguyin Edition Helmet",
@@ -906,14 +1169,15 @@
 				"factionTag": "None",
 				"defaultMarketPrice": 7.3e+03,
 				"blackMarketPrice": -1,
-				"bIsSold": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.L3Harris GPNVG-18",
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "2d5f169a36a7f98e64b03e1d25b4457a"
+			"sourceHash": "0aeadc3ab6adc323233bc133e084b32d"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.MICH 2000",
@@ -963,9 +1227,10 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.L3Harris GPNVG-18",
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "83baffe34ad5934f8274c70cd259775d"
+			"sourceHash": "881c479b5f5dea4c77aaaefe06957ac5"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Ops-Core FAST Bump Helmet",
@@ -1015,9 +1280,10 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.L3Harris GPNVG-18",
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "d2d65f188a865d19e08e30183cf1da33"
+			"sourceHash": "3342e693549233a9cf9c56a65aeecd7e"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.SESTAN-BUSCH BK-3 Helmet",
@@ -1117,9 +1383,10 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.L3Harris GPNVG-18",
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "613c282040d93b0843d3fd01900a6065"
+			"sourceHash": "d93e82e028ce076c91020e83ef26928a"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Helmet.Team Wendy EXFIL Helmet",
@@ -1169,9 +1436,42 @@
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [
+				"Inventory.Items.Gear.Night Vision.L3Harris GPNVG-18",
 				"Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles"
 			],
-			"sourceHash": "e24dd1e5a4e36d3c95fe5ec0c75c92a9"
+			"sourceHash": "fa61dc566223ec60ff3976720e61d900"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Night Vision.L3Harris GPNVG-18",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/NightVision/L3_GPNVG18/ID_L3_GPNVG18.ID_L3_GPNVG18",
+			"name": "L3Harris GPNVG-18",
+			"abbreviation": "GPNVG",
+			"description": "Four-tube panoramic night vision. Sees almost twice as wide as standard goggles, and costs like it.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.9,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "L3Harris_GPNVG-18",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 1.4e+04,
+				"blackMarketPrice": 4,
+				"bIsSold": true
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "a7536d262b9ed13c085352a4ee3becba"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Night Vision.PVS 31s Night Vision Goggles",
@@ -1254,6 +1554,56 @@
 			"maxStack": 1,
 			"supportedItemTags": [],
 			"sourceHash": "335539e9a496166db434eecf8714e793"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Plate Carrier.Ferro Concepts FCPC V5 Plate Carrier",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/PlateCarrier/Ferro_Concepts_FCPC_V5_Plate_Carrier/ID_Ferro_Concepts_FCPC_V5_Plate_Carrier.ID_Ferro_Concepts_FCPC_V5_Plate_Carrier",
+			"name": "Ferro Concepts FCPC V5 Plate Carrier",
+			"abbreviation": "FCPC",
+			"description": "Low-profile carrier with top-end plates. No pouches — pair it with a chest rig.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 8,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1.2e+02,
+					"modifyType": "Base",
+					"displayName": "Armor Points",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Protection Level",
+					"value": 4,
+					"modifyType": "Base",
+					"displayName": "Protection Level",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Ferro_Concepts_FCPC_V5_Plate_Carrier",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 1.15e+04,
+				"blackMarketPrice": 4,
+				"bIsSold": true
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "c9d7c9b6aaa20a316ba97e655167a827"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Plate Carrier.JPC Plate Carrier",
@@ -1522,6 +1872,40 @@
 				"Inventory.Items"
 			],
 			"sourceHash": "f2932f4b19bfdd6bc4444fc7de58d5d7"
+		},
+		{
+			"itemTag": "Inventory.Items.Gear.Unarmored Rig.Spiritus Micro Fight Chest Rig",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Gear/UnarmoredRig/Spiritus_Micro_Fight_Chest_Rig/ID_Spiritus_Micro_Fight_Chest_Rig.ID_Spiritus_Micro_Fight_Chest_Rig",
+			"name": "Spiritus Micro Fight Chest Rig",
+			"abbreviation": "Spiritus Micro",
+			"description": "Minimalist chest rig: magazines, a tourniquet and not much else.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 1.1,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Spiritus_Micro_Fight_Chest_Rig",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 6.9e+02,
+				"blackMarketPrice": 1,
+				"bIsSold": true
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [
+				"Inventory.Items"
+			],
+			"sourceHash": "7ee0afd3276a34c7f35060abe50c9bc8"
 		},
 		{
 			"itemTag": "Inventory.Items.Gear.Unarmored Rig.Vest Virtus Unarmored Rig",
