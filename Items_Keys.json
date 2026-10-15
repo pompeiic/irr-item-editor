@@ -453,6 +453,88 @@
 			"sourceHash": "0f706506b5b914000756a0bb56cde26f"
 		},
 		{
+			"itemTag": "Inventory.Items.Keys.Outskirts.General Key",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Outskirts/Outskirts_General_Key/ID_Outskirts_General_Key.ID_Outskirts_General_Key",
+			"name": "Outskirts General Key",
+			"abbreviation": "Outskirts G-Key",
+			"description": "Key for most doors on Outskirts.",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 15,
+					"modifyType": "Base",
+					"displayName": "Content",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Outskirts_General_Key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 2.8e+03,
+				"blackMarketPrice": 1,
+				"bIsSold": true
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "8d1f1ce141dcb03d3d0ad6f2e1799d18"
+		},
+		{
+			"itemTag": "Inventory.Items.Keys.Outskirts.Large Safe Key",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Outskirts/Outskirts_Compact_Large_Key/ID_Outskirts_Compact_Large_Key.ID_Outskirts_Compact_Large_Key",
+			"name": "Outskirts Compact Large Key",
+			"abbreviation": "Template",
+			"description": "Template",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 15,
+					"modifyType": "Base",
+					"displayName": "Content",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Outskirts_Large_Safe_Key",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 3e+04,
+				"blackMarketPrice": 4,
+				"bIsSold": true
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "23c58b523cd04cc279ff9d3faa7360fb"
+		},
+		{
 			"itemTag": "Inventory.Items.Keys.Quarry.Compact Safe Key",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Keys/Quarry/Quarry_Compact_Safe_key/ID_Quarry_Compact_Safe_key.ID_Quarry_Compact_Safe_key",
 			"name": "Quarry Compact Safe Key",
