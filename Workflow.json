@@ -1302,6 +1302,52 @@
 			"lines": [
 				"Faction FANG → None"
 			]
+		},
+		{
+			"tag": "Inventory.Items.Barter.Collectibles.Film Case",
+			"time": "2026-10-15T11:10:27.302Z",
+			"author": "pompeiic",
+			"lines": [
+				"Faction FANG → None",
+				"Is Sold yes → no"
+			]
+		},
+		{
+			"tag": "Inventory.Items.Barter.Electronics.Generator",
+			"time": "2026-10-15T11:10:27.302Z",
+			"author": "pompeiic",
+			"lines": [
+				"Faction FANG → None",
+				"Is Sold yes → no"
+			]
+		},
+		{
+			"tag": "Inventory.Items.Barter.Electronics.Military Laptop",
+			"time": "2026-10-15T11:10:27.302Z",
+			"author": "pompeiic",
+			"lines": [
+				"Faction FANG → None",
+				"Is Sold yes → no"
+			]
+		},
+		{
+			"tag": "Inventory.Items.Barter.Electronics.Mining Battery",
+			"time": "2026-10-15T11:10:27.302Z",
+			"author": "pompeiic",
+			"lines": [
+				"Faction FANG → None",
+				"Is Sold yes → no"
+			]
+		},
+		{
+			"tag": "Inventory.Items.Quest.Bomb",
+			"time": "2026-10-15T11:10:27.302Z",
+			"author": "pompeiic",
+			"lines": [
+				"Faction None → FANG",
+				"Price -1 → 1",
+				"Is Sold no → yes"
+			]
 		}
 	],
 	"notes": {}
