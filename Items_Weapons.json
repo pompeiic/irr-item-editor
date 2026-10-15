@@ -82,7 +82,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.037,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -91,7 +91,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.04,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -100,7 +100,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.055,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -187,7 +187,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "15420d9d9227111bad400aa5382f4d54"
+			"sourceHash": "b36bac069b17bc981102461b3576aab7"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.Galil Ace",
@@ -270,7 +270,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.042,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -279,7 +279,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.043,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -288,7 +288,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.052,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -380,7 +380,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "207d5176e4afaf5ce16fc2418aa1eda1"
+			"sourceHash": "b3ca5e54cb1525f70b0847cd31df36f1"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.M14",
@@ -463,7 +463,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.053,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -481,7 +481,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.047,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -525,7 +525,7 @@
 				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
 				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
 			],
-			"sourceHash": "762834cf6b4779e28af3f4210125db8f"
+			"sourceHash": "85ee7fe39d27c784537e4bce0fc72def"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.Norinco M305",
@@ -608,7 +608,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.064,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -617,7 +617,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.057,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -626,7 +626,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.042,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -670,7 +670,7 @@
 				"Inventory.Items.Attachments.Stock.M14 Springfield Armory Wooden Chassis",
 				"Inventory.Items.Attachments.Stock.M14 Troy SASS Chassis"
 			],
-			"sourceHash": "5ff72813903930e1d10aa44c95a0890b"
+			"sourceHash": "ccceafa54afaeff62477c92fcc6719c0"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.RFB",
@@ -753,7 +753,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.054,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -762,7 +762,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.051,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -771,7 +771,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.046,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -846,7 +846,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "76d6b4a37c0c864a4389b6a48bae34b2"
+			"sourceHash": "93cacead82343cd92b2c988a62b1c09a"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SKS",
@@ -929,7 +929,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.059,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -938,7 +938,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.054,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -947,7 +947,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.044,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -988,7 +988,7 @@
 				"Inventory.Items.Attachments.Stock.SKS SAGE International SKSALCV Chassis",
 				"Inventory.Items.Attachments.Stock.SKS Wooden Stock"
 			],
-			"sourceHash": "745331cf220c1f779b459aa8043ccce9"
+			"sourceHash": "b58b2a2200e27cad8ae7822ea4c4e4df"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SR-25",
@@ -1071,7 +1071,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.034,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -1080,7 +1080,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.037,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -1089,7 +1089,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.057,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -1172,7 +1172,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "363502d63af099e12d3df247435aee33"
+			"sourceHash": "0330e4a48262929afdbe4ec94bdaf1a0"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.KAC LAMG",
@@ -1255,7 +1255,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.028,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -1264,7 +1264,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.019,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -1273,7 +1273,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.087,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -1344,7 +1344,7 @@
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.LAMG Buffer Tube Stock"
 			],
-			"sourceHash": "00769eb0e30d2c627751824de027dc45"
+			"sourceHash": "4981291c9932e841da6244a613015792"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.RPK-74",
@@ -1427,7 +1427,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.047,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -1436,7 +1436,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.027,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -1445,7 +1445,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.069,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -1506,7 +1506,7 @@
 				"Inventory.Items.Attachments.Sight.PSO-1 4x24 Scope",
 				"Inventory.Items.Attachments.Stock.RPK-74 Folding Stock"
 			],
-			"sourceHash": "609ed9774e88b75bc76eb8f4b9f4c3af"
+			"sourceHash": "c7e34ee2a02867efccf8e5fd73ba55ee"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.FN Five Seven",
@@ -1589,7 +1589,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.029,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -1598,7 +1598,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.047,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -1607,7 +1607,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.049,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -1648,7 +1648,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "cc9ac2387b2d836f48958b4133f0670e"
+			"sourceHash": "1557e9a19426aa768a533a9971ed70cc"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.Glock 19",
@@ -1731,7 +1731,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.034,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -1740,7 +1740,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.052,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -1749,7 +1749,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.047,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -1790,7 +1790,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "92b9b1cad589961a7f5ee39eb1181f30"
+			"sourceHash": "9af53a16a25cc7acdc186f6f3f2ffb9f"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.M9A3",
@@ -1873,7 +1873,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.042,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -1882,7 +1882,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.059,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -1891,7 +1891,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.042,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -1931,7 +1931,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "ec53d95a9cb8f75e9856dec7b788900a"
+			"sourceHash": "e61864dfc6dbd62d7df0bb27bf175527"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.P320",
@@ -2014,7 +2014,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.044,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -2023,7 +2023,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.062,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -2032,7 +2032,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.041,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -2075,7 +2075,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "b8ad1c08b518d36a19d6528eb2220e00"
+			"sourceHash": "33b98e8182e4cf6d58c108f55469b30b"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Pistol.QSZ-92",
@@ -2158,7 +2158,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.056,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -2167,7 +2167,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.073,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -2176,7 +2176,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.034,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -2211,7 +2211,7 @@
 				"Inventory.Items.Attachments.Mag.QSZ-92 9x19 15rnd",
 				"Inventory.Items.Attachments.Receiver.QSZ-92 Pistol Slide"
 			],
-			"sourceHash": "7236db9015bd87725b0648885094f279"
+			"sourceHash": "7ba28999e908acc40be66e2876639f15"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-101",
@@ -2294,7 +2294,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.047,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -2303,7 +2303,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.041,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -2312,7 +2312,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.056,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -2379,7 +2379,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "a8c0ee90466d39a0e4811908a748ce53"
+			"sourceHash": "c3708bd12b4643394318bd7decfd167f"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-102",
@@ -2462,7 +2462,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.053,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -2471,7 +2471,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.047,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -2480,7 +2480,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.052,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -2547,7 +2547,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "e3354a54510cb57bf2fbcb51d084319f"
+			"sourceHash": "518cd0fd6f1a148a135875650c4b765e"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-103",
@@ -2630,7 +2630,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.048,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -2639,7 +2639,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.042,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -2648,7 +2648,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.055,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -2717,7 +2717,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "f0a7a8fbd0a73e9c2fc49d21d8591c23"
+			"sourceHash": "51cd48dea21fb0302a6e21769c7a5751"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-104",
@@ -2800,7 +2800,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.047,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -2809,7 +2809,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.043,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -2818,7 +2818,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.056,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -2887,7 +2887,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "9796c33c967b4c6fd4435f8c95e788a8"
+			"sourceHash": "f05d81696c3227402eb60fafdff92d2e"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-105",
@@ -2970,7 +2970,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.048,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -2979,7 +2979,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.044,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -2988,7 +2988,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.055,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -3062,7 +3062,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "c412c62ad44edb244cc52a7167d7bd3d"
+			"sourceHash": "f272a64bede1b2d013c518102679f183"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-12",
@@ -3145,7 +3145,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.046,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -3154,7 +3154,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.041,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -3163,7 +3163,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.056,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -3216,7 +3216,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "8adb33a7955ae45573ea2091b11ac02f"
+			"sourceHash": "a2044da2339e7ce8e8acd5212ff4435c"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AK-74M",
@@ -3308,7 +3308,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.043,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -3317,7 +3317,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.054,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -3391,7 +3391,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "f5cee7806131b6d065d3ca37bfc4d28b"
+			"sourceHash": "90e188fb8ea3d635ec21278a331c6260"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AKS-74",
@@ -3474,7 +3474,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.052,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -3483,7 +3483,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.044,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -3492,7 +3492,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.053,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -3564,7 +3564,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AKS-74U Stock"
 			],
-			"sourceHash": "c87154286748c18180b277ee88161224"
+			"sourceHash": "18cbc91fdd66be52f76bd9979c8fa1f3"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AKS-74U",
@@ -3647,7 +3647,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.058,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -3656,7 +3656,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.06,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -3729,7 +3729,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AKS-74U Stock"
 			],
-			"sourceHash": "1bd7f98b03694442a80cf2bb45353fcf"
+			"sourceHash": "54717441032f8d5bfebb7d0cd070a3da"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.AUG A3",
@@ -3812,7 +3812,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.053,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -3821,7 +3821,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.045,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -3830,7 +3830,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.053,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -3880,7 +3880,7 @@
 				"Inventory.Items.Attachments.Tactical.Streamlight TLR-1HL Flashlight",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "c30bc5983f0e2f5543c6e228a6c0e986"
+			"sourceHash": "ce0eee393e9a9e17f800c584b459a1ca"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Colt M4A1",
@@ -3963,7 +3963,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.055,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -3972,7 +3972,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.046,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -3981,7 +3981,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.051,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -4076,7 +4076,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "5e0b9e733d8620498240749c6ee97087"
+			"sourceHash": "19bd1d681f9f1ebf4de68ca7352e8e84"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.FN FAL",
@@ -4159,7 +4159,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.038,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -4168,7 +4168,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.036,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -4177,7 +4177,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.061,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -4231,7 +4231,7 @@
 				"Inventory.Items.Attachments.Stock.FAL Standard Stock",
 				"Inventory.Items.Attachments.Stock.FAL Wooden Stock"
 			],
-			"sourceHash": "424b3a2f0d7fcabbf639768e23f4534d"
+			"sourceHash": "e6c14a801a38b3c5a0444ac7d86ad055"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.FN SCAR-L",
@@ -4314,7 +4314,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.043,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -4323,7 +4323,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.039,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -4332,7 +4332,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.058,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -4425,7 +4425,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "2c53e5b294bf127cdcd28ec593047122"
+			"sourceHash": "973ab1587d8742250f671655a78ca67c"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Honey Badger",
@@ -4508,7 +4508,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.036,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -4517,7 +4517,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.04,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -4526,7 +4526,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.062,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -4606,7 +4606,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube",
 				"Inventory.Items.Attachments.Stock.Honey Badger Stock"
 			],
-			"sourceHash": "37499dfaa744087cedc9f46299dbcb24"
+			"sourceHash": "3841829c5ee569da24032e2538007b1b"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.MK-47",
@@ -4689,7 +4689,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.044,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -4698,7 +4698,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.039,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -4707,7 +4707,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.058,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -4788,7 +4788,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "37c4ffde562eca7cca425852d37517d1"
+			"sourceHash": "69e6d017ec5ee45a4f441927560e202f"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco CQ",
@@ -4871,7 +4871,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.1,
+					"value": 0.076,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -4880,7 +4880,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.059,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -4889,7 +4889,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.04,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -4984,7 +4984,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "c37f68936df253021d37f02343e59ae7"
+			"sourceHash": "1e98efe5cd87b4a3adcbedcc4439d9ad"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco QBZ-97",
@@ -5067,7 +5067,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.065,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -5076,7 +5076,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.052,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -5085,7 +5085,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.046,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -5129,7 +5129,7 @@
 				"Inventory.Items.Attachments.Sight.QBZ-97 Y-MA-95-1-600 3x Scope",
 				"Inventory.Items.Attachments.Stock.QBZ-97 Cheek Rest"
 			],
-			"sourceHash": "6ce5ae2ba4e70b78b5d170dca83a60d3"
+			"sourceHash": "e2dcf182e35a087adcc1f008ec95fc4c"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Sig Sauer MCX Rattler",
@@ -5212,7 +5212,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.051,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -5230,7 +5230,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.053,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -5306,7 +5306,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "1dd2c8154d61b452a3d512d87c9a38d7"
+			"sourceHash": "ff4c6c653021fb81db6a3f8dfbc98bec"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Sig Sauer MCX Virtus",
@@ -5389,7 +5389,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.037,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -5398,7 +5398,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.036,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -5407,7 +5407,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.061,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -5491,7 +5491,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "dc7e4a4d0ecb3a7adbcf33bdc5f868ed"
+			"sourceHash": "a22e4be29881987966ac993f01c91197"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.STV-380",
@@ -5574,7 +5574,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.054,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -5583,7 +5583,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.046,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -5592,7 +5592,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.052,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -5662,7 +5662,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "fa1ce747a9545e99c8c10796af2a3ecb"
+			"sourceHash": "c19e6e10b903d36eb274012b7fc7f8e8"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.Benelli M2",
@@ -5745,7 +5745,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.072,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -5754,7 +5754,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.076,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -5763,7 +5763,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.039,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -5808,7 +5808,7 @@
 				"Inventory.Items.Attachments.Stock.M2 ComforTech Field Stock",
 				"Inventory.Items.Attachments.Stock.M2 Tactical Pistol Grip Stock"
 			],
-			"sourceHash": "649ce33ec48c900b5502687f9ff376b7"
+			"sourceHash": "f57633c2c10070b5d7d5e1af9b5c68a0"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.RIA VR80",
@@ -5891,7 +5891,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.054,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -5900,7 +5900,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.063,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -5909,7 +5909,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.045,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -5982,7 +5982,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "ff49e48eeaad46617a09a278cb19f720"
+			"sourceHash": "d6684f358781d116356f8bd162a5e67e"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Shotgun.Saiga-12K",
@@ -6065,7 +6065,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.053,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -6074,7 +6074,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.062,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -6083,7 +6083,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.046,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -6140,7 +6140,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.AK-12 Collapsible Stock"
 			],
-			"sourceHash": "4a40ca6eb5f8a228ff6428bff49f4332"
+			"sourceHash": "8204d08e4bb44ed209c8c88dd1453ce1"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.FN P90",
@@ -6223,7 +6223,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.033,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -6232,7 +6232,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.028,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -6241,7 +6241,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.074,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -6302,7 +6302,7 @@
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "b7b97a967452ac3ee1845bbca9a31ee8"
+			"sourceHash": "6d135ccbb93979f3eeccb4743a5592db"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.KRISS Vector 45ACP",
@@ -6385,7 +6385,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.036,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -6394,7 +6394,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.029,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -6403,7 +6403,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.071,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -6487,7 +6487,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "77521275b563729903e26810fdb057d4"
+			"sourceHash": "ec0e4ee9d755c437c0a7ced2132f898c"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MP5",
@@ -6570,7 +6570,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.046,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -6579,7 +6579,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.034,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -6588,7 +6588,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.064,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -6635,7 +6635,7 @@
 				"Inventory.Items.Attachments.Stock.MP5 A3 Fixed Buttstock",
 				"Inventory.Items.Attachments.Stock.MP5 End-Cap Buttstock"
 			],
-			"sourceHash": "60ed647563f140f96c0fa04ba069afc5"
+			"sourceHash": "16eadedef2944f12530978c2c1f8837d"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MP5k",
@@ -6718,7 +6718,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.057,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -6727,7 +6727,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.046,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -6736,7 +6736,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.056,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -6782,7 +6782,7 @@
 				"Inventory.Items.Attachments.Stock.MP5 A3 Fixed Buttstock",
 				"Inventory.Items.Attachments.Stock.MP5 End-Cap Buttstock"
 			],
-			"sourceHash": "7692fb288b38a47cfbeef727bb5462f7"
+			"sourceHash": "dc6d81ce43a8ae8d499c99e65616a182"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MP5SD",
@@ -6865,7 +6865,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.034,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -6874,7 +6874,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.036,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -6883,7 +6883,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.073,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -6924,7 +6924,7 @@
 				"Inventory.Items.Attachments.Stock.MP5 A3 Fixed Buttstock",
 				"Inventory.Items.Attachments.Stock.MP5 End-Cap Buttstock"
 			],
-			"sourceHash": "0d8b8cd92b76e481f3212c2d64dc3345"
+			"sourceHash": "d68d536a99adf6143e030c78ba45cf14"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.MPX",
@@ -7007,7 +7007,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.036,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -7016,7 +7016,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.029,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -7025,7 +7025,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.072,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -7110,7 +7110,7 @@
 				"Inventory.Items.Attachments.Stock.MCX Folding Skeleton Stock",
 				"Inventory.Items.Attachments.Stock.MCX Folding Visor"
 			],
-			"sourceHash": "aeb9a4a16cade0f0b1e8fb96736fd7ad"
+			"sourceHash": "77b8d9b5efa79eba5661212aae19231c"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Smg.PP-19 Vitayz",
@@ -7193,7 +7193,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.051,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -7202,7 +7202,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.036,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -7211,7 +7211,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.061,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -7266,7 +7266,7 @@
 				"Inventory.Items.Attachments.Stock.AK SAG Buffertube",
 				"Inventory.Items.Attachments.Stock.PP-19 Stock"
 			],
-			"sourceHash": "c98ae9207566c0618b9237afdc440db9"
+			"sourceHash": "4284d04cbfeb79f29c5cee12db52d4d4"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.Remington M700",
@@ -7349,7 +7349,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.047,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -7358,7 +7358,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.086,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -7367,7 +7367,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.034,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -7436,7 +7436,7 @@
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "50c50aab54b64c3b8153137865f58824"
+			"sourceHash": "0234fd9fa7453e5478063ca0aa52dc0f"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.SRS A2",
@@ -7519,7 +7519,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.026,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -7528,7 +7528,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.059,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -7537,7 +7537,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.045,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -7599,7 +7599,7 @@
 				"Inventory.Items.Attachments.Sight.Vortex RAZOR AMG UH-1 Gen II Sight",
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight"
 			],
-			"sourceHash": "494f499b068bb181d3a5b5992d9eaad0"
+			"sourceHash": "09dae0b8ba663b8d56135580ffac70a2"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.SniperRifle.SVDS",
@@ -7682,7 +7682,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability Burn",
-					"value": 0.05,
+					"value": 0.046,
 					"modifyType": "Base",
 					"displayName": "Durability Burn",
 					"effectField": "None",
@@ -7691,7 +7691,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Heat",
-					"value": 0.05,
+					"value": 0.084,
 					"modifyType": "Base",
 					"displayName": "Heat",
 					"effectField": "None",
@@ -7700,7 +7700,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Cooldown",
-					"value": 0.05,
+					"value": 0.035,
 					"modifyType": "Base",
 					"displayName": "Cooldown",
 					"effectField": "None",
@@ -7743,7 +7743,7 @@
 				"Inventory.Items.Attachments.Stock.SVDS Folding Stock",
 				"Inventory.Items.Attachments.Stock.SVDS Lynx Buffer Tube Adapter"
 			],
-			"sourceHash": "3550c79f56cffd730e7850d826791c9f"
+			"sourceHash": "8e0b219f52380d47443aa131305143e9"
 		}
 	],
 	"schemaSoftVersion": 4,
