@@ -2,11 +2,188 @@
 	"category": "Medical",
 	"items": [
 		{
+			"itemTag": "Inventory.Items.Medical.Adrenaline Injector",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/Adrenaline_Injector/ID_Adrenaline_Injector.ID_Adrenaline_Injector",
+			"name": "Adrenaline Injector",
+			"abbreviation": "Adrenaline",
+			"description": "2137",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base",
+					"displayName": "Content",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 2,
+					"modifyType": "Base",
+					"displayName": "Usage Time",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Stamina Boost",
+					"value": 1e+01,
+					"modifyType": "None",
+					"displayName": "Stamina Boost",
+					"effectField": "InfluencePercent",
+					"effectDuration": 1.8e+02,
+					"effectTickInterval": 1e+01
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Adrenaline_Injector",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1,
+				"bIsSold": false
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "79ca3d1d4dd3a098438768d18159b6a0"
+		},
+		{
+			"itemTag": "Inventory.Items.Medical.Alu Splint",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/Aluminium_Splint/ID_Aluminium_Splint.ID_Aluminium_Splint",
+			"name": "Aluminium Splint",
+			"abbreviation": "Alu Splint",
+			"description": "AWDAWDAWEDAWSDWAD",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 3,
+					"modifyType": "Base",
+					"displayName": "Content",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"displayName": "Usage Time",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Stop Fracture",
+					"value": -1,
+					"modifyType": "None",
+					"displayName": "Stop Fracture",
+					"effectField": "Amount",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Aluminium_Splint",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1,
+				"bIsSold": false
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "af9ff725aaae4b8eb0c2fdaf071f9c15"
+		},
+		{
 			"itemTag": "Inventory.Items.Medical.Bandage",
 			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/Bandage/ID_Bandage.ID_Bandage",
 			"name": "Bandage",
 			"abbreviation": "Bandage",
 			"description": "Stops bleeding!",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base",
+					"displayName": "Content",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"displayName": "Usage Time",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Stop Wound",
+					"value": -1,
+					"modifyType": "None",
+					"displayName": "Stop Wound",
+					"effectField": "Amount",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Bandage",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 15,
+				"blackMarketPrice": 1,
+				"bIsSold": true
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "ce29321c6ecebbec4c24145e6362d9e5"
+		},
+		{
+			"itemTag": "Inventory.Items.Medical.CAT Tourniquet",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/CAT_Tourniquet/ID_CAT_Tourniquet.ID_CAT_Tourniquet",
+			"name": "CAT Tourniquet",
+			"abbreviation": "CAT",
+			"description": "DESCIRPTIONPN PLIZ",
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
@@ -37,28 +214,114 @@
 				},
 				{
 					"tag": "Inventory.Stats.Usage Time",
-					"value": 5,
+					"value": 2,
 					"modifyType": "Base",
 					"displayName": "Usage Time",
 					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Stop Heavy Wound",
+					"value": -1,
+					"modifyType": "None",
+					"displayName": "Stop Heavy Wound",
+					"effectField": "Amount",
 					"effectDuration": -1,
 					"effectTickInterval": 0
 				}
 			],
 			"vendor":
 			{
-				"rowName": "Bandage",
+				"rowName": "CAT_Tourniquet",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 15,
-				"blackMarketPrice": 1,
-				"bIsSold": true
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1,
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "3520082e97fe52715304bf76040d6392"
+			"sourceHash": "3233753bb6fc34145d12e9b8c7b5a449"
+		},
+		{
+			"itemTag": "Inventory.Items.Medical.Compression Bandage",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/Compression_Bandage/ID_Compression_Bandage.ID_Compression_Bandage",
+			"name": "Compression Bandage",
+			"abbreviation": "Comp Bandage",
+			"description": "67 67 67 67 67 67 67 67 67 67 67",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 2,
+					"modifyType": "Base",
+					"displayName": "Content",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": -1,
+					"modifyType": "None",
+					"displayName": "Stop Wound",
+					"effectField": "Amount",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 6,
+					"modifyType": "Base",
+					"displayName": "Usage Time",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Stop Wound",
+					"value": -1,
+					"modifyType": "None",
+					"displayName": "Stop Heavy Wound",
+					"effectField": "Amount",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Stop Heavy Wound",
+					"value": -1,
+					"modifyType": "None",
+					"displayName": "Stop Heavy Wound",
+					"effectField": "Amount",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Compression_Bandage",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1,
+				"bIsSold": false
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "25ca3e63e346f72652a535ed80cba002"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Health Injector",
@@ -118,6 +381,260 @@
 			"maxStack": 1,
 			"supportedItemTags": [],
 			"sourceHash": "2287823ee95f9ff271aa9adbaef24fcb"
+		},
+		{
+			"itemTag": "Inventory.Items.Medical.IFAK",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/IFAK/ID_IFAK.ID_IFAK",
+			"name": "IFAK",
+			"abbreviation": "IFAK",
+			"description": "UWU DESDRICORTPTYION",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 4,
+					"modifyType": "Base",
+					"displayName": "Content",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": -1,
+					"modifyType": "None",
+					"displayName": "Stop Wound",
+					"effectField": "Amount",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 4,
+					"modifyType": "Base",
+					"displayName": "Usage Time",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Stop Heavy Wound",
+					"value": -1,
+					"modifyType": "None",
+					"displayName": "Stop Heavy Wound",
+					"effectField": "Amount",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "IFAK",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1,
+				"bIsSold": false
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "a893821accdc720b40ff6e0211e3913c"
+		},
+		{
+			"itemTag": "Inventory.Items.Medical.Improv Splint",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/Improv_Splint/ID_Improv_Splint.ID_Improv_Splint",
+			"name": "Improvised Splint",
+			"abbreviation": "Improv Splint",
+			"description": "LALALALA",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base",
+					"displayName": "Content",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 12,
+					"modifyType": "Base",
+					"displayName": "Usage Time",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Stop Fracture",
+					"value": -1,
+					"modifyType": "None",
+					"displayName": "Stop Fracture",
+					"effectField": "Amount",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Improv_Splint",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1,
+				"bIsSold": false
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "6945695802a9894569a6331f47174051"
+		},
+		{
+			"itemTag": "Inventory.Items.Medical.MFAK",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/MFAK/ID_MFAK.ID_MFAK",
+			"name": "MFAK",
+			"abbreviation": "MFAK",
+			"description": "GIVE DESCRIPTION PLIZ",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 6,
+					"modifyType": "Base",
+					"displayName": "Content",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Chance To Wound",
+					"value": -1,
+					"modifyType": "None",
+					"displayName": "Stop Wound",
+					"effectField": "Amount",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 5,
+					"modifyType": "Base",
+					"displayName": "Usage Time",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Stop Fracture",
+					"value": -1,
+					"modifyType": "None",
+					"displayName": "Stop Fracture",
+					"effectField": "Amount",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Stop Heavy Wound",
+					"value": -1,
+					"modifyType": "None",
+					"displayName": "Stop Heavy Wound",
+					"effectField": "Amount",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "MFAK",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1,
+				"bIsSold": false
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "a4d3aeeeefb9c91947b723e03194c3d0"
+		},
+		{
+			"itemTag": "Inventory.Items.Medical.Morphine Injector",
+			"assetPath": "/Game/Blueprints/InventorySystem/Items/Medical/Morphine_Injector/ID_Morphine_Injector.ID_Morphine_Injector",
+			"name": "Morphine Injector",
+			"abbreviation": "Morphine",
+			"description": "rsdfgIOJsdfgiojdfgiojriodfgjriodj",
+			"stats": [
+				{
+					"tag": "Inventory.Stats.Weight",
+					"value": 0.2,
+					"modifyType": "Add",
+					"displayName": "",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Durability",
+					"value": 1,
+					"modifyType": "Base",
+					"displayName": "Content",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				},
+				{
+					"tag": "Inventory.Stats.Usage Time",
+					"value": 2,
+					"modifyType": "Base",
+					"displayName": "Usage Time",
+					"effectField": "None",
+					"effectDuration": -1,
+					"effectTickInterval": 0
+				}
+			],
+			"vendor":
+			{
+				"rowName": "Morphine_Injector",
+				"bHasVendorRow": true,
+				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"factionTag": "None",
+				"defaultMarketPrice": -1,
+				"blackMarketPrice": -1,
+				"bIsSold": false
+			},
+			"bCanStack": false,
+			"maxStack": 1,
+			"supportedItemTags": [],
+			"sourceHash": "c7d63fa5df507d5c5dae25ad28b9b18d"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Painkiller",
