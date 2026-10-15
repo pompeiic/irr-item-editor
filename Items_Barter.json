@@ -18,12 +18,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Antique_Plate",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
-				"defaultMarketPrice": 5820,
+				"defaultMarketPrice": 5.82e+03,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -49,7 +50,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Antique_Water_Pitcher",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -80,7 +82,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Basketball",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -111,12 +114,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Boardgame",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
-				"defaultMarketPrice": 250,
+				"defaultMarketPrice": 2.5e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -142,12 +146,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Book",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
-				"defaultMarketPrice": 80,
+				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -173,12 +178,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Brandy",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
-				"defaultMarketPrice": 430,
+				"defaultMarketPrice": 4.3e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -204,7 +210,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Candle_Holder",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -235,12 +242,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Candlestick",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
-				"defaultMarketPrice": 400,
+				"defaultMarketPrice": 4e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -266,12 +274,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Cat_Figure",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "None",
-				"defaultMarketPrice": 10300,
+				"defaultMarketPrice": 1.03e+04,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -297,7 +306,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Compass",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -328,12 +338,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Cuban_Cigar",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
-				"defaultMarketPrice": 1200,
+				"defaultMarketPrice": 1.2e+03,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -359,7 +370,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Earth_Globe",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -390,11 +402,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "FilmCase",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
-				"factionTag": "None",
+				"factionTag": "Mission.Faction.FANG",
 				"defaultMarketPrice": 433,
 				"blackMarketPrice": -1,
 				"bIsSold": true
@@ -421,12 +434,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "GoldenBangle",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "None",
-				"defaultMarketPrice": 20000,
+				"defaultMarketPrice": 2e+04,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -452,12 +466,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Golden_Mirror",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
-				"defaultMarketPrice": 8650,
+				"defaultMarketPrice": 8.65e+03,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -483,7 +498,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "GoldenRing",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -514,12 +530,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Golden_Watering_Can",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "None",
-				"defaultMarketPrice": 13400,
+				"defaultMarketPrice": 1.34e+04,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -545,12 +562,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Inca_Vase",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
-				"defaultMarketPrice": 2010,
+				"defaultMarketPrice": 2.01e+03,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -576,7 +594,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Luxury_Tobacco_Cigar",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -607,12 +626,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Marlboro_Red_Cigarettes",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 200,
+				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -638,7 +658,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Matryoshka",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -669,12 +690,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "PuzzleCube",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
-				"defaultMarketPrice": 80,
+				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -700,7 +722,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "SilverPearls",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
@@ -731,7 +754,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Soccer_Trophy",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -762,12 +786,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Soviet_Figure",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
-				"defaultMarketPrice": 350,
+				"defaultMarketPrice": 3.5e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -793,12 +818,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Thang_Long_Cigarettes",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 180,
+				"defaultMarketPrice": 1.8e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -824,7 +850,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Battery_18650",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -855,12 +882,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Battery_Car",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
-				"defaultMarketPrice": 900,
+				"defaultMarketPrice": 9e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -886,12 +914,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Battery_PP3",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
-				"defaultMarketPrice": 520,
+				"defaultMarketPrice": 5.2e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -917,7 +946,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "DLSR_Camera",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -948,7 +978,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Field_Radio",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -979,12 +1010,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Generator",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
-				"factionTag": "None",
-				"defaultMarketPrice": 6200,
+				"factionTag": "Mission.Faction.FANG",
+				"defaultMarketPrice": 6.2e+03,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -1010,7 +1042,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Graphics_Card",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -1041,7 +1074,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Hard_Drive",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1072,7 +1106,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "HDMICable",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -1103,7 +1138,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Weather_Device",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -1134,12 +1170,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Military_Laptop",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
-				"factionTag": "None",
-				"defaultMarketPrice": 12000,
+				"factionTag": "Mission.Faction.FANG",
+				"defaultMarketPrice": 1.2e+04,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -1165,7 +1202,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Military_Radio",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1188,7 +1226,7 @@
 			"stats": [
 				{
 					"tag": "Inventory.Stats.Weight",
-					"value": 10,
+					"value": 1e+01,
 					"modifyType": "Add",
 					"displayName": "",
 					"effectField": "None",
@@ -1196,11 +1234,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Mining_Battery",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
-				"factionTag": "None",
+				"factionTag": "Mission.Faction.FANG",
 				"defaultMarketPrice": 5394,
 				"blackMarketPrice": -1,
 				"bIsSold": true
@@ -1227,7 +1266,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Motherboard",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
@@ -1258,7 +1298,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Old_Communicator",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1289,7 +1330,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Old_Flashlight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -1320,7 +1362,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Old_Radio",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1351,7 +1394,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Power_Cable",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -1382,12 +1426,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "RebarCutter",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
-				"defaultMarketPrice": 8230,
+				"defaultMarketPrice": 8.23e+03,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -1413,7 +1458,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Spotlight",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1444,7 +1490,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Walkie_Talkie",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1475,7 +1522,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Bathroom_Cleaner",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -1506,12 +1554,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Bed_Roll",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
-				"defaultMarketPrice": 120,
+				"defaultMarketPrice": 1.2e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -1537,7 +1586,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Canteen",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1568,7 +1618,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Collagen",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1599,7 +1650,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Food_Container",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -1630,12 +1682,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Marker",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 30,
+				"defaultMarketPrice": 3e+01,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -1684,25 +1737,26 @@
 					"modifyType": "None",
 					"displayName": "Heal Over Time",
 					"effectField": "Amount",
-					"effectDuration": 120,
-					"effectTickInterval": 10
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				},
 				{
 					"tag": "Inventory.Stats.Stamina Boost",
-					"value": 10,
+					"value": 1e+01,
 					"modifyType": "None",
 					"displayName": "Stamina Boost",
 					"effectField": "InfluencePercent",
-					"effectDuration": 120,
-					"effectTickInterval": 10
+					"effectDuration": 1.2e+02,
+					"effectTickInterval": 1e+01
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Misprinted_Condensed_Milk",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 60,
+				"defaultMarketPrice": 6e+01,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -1728,7 +1782,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "OldChemicalBottle",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -1759,12 +1814,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Paintbrush",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
-				"defaultMarketPrice": 80,
+				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -1790,7 +1846,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Polishing_Oil",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -1821,12 +1878,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Prepped_Meal",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 60,
+				"defaultMarketPrice": 6e+01,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -1852,12 +1910,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Rope",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
-				"defaultMarketPrice": 80,
+				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -1883,7 +1942,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Shampoo",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -1914,7 +1974,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Shaving_Cream",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -1945,7 +2006,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Soap",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -1976,7 +2038,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Spraycan",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -2007,7 +2070,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Vodka",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -2038,12 +2102,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Bolt_Cutter",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 200,
+				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -2069,7 +2134,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Clamp",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -2100,12 +2166,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Duct_Tape",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 20,
+				"defaultMarketPrice": 2e+01,
 				"blackMarketPrice": 1,
 				"bIsSold": true
 			},
@@ -2131,7 +2198,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Fan",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -2162,12 +2230,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Fuel",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
-				"defaultMarketPrice": 190,
+				"defaultMarketPrice": 1.9e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -2193,7 +2262,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "GasCan",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -2224,7 +2294,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Hammer",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -2255,12 +2326,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Hesco_Armor_Plate",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 80,
+				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -2286,7 +2358,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Nails",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -2317,17 +2390,18 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Nylon_Fabric",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 20,
+				"defaultMarketPrice": 2e+01,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
 			"bCanStack": true,
-			"maxStack": 10,
+			"maxStack": 1e+01,
 			"supportedItemTags": [],
 			"sourceHash": "c07a0c07b6cd87cf129ebdd9bc4bbcb1"
 		},
@@ -2348,7 +2422,8 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "PlasticWireSpool",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
@@ -2379,17 +2454,18 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Polyester_Fabric",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 120,
+				"defaultMarketPrice": 1.2e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
 			"bCanStack": true,
-			"maxStack": 10,
+			"maxStack": 1e+01,
 			"supportedItemTags": [],
 			"sourceHash": "2fa92ae67dac50288071b92180226f20"
 		},
@@ -2410,12 +2486,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Saw",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
-				"defaultMarketPrice": 200,
+				"defaultMarketPrice": 2e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -2441,12 +2518,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Sewing_Kit",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 150,
+				"defaultMarketPrice": 1.5e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -2472,12 +2550,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Staple_Gun",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
-				"defaultMarketPrice": 80,
+				"defaultMarketPrice": 8e+01,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -2503,12 +2582,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "Toolbox",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 2",
 				"factionTag": "None",
-				"defaultMarketPrice": 320,
+				"defaultMarketPrice": 3.2e+02,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -2534,12 +2614,13 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor": {
+			"vendor":
+			{
 				"rowName": "WD40_Spray",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 50,
+				"defaultMarketPrice": 5e+01,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
