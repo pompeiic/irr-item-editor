@@ -18,8 +18,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Antenna_Piece_1",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -50,8 +49,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Antenna_Piece_2",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -82,8 +80,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Antenna_Piece_3",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -114,13 +111,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Missing_Supplies",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "Mission.Faction.GREYFOR",
-				"defaultMarketPrice": 6e+03,
+				"defaultMarketPrice": 6000,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -146,15 +142,14 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Bomb",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"factionTag": "Mission.Faction.FANG",
+				"defaultMarketPrice": 1,
 				"blackMarketPrice": -1,
-				"bIsSold": false
+				"bIsSold": true
 			},
 			"bCanStack": true,
 			"maxStack": 5,
@@ -178,8 +173,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Bug",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -210,8 +204,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Classified_Document-IGC",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -242,8 +235,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Classified_Document-UICS",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -274,8 +266,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Classified_Document-VLF",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -306,8 +297,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Construction_HxAxS_Blueprint_Layout_Guide",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -338,8 +328,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Construction_HxAxS_Blueprint_Materials_List",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -370,8 +359,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Jammer",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -402,13 +390,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "KeyCard1",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
 				"factionTag": "None",
-				"defaultMarketPrice": 6.5e+02,
+				"defaultMarketPrice": 650,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -434,13 +421,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Recording_Backpack",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 4",
 				"factionTag": "None",
-				"defaultMarketPrice": 4e+03,
+				"defaultMarketPrice": 4000,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -468,13 +454,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Operation_Plan_A",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
-				"defaultMarketPrice": 2e+02,
+				"defaultMarketPrice": 200,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -500,13 +485,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Operation_Plan_B",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
-				"defaultMarketPrice": 2e+02,
+				"defaultMarketPrice": 200,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -532,13 +516,12 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Operation_Plan_C",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "None",
-				"defaultMarketPrice": 2e+02,
+				"defaultMarketPrice": 200,
 				"blackMarketPrice": -1,
 				"bIsSold": true
 			},
@@ -573,8 +556,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Poison",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -605,8 +587,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Shipping_Manifest",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -637,8 +618,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "520TVL_CCTV_Mini_Camera",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
@@ -669,8 +649,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "Troop_Movement_Paper",
 				"bHasVendorRow": true,
 				"rarityTag": "None",
@@ -702,7 +681,7 @@
 				},
 				{
 					"tag": "Inventory.Stats.Durability",
-					"value": 1e+02,
+					"value": 100,
 					"modifyType": "Base",
 					"displayName": "Battery",
 					"effectField": "None",
@@ -710,8 +689,7 @@
 					"effectTickInterval": 0
 				}
 			],
-			"vendor":
-			{
+			"vendor": {
 				"rowName": "USB_Drive",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
