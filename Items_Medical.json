@@ -49,16 +49,16 @@
 			{
 				"rowName": "Adrenaline_Injector",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 3.9e+02,
 				"blackMarketPrice": -1,
-				"bIsSold": false
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "79ca3d1d4dd3a098438768d18159b6a0"
+			"sourceHash": "473a6fed6072c67b3fb78f1b19a8e1a5"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Alu Splint",
@@ -108,16 +108,16 @@
 			{
 				"rowName": "Aluminium_Splint",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 3.5e+02,
 				"blackMarketPrice": -1,
-				"bIsSold": false
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "af9ff725aaae4b8eb0c2fdaf071f9c15"
+			"sourceHash": "6c7f7c628966b07e7fbc1ba6572277fa"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Bandage",
@@ -235,16 +235,16 @@
 			{
 				"rowName": "CAT_Tourniquet",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"rarityTag": "Inventory.Rarity Types.Tier 2",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 1.8e+02,
 				"blackMarketPrice": -1,
-				"bIsSold": false
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "3233753bb6fc34145d12e9b8c7b5a449"
+			"sourceHash": "cbe3f07ae4157efa7dde6f09b8eb60e1"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Compression Bandage",
@@ -313,15 +313,15 @@
 				"rowName": "Compression_Bandage",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 9e+01,
 				"blackMarketPrice": -1,
-				"bIsSold": false
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "25ca3e63e346f72652a535ed80cba002"
+			"sourceHash": "498f0e311463c7d869b667d0f0c00d56"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Health Injector",
@@ -439,16 +439,16 @@
 			{
 				"rowName": "IFAK",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 9e+02,
 				"blackMarketPrice": -1,
-				"bIsSold": false
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a893821accdc720b40ff6e0211e3913c"
+			"sourceHash": "fe371b4959c828d3e499365bcbab1330"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Improv Splint",
@@ -499,15 +499,15 @@
 				"rowName": "Improv_Splint",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"factionTag": "Mission.Faction.GREYFOR",
+				"defaultMarketPrice": 4e+01,
 				"blackMarketPrice": -1,
-				"bIsSold": false
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "6945695802a9894569a6331f47174051"
+			"sourceHash": "a73c9618ec5569882ac68d7a32015884"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.MFAK",
@@ -553,19 +553,19 @@
 					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Stop Fracture",
+					"tag": "Inventory.Stats.Stop Heavy Wound",
 					"value": -1,
 					"modifyType": "None",
-					"displayName": "Stop Fracture",
+					"displayName": "Stop Heavy Wound",
 					"effectField": "Amount",
 					"effectDuration": -1,
 					"effectTickInterval": 0
 				},
 				{
-					"tag": "Inventory.Stats.Stop Heavy Wound",
+					"tag": "Inventory.Stats.Stop Fracture",
 					"value": -1,
 					"modifyType": "None",
-					"displayName": "Stop Heavy Wound",
+					"displayName": "Stop Fracture",
 					"effectField": "Amount",
 					"effectDuration": -1,
 					"effectTickInterval": 0
@@ -575,16 +575,16 @@
 			{
 				"rowName": "MFAK",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"rarityTag": "Inventory.Rarity Types.Tier 4",
+				"factionTag": "Mission.Faction.BLUEFOR",
+				"defaultMarketPrice": 2.6e+03,
 				"blackMarketPrice": -1,
-				"bIsSold": false
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "a4d3aeeeefb9c91947b723e03194c3d0"
+			"sourceHash": "32961431bdcf1d8d4204095399284373"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Morphine Injector",
@@ -625,16 +625,16 @@
 			{
 				"rowName": "Morphine_Injector",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 1",
-				"factionTag": "None",
-				"defaultMarketPrice": -1,
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
+				"factionTag": "Mission.Faction.OPFOR",
+				"defaultMarketPrice": 5.2e+02,
 				"blackMarketPrice": -1,
-				"bIsSold": false
+				"bIsSold": true
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "c7d63fa5df507d5c5dae25ad28b9b18d"
+			"sourceHash": "1b155d357c7b1261b0ee6cc82e977035"
 		},
 		{
 			"itemTag": "Inventory.Items.Medical.Painkiller",
