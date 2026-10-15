@@ -7338,12 +7338,12 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1,
-				"bIsSold": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "e193c10af2ff4af4b695cd6177f87e0b"
+			"sourceHash": "07a7025a981f9e63aa98d9b2644d99fc"
 		},
 		{
 			"itemTag": "Inventory.Items.Attachments.Handguard.AR-10 CMMG MK3 RML15 15 Inch Handguard",
@@ -22758,12 +22758,12 @@
 				"factionTag": "Mission.Faction.BLUEFOR",
 				"defaultMarketPrice": -1,
 				"blackMarketPrice": -1,
-				"bIsSold": true
+				"bIsSold": false
 			},
 			"bCanStack": false,
 			"maxStack": 1,
 			"supportedItemTags": [],
-			"sourceHash": "63062cfef3e6fdd09e2c9e94e1b770d0"
+			"sourceHash": "1ddbcebcbef5910858e221082710d88d"
 		},
 		{
 			"itemTag": "Inventory.Items.Attachments.Stock.AR-15 LMT Sopmod Stock",
