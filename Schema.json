@@ -157,6 +157,30 @@
 			"maxValue": 0
 		},
 		{
+			"tag": "Inventory.Stats.Stop Fracture",
+			"displayName": "Stop Fracture",
+			"unit": "",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Stop Heavy Wound",
+			"displayName": "Stop Heavy Wound",
+			"unit": "",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Stop Wound",
+			"displayName": "Stop Heavy Wound",
+			"unit": "",
+			"maxValue": 0
+		},
+		{
+			"tag": "Inventory.Stats.Stop Wound",
+			"displayName": "Stop Wound",
+			"unit": "",
+			"maxValue": 0
+		},
+		{
 			"tag": "Inventory.Stats.Usage Time",
 			"displayName": "Usage Time",
 			"unit": "s",
