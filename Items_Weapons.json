@@ -795,7 +795,7 @@
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 3895,
-				"blackMarketPrice": -1,
+				"blackMarketPrice": 2,
 				"bIsSold": true
 			},
 			"bCanStack": false,
@@ -846,7 +846,7 @@
 				"Inventory.Items.Attachments.Tactical.Wilcox Raptar-S Laser Range Finder",
 				"Inventory.Items.Attachments.Tactical.Zenitco Klesch 2IKS3 Laser"
 			],
-			"sourceHash": "b821986b00d5fae81cf91f42c3d2cbfb"
+			"sourceHash": "76d6b4a37c0c864a4389b6a48bae34b2"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Dmr.SKS",
@@ -1294,10 +1294,10 @@
 			{
 				"rowName": "KAC_LAMG",
 				"bHasVendorRow": true,
-				"rarityTag": "Inventory.Rarity Types.Tier 1",
+				"rarityTag": "Inventory.Rarity Types.Tier 3",
 				"factionTag": "Mission.Faction.BLUEFOR",
-				"defaultMarketPrice": 5,
-				"blackMarketPrice": -1,
+				"defaultMarketPrice": 7.6e+03,
+				"blackMarketPrice": 3,
 				"bIsSold": true
 			},
 			"bCanStack": false,
@@ -1344,7 +1344,7 @@
 				"Inventory.Items.Attachments.Sight.Zenitco BelOMO PK-06 Reflex Sight",
 				"Inventory.Items.Attachments.Stock.LAMG Buffer Tube Stock"
 			],
-			"sourceHash": "2e3e24c501f3d433fbb83104f84ca690"
+			"sourceHash": "00769eb0e30d2c627751824de027dc45"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Lmg.RPK-74",
@@ -4729,7 +4729,7 @@
 				"rowName": "MK-47",
 				"bHasVendorRow": true,
 				"rarityTag": "Inventory.Rarity Types.Tier 3",
-				"factionTag": "Mission.Faction.BLUEFOR",
+				"factionTag": "Mission.Faction.OPFOR",
 				"defaultMarketPrice": 4.6e+03,
 				"blackMarketPrice": 3,
 				"bIsSold": true
@@ -4788,7 +4788,7 @@
 				"Inventory.Items.Attachments.Stock.AR-15 PWS Enhanced Buffertube",
 				"Inventory.Items.Attachments.Stock.AR-15 Strike SI AR Advanced Buffertube"
 			],
-			"sourceHash": "4b2bf9624eff6c9160df4ef51057452c"
+			"sourceHash": "37c4ffde562eca7cca425852d37517d1"
 		},
 		{
 			"itemTag": "Inventory.Items.Weapons.Rifle.Norinco CQ",
